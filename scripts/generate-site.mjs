@@ -3,7 +3,7 @@ import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const siteUrl = "https://example.com";
+const siteUrl = "https://lg-list.github.io/BrochureGarage";
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://8cfb822ea72ec7f373324c77e8b26b60.r2.cloudflarestorage.com/car-xcpdf/pdfs";
 const now = new Date().toISOString().slice(0, 10);
 
