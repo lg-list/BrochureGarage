@@ -4,7 +4,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const siteUrl = "https://lg-list.github.io/BrochureGarage";
-const pdfBaseUrl = process.env.PDF_BASE_URL || "https://8cfb822ea72ec7f373324c77e8b26b60.r2.cloudflarestorage.com/car-xcpdf/pdfs";
+const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
 const now = new Date().toISOString().slice(0, 10);
 
 function add(name, official, models, options = {}) {
