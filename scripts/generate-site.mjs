@@ -243,7 +243,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
 
 function header(prefix = "") {
   return `<header class="site-header">
-      <a class="brand-mark" href="${prefix}index.html" aria-label="Home">
+      <a class="brand-mark" href="${prefix}index.html" target="_blank" rel="noopener" aria-label="Home">
         <img class="site-logo" src="${prefix}assets/site-logo.svg" alt="Car Brochure Archive logo" />
         <span>
           <strong>Car Brochure Archive</strong>
@@ -251,7 +251,7 @@ function header(prefix = "") {
         </span>
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
-        <a href="${prefix}index.html#brands">Brands</a>
+        <a href="${prefix}index.html#brands" target="_blank" rel="noopener">Brands</a>
       </nav>
     </header>`;
 }
@@ -259,7 +259,7 @@ function header(prefix = "") {
 function footer(prefix = "") {
   return `<footer class="site-footer">
       <p>Car Brochure Archive. Updated ${now}.</p>
-      <a href="${prefix}index.html">Home</a>
+      <a href="${prefix}index.html" target="_blank" rel="noopener">Home</a>
     </footer>`;
 }
 
@@ -406,7 +406,7 @@ async function write(relativePath, content) {
 
 async function buildHome() {
   const brandItems = (await Promise.all(
-    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
+    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" target="_blank" rel="noopener" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
           <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
           <span>${esc(brand.name)}</span>
         </a>`)
@@ -514,7 +514,7 @@ async function buildBrandPages() {
                       <span class="file-actions">
                         ${hasFile
                           ? `<a class="pdf-link" href="${esc(href)}" target="_blank" rel="noopener">Preview</a>
-                        <a class="pdf-link" href="${esc(href)}" download>Download</a>`
+                        <a class="pdf-link" href="${esc(href)}" target="_blank" rel="noopener" download>Download</a>`
                           : `<span class="missing-file">Missing file</span>`}
                       </span>
                     </article>`;
@@ -527,7 +527,7 @@ async function buildBrandPages() {
       <main>
         <section class="brand-page-head">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="../../index.html">Home</a>
+            <a href="../../index.html" target="_blank" rel="noopener">Home</a>
             <span>/</span>
             <span>${esc(brand.name)}</span>
           </nav>
