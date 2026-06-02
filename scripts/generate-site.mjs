@@ -3,9 +3,10 @@ import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const siteUrl = "https://lg-list.github.io/BrochureGarage";
+const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
 const now = new Date().toISOString().slice(0, 10);
+const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
 
 function add(name, official, models, options = {}) {
   return {
@@ -224,7 +225,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <link rel="canonical" href="${esc(canonical)}" />
     <link rel="icon" href="${assetPrefix}assets/favicon.ico" sizes="any" />
     <link rel="icon" href="${assetPrefix}assets/site-logo.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="${cssPath}" />
+    <link rel="stylesheet" href="${cssPath}?v=${assetVersion}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="${esc(title)}" />
     <meta property="og:description" content="${esc(description)}" />
@@ -243,15 +244,15 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
 
 function header(prefix = "") {
   return `<header class="site-header">
-      <a class="brand-mark" href="${prefix}index.html" target="_blank" rel="noopener" aria-label="Home">
+      <a class="brand-mark" href="${prefix}index.html" aria-label="Home">
         <img class="site-logo" src="${prefix}assets/site-logo.svg" alt="Car Brochure Archive logo" />
         <span>
           <strong>Car Brochure Archive</strong>
-          <small>Local PDF index</small>
+          <small>PDF brochure archive</small>
         </span>
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
-        <a href="${prefix}index.html#brands" target="_blank" rel="noopener">Brands</a>
+        <a href="${prefix}index.html#brands">Brands</a>
       </nav>
     </header>`;
 }
@@ -259,7 +260,7 @@ function header(prefix = "") {
 function footer(prefix = "") {
   return `<footer class="site-footer">
       <p>Car Brochure Archive. Updated ${now}.</p>
-      <a href="${prefix}index.html" target="_blank" rel="noopener">Home</a>
+      <a href="${prefix}index.html">Home</a>
     </footer>`;
 }
 
@@ -287,6 +288,10 @@ function localPdfFile(brand, entry) {
 function publicPdfUrl(brand, entry) {
   if (pdfBaseUrl) return localPdfPath(brand, entry);
   return `${siteUrl}/pdfs/${slug(brand.name)}/${encodeURI(entry.file)}`;
+}
+
+function hasPublicPdf(brand, entry) {
+  return Boolean(pdfBaseUrl) || existsSync(localPdfFile(brand, entry));
 }
 
 function topModels(brand, limit = 6) {
@@ -329,6 +334,41 @@ function brandDescription(brand, count) {
     return `Preview and download ${count} local ${brand.name} PDF brochures by model, including ${models}. Find sales brochures, catalogs, and model guides in one archive.`;
   }
   return `Browse ${brand.name} brochure references by model, including ${models}. Local PDF records are organized for fast brochure and catalog searches.`;
+}
+
+function brandIntro(brand, count) {
+  const models = topModels(brand, 8);
+  if (count) {
+    return `Explore ${count} ${brand.name} brochure PDFs organized by model and year. This page collects sales brochures, model catalogs, specifications, and downloadable PDF guides for ${models}.`;
+  }
+  return `Explore ${brand.name} brochure references organized by model. This page is prepared for future PDF brochures, catalogs, specifications, and model guides for ${models}.`;
+}
+
+function brandFaqSchema(brand, count) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `Where can I find ${brand.name} brochure PDFs?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${brand.name} brochures are organized on this archive page by model and year, with preview and download links for each available PDF.`
+        }
+      },
+      {
+        "@type": "Question",
+        name: `How many ${brand.name} brochures are indexed?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: count
+            ? `This page currently indexes ${count} ${brand.name} brochure PDF records.`
+            : `This page is prepared for ${brand.name} brochure records and will list PDF files as they are added.`
+        }
+      }
+    ]
+  });
 }
 
 function breadcrumbSchema(brand) {
@@ -406,7 +446,7 @@ async function write(relativePath, content) {
 
 async function buildHome() {
   const brandItems = (await Promise.all(
-    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" target="_blank" rel="noopener" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
+    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
           <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
           <span>${esc(brand.name)}</span>
         </a>`)
@@ -444,6 +484,7 @@ async function buildHome() {
       <section class="directory-hero" aria-labelledby="page-title">
         <div>
           <h1 id="page-title">Car Brochure Archive</h1>
+          <p class="hero-copy">Find downloadable car brochure PDFs, sales catalogs, model guides, and specification sheets across ${brands.length} manufacturers and ${totalModels} model families.</p>
           <form class="search-box" role="search" aria-label="Search brands">
             <label for="site-search">Search brands</label>
             <input id="site-search" type="search" placeholder="BMW / Toyota / Audi" autocomplete="off" />
@@ -507,7 +548,7 @@ async function buildBrandPages() {
               .flat()
                   .map((entry) => {
                     const href = localPdfPath(brand, entry);
-                    const hasFile = existsSync(localPdfFile(brand, entry));
+                    const hasFile = hasPublicPdf(brand, entry);
                     return `<article class="brochure-row">
                       <span class="brochure-title">${esc(entry.title)}</span>
                       <span class="brochure-size">${esc(entry.size)}</span>
@@ -527,10 +568,22 @@ async function buildBrandPages() {
       <main>
         <section class="brand-page-head">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="../../index.html" target="_blank" rel="noopener">Home</a>
+            <a href="../../index.html">Home</a>
             <span>/</span>
             <span>${esc(brand.name)}</span>
           </nav>
+          <h1>${esc(brand.name)} PDF Brochures</h1>
+          <p>${esc(brandIntro(brand, documents.length))}</p>
+          <dl class="brand-stats" aria-label="${esc(brand.name)} brochure index summary">
+            <div>
+              <dt>PDF records</dt>
+              <dd>${documents.length}</dd>
+            </div>
+            <div>
+              <dt>Model focus</dt>
+              <dd>${esc(topModels(brand, 4))}</dd>
+            </div>
+          </dl>
         </section>
         <section class="directory-section tight">
           ${documentList}
@@ -578,7 +631,8 @@ async function buildBrandPages() {
               }))
             }
           }),
-          breadcrumbSchema(brand)
+          breadcrumbSchema(brand),
+          brandFaqSchema(brand, documents.length)
         ].join("\n")
       })
     );

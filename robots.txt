@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lg-list.github.io/BrochureGarage/sitemap.xml
+Sitemap: https://carbrochurearchive.com/sitemap.xml
