@@ -6,7 +6,7 @@ const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
 const adsensePublisherId = "pub-3173901746543144";
-const now = new Date().toISOString().slice(0, 10);
+const now = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
 const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
 
 function add(name, official, models, options = {}) {
@@ -211,8 +211,8 @@ function faviconIco() {
 }
 
 function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [] }) {
-  const assetPrefix = cssPath.startsWith("../") ? "../../" : "";
-  const keywordText = Array.isArray(keywords) ? keywords.filter(Boolean).join(", ") : keywords;
+  const assetPrefix = cssPath.replace(/styles\.css$/, "");
+  const keywordText = Array.isArray(keywords) ? [...new Set(keywords.filter(Boolean))].join(", ") : keywords;
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -270,12 +270,20 @@ function brandUrl(brand) {
   return `brands/${slug(brand.name)}/index.html`;
 }
 
+function modelUrl(brand, model) {
+  return `models/${slug(brand.name)}/${slug(model)}/index.html`;
+}
+
 function brochureYear(entry) {
   return entry.title.match(/\d{4}/)?.[0] || "Other";
 }
 
 function brochureModel(entry, brand) {
   return entry.section || `${brand.name} Brochures`;
+}
+
+function isSpecificModel(model) {
+  return !/\b(model range|full line|part range|design inspiration|accessories|accessory|utility vehicles|commercial vehicles|hybrid\s*&\s*electric|cars)\b/i.test(model);
 }
 
 function localPdfPath(brand, entry) {
@@ -338,6 +346,32 @@ function brandDescription(brand, count) {
   return `Browse ${brand.name} brochure references by model, including ${models}. Local PDF records are organized for fast brochure and catalog searches.`;
 }
 
+function modelKeywords(brand, model, years) {
+  const qualifiedModel = model.toLowerCase().startsWith(brand.name.toLowerCase())
+    ? model
+    : `${brand.name} ${model}`;
+  const yearTerms = years.slice(0, 6).flatMap((year) => [
+    `${year} ${model} brochure`,
+    `${year} ${model} PDF`
+  ]);
+  return [
+    `${model} brochure PDF`,
+    `${model} brochures`,
+    `${qualifiedModel} brochure`,
+    `${qualifiedModel} PDF`,
+    `${model} sales brochure`,
+    `${model} catalog PDF`,
+    `${model} brochure download`,
+    ...yearTerms
+  ];
+}
+
+function modelDescription(brand, model, entries) {
+  const years = [...new Set(entries.map(brochureYear).filter((year) => year !== "Other"))].sort((a, b) => b.localeCompare(a));
+  const range = years.length > 1 ? `${years.at(-1)}-${years[0]}` : years[0] || "available years";
+  return `Preview and download ${entries.length} ${model} PDF brochure${entries.length === 1 ? "" : "s"} from ${range}. Browse ${brand.name} sales catalogs, specifications, and model guides by year.`;
+}
+
 function brandIntro(brand, count) {
   const models = topModels(brand, 8);
   if (count) {
@@ -389,6 +423,33 @@ function breadcrumbSchema(brand) {
         position: 2,
         name: brand.name,
         item: `${siteUrl}/${brandUrl(brand)}`
+      }
+    ]
+  });
+}
+
+function modelBreadcrumbSchema(brand, model) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${siteUrl}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: brand.name,
+        item: `${siteUrl}/${brandUrl(brand)}`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: model,
+        item: `${siteUrl}/${modelUrl(brand, model)}`
       }
     ]
   });
@@ -545,7 +606,9 @@ async function buildBrandPages() {
     const documentList = documents.length
       ? [...groupedDocuments.entries()]
           .map(([model, yearGroups]) => `<section class="model-brochure-group" aria-labelledby="${slug(brand.name)}-${slug(model)}">
-            <h2 id="${slug(brand.name)}-${slug(model)}">${esc(model)}</h2>
+            <h2 id="${slug(brand.name)}-${slug(model)}">${isSpecificModel(model)
+              ? `<a href="../../${modelUrl(brand, model)}">${esc(model)}</a>`
+              : esc(model)}</h2>
             <div class="brochure-list">${[...yearGroups.values()]
               .flat()
                   .map((entry) => {
@@ -641,10 +704,133 @@ async function buildBrandPages() {
   }
 }
 
-async function buildSitemap() {
+async function buildModelPages(library) {
+  let modelPageCount = 0;
+  for (const brand of brands) {
+    const documents = library[slug(brand.name)] || [];
+    const groupedDocuments = documents.reduce((groups, entry) => {
+      const model = brochureModel(entry, brand);
+      if (!isSpecificModel(model)) return groups;
+      if (!groups.has(model)) groups.set(model, []);
+      groups.get(model).push(entry);
+      return groups;
+    }, new Map());
+
+    for (const [model, entries] of groupedDocuments) {
+      const years = [...new Set(entries.map(brochureYear).filter((year) => year !== "Other"))].sort((a, b) => b.localeCompare(a));
+      const rows = entries
+        .map((entry) => {
+          const href = localPdfPath(brand, entry);
+          return `<article class="brochure-row">
+            <span class="brochure-title">${esc(entry.title)}</span>
+            <span class="brochure-size">${esc(entry.size)}</span>
+            <span class="file-actions">
+              <a class="pdf-link" href="${esc(href)}" target="_blank" rel="noopener">Preview</a>
+              <a class="pdf-link" href="${esc(href)}" target="_blank" rel="noopener" download>Download</a>
+            </span>
+          </article>`;
+        })
+        .join("\n");
+      const description = modelDescription(brand, model, entries);
+      const body = `${header("../../../")}
+        <main>
+          <section class="brand-page-head">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="../../../index.html">Home</a>
+              <span>/</span>
+              <a href="../../../${brandUrl(brand)}">${esc(brand.name)}</a>
+              <span>/</span>
+              <span>${esc(model)}</span>
+            </nav>
+            <h1>${esc(model)} PDF Brochures</h1>
+            <p>${esc(description)}</p>
+            <dl class="brand-stats" aria-label="${esc(model)} brochure archive summary">
+              <div>
+                <dt>PDF records</dt>
+                <dd>${entries.length}</dd>
+              </div>
+              <div>
+                <dt>Available years</dt>
+                <dd>${esc(years.join(", ") || "Unspecified")}</dd>
+              </div>
+            </dl>
+          </section>
+          <section class="directory-section tight">
+            <section class="model-brochure-group" aria-labelledby="${slug(model)}-downloads">
+              <h2 id="${slug(model)}-downloads">${esc(model)} brochure downloads</h2>
+              <div class="brochure-list">${rows}</div>
+            </section>
+          </section>
+        </main>
+        ${footer("../../../")}`;
+      const schema = [
+        jsonLd({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: `${model} PDF brochure archive`,
+          description,
+          url: `${siteUrl}/${modelUrl(brand, model)}`,
+          dateModified: now,
+          inLanguage: "en",
+          isPartOf: {
+            "@type": "WebSite",
+            name: "Car Brochure Archive",
+            url: `${siteUrl}/`
+          },
+          about: {
+            "@type": "Product",
+            name: model,
+            brand: {
+              "@type": "Brand",
+              name: brand.name
+            }
+          },
+          mainEntity: {
+            "@type": "ItemList",
+            numberOfItems: entries.length,
+            itemListElement: entries.map((entry, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              name: entry.title,
+              url: publicPdfUrl(brand, entry)
+            }))
+          }
+        }),
+        modelBreadcrumbSchema(brand, model)
+      ].join("\n");
+
+      await write(
+        modelUrl(brand, model),
+        pageShell({
+          title: `${model} PDF Brochures by Year | ${brand.name}`,
+          description,
+          canonical: `${siteUrl}/${modelUrl(brand, model)}`,
+          cssPath: "../../../styles.css",
+          body,
+          schema,
+          keywords: modelKeywords(brand, model, years)
+        })
+      );
+      modelPageCount += 1;
+    }
+  }
+  return modelPageCount;
+}
+
+function modelUrls(library) {
+  return brands.flatMap((brand) => {
+    const documents = library[slug(brand.name)] || [];
+    return [...new Set(documents.map((entry) => brochureModel(entry, brand)))]
+      .filter(isSpecificModel)
+      .map((model) => modelUrl(brand, model));
+  });
+}
+
+async function buildSitemap(library) {
   const urls = [
     "",
-    ...brands.map((brand) => brandUrl(brand))
+    ...brands.map((brand) => brandUrl(brand)),
+    ...modelUrls(library)
   ];
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -680,12 +866,13 @@ async function main() {
   await buildLogos();
   await buildHome();
   await buildBrandPages();
-  await buildSitemap();
+  const library = await loadBrochureLibrary();
+  const modelPageCount = await buildModelPages(library);
+  await buildSitemap(library);
   await buildRobots();
   await buildAdsTxt();
-  const library = await loadBrochureLibrary();
   const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
-  console.log(`Generated ${brands.length} brand pages with ${totalBrochures} local PDF records.`);
+  console.log(`Generated ${brands.length} brand pages and ${modelPageCount} model pages with ${totalBrochures} local PDF records.`);
 }
 
 await main();
