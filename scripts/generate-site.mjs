@@ -235,6 +235,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(description)}" />
     ${schema}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3173901746543144" crossorigin="anonymous"></script>
   </head>
   <body>
     ${body}
