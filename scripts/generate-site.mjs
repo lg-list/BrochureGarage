@@ -5,6 +5,7 @@ import path from "node:path";
 const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
+const adsensePublisherId = "pub-3173901746543144";
 const now = new Date().toISOString().slice(0, 10);
 const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
 
@@ -234,8 +235,8 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(description)}" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-${adsensePublisherId}" crossorigin="anonymous"></script>
     ${schema}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3173901746543144" crossorigin="anonymous"></script>
   </head>
   <body>
     ${body}
@@ -667,6 +668,11 @@ Sitemap: ${siteUrl}/sitemap.xml
 `);
 }
 
+async function buildAdsTxt() {
+  await write("ads.txt", `google.com, ${adsensePublisherId}, DIRECT, f08c47fec0942fa0
+`);
+}
+
 async function main() {
   await rm(path.join(root, "brands"), { recursive: true, force: true });
   await rm(path.join(root, "models"), { recursive: true, force: true });
@@ -676,6 +682,7 @@ async function main() {
   await buildBrandPages();
   await buildSitemap();
   await buildRobots();
+  await buildAdsTxt();
   const library = await loadBrochureLibrary();
   const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
   console.log(`Generated ${brands.length} brand pages with ${totalBrochures} local PDF records.`);
