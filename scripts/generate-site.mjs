@@ -279,11 +279,18 @@ function brochureYear(entry) {
 }
 
 function brochureModel(entry, brand) {
-  return entry.section || `${brand.name} Brochures`;
+  let model = entry.section || `${brand.name} Brochures`;
+  model = model
+    .replace(/\s+PDF Sales Brochures?$/i, "")
+    .replace(/\s+Brochures?$/i, "")
+    .trim();
+  if (model.length > 72) model = model.split(/\s+\d{4}\s+/)[0].trim();
+  return model;
 }
 
-function isSpecificModel(model) {
-  return !/\b(model range|full line|part range|design inspiration|accessories|accessory|utility vehicles|commercial vehicles|hybrid\s*&\s*electric|cars)\b/i.test(model);
+function isSpecificModel(model, brand) {
+  if (model.toLowerCase() === brand.name.toLowerCase()) return false;
+  return !/\b(model range|full line|part range|design inspiration|accessories|accessory|utility vehicles|commercial vehicles|hybrid\s*&\s*electric|cars|car range|truck range|people movers|performance|milestones)\b/i.test(model);
 }
 
 function localPdfPath(brand, entry) {
@@ -606,7 +613,7 @@ async function buildBrandPages() {
     const documentList = documents.length
       ? [...groupedDocuments.entries()]
           .map(([model, yearGroups]) => `<section class="model-brochure-group" aria-labelledby="${slug(brand.name)}-${slug(model)}">
-            <h2 id="${slug(brand.name)}-${slug(model)}">${isSpecificModel(model)
+            <h2 id="${slug(brand.name)}-${slug(model)}">${isSpecificModel(model, brand)
               ? `<a href="../../${modelUrl(brand, model)}">${esc(model)}</a>`
               : esc(model)}</h2>
             <div class="brochure-list">${[...yearGroups.values()]
@@ -710,7 +717,7 @@ async function buildModelPages(library) {
     const documents = library[slug(brand.name)] || [];
     const groupedDocuments = documents.reduce((groups, entry) => {
       const model = brochureModel(entry, brand);
-      if (!isSpecificModel(model)) return groups;
+      if (!isSpecificModel(model, brand)) return groups;
       if (!groups.has(model)) groups.set(model, []);
       groups.get(model).push(entry);
       return groups;
@@ -821,7 +828,7 @@ function modelUrls(library) {
   return brands.flatMap((brand) => {
     const documents = library[slug(brand.name)] || [];
     return [...new Set(documents.map((entry) => brochureModel(entry, brand)))]
-      .filter(isSpecificModel)
+      .filter((model) => isSpecificModel(model, brand))
       .map((model) => modelUrl(brand, model));
   });
 }

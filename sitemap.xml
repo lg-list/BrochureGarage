@@ -583,7 +583,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx-2019-aston-martin-dbx-pdf-brochure-2-5-mb-page-11-2019-aston-martin-dbx-catalogue-aston-martin-lagonda/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1231,30 +1231,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/dodge/dodge-car-range/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carbrochurearchive.com/models/dodge/dodge-truck-range/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carbrochurearchive.com/models/dodge/dodge-people-movers/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carbrochurearchive.com/models/dodge/dodge-performance/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://carbrochurearchive.com/models/dodge/dodge-600/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -1867,25 +1843,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/hummer/hummer-h1-alpha-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/hummer/hummer-h1-alpha/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/hummer/hummer-h2-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/hummer/hummer-h2/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/hummer/hummer-h3-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/hummer/hummer-h3/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/hummer/hummer-m998a2-series-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/hummer/hummer-m998a2-series/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -2377,12 +2353,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/land-rover/land-rover-milestones/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://carbrochurearchive.com/models/land-rover/land-rover-defender/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
@@ -2431,85 +2401,85 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-ct-a10-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-ct-a10/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-es-xv60-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-es-xv60/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-gs-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-gs/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-gx-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-gx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-is-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-is/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-lc-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-lc/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-ls-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-ls/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-lx-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-lx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-nx-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-nx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-rc-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-rc/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-rx-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-rx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-rz-electric-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-rz-electric/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-tx-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-tx/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/lexus/lexus-ux-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/lexus/lexus-ux/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -2641,19 +2611,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/maybach/maybach-57-and-62-pdf-sales-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/maybach/maybach-57-and-62/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/maybach/maybach-57s-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/maybach/maybach-57s/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/maybach/maybach-62-and-62s-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/maybach/maybach-62-and-62s/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -2972,12 +2942,6 @@
   </url>
   <url>
     <loc>https://carbrochurearchive.com/models/mg/tf/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carbrochurearchive.com/models/mini/mini/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -3949,13 +3913,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/tesla/tesla/index.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-4runner-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-4runner/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -3985,7 +3943,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-ch-r-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-ch-r/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -4027,97 +3985,97 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-grand-highlander-brochure/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-grand-highlander/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-highlander-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-highlander/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-land-cruiser-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-land-cruiser/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-mirai-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-mirai/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius-plug-in-prime-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius-plug-in-prime/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-rav4-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-rav4/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-sequoia-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-sequoia/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-sienna-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-sienna/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-supra-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-supra/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-tacoma-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-tacoma/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-tundra-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-tundra/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-venza-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-venza/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-ia-hatchback-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-ia-hatchback/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback-pdf-sales-brochures/index.html</loc>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback/index.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
