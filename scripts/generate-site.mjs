@@ -210,7 +210,7 @@ function faviconIco() {
   return Buffer.concat([header, dir, image]);
 }
 
-function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [] }) {
+function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [], robots = "index,follow,max-image-preview:large" }) {
   const assetPrefix = cssPath.replace(/styles\.css$/, "");
   const keywordText = Array.isArray(keywords) ? [...new Set(keywords.filter(Boolean))].join(", ") : keywords;
   return `<!doctype html>
@@ -221,7 +221,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     ${keywordText ? `<meta name="keywords" content="${esc(keywordText)}" />` : ""}
-    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="robots" content="${esc(robots)}" />
     <meta name="theme-color" content="#f7f4ef" />
     <link rel="canonical" href="${esc(canonical)}" />
     <link rel="icon" href="${assetPrefix}assets/favicon.ico" sizes="any" />
@@ -598,6 +598,71 @@ async function buildHome() {
   );
 }
 
+async function buildNotFoundPage() {
+  const popular = new Set(["Honda", "Toyota", "BMW", "Mercedes-Benz", "Audi", "Ford", "Chevrolet", "Porsche", "Volkswagen", "Volvo", "Lexus", "Nissan"]);
+  const brandItems = (await Promise.all(
+    brands
+      .filter((brand) => popular.has(brand.name))
+      .map(async (brand) => `<a class="brand-item" id="not-found-${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
+          <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
+          <span>${esc(brand.name)}</span>
+        </a>`)
+  )).join("\n");
+
+  const schema = jsonLd({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Page not found",
+    description: "Find car brochure PDF pages by brand or model from the Car Brochure Archive.",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Car Brochure Archive",
+      url: `${siteUrl}/`
+    }
+  });
+
+  const body = `${header("")}
+    <main>
+      <section class="not-found-hero" aria-labelledby="page-title">
+        <p class="error-code">404</p>
+        <h1 id="page-title">Page not found</h1>
+        <p class="hero-copy">The brochure page may have moved. Search the archive or jump back to a popular brand.</p>
+        <form class="search-box not-found-search" role="search" aria-label="Search brochure brands" action="/">
+          <label for="site-search">Search brands and models</label>
+          <div>
+            <input id="site-search" name="q" type="search" placeholder="CR-V / Corolla / BMW" autocomplete="off" />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+        <a class="home-link" href="/">Back to homepage</a>
+      </section>
+      <section class="directory-section not-found-directory" aria-label="Popular brochure brands">
+        <div class="section-heading">
+          <h2>Popular brands</h2>
+          <a href="/#brands">View all brands</a>
+        </div>
+        <div class="brand-list" id="brand-list">${brandItems}</div>
+        <p class="empty-state" hidden>No matching brand found. Try the full brand directory.</p>
+      </section>
+    </main>
+    ${footer("")}
+    <script src="app.js" defer></script>`;
+
+  await write(
+    "404.html",
+    pageShell({
+      title: "Page Not Found | Car Brochure Archive",
+      description: "This brochure page could not be found. Search car brochure PDFs by brand, model, and catalog name.",
+      canonical: `${siteUrl}/404.html`,
+      cssPath: "styles.css",
+      body,
+      schema,
+      keywords: ["car brochure archive", "car brochure PDF search", "vehicle catalog PDF"],
+      robots: "noindex,follow"
+    })
+  );
+}
+
 async function buildLogos() {
   for (const brand of brands) {
     const base = path.join(root, "assets", "logos", slug(brand.name));
@@ -887,6 +952,7 @@ async function main() {
   await buildSiteAssets();
   await buildLogos();
   await buildHome();
+  await buildNotFoundPage();
   await buildBrandPages();
   const library = await loadBrochureLibrary();
   const modelPageCount = await buildModelPages(library);
