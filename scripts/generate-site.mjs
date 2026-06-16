@@ -237,6 +237,11 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <meta name="twitter:description" content="${esc(description)}" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-${adsensePublisherId}" crossorigin="anonymous"></script>
     ${schema}
+    <script>
+      if (location.pathname.endsWith("/index.html")) {
+        location.replace(location.pathname.replace(/index\\.html$/, "") + location.search + location.hash);
+      }
+    </script>
   </head>
   <body>
     ${body}
@@ -246,7 +251,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
 
 function header(prefix = "") {
   return `<header class="site-header">
-      <a class="brand-mark" href="${prefix}index.html" aria-label="Home">
+      <a class="brand-mark" href="${prefix || "./"}" aria-label="Home">
         <img class="site-logo" src="${prefix}assets/site-logo.svg" alt="Car Brochure Archive logo" />
         <span>
           <strong>Car Brochure Archive</strong>
@@ -254,7 +259,7 @@ function header(prefix = "") {
         </span>
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
-        <a href="${prefix}index.html#brands">Brands</a>
+        <a href="${prefix || "./"}#brands">Brands</a>
       </nav>
     </header>`;
 }
@@ -262,16 +267,20 @@ function header(prefix = "") {
 function footer(prefix = "") {
   return `<footer class="site-footer">
       <p>Car Brochure Archive. Updated ${now}.</p>
-      <a href="${prefix}index.html">Home</a>
+      <a href="${prefix || "./"}">Home</a>
     </footer>`;
 }
 
 function brandUrl(brand) {
-  return `brands/${slug(brand.name)}/index.html`;
+  return `brands/${slug(brand.name)}/`;
 }
 
 function modelUrl(brand, model) {
-  return `models/${slug(brand.name)}/${slug(model)}/index.html`;
+  return `models/${slug(brand.name)}/${slug(model)}/`;
+}
+
+function indexFile(url) {
+  return `${url}index.html`;
 }
 
 function brochureYear(entry) {
@@ -640,7 +649,7 @@ async function buildBrandPages() {
       <main>
         <section class="brand-page-head">
           <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="../../index.html">Home</a>
+            <a href="../../">Home</a>
             <span>/</span>
             <span>${esc(brand.name)}</span>
           </nav>
@@ -664,7 +673,7 @@ async function buildBrandPages() {
       ${footer("../../")}`;
 
     await write(
-      brandUrl(brand),
+      indexFile(brandUrl(brand)),
       pageShell({
         title: `${brand.name} PDF Brochures | Car Catalog Archive`,
         description: brandDescription(brand, documents.length),
@@ -743,7 +752,7 @@ async function buildModelPages(library) {
         <main>
           <section class="brand-page-head">
             <nav class="breadcrumb" aria-label="Breadcrumb">
-              <a href="../../../index.html">Home</a>
+              <a href="../../../">Home</a>
               <span>/</span>
               <a href="../../../${brandUrl(brand)}">${esc(brand.name)}</a>
               <span>/</span>
@@ -807,7 +816,7 @@ async function buildModelPages(library) {
       ].join("\n");
 
       await write(
-        modelUrl(brand, model),
+        indexFile(modelUrl(brand, model)),
         pageShell({
           title: `${model} PDF Brochures by Year | ${brand.name}`,
           description,
