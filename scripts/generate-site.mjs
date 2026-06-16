@@ -250,8 +250,9 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
 }
 
 function header(prefix = "") {
+  const homeHref = prefix || "./";
   return `<header class="site-header">
-      <a class="brand-mark" href="${prefix || "./"}" aria-label="Home">
+      <a class="brand-mark" href="${homeHref}" aria-label="Home">
         <img class="site-logo" src="${prefix}assets/site-logo.svg" alt="Car Brochure Archive logo" />
         <span>
           <strong>Car Brochure Archive</strong>
@@ -259,28 +260,33 @@ function header(prefix = "") {
         </span>
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
-        <a href="${prefix || "./"}#brands">Brands</a>
+        <a href="${homeHref}#brands">Brands</a>
       </nav>
     </header>`;
 }
 
 function footer(prefix = "") {
+  const homeHref = prefix || "./";
   return `<footer class="site-footer">
       <p>Car Brochure Archive. Updated ${now}.</p>
-      <a href="${prefix || "./"}">Home</a>
+      <a href="${homeHref}">Home</a>
     </footer>`;
+}
+
+function brandPagePath(brand) {
+  return `brands/${slug(brand.name)}/index.html`;
 }
 
 function brandUrl(brand) {
   return `brands/${slug(brand.name)}/`;
 }
 
-function modelUrl(brand, model) {
-  return `models/${slug(brand.name)}/${slug(model)}/`;
+function modelPagePath(brand, model) {
+  return `models/${slug(brand.name)}/${slug(model)}/index.html`;
 }
 
-function indexFile(url) {
-  return `${url}index.html`;
+function modelUrl(brand, model) {
+  return `models/${slug(brand.name)}/${slug(model)}/`;
 }
 
 function brochureYear(entry) {
@@ -673,7 +679,7 @@ async function buildBrandPages() {
       ${footer("../../")}`;
 
     await write(
-      indexFile(brandUrl(brand)),
+      brandPagePath(brand),
       pageShell({
         title: `${brand.name} PDF Brochures | Car Catalog Archive`,
         description: brandDescription(brand, documents.length),
@@ -816,7 +822,7 @@ async function buildModelPages(library) {
       ].join("\n");
 
       await write(
-        indexFile(modelUrl(brand, model)),
+        modelPagePath(brand, model),
         pageShell({
           title: `${model} PDF Brochures by Year | ${brand.name}`,
           description,
