@@ -210,9 +210,12 @@ function faviconIco() {
   return Buffer.concat([header, dir, image]);
 }
 
-function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [], robots = "index,follow,max-image-preview:large" }) {
+function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [], robots = "index,follow,max-image-preview:large", ads = true }) {
   const assetPrefix = cssPath.replace(/styles\.css$/, "");
   const keywordText = Array.isArray(keywords) ? [...new Set(keywords.filter(Boolean))].join(", ") : keywords;
+  const adsScript = ads
+    ? `    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-${adsensePublisherId}" crossorigin="anonymous"></script>\n`
+    : "";
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -235,7 +238,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(description)}" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-${adsensePublisherId}" crossorigin="anonymous"></script>
+${adsScript}
     ${schema}
     <script>
       if (location.pathname.endsWith("/index.html")) {
@@ -261,6 +264,7 @@ function header(prefix = "") {
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
         <a href="${homeHref}#brands">Brands</a>
+        <a href="${prefix}about.html">About</a>
       </nav>
     </header>`;
 }
@@ -269,7 +273,13 @@ function footer(prefix = "") {
   const homeHref = prefix || "./";
   return `<footer class="site-footer">
       <p>Car Brochure Archive. Updated ${now}.</p>
-      <a href="${homeHref}">Home</a>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="${homeHref}">Home</a>
+        <a href="${prefix}about.html">About</a>
+        <a href="${prefix}contact.html">Contact</a>
+        <a href="${prefix}privacy.html">Privacy</a>
+        <a href="${prefix}terms.html">Terms</a>
+      </nav>
     </footer>`;
 }
 
@@ -400,6 +410,19 @@ function brandIntro(brand, count) {
     return `Explore ${count} ${brand.name} brochure PDFs organized by model and year. This page collects sales brochures, model catalogs, specifications, and downloadable PDF guides for ${models}.`;
   }
   return `Explore ${brand.name} brochure references organized by model. This page is prepared for future PDF brochures, catalogs, specifications, and model guides for ${models}.`;
+}
+
+function brandResearchNote(brand, count) {
+  const models = topModels(brand, 6);
+  if (count) {
+    return `${brand.name} brochure PDFs are useful for comparing original equipment lists, trim naming, engine choices, interior and exterior color references, package descriptions, and market-specific model positioning. This archive keeps the ${brand.name} records grouped by model family so a reader can move from a broad brand overview to individual brochures for ${models}.`;
+  }
+  return `${brand.name} brochure records will be organized here as PDF catalogs are added. The archive format is designed to make model-year research easier by grouping original sales literature, specifications, and model guides in one place.`;
+}
+
+function modelResearchNote(brand, model, entries, years) {
+  const yearText = years.length > 1 ? `${years.at(-1)} through ${years[0]}` : years[0] || "the available brochure years";
+  return `Use this ${model} brochure page to compare how ${brand.name} presented the model across ${yearText}. Brochures can help identify original trim names, standard and optional equipment, wheel and color availability, powertrain descriptions, interior materials, cargo and dimension claims, and package changes that may not be obvious from later resale listings.`;
 }
 
 function brandFaqSchema(brand, count) {
@@ -603,7 +626,7 @@ async function buildNotFoundPage() {
   const brandItems = (await Promise.all(
     brands
       .filter((brand) => popular.has(brand.name))
-      .map(async (brand) => `<a class="brand-item" id="not-found-${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
+      .map(async (brand) => `<a class="brand-item" id="not-found-${slug(brand.name)}" href="/${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
           <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
           <span>${esc(brand.name)}</span>
         </a>`)
@@ -621,7 +644,7 @@ async function buildNotFoundPage() {
     }
   });
 
-  const body = `${header("")}
+  const body = `${header("/")}
     <main>
       <section class="not-found-hero" aria-labelledby="page-title">
         <p class="error-code">404</p>
@@ -645,8 +668,8 @@ async function buildNotFoundPage() {
         <p class="empty-state" hidden>No matching brand found. Try the full brand directory.</p>
       </section>
     </main>
-    ${footer("")}
-    <script src="app.js" defer></script>`;
+    ${footer("/")}
+    <script src="/app.js" defer></script>`;
 
   await write(
     "404.html",
@@ -654,13 +677,136 @@ async function buildNotFoundPage() {
       title: "Page Not Found | Car Brochure Archive",
       description: "This brochure page could not be found. Search car brochure PDFs by brand, model, and catalog name.",
       canonical: `${siteUrl}/404.html`,
-      cssPath: "styles.css",
+      cssPath: "/styles.css",
       body,
       schema,
       keywords: ["car brochure archive", "car brochure PDF search", "vehicle catalog PDF"],
-      robots: "noindex,follow"
+      robots: "noindex,follow",
+      ads: false
     })
   );
+}
+
+function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keywords = [] }) {
+  const body = `${header("")}
+    <main>
+      <section class="legal-page" aria-labelledby="${id}-title">
+        ${bodyHtml}
+      </section>
+    </main>
+    ${footer("")}`;
+
+  const schema = jsonLd({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: title,
+    description,
+    url: `${siteUrl}/${canonicalPath}`,
+    inLanguage: "en",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Car Brochure Archive",
+      url: `${siteUrl}/`
+    }
+  });
+
+  return pageShell({
+    title,
+    description,
+    canonical: `${siteUrl}/${canonicalPath}`,
+    cssPath: "styles.css",
+    body,
+    schema,
+    keywords
+  });
+}
+
+async function buildPolicyPages() {
+  const pages = [
+    {
+      path: "about.html",
+      id: "about",
+      title: "About Car Brochure Archive",
+      description: "Learn how Car Brochure Archive organizes car brochure PDFs, model catalogs, and specification guides for research and comparison.",
+      keywords: ["about car brochure archive", "car brochure research", "auto catalog archive"],
+      bodyHtml: `<p class="eyebrow">About</p>
+        <h1 id="about-title">About Car Brochure Archive</h1>
+        <p>Car Brochure Archive is an independent reference index for automotive brochure PDFs. The site organizes sales brochures, model catalogs, specification sheets, and range guides by manufacturer and model so readers can compare trim language, engines, dimensions, equipment, and market positioning across model years.</p>
+        <p>The archive is built for shoppers, owners, collectors, researchers, and writers who need a fast way to find original brochure material without digging through scattered manufacturer pages. Each brand page groups brochures by model family, while model pages focus on year-by-year PDF records when documents are available.</p>
+        <h2>How pages are organized</h2>
+        <p>Brand pages summarize the available brochure records for one manufacturer. Model pages narrow the archive to a single model family and list brochure years, titles, file sizes, and download links. The home page is a compact brand directory designed for quick scanning.</p>
+        <h2>Independence</h2>
+        <p>Car Brochure Archive is not affiliated with, endorsed by, or sponsored by any vehicle manufacturer. Brand names, model names, logos, and brochure titles are used for identification and historical reference.</p>`
+    },
+    {
+      path: "contact.html",
+      id: "contact",
+      title: "Contact Car Brochure Archive",
+      description: "Contact Car Brochure Archive for correction requests, removal requests, missing brochure reports, or archive feedback.",
+      keywords: ["contact car brochure archive", "brochure correction request", "PDF removal request"],
+      bodyHtml: `<p class="eyebrow">Contact</p>
+        <h1 id="contact-title">Contact Car Brochure Archive</h1>
+        <p>Use this page for archive corrections, broken PDF links, missing brochure reports, and rights or removal requests. Please include the exact page URL and brochure title so the issue can be reviewed quickly.</p>
+        <div class="contact-options">
+          <a class="secondary-link" href="mailto:contact@carbrochurearchive.com">contact@carbrochurearchive.com</a>
+          <a class="secondary-link" href="https://github.com/lg-list/BrochureGarage/issues" target="_blank" rel="noopener">GitHub issue tracker</a>
+        </div>
+        <h2>What to include</h2>
+        <p>For corrections, include the brand, model, model year, brochure title, and the corrected information. For rights or removal requests, include the affected URL, your relationship to the rights holder, and enough detail to identify the specific PDF or image.</p>
+        <h2>Response scope</h2>
+        <p>The archive is maintained as a reference project. Requests are reviewed for accuracy, relevance, and whether the content should remain available as a historical brochure reference.</p>`
+    },
+    {
+      path: "privacy.html",
+      id: "privacy",
+      title: "Privacy Policy | Car Brochure Archive",
+      description: "Read the Car Brochure Archive privacy policy, including analytics, advertising cookies, server logs, and third-party PDF hosting.",
+      keywords: ["car brochure archive privacy policy", "advertising cookies", "Google AdSense privacy"],
+      bodyHtml: `<p class="eyebrow">Privacy</p>
+        <h1 id="privacy-title">Privacy Policy</h1>
+        <p>Car Brochure Archive is a public, static website. Visitors can browse pages and open brochure PDFs without creating an account or submitting personal information.</p>
+        <h2>Information collected automatically</h2>
+        <p>Like most websites, hosting providers and content delivery services may process basic technical information such as IP address, browser type, referring page, requested URL, timestamps, and device information. This information is used for site delivery, security, abuse prevention, troubleshooting, and aggregate performance review.</p>
+        <h2>Advertising and cookies</h2>
+        <p>This site may use Google AdSense. Google and its partners may use cookies or similar technologies to serve, personalize, limit, and measure ads. Visitors can learn how Google uses information from sites or apps that use Google services and can manage ad personalization in their Google account settings.</p>
+        <h2>Third-party services</h2>
+        <p>PDF files may be delivered through third-party storage or content delivery networks. Opening a PDF may cause the PDF host to receive technical request information needed to serve the file.</p>
+        <h2>Contact</h2>
+        <p>For privacy questions or requests related to this site, use the contact page and include the relevant URL or document title.</p>`
+    },
+    {
+      path: "terms.html",
+      id: "terms",
+      title: "Terms and Disclaimer | Car Brochure Archive",
+      description: "Review the Car Brochure Archive terms, trademark disclaimer, brochure reference purpose, and removal request process.",
+      keywords: ["car brochure archive terms", "automotive brochure disclaimer", "trademark disclaimer"],
+      bodyHtml: `<p class="eyebrow">Terms</p>
+        <h1 id="terms-title">Terms and Disclaimer</h1>
+        <p>Car Brochure Archive is provided as an informational reference for automotive brochure research. Use of the site means you understand that brochure details may be historical, market-specific, incomplete, or superseded by newer manufacturer information.</p>
+        <h2>No affiliation</h2>
+        <p>This site is independent and is not affiliated with any manufacturer, dealer group, publisher, or brand owner. Trademarks, logos, model names, and brochure names belong to their respective owners and are used for identification and reference.</p>
+        <h2>Brochure content</h2>
+        <p>Brochure PDFs are listed for research, comparison, and historical reference. If you own rights to a document and believe it should be corrected, credited differently, or removed, use the contact page with the affected URL and enough information to identify the material.</p>
+        <h2>No professional advice</h2>
+        <p>Vehicle specifications, availability, pricing, safety equipment, warranty terms, and regulatory details vary by market and time. Always verify current vehicle information with the manufacturer or an authorized dealer before making purchase or repair decisions.</p>
+        <h2>External links</h2>
+        <p>The site links to PDF files and third-party resources. External pages and files are controlled by their respective operators, and their availability may change without notice.</p>`
+    }
+  ];
+
+  for (const page of pages) {
+    await write(
+      page.path,
+      policyPageShell({
+        id: page.id,
+        title: page.title,
+        description: page.description,
+        canonicalPath: page.path,
+        bodyHtml: page.bodyHtml,
+        keywords: page.keywords
+      })
+    );
+  }
 }
 
 async function buildLogos() {
@@ -736,6 +882,11 @@ async function buildBrandPages() {
               <dd>${esc(topModels(brand, 4))}</dd>
             </div>
           </dl>
+        </section>
+        <section class="directory-section archive-note">
+          <h2>${esc(brand.name)} brochure research notes</h2>
+          <p>${esc(brandResearchNote(brand, documents.length))}</p>
+          <p>For best results, open the PDF title that matches the model year you need, then compare it against nearby years on the same page. Manufacturer brochure language can vary by market, print date, and trim package, so the listed PDF title and year should be treated as the primary reference point.</p>
         </section>
         <section class="directory-section tight">
           ${documentList}
@@ -842,6 +993,11 @@ async function buildModelPages(library) {
               </div>
             </dl>
           </section>
+          <section class="directory-section archive-note">
+            <h2>${esc(model)} research notes</h2>
+            <p>${esc(modelResearchNote(brand, model, entries, years))}</p>
+            <p>The PDF list below is arranged as a compact reference index. Open the brochure year that matches your research target, then compare adjacent years when checking feature changes, styling updates, option packages, or market-specific equipment descriptions.</p>
+          </section>
           <section class="directory-section tight">
             <section class="model-brochure-group" aria-labelledby="${slug(model)}-downloads">
               <h2 id="${slug(model)}-downloads">${esc(model)} brochure downloads</h2>
@@ -916,6 +1072,10 @@ function modelUrls(library) {
 async function buildSitemap(library) {
   const urls = [
     "",
+    "about.html",
+    "contact.html",
+    "privacy.html",
+    "terms.html",
     ...brands.map((brand) => brandUrl(brand)),
     ...modelUrls(library)
   ];
@@ -951,6 +1111,7 @@ async function main() {
   await rm(path.join(root, "models"), { recursive: true, force: true });
   await buildSiteAssets();
   await buildLogos();
+  await buildPolicyPages();
   await buildHome();
   await buildNotFoundPage();
   await buildBrandPages();
