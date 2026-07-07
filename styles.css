@@ -260,6 +260,69 @@ input:focus-visible {
   font-weight: 900;
 }
 
+.brand-seo-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.brand-seo-panel h2,
+.faq-section h2 {
+  margin-bottom: 0;
+}
+
+.seo-note-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.seo-note-grid article {
+  padding: 16px;
+  border: 1px solid rgba(24, 32, 31, 0.08);
+  border-radius: 8px;
+  background: #fffdfa;
+  box-shadow: var(--shadow-soft);
+}
+
+.seo-note-grid span {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: var(--clay);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.seo-note-grid p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.faq-section {
+  display: grid;
+  gap: 10px;
+}
+
+.faq-section details {
+  padding: 14px 16px;
+  border: 1px solid rgba(24, 32, 31, 0.08);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.faq-section summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.faq-section details p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
@@ -1222,6 +1285,10 @@ h3 {
   }
 
   .brand-page-head + .directory-section.tight {
+    grid-template-columns: 1fr;
+  }
+
+  .seo-note-grid {
     grid-template-columns: 1fr;
   }
 

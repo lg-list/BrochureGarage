@@ -373,7 +373,7 @@ function brandKeywords(brand) {
 function brandDescription(brand, count) {
   const models = topModels(brand, 5);
   if (count) {
-    return `Preview and download ${count} local ${brand.name} PDF brochures by model, including ${models}. Find sales brochures, catalogs, and model guides in one archive.`;
+    return `Preview and download ${count} ${brand.name} PDF brochures by model and year, including ${models}. Find sales brochures, catalogs, specifications, and model guides in one searchable archive.`;
   }
   return `Browse ${brand.name} brochure references by model, including ${models}. Local PDF records are organized for fast brochure and catalog searches.`;
 }
@@ -407,7 +407,7 @@ function modelDescription(brand, model, entries) {
 function brandIntro(brand, count) {
   const models = topModels(brand, 8);
   if (count) {
-    return `Explore ${count} ${brand.name} brochure PDFs organized by model and year. This page collects sales brochures, model catalogs, specifications, and downloadable PDF guides for ${models}.`;
+    return `Explore ${count} ${brand.name} brochure PDFs organized by model and year. This page collects sales brochures, model catalogs, specifications, and downloadable PDF guides for ${models}. Each record is grouped so researchers can move from a broad ${brand.name} overview to a specific model brochure without sorting through unrelated files.`;
   }
   return `Explore ${brand.name} brochure references organized by model. This page is prepared for future PDF brochures, catalogs, specifications, and model guides for ${models}.`;
 }
@@ -415,9 +415,25 @@ function brandIntro(brand, count) {
 function brandResearchNote(brand, count) {
   const models = topModels(brand, 6);
   if (count) {
-    return `${brand.name} brochure PDFs are useful for comparing original equipment lists, trim naming, engine choices, interior and exterior color references, package descriptions, and market-specific model positioning. This archive keeps the ${brand.name} records grouped by model family so a reader can move from a broad brand overview to individual brochures for ${models}.`;
+    return `${brand.name} brochure PDFs are useful for comparing original equipment lists, trim naming, engine choices, interior and exterior color references, package descriptions, warranty language, dimensions, towing claims, and market-specific model positioning. This archive keeps the ${brand.name} records grouped by model family so a reader can move from a broad brand overview to individual brochures for ${models}.`;
   }
   return `${brand.name} brochure records will be organized here as PDF catalogs are added. The archive format is designed to make model-year research easier by grouping original sales literature, specifications, and model guides in one place.`;
+}
+
+function brandCoverageText(brand, documents) {
+  const years = [...new Set(documents.map(brochureYear).filter((year) => year !== "Other"))].sort();
+  const modelCount = new Set(documents.map((entry) => brochureModel(entry, brand))).size;
+  const yearText = years.length > 1 ? `${years[0]} through ${years.at(-1)}` : years[0] || "available model years";
+  return `The current ${brand.name} archive includes ${documents.length} PDF record${documents.length === 1 ? "" : "s"} across ${modelCount || brand.models.length} model group${modelCount === 1 ? "" : "s"}, with brochure years covering ${yearText}. Use the list as a year-by-year index for sales literature, fact sheets, full-line catalogs, special editions, and model-specific PDF brochures.`;
+}
+
+function brandUseCases(brand) {
+  const models = topModels(brand, 5);
+  return [
+    `Verify original ${brand.name} trim names, option packages, wheel designs, paint colors, interior materials, and standard equipment before comparing used-car listings.`,
+    `Compare brochure years for ${models} to spot facelifts, powertrain changes, safety feature updates, infotainment revisions, and market-specific naming differences.`,
+    `Save or open the matching PDF when documenting restoration details, auction listings, collector research, dealership history, or old manufacturer specification claims.`
+  ];
 }
 
 function modelResearchNote(brand, model, entries, years) {
@@ -446,6 +462,22 @@ function brandFaqSchema(brand, count) {
           text: count
             ? `This page currently indexes ${count} ${brand.name} brochure PDF records.`
             : `This page is prepared for ${brand.name} brochure records and will list PDF files as they are added.`
+        }
+      },
+      {
+        "@type": "Question",
+        name: `Are ${brand.name} brochures grouped by model and year?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `Yes. The ${brand.name} archive groups brochure records by model family and keeps each PDF title visible so users can choose the correct model year or fact sheet.`
+        }
+      },
+      {
+        "@type": "Question",
+        name: `What can I use ${brand.name} brochure PDFs for?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${brand.name} brochures are useful for checking original specifications, trim names, color references, package descriptions, dimensions, equipment lists, and historical model-year changes.`
         }
       }
     ]
@@ -883,10 +915,37 @@ async function buildBrandPages() {
             </div>
           </dl>
         </section>
+        <section class="directory-section brand-seo-panel" aria-labelledby="${slug(brand.name)}-archive-overview">
+          <h2 id="${slug(brand.name)}-archive-overview">${esc(brand.name)} brochure archive overview</h2>
+          <p>${esc(brandCoverageText(brand, documents))}</p>
+          <div class="seo-note-grid">
+            ${brandUseCases(brand)
+              .map((item, index) => `<article>
+                <span>${String(index + 1).padStart(2, "0")}</span>
+                <p>${esc(item)}</p>
+              </article>`)
+              .join("\n")}
+          </div>
+        </section>
         <section class="directory-section archive-note">
           <h2>${esc(brand.name)} brochure research notes</h2>
           <p>${esc(brandResearchNote(brand, documents.length))}</p>
           <p>For best results, open the PDF title that matches the model year you need, then compare it against nearby years on the same page. Manufacturer brochure language can vary by market, print date, and trim package, so the listed PDF title and year should be treated as the primary reference point.</p>
+        </section>
+        <section class="directory-section faq-section" aria-labelledby="${slug(brand.name)}-faq">
+          <h2 id="${slug(brand.name)}-faq">${esc(brand.name)} brochure FAQ</h2>
+          <details open>
+            <summary>Where can I find ${esc(brand.name)} brochure PDFs?</summary>
+            <p>${esc(brand.name)} brochures are organized below by model and year, with preview and download links for each available PDF record.</p>
+          </details>
+          <details>
+            <summary>How should I compare ${esc(brand.name)} brochure years?</summary>
+            <p>Start with the brochure year that matches the vehicle or research target, then check adjacent years for changes to trims, engines, packages, dimensions, colors, and standard equipment.</p>
+          </details>
+          <details>
+            <summary>Are these pages official ${esc(brand.name)} pages?</summary>
+            <p>No. Car Brochure Archive is an independent reference index. Brand names, model names, and brochure titles are used only to identify historical sales literature and PDF records.</p>
+          </details>
         </section>
         <section class="directory-section tight">
           ${documentList}
@@ -1071,26 +1130,34 @@ function modelUrls(library) {
 
 async function buildSitemap(library) {
   const urls = [
-    "",
-    "about.html",
-    "contact.html",
-    "privacy.html",
-    "terms.html",
-    ...brands.map((brand) => brandUrl(brand)),
-    ...modelUrls(library)
+    { url: "", priority: "1.0", changefreq: "weekly" },
+    { url: "about.html", priority: "0.6", changefreq: "monthly" },
+    { url: "contact.html", priority: "0.5", changefreq: "monthly" },
+    { url: "privacy.html", priority: "0.4", changefreq: "yearly" },
+    { url: "terms.html", priority: "0.4", changefreq: "yearly" },
+    ...brands.map((brand) => ({ url: brandUrl(brand), priority: "0.9", changefreq: "monthly" })),
+    ...modelUrls(library).map((url) => ({ url, priority: "0.8", changefreq: "monthly" }))
   ];
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
-  .map((url) => `  <url>
-    <loc>${siteUrl}/${url}</loc>
+  .map((entry) => `  <url>
+    <loc>${siteUrl}/${entry.url}</loc>
     <lastmod>${now}</lastmod>
-    <changefreq>${url ? "monthly" : "weekly"}</changefreq>
-    <priority>${url ? "0.8" : "1.0"}</priority>
+    <changefreq>${entry.changefreq}</changefreq>
+    <priority>${entry.priority}</priority>
   </url>`)
   .join("\n")}
 </urlset>`;
   await write("sitemap.xml", body);
+}
+
+async function buildRedirects() {
+  const redirectLines = [
+    "/index.html / 301",
+    ...brands.map((brand) => `/${brandUrl(brand)}index.html /${brandUrl(brand)} 301`)
+  ];
+  await write("_redirects", `${redirectLines.join("\n")}\n`);
 }
 
 async function buildRobots() {
@@ -1120,6 +1187,7 @@ async function main() {
   await buildSitemap(library);
   await buildRobots();
   await buildAdsTxt();
+  await buildRedirects();
   const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
   console.log(`Generated ${brands.length} brand pages and ${modelPageCount} model pages with ${totalBrochures} local PDF records.`);
 }
