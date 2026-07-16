@@ -5,7 +5,7 @@ import path from "node:path";
 const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
-const adsensePublisherId = "pub-3173901746543144";
+const adsensePublisherId = "pub-1607011220192909";
 const now = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
 const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
 
