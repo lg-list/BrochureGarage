@@ -436,9 +436,31 @@ function brandUseCases(brand) {
   ];
 }
 
+function brandEditorialGuide(brand, documents) {
+  const years = [...new Set(documents.map(brochureYear).filter((year) => year !== "Other"))].sort();
+  const models = topModels(brand, 5);
+  const recent = years.at(-1) || "the newest available year";
+  const earliest = years[0] || "the earliest available year";
+  return [
+    `${brand.name} brochures are most useful when they are read as period documents, not just as download files. Start with ${recent} to see the latest catalog language available in this archive, then compare back to ${earliest} when you need to understand how equipment, trim names, engines, body styles, or option packages changed over time.`,
+    `For ${models}, pay close attention to the way each brochure describes standard equipment versus optional packages. Manufacturer brochures often reveal small details that later listings omit, including wheel designs, upholstery names, audio systems, driver-assistance features, cargo dimensions, towing notes, special editions, and market-specific model positioning.`,
+    `This page is maintained as a research index. The PDF titles, model grouping, years, and file sizes are kept visible so readers can choose the right document quickly and avoid opening unrelated catalogs. When a brochure appears to cover multiple models, use the title and year as the primary clue before comparing individual model pages.`
+  ];
+}
+
 function modelResearchNote(brand, model, entries, years) {
   const yearText = years.length > 1 ? `${years.at(-1)} through ${years[0]}` : years[0] || "the available brochure years";
   return `Use this ${model} brochure page to compare how ${brand.name} presented the model across ${yearText}. Brochures can help identify original trim names, standard and optional equipment, wheel and color availability, powertrain descriptions, interior materials, cargo and dimension claims, and package changes that may not be obvious from later resale listings.`;
+}
+
+function modelEditorialGuide(brand, model, entries, years) {
+  const yearText = years.length > 1 ? `${years.at(-1)}-${years[0]}` : years[0] || "available years";
+  const sortedYears = years.length ? years.join(", ") : "the listed years";
+  return [
+    `Use the ${model} PDFs as a model-year comparison set for ${yearText}. Open the exact year first, then check the previous and following brochures when researching a facelift, new trim, revised engine, updated safety feature, infotainment change, wheel design, color palette, or special package.`,
+    `${brand.name} brochure copy can vary by market and print date. If two PDFs appear to describe similar vehicles, compare the cover year, title wording, file size, and equipment tables before treating a specification as final. Brochure language is especially helpful for distinguishing standard features from optional bundles.`,
+    `The available ${model} records on this page cover ${sortedYears}. For restoration, resale research, auction notes, or ownership history, save the PDF that matches the vehicle year and quote the brochure title rather than relying on a generic model description.`
+  ];
 }
 
 function brandFaqSchema(brand, count) {
@@ -635,6 +657,23 @@ async function buildHome() {
         <div class="brand-list" id="brand-list">${brandItems}</div>
         <p class="empty-state" hidden>No matching brand found.</p>
       </section>
+      <section class="directory-section editorial-guide" aria-labelledby="archive-research-guide">
+        <h2 id="archive-research-guide">How to use this brochure archive</h2>
+        <div class="seo-note-grid">
+          <article>
+            <span>Research</span>
+            <p>Start with the brand directory, choose a manufacturer, then open the model page that matches the vehicle you are researching. The archive keeps brochure titles, years, model groups, and file sizes visible so you can identify the right document before opening a PDF.</p>
+          </article>
+          <article>
+            <span>Compare</span>
+            <p>Brochures are useful for comparing original trim names, standard equipment, option packages, color names, wheel designs, dimensions, towing notes, engine descriptions, and market-specific language across model years.</p>
+          </article>
+          <article>
+            <span>Verify</span>
+            <p>Use brochure PDFs as historical reference material. Specifications can vary by country, print date, and package, so confirm important purchase or restoration details against the exact brochure year and title.</p>
+          </article>
+        </div>
+      </section>
     </main>
     ${footer("")}
     <script src="app.js" defer></script>`;
@@ -767,6 +806,8 @@ async function buildPolicyPages() {
         <p>The archive is built for shoppers, owners, collectors, researchers, and writers who need a fast way to find original brochure material without digging through scattered manufacturer pages. Each brand page groups brochures by model family, while model pages focus on year-by-year PDF records when documents are available.</p>
         <h2>How pages are organized</h2>
         <p>Brand pages summarize the available brochure records for one manufacturer. Model pages narrow the archive to a single model family and list brochure years, titles, file sizes, and download links. The home page is a compact brand directory designed for quick scanning.</p>
+        <h2>Editorial approach</h2>
+        <p>The site adds its own organization, model grouping, research notes, comparison guidance, and page metadata around brochure records. The goal is to help readers understand which brochure to open, what details to compare, and how to treat each PDF as historical reference material rather than current manufacturer advice.</p>
         <h2>Independence</h2>
         <p>Car Brochure Archive is not affiliated with, endorsed by, or sponsored by any vehicle manufacturer. Brand names, model names, logos, and brochure titles are used for identification and historical reference.</p>`
     },
@@ -785,6 +826,8 @@ async function buildPolicyPages() {
         </div>
         <h2>What to include</h2>
         <p>For corrections, include the brand, model, model year, brochure title, and the corrected information. For rights or removal requests, include the affected URL, your relationship to the rights holder, and enough detail to identify the specific PDF or image.</p>
+        <h2>Rights and removal requests</h2>
+        <p>If a rights holder asks for a brochure file, logo, title, or page reference to be removed or changed, the request will be reviewed and acted on when enough information is provided to identify the material. The archive is intended for reference and research, not to replace official manufacturer websites or current sales material.</p>
         <h2>Response scope</h2>
         <p>The archive is maintained as a reference project. Requests are reviewed for accuracy, relevance, and whether the content should remain available as a historical brochure reference.</p>`
     },
@@ -819,6 +862,8 @@ async function buildPolicyPages() {
         <p>This site is independent and is not affiliated with any manufacturer, dealer group, publisher, or brand owner. Trademarks, logos, model names, and brochure names belong to their respective owners and are used for identification and reference.</p>
         <h2>Brochure content</h2>
         <p>Brochure PDFs are listed for research, comparison, and historical reference. If you own rights to a document and believe it should be corrected, credited differently, or removed, use the contact page with the affected URL and enough information to identify the material.</p>
+        <h2>Removal process</h2>
+        <p>Removal and correction requests should identify the exact page URL, PDF title, brand, model, and the requester's relationship to the material. When a valid request is received, the site may remove the file link, update attribution or wording, replace a logo, or revise the surrounding page text.</p>
         <h2>No professional advice</h2>
         <p>Vehicle specifications, availability, pricing, safety equipment, warranty terms, and regulatory details vary by market and time. Always verify current vehicle information with the manufacturer or an authorized dealer before making purchase or repair decisions.</p>
         <h2>External links</h2>
@@ -917,6 +962,17 @@ async function buildBrandPages() {
         </section>
         <section class="directory-section tight">
           ${documentList}
+        </section>
+        <section class="directory-section editorial-guide" aria-labelledby="${slug(brand.name)}-research-guide">
+          <h2 id="${slug(brand.name)}-research-guide">How to research ${esc(brand.name)} brochures</h2>
+          <div class="seo-note-grid">
+            ${brandEditorialGuide(brand, documents)
+              .map((item, index) => `<article>
+                <span>${["Start", "Compare", "Verify"][index]}</span>
+                <p>${esc(item)}</p>
+              </article>`)
+              .join("\n")}
+          </div>
         </section>
         <section class="directory-section brand-seo-panel" aria-labelledby="${slug(brand.name)}-archive-overview">
           <h2 id="${slug(brand.name)}-archive-overview">${esc(brand.name)} brochure archive overview</h2>
@@ -1057,6 +1113,17 @@ async function buildModelPages(library) {
               <h2 id="${slug(model)}-downloads">${esc(model)} brochure downloads</h2>
               <div class="brochure-list">${rows}</div>
             </section>
+          </section>
+          <section class="directory-section editorial-guide" aria-labelledby="${slug(model)}-research-guide">
+            <h2 id="${slug(model)}-research-guide">${esc(model)} brochure research guide</h2>
+            <div class="seo-note-grid">
+              ${modelEditorialGuide(brand, model, entries, years)
+                .map((item, index) => `<article>
+                  <span>${["Match", "Compare", "Cite"][index]}</span>
+                  <p>${esc(item)}</p>
+                </article>`)
+                .join("\n")}
+            </div>
           </section>
           <section class="directory-section archive-note">
             <h2>${esc(model)} research notes</h2>
