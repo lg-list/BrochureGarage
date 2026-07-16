@@ -915,6 +915,9 @@ async function buildBrandPages() {
             </div>
           </dl>
         </section>
+        <section class="directory-section tight">
+          ${documentList}
+        </section>
         <section class="directory-section brand-seo-panel" aria-labelledby="${slug(brand.name)}-archive-overview">
           <h2 id="${slug(brand.name)}-archive-overview">${esc(brand.name)} brochure archive overview</h2>
           <p>${esc(brandCoverageText(brand, documents))}</p>
@@ -930,13 +933,13 @@ async function buildBrandPages() {
         <section class="directory-section archive-note">
           <h2>${esc(brand.name)} brochure research notes</h2>
           <p>${esc(brandResearchNote(brand, documents.length))}</p>
-          <p>For best results, open the PDF title that matches the model year you need, then compare it against nearby years on the same page. Manufacturer brochure language can vary by market, print date, and trim package, so the listed PDF title and year should be treated as the primary reference point.</p>
+          <p>For best results, open the PDF title above that matches the model year you need, then compare it against nearby years on the same page. Manufacturer brochure language can vary by market, print date, and trim package, so the listed PDF title and year should be treated as the primary reference point.</p>
         </section>
         <section class="directory-section faq-section" aria-labelledby="${slug(brand.name)}-faq">
           <h2 id="${slug(brand.name)}-faq">${esc(brand.name)} brochure FAQ</h2>
           <details open>
             <summary>Where can I find ${esc(brand.name)} brochure PDFs?</summary>
-            <p>${esc(brand.name)} brochures are organized below by model and year, with preview and download links for each available PDF record.</p>
+            <p>${esc(brand.name)} brochures are organized above by model and year, with preview and download links for each available PDF record.</p>
           </details>
           <details>
             <summary>How should I compare ${esc(brand.name)} brochure years?</summary>
@@ -946,9 +949,6 @@ async function buildBrandPages() {
             <summary>Are these pages official ${esc(brand.name)} pages?</summary>
             <p>No. Car Brochure Archive is an independent reference index. Brand names, model names, and brochure titles are used only to identify historical sales literature and PDF records.</p>
           </details>
-        </section>
-        <section class="directory-section tight">
-          ${documentList}
         </section>
       </main>
       ${footer("../../")}`;
