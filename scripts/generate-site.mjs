@@ -1052,16 +1052,16 @@ async function buildModelPages(library) {
               </div>
             </dl>
           </section>
-          <section class="directory-section archive-note">
-            <h2>${esc(model)} research notes</h2>
-            <p>${esc(modelResearchNote(brand, model, entries, years))}</p>
-            <p>The PDF list below is arranged as a compact reference index. Open the brochure year that matches your research target, then compare adjacent years when checking feature changes, styling updates, option packages, or market-specific equipment descriptions.</p>
-          </section>
           <section class="directory-section tight">
             <section class="model-brochure-group" aria-labelledby="${slug(model)}-downloads">
               <h2 id="${slug(model)}-downloads">${esc(model)} brochure downloads</h2>
               <div class="brochure-list">${rows}</div>
             </section>
+          </section>
+          <section class="directory-section archive-note">
+            <h2>${esc(model)} research notes</h2>
+            <p>${esc(modelResearchNote(brand, model, entries, years))}</p>
+            <p>The PDF list above is arranged as a compact reference index. Open the brochure year that matches your research target, then compare adjacent years when checking feature changes, styling updates, option packages, or market-specific equipment descriptions.</p>
           </section>
         </main>
         ${footer("../../../")}`;
