@@ -294,6 +294,22 @@ input:focus-visible {
   box-shadow: var(--shadow-soft);
 }
 
+.seo-note-grid h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  line-height: 1.28;
+}
+
+.seo-note-grid h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.seo-note-grid h3 a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
 .seo-note-grid span {
   display: inline-block;
   margin-bottom: 9px;
@@ -308,6 +324,37 @@ input:focus-visible {
   color: var(--ink);
   font-size: 15px;
   line-height: 1.55;
+}
+
+.guide-links {
+  padding-top: 18px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(24, 32, 31, 0.08);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.guide-links h2 {
+  margin: 0 0 8px;
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+.guide-crosslinks {
+  max-width: 980px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.guide-crosslinks a {
+  color: var(--blue);
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.guide-crosslinks a:hover {
+  color: var(--clay);
+  text-decoration: underline;
 }
 
 .faq-section {
@@ -703,6 +750,14 @@ h3 {
 }
 
 .legal-page p {
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.legal-page ul,
+.legal-page ol {
   max-width: 780px;
   color: var(--muted);
   font-size: 17px;

@@ -102,6 +102,69 @@ const brands = [
 
 const totalModels = brands.reduce((sum, brand) => sum + brand.models.length, 0);
 
+const editorialPages = [
+  {
+    path: "research-guide.html",
+    id: "research-guide",
+    title: "How to Research Car Brochure PDFs | Car Brochure Archive",
+    navTitle: "Research Guide",
+    description: "A practical guide to using car brochure PDFs for vehicle research, trim comparison, equipment checks, and historical model-year study.",
+    keywords: ["how to research car brochures", "car brochure PDF guide", "vehicle brochure research", "car catalog research"],
+    bodyHtml: `<p class="eyebrow">Research Guide</p>
+        <h1 id="research-guide-title">How to research car brochure PDFs</h1>
+        <p>Car brochures are period documents. They show how a manufacturer described a vehicle when it was new, including the trim ladder, standard equipment, optional packages, color names, wheel designs, interior materials, warranty language, dimensions, towing notes, and sometimes even the marketing claims that shaped how the model was positioned.</p>
+        <p>The most useful way to read a brochure is to treat it as one piece of evidence. A PDF title, model year, market, print date, and file name can all matter. A brochure for one country may not match another country, and a late print brochure may include changes that were not present in an early launch PDF.</p>
+        <h2>Start with the exact model year</h2>
+        <p>Begin with the brochure that matches the vehicle year you are researching. If you are checking a 2020 compact SUV, open the 2020 PDF first, then compare the 2019 and 2021 brochures to understand what changed. Adjacent years often reveal whether a feature was newly added, discontinued, renamed, or moved between trims.</p>
+        <h2>Compare standard equipment and options</h2>
+        <p>Brochure tables often separate standard equipment from optional packages. This is important for used-car research because listings frequently describe features without showing whether they were standard, optional, or part of a regional package. Look for repeated words such as standard, available, optional, package, group, edition, and dealer-installed.</p>
+        <h2>Check visual details carefully</h2>
+        <p>Images in brochures can help identify wheels, upholstery patterns, exterior trim, lighting signatures, dashboard layouts, infotainment screens, cargo arrangements, and special edition appearance packages. They are especially helpful when a later listing uses generic photos or incomplete feature descriptions.</p>
+        <h2>Use brochures for historical context</h2>
+        <p>Older brochures are valuable for restoration, auction descriptions, collector research, and model history. They can show paint codes, original accessory names, model positioning, and the way a manufacturer explained a new technology at launch. For current purchase decisions, always verify final specifications with the manufacturer or an authorized dealer because brochure information may be historical or market-specific.</p>`
+  },
+  {
+    path: "model-year-guide.html",
+    id: "model-year-guide",
+    title: "Model-Year Brochure Comparison Guide | Car Brochure Archive",
+    navTitle: "Model-Year Guide",
+    description: "Learn how to compare model-year changes in car brochures, including trims, powertrains, dimensions, safety features, and packages.",
+    keywords: ["model year comparison", "compare car brochures by year", "vehicle model year changes", "brochure comparison guide"],
+    bodyHtml: `<p class="eyebrow">Model-Year Guide</p>
+        <h1 id="model-year-guide-title">How to compare model-year brochure changes</h1>
+        <p>Model-year brochures are useful because they preserve a snapshot of how a vehicle was sold at a specific time. When you compare brochures across years, you can often see small changes that are missing from short online summaries: a new engine tune, a renamed trim, a revised screen, an added driver-assistance system, a new paint color, or a package that moved from optional to standard.</p>
+        <h2>Build a three-year comparison</h2>
+        <p>For most research, open the target year plus the year before and the year after. This three-year view helps separate true changes from wording differences. If a feature appears in the previous year and the target year, it was probably carried over. If it appears only after the target year, it may not apply to the vehicle you are checking.</p>
+        <h2>Read the trim table before the highlights</h2>
+        <p>Brochure highlights are promotional. Trim tables and specification pages are usually more useful for research. Compare powertrain lines, wheel sizes, tire information, safety features, seating material, audio systems, exterior lighting, cargo measurements, towing ratings, and warranty notes. If a brochure has both a feature list and a specification table, use both before drawing a conclusion.</p>
+        <h2>Watch for market and print-date differences</h2>
+        <p>A model sold in North America, Europe, Japan, or Australia may use different engines, model names, trims, packages, and safety equipment. Some brochures also have version numbers or publication dates. When two PDFs disagree, the more specific market and print date usually matter more than a broad model name.</p>
+        <h2>Record the source clearly</h2>
+        <p>If you use a brochure for a listing, article, restoration file, or collector note, record the brand, model, brochure year, title, and PDF file name. That habit makes your research easier to verify later and avoids mixing details from different years or markets.</p>`
+  },
+  {
+    path: "brochure-glossary.html",
+    id: "brochure-glossary",
+    title: "Car Brochure Terms and Specification Glossary | Car Brochure Archive",
+    navTitle: "Brochure Glossary",
+    description: "A plain-English glossary for common car brochure terms, specifications, trim labels, option packages, and research notes.",
+    keywords: ["car brochure glossary", "vehicle specifications glossary", "trim package meaning", "automotive brochure terms"],
+    bodyHtml: `<p class="eyebrow">Glossary</p>
+        <h1 id="brochure-glossary-title">Car brochure terms and specification glossary</h1>
+        <p>Brochures use a mix of marketing language and technical specification terms. This glossary explains common wording so readers can interpret old PDF catalogs more accurately and compare vehicles without relying only on promotional copy.</p>
+        <h2>Trim level</h2>
+        <p>A trim level is a version of a model with a defined equipment set. Entry trims usually emphasize price and essential equipment, while higher trims may add larger wheels, upgraded audio, driver-assistance features, leather or synthetic upholstery, more powerful engines, or appearance packages.</p>
+        <h2>Standard, available, and optional</h2>
+        <p>Standard means a feature is included on the referenced trim. Available often means it can be ordered, but it may require a package or higher trim. Optional usually means extra-cost equipment. Always check the footnotes because manufacturers sometimes restrict options by engine, drivetrain, market, or production date.</p>
+        <h2>Package or group</h2>
+        <p>A package combines multiple options under one name. Packages can change year to year even when the name stays similar. When researching a used vehicle, compare the package contents in the brochure with photos, window stickers, or build sheets when available.</p>
+        <h2>Wheelbase, length, cargo volume, and towing</h2>
+        <p>Dimension and capacity figures are useful for comparison, but they may be measured differently between markets or body styles. Cargo volume can vary with seat position, roofline, spare tire layout, and measurement standard. Towing ratings can depend on engine, drivetrain, cooling package, hitch equipment, and local regulations.</p>
+        <h2>Concept, preview, and launch brochures</h2>
+        <p>Some brochures are early launch pieces rather than final catalog documents. They may show design intent, concept images, or limited specifications. Treat them as context, then look for a later full brochure or specification sheet before relying on exact equipment claims.</p>`
+  }
+];
+
 const brochureLibrary = {};
 
 async function loadBrochureLibrary() {
@@ -264,6 +327,7 @@ function header(prefix = "") {
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
         <a href="${homeHref}#brands">Brands</a>
+        <a href="${prefix}research-guide.html">Guides</a>
         <a href="${prefix}about.html">About</a>
       </nav>
     </header>`;
@@ -275,6 +339,9 @@ function footer(prefix = "") {
       <p>Car Brochure Archive. Updated ${now}.</p>
       <nav class="footer-links" aria-label="Footer navigation">
         <a href="${homeHref}">Home</a>
+        <a href="${prefix}research-guide.html">Research Guide</a>
+        <a href="${prefix}model-year-guide.html">Model-Year Guide</a>
+        <a href="${prefix}brochure-glossary.html">Glossary</a>
         <a href="${prefix}about.html">About</a>
         <a href="${prefix}contact.html">Contact</a>
         <a href="${prefix}privacy.html">Privacy</a>
@@ -373,9 +440,9 @@ function brandKeywords(brand) {
 function brandDescription(brand, count) {
   const models = topModels(brand, 5);
   if (count) {
-    return `Preview and download ${count} ${brand.name} PDF brochures by model and year, including ${models}. Find sales brochures, catalogs, specifications, and model guides in one searchable archive.`;
+    return `Research ${count} ${brand.name} brochure PDF records by model and year, including ${models}. Compare sales catalogs, specification sheets, trim guides, and model-year brochure details in one organized archive.`;
   }
-  return `Browse ${brand.name} brochure references by model, including ${models}. Local PDF records are organized for fast brochure and catalog searches.`;
+  return `Browse ${brand.name} brochure references by model, including ${models}. PDF records are organized for vehicle research, brochure comparison, and catalog searches.`;
 }
 
 function modelKeywords(brand, model, years) {
@@ -401,7 +468,7 @@ function modelKeywords(brand, model, years) {
 function modelDescription(brand, model, entries) {
   const years = [...new Set(entries.map(brochureYear).filter((year) => year !== "Other"))].sort((a, b) => b.localeCompare(a));
   const range = years.length > 1 ? `${years.at(-1)}-${years[0]}` : years[0] || "available years";
-  return `Preview and download ${entries.length} ${model} PDF brochure${entries.length === 1 ? "" : "s"} from ${range}. Browse ${brand.name} sales catalogs, specifications, and model guides by year.`;
+  return `Research ${entries.length} ${model} PDF brochure${entries.length === 1 ? "" : "s"} from ${range}. Compare ${brand.name} sales catalogs, specifications, trim information, and model-year guide details.`;
 }
 
 function brandIntro(brand, count) {
@@ -461,6 +528,20 @@ function modelEditorialGuide(brand, model, entries, years) {
     `${brand.name} brochure copy can vary by market and print date. If two PDFs appear to describe similar vehicles, compare the cover year, title wording, file size, and equipment tables before treating a specification as final. Brochure language is especially helpful for distinguishing standard features from optional bundles.`,
     `The available ${model} records on this page cover ${sortedYears}. For restoration, resale research, auction notes, or ownership history, save the PDF that matches the vehicle year and quote the brochure title rather than relying on a generic model description.`
   ];
+}
+
+function guideCards(prefix = "") {
+  return editorialPages
+    .map((page) => `<article>
+            <span>${esc(page.navTitle)}</span>
+            <h3><a href="${prefix}${page.path}">${esc(page.title.replace(" | Car Brochure Archive", ""))}</a></h3>
+            <p>${esc(page.description)}</p>
+          </article>`)
+    .join("\n");
+}
+
+function guideCrossLinks(prefix = "") {
+  return `<p class="guide-crosslinks">Need a research method? Read the <a href="${prefix}research-guide.html">car brochure research guide</a>, compare years with the <a href="${prefix}model-year-guide.html">model-year guide</a>, or check terms in the <a href="${prefix}brochure-glossary.html">brochure glossary</a>.</p>`;
 }
 
 function brandFaqSchema(brand, count) {
@@ -619,7 +700,7 @@ async function buildHome() {
       "@context": "https://schema.org",
       "@type": "WebSite",
       name: "Car Brochure Archive",
-      description: "Browse local car brochure PDFs by brand and model.",
+      description: "Research car brochure PDFs by brand, model, trim, specification, and model year.",
       inLanguage: "en",
       potentialAction: {
         "@type": "SearchAction",
@@ -646,7 +727,7 @@ async function buildHome() {
       <section class="directory-hero" aria-labelledby="page-title">
         <div>
           <h1 id="page-title">Car Brochure Archive</h1>
-          <p class="hero-copy">Find downloadable car brochure PDFs, sales catalogs, model guides, and specification sheets across ${brands.length} manufacturers and ${totalModels} model families.</p>
+          <p class="hero-copy">Research car brochure PDFs, sales catalogs, model guides, and specification sheets across ${brands.length} manufacturers and ${totalModels} model families. Use the archive to compare trim details, model-year changes, equipment lists, and historical catalog language.</p>
           <form class="search-box" role="search" aria-label="Search brands">
             <label for="site-search">Search brands</label>
             <input id="site-search" type="search" placeholder="BMW / Toyota / Audi" autocomplete="off" />
@@ -674,6 +755,12 @@ async function buildHome() {
           </article>
         </div>
       </section>
+      <section class="directory-section editorial-guide guide-index" aria-labelledby="research-guides">
+        <h2 id="research-guides">Brochure research guides</h2>
+        <div class="seo-note-grid">
+          ${guideCards("")}
+        </div>
+      </section>
     </main>
     ${footer("")}
     <script src="app.js" defer></script>`;
@@ -681,8 +768,8 @@ async function buildHome() {
   await write(
     "index.html",
     pageShell({
-      title: "Car Brochure PDF Archive | Brand Catalog Downloads",
-      description: `Browse local car brochure PDFs by brand and model across ${brands.length} brands. Preview and download sales brochures, catalogs, and model guides.`,
+      title: "Car Brochure Archive | Vehicle Brochure Research Index",
+      description: `Research car brochure PDFs by brand and model across ${brands.length} brands. Compare sales catalogs, specification sheets, trim guides, and model-year brochure records.`,
       canonical: `${siteUrl}/`,
       cssPath: "styles.css",
       body,
@@ -794,6 +881,7 @@ function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keyw
 
 async function buildPolicyPages() {
   const pages = [
+    ...editorialPages,
     {
       path: "about.html",
       id: "about",
@@ -963,6 +1051,10 @@ async function buildBrandPages() {
         <section class="directory-section tight">
           ${documentList}
         </section>
+        <section class="directory-section guide-links" aria-labelledby="${slug(brand.name)}-guide-links">
+          <h2 id="${slug(brand.name)}-guide-links">Use ${esc(brand.name)} brochures as research sources</h2>
+          ${guideCrossLinks("../../")}
+        </section>
         <section class="directory-section editorial-guide" aria-labelledby="${slug(brand.name)}-research-guide">
           <h2 id="${slug(brand.name)}-research-guide">How to research ${esc(brand.name)} brochures</h2>
           <div class="seo-note-grid">
@@ -1114,6 +1206,10 @@ async function buildModelPages(library) {
               <div class="brochure-list">${rows}</div>
             </section>
           </section>
+          <section class="directory-section guide-links" aria-labelledby="${slug(model)}-guide-links">
+            <h2 id="${slug(model)}-guide-links">Use ${esc(model)} brochures as research sources</h2>
+            ${guideCrossLinks("../../../")}
+          </section>
           <section class="directory-section editorial-guide" aria-labelledby="${slug(model)}-research-guide">
             <h2 id="${slug(model)}-research-guide">${esc(model)} brochure research guide</h2>
             <div class="seo-note-grid">
@@ -1177,7 +1273,8 @@ async function buildModelPages(library) {
           cssPath: "../../../styles.css",
           body,
           schema,
-          keywords: modelKeywords(brand, model, years)
+          keywords: modelKeywords(brand, model, years),
+          robots: entries.length > 1 ? "index,follow,max-image-preview:large" : "noindex,follow"
         })
       );
       modelPageCount += 1;
@@ -1189,8 +1286,15 @@ async function buildModelPages(library) {
 function modelUrls(library) {
   return brands.flatMap((brand) => {
     const documents = library[slug(brand.name)] || [];
-    return [...new Set(documents.map((entry) => brochureModel(entry, brand)))]
-      .filter((model) => isSpecificModel(model, brand))
+    const counts = documents.reduce((map, entry) => {
+      const model = brochureModel(entry, brand);
+      if (!isSpecificModel(model, brand)) return map;
+      map.set(model, (map.get(model) || 0) + 1);
+      return map;
+    }, new Map());
+    return [...counts.entries()]
+      .filter(([, count]) => count > 1)
+      .map(([model]) => model)
       .map((model) => modelUrl(brand, model));
   });
 }
@@ -1198,6 +1302,7 @@ function modelUrls(library) {
 async function buildSitemap(library) {
   const urls = [
     { url: "", priority: "1.0", changefreq: "weekly" },
+    ...editorialPages.map((page) => ({ url: page.path, priority: "0.7", changefreq: "monthly" })),
     { url: "about.html", priority: "0.6", changefreq: "monthly" },
     { url: "contact.html", priority: "0.5", changefreq: "monthly" },
     { url: "privacy.html", priority: "0.4", changefreq: "yearly" },
