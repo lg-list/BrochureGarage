@@ -165,6 +165,189 @@ const editorialPages = [
   }
 ];
 
+function brandHistoryImage(brand) {
+  const images = {
+    Heritage: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=85",
+    Europe: "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1800&q=85",
+    US: "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=1800&q=85",
+    Global: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1800&q=85"
+  };
+  const pool = images[brand.region] || images.Global;
+  return pool;
+}
+
+function buildBrandHistoryArticle(brand) {
+  const models = brand.models.slice(0, 6);
+  const modelLead = models.length ? models.join(", ") : "its current model lineup";
+  const articleSlug = slug(brand.name);
+
+  if (articleSlug === "acura") {
+    return {
+      brand: "Acura",
+      slug: "acura",
+      title: "Acura: The History of Honda's Luxury Brand",
+      headline: "Acura Brand History: From Honda's Luxury Experiment to a Global Automotive Brand",
+      description: "Explore the history of Acura, Honda's luxury automotive brand, from its launch in North America in 1986 to the Legend, Integra, NSX, MDX and its later development in international markets.",
+      summary: "Acura began as Honda's premium-market experiment in North America and grew around the Legend, Integra, NSX, MDX, and a dedicated dealer network.",
+      region: "North America",
+      published: "2026-08-18",
+      heroImage: "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1800&q=85",
+      imageAlt: "Acura luxury automobile",
+      timeline: [
+        ["1986", "Acura launches in the United States with the Legend and Integra."],
+        ["1989", "The Acura NSX is introduced, strengthening the brand's performance image."],
+        ["2000", "Acura introduces the MDX and expands into the luxury SUV market."],
+        ["2006", "Acura enters the Chinese market through Guangqi Honda."],
+        ["2022", "Guangqi Honda announces the end of Acura production and sales in China."]
+      ],
+      sections: [
+        {
+          id: "birth",
+          title: "The Birth of Acura",
+          paragraphs: [
+            "During the 1970s and early 1980s, the North American automotive market experienced significant changes. Consumers became more interested in fuel economy, reliability and operating costs. Honda's compact and midsize cars benefited from this change and established a strong reputation in the United States.",
+            "As economic conditions improved, however, some Honda customers began looking for more sophisticated automobiles. European luxury manufacturers already had a strong presence in this market, and Honda needed a different strategy if it wanted to compete at the premium end of the market.",
+            "Rather than simply adding more expensive models to the Honda lineup, the company decided to establish a separate luxury brand."
+          ]
+        },
+        {
+          id: "launch",
+          title: "1986: Acura Enters the U.S. Market",
+          paragraphs: [
+            "Acura officially launched in the United States in 1986. The original lineup included the Acura Legend and Acura Integra, giving the new brand two different approaches to the premium automobile market.",
+            "The Legend was positioned as a larger luxury model, while the Integra offered a smaller and more accessible alternative. Together, the two vehicles helped establish Acura as a new Japanese premium brand in North America.",
+            "An important part of Honda's strategy was the creation of a dedicated Acura dealer network. The separate retail environment helped Acura develop an identity that was distinct from Honda."
+          ]
+        },
+        {
+          id: "nsx",
+          title: "The NSX Era",
+          paragraphs: [
+            "In 1989, Acura introduced one of the most important cars in its history: the NSX.",
+            "The NSX demonstrated that Honda's engineering philosophy could be applied to a high-performance sports car. Its mid-mounted engine, lightweight construction and precise handling helped it attract attention far beyond the traditional Japanese automobile market.",
+            "For Acura, the NSX represented more than another model. It became a technological statement and helped establish the brand's performance-oriented image."
+          ]
+        },
+        {
+          id: "models",
+          title: "Acura's Model Expansion",
+          paragraphs: [
+            "During the 1990s and 2000s, Acura continued to develop its product range. Models such as the Integra, Legend, Vigor, TL, RL and TSX allowed the brand to reach different segments of the premium market.",
+            "The Integra became particularly popular with younger buyers and enthusiasts because it combined practicality with a more performance-oriented character."
+          ]
+        },
+        {
+          id: "mdx",
+          title: "2000: The MDX Changes the Lineup",
+          paragraphs: [
+            "The introduction of the Acura MDX in 2000 marked another important stage in the company's history.",
+            "Luxury SUVs were becoming increasingly popular, and the MDX gave Acura an opportunity to compete in a market that was growing rapidly.",
+            "The success of the MDX helped establish SUVs as an important part of Acura's product strategy. Later models such as the RDX and ZDX expanded the company's SUV offering."
+          ],
+          image: {
+            src: "https://images.unsplash.com/photo-1551830820-330a71b99659?auto=format&fit=crop&w=1400&q=80",
+            alt: "Luxury SUV",
+            caption: "SUVs became an increasingly important part of Acura's product strategy during the 2000s."
+          }
+        },
+        {
+          id: "china",
+          title: "Acura in China",
+          paragraphs: [
+            "Acura entered the Chinese market in 2006 through its partnership with Guangqi Honda. Models including the MDX, RDX, CDX and TLX-L were introduced to Chinese customers at different stages.",
+            "The Chinese premium-car market was already highly competitive. Established luxury brands had strong consumer recognition, while Acura faced challenges related to brand awareness, dealer coverage, product selection and pricing.",
+            "In April 2022, Guangqi Honda announced that it would stop production and sales of existing Acura products in China from 2023. This marked the end of Acura's relatively short period as a mainstream premium brand in the Chinese market."
+          ]
+        },
+        {
+          id: "archive",
+          title: "Acura Through the Brochure Archive",
+          paragraphs: [
+            "Automotive brochures provide an interesting way to study the development of Acura. A brochure from a specific model year can preserve information about the vehicle's specifications, equipment, available packages, colors and design that may become difficult to find after the model is discontinued.",
+            "Comparing brochures from different generations also reveals how Acura changed its products and marketing strategy over time."
+          ]
+        },
+        {
+          id: "preserve",
+          title: "Why Preserve Acura Brochures?",
+          paragraphs: [
+            "Original vehicle brochures are useful historical documents. They can help enthusiasts and researchers understand what a manufacturer offered during a particular model year.",
+            "Depending on the document, a brochure may contain information about engines, trim levels, safety equipment, dimensions, available options, interior materials, exterior colors and other factory equipment.",
+            "For discontinued models, these documents can be especially useful because manufacturers frequently replace older online information when new generations are introduced."
+          ]
+        },
+        {
+          id: "legacy",
+          title: "Acura's Automotive Legacy",
+          paragraphs: [
+            "Acura's history reflects Honda's attempt to build a premium automotive identity around engineering, technology and performance.",
+            "The Legend helped establish the brand in the luxury market. The Integra developed a strong connection with younger enthusiasts, while the NSX demonstrated Honda's ambitions in high-performance automobiles. The MDX then helped Acura adapt to the rapidly growing luxury SUV segment.",
+            "Looking through brochures from different periods provides another way to understand this evolution. These documents preserve not only vehicle specifications, but also the way Acura presented its products to customers at different points in its history."
+          ]
+        }
+      ],
+      relatedModels: ["Acura NSX", "Acura Integra", "Acura MDX"]
+    };
+  }
+
+  const intro = `${brand.name} appears in this archive as a ${brand.region.toLowerCase()} brand with brochure records arranged around ${modelLead}.`;
+  return {
+    brand: brand.name,
+    slug: articleSlug,
+    title: `${brand.name}: Brand History`,
+    headline: `${brand.name} Brand History`,
+    description: `A concise brand history page for ${brand.name}, linked to brochure archive records and model-year PDF pages.`,
+    summary: `${brand.name} brochure pages in this archive focus on ${modelLead}. The history page provides a simple reference layer so readers can understand the brand before opening model brochures.`,
+    region: brand.region,
+    published: now,
+    heroImage: brandHistoryImage(brand),
+    imageAlt: `${brand.name} vehicle`,
+    timeline: [
+      ["Archive", `${brand.name} brochure records are grouped here by model family and year.`],
+      ["Models", `The archive includes brochure pages for ${modelLead}.`],
+      ["Research", `Use the PDFs to compare trims, equipment, dimensions, colors, and model-year changes.`]
+    ],
+    sections: [
+      {
+        id: "overview",
+        title: `${brand.name} Overview`,
+        paragraphs: [
+          intro,
+          `In practice, this means the archive keeps ${brand.name} brochure titles, years, and PDF records visible so a reader can move from the brand level to the model level without hunting across unrelated pages.`,
+          `The official brand site is still the best source for current sales information, but the brochure archive is better for understanding how ${brand.name} presented its products in different periods.`
+        ]
+      },
+      {
+        id: "models",
+        title: `${brand.name} Models in the Archive`,
+        paragraphs: [
+          `Some of the main model families indexed here include ${modelLead}. Those pages are where the archive becomes most useful because each model page concentrates the brochure records, file sizes, and years in one place.`,
+          `When a brand has heritage or discontinued models, the archive can also surface older naming conventions and market-specific brochures that are harder to find on modern manufacturer sites.`
+        ]
+      },
+      {
+        id: "brochures",
+        title: `Why ${brand.name} Brochures Matter`,
+        paragraphs: [
+          `Brochures are more than download files. They preserve trim names, option packages, color naming, equipment descriptions, dimensions, and the marketing language that shaped the vehicle when it was new.`,
+          `For researchers, that makes them useful for restoration notes, listing verification, collector references, and simple year-to-year comparisons.`
+        ]
+      },
+      {
+        id: "archive",
+        title: `Using the Archive`,
+        paragraphs: [
+          `Start at the brand page, move into a model page, and then compare adjacent years when you want the clearest picture of change. The archive is designed to keep that path short and readable.`,
+          `If you are looking at a used vehicle or a classic model, this page gives you the context you need before you open the brochure PDFs themselves.`
+        ]
+      }
+    ],
+    relatedModels: models.slice(0, 3).map((model) => `${brand.name} ${model}`)
+  };
+}
+
+const brandHistoryArticles = brands.map(buildBrandHistoryArticle);
+
 const brochureLibrary = {};
 
 async function loadBrochureLibrary() {
@@ -327,6 +510,7 @@ function header(prefix = "") {
       </a>
       <nav class="top-nav" aria-label="Primary navigation">
         <a href="${homeHref}#brands">Brands</a>
+        <a href="${prefix}history/">History</a>
         <a href="${prefix}research-guide.html">Guides</a>
         <a href="${prefix}about.html">About</a>
       </nav>
@@ -339,6 +523,7 @@ function footer(prefix = "") {
       <p>Car Brochure Archive. Updated ${now}.</p>
       <nav class="footer-links" aria-label="Footer navigation">
         <a href="${homeHref}">Home</a>
+        <a href="${prefix}history/">Brand History</a>
         <a href="${prefix}research-guide.html">Research Guide</a>
         <a href="${prefix}model-year-guide.html">Model-Year Guide</a>
         <a href="${prefix}brochure-glossary.html">Glossary</a>
@@ -348,6 +533,18 @@ function footer(prefix = "") {
         <a href="${prefix}terms.html">Terms</a>
       </nav>
     </footer>`;
+}
+
+function historyUrl(article) {
+  return `history/${article.slug}/`;
+}
+
+function historyPagePath(article) {
+  return `history/${article.slug}/index.html`;
+}
+
+function brandHistoryFor(brand) {
+  return brandHistoryArticles.find((article) => slug(article.brand) === slug(brand.name));
 }
 
 function brandPagePath(brand) {
@@ -542,6 +739,19 @@ function guideCards(prefix = "") {
 
 function guideCrossLinks(prefix = "") {
   return `<p class="guide-crosslinks">Need a research method? Read the <a href="${prefix}research-guide.html">car brochure research guide</a>, compare years with the <a href="${prefix}model-year-guide.html">model-year guide</a>, or check terms in the <a href="${prefix}brochure-glossary.html">brochure glossary</a>.</p>`;
+}
+
+function historyCards(prefix = "") {
+  return brandHistoryArticles
+    .map((article) => `<article class="history-card">
+          <a href="${prefix}${historyUrl(article)}">
+            <img src="${esc(article.heroImage)}" alt="${esc(article.imageAlt)}" loading="lazy" />
+            <span>${esc(article.region)}</span>
+            <h3>${esc(article.title)}</h3>
+            <p>${esc(article.summary)}</p>
+          </a>
+        </article>`)
+    .join("\n");
 }
 
 function brandFaqSchema(brand, count) {
@@ -761,6 +971,15 @@ async function buildHome() {
           ${guideCards("")}
         </div>
       </section>
+      <section class="directory-section history-index" aria-labelledby="brand-history">
+        <div class="section-heading">
+          <h2 id="brand-history">Brand history</h2>
+          <a href="history/">View history archive</a>
+        </div>
+        <div class="history-card-grid">
+          ${historyCards("")}
+        </div>
+      </section>
     </main>
     ${footer("")}
     <script src="app.js" defer></script>`;
@@ -843,6 +1062,231 @@ async function buildNotFoundPage() {
       ads: false
     })
   );
+}
+
+async function buildHistoryIndexPage() {
+  const schema = [
+    jsonLd({
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Brand History Archive",
+      description: "Read automotive brand history articles connected to original car brochure PDF records.",
+      url: `${siteUrl}/history/`,
+      inLanguage: "en",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "Car Brochure Archive",
+        url: `${siteUrl}/`
+      },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: brandHistoryArticles.length,
+        itemListElement: brandHistoryArticles.map((article, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: article.title,
+          url: `${siteUrl}/${historyUrl(article)}`
+        }))
+      }
+    })
+  ].join("\n");
+
+  const body = `${header("../")}
+    <main>
+      <section class="brand-page-head">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="../">Home</a>
+          <span>/</span>
+          <span>Brand History</span>
+        </nav>
+        <h1>Brand History</h1>
+        <p>Read concise automotive brand history articles linked to the brochure archive. These pages add historical context around manufacturers, model launches, market changes, and the brochures that preserve those details.</p>
+      </section>
+      <section class="directory-section history-index">
+        <div class="history-card-grid">
+          ${historyCards("../")}
+        </div>
+      </section>
+    </main>
+    ${footer("../")}`;
+
+  await write(
+    "history/index.html",
+    pageShell({
+      title: "Brand History Archive | Car Brochure Archive",
+      description: "Read automotive brand history articles and connect manufacturer history with original car brochure PDF records.",
+      canonical: `${siteUrl}/history/`,
+      cssPath: "../styles.css",
+      body,
+      schema,
+      keywords: ["brand history archive", "automotive brand history", "car manufacturer history", "car brochure history"]
+    })
+  );
+}
+
+function historyBreadcrumbSchema(article) {
+  return jsonLd({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `${siteUrl}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Brand History",
+        item: `${siteUrl}/history/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.brand,
+        item: `${siteUrl}/${historyUrl(article)}`
+      }
+    ]
+  });
+}
+
+async function buildBrandHistoryPages() {
+  for (const article of brandHistoryArticles) {
+    const brand = brands.find((item) => slug(item.name) === slug(article.brand));
+    if (!brand) continue;
+    const sectionLinks = article.sections
+      .map((section) => `<a href="#${esc(section.id)}">${esc(section.title)}</a>`)
+      .join("\n");
+    const relatedLinks = article.relatedModels
+      .map((model) => `<a class="related-card" href="../../${modelUrl(brand, model)}">
+            <h3>${esc(model)}</h3>
+            <p>Explore brochure records and model-year details connected to ${esc(article.brand)} history.</p>
+          </a>`)
+      .join("\n");
+    const sectionHtml = article.sections
+      .map((section) => `<section id="${esc(section.id)}" class="history-section">
+            <h2>${esc(section.title)}</h2>
+            ${section.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n")}
+            ${section.image
+              ? `<figure class="article-image">
+                <img src="${esc(section.image.src)}" alt="${esc(section.image.alt)}" loading="lazy" />
+                <figcaption>${esc(section.image.caption)}</figcaption>
+              </figure>`
+              : ""}
+          </section>`)
+      .join("\n");
+    const timelineHtml = article.timeline
+      .map(([year, text]) => `<div class="timeline-item">
+              <span class="timeline-year">${esc(year)}</span>
+              <p>${esc(text)}</p>
+            </div>`)
+      .join("\n");
+    const body = `${header("../../")}
+      <main>
+        <section class="history-hero" style="--history-image: url('${esc(article.heroImage)}')" aria-labelledby="page-title">
+          <div class="history-hero-content">
+            <nav class="breadcrumb light" aria-label="Breadcrumb">
+              <a href="../../">Home</a>
+              <span>/</span>
+              <a href="../../history/">Brand History</a>
+              <span>/</span>
+              <span>${esc(article.brand)}</span>
+            </nav>
+            <p class="eyebrow">Brand History</p>
+            <h1 id="page-title">${esc(article.title)}</h1>
+            <p>${esc(article.summary)}</p>
+            <div class="hero-meta">Automotive History / ${esc(article.brand)} / ${esc(article.region)}</div>
+          </div>
+        </section>
+        <div class="history-layout">
+          <article class="history-article">
+            <p class="article-intro">${esc(article.summary)} Its brochure records make that development easier to study because they preserve model-year language, specifications, equipment details, and the way the brand presented itself to buyers.</p>
+            <figure class="article-image">
+              <img src="${esc(article.heroImage)}" alt="${esc(article.imageAlt)}" loading="lazy" />
+              <figcaption>${esc(article.brand)} developed a distinct identity around engineering, technology and performance.</figcaption>
+            </figure>
+            ${sectionHtml}
+            <section class="history-section" aria-labelledby="${esc(article.slug)}-timeline">
+              <h2 id="${esc(article.slug)}-timeline">${esc(article.brand)} timeline</h2>
+              <div class="timeline">${timelineHtml}</div>
+            </section>
+            <section class="brochure-box">
+              <h2>Explore ${esc(article.brand)} brochures</h2>
+              <p>Browse ${esc(article.brand)} brochures by model and model year to study original automotive sales literature, historical vehicle specifications, and factory equipment information.</p>
+              <a class="primary-link" href="../../${brandUrl(brand)}">View ${esc(article.brand)} brochure archive</a>
+            </section>
+            <section class="related">
+              <h2>Related ${esc(article.brand)} resources</h2>
+              <div class="related-grid">
+                <a class="related-card" href="../../${brandUrl(brand)}">
+                  <h3>${esc(article.brand)} brochure archive</h3>
+                  <p>Browse ${esc(article.brand)} brochures by model and year.</p>
+                </a>
+                ${relatedLinks}
+              </div>
+            </section>
+          </article>
+          <aside class="history-sidebar">
+            <section class="sidebar-box">
+              <h2>${esc(article.brand)} history</h2>
+              ${sectionLinks}
+            </section>
+            <section class="sidebar-box">
+              <h2>Browse brands</h2>
+              ${["Acura", "Audi", "BMW", "Honda", "Lexus", "Toyota"]
+                .map((name) => {
+                  const linkedBrand = brands.find((item) => item.name === name);
+                  return linkedBrand ? `<a href="../../${brandUrl(linkedBrand)}">${esc(name)}</a>` : "";
+                })
+                .join("\n")}
+            </section>
+            <section class="sidebar-box">
+              <h2>Archive note</h2>
+              <p>Use brochure PDFs as historical sources. Details can vary by market, model year, print date, and trim package.</p>
+            </section>
+          </aside>
+        </div>
+      </main>
+      ${footer("../../")}`;
+    const schema = [
+      jsonLd({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: article.title,
+        description: article.description,
+        image: [article.heroImage],
+        author: {
+          "@type": "Organization",
+          name: "Car Brochure Archive"
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Car Brochure Archive"
+        },
+        datePublished: article.published,
+        dateModified: now,
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": `${siteUrl}/${historyUrl(article)}`
+        }
+      }),
+      historyBreadcrumbSchema(article)
+    ].join("\n");
+
+    await write(
+      historyPagePath(article),
+      pageShell({
+        title: `${article.headline} | Car Brochure Archive`,
+        description: article.description,
+        canonical: `${siteUrl}/${historyUrl(article)}`,
+        cssPath: "../../styles.css",
+        body,
+        schema,
+        keywords: [`${article.brand} history`, `${article.brand} brand history`, `${article.brand} brochure archive`, `${article.brand} automotive history`]
+      })
+    );
+  }
 }
 
 function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keywords = [] }) {
@@ -993,6 +1437,10 @@ async function buildBrandPages() {
   const library = await loadBrochureLibrary();
   for (const brand of brands) {
     const documents = library[slug(brand.name)] || [];
+    const historyArticle = brandHistoryFor(brand);
+    const historyLink = historyArticle
+      ? `\n          <p class="brand-history-link"><a href="../../${historyUrl(historyArticle)}">${esc(brand.name)} brand history</a></p>`
+      : "";
     const groupedDocuments = documents.reduce((groups, entry) => {
       const model = brochureModel(entry, brand);
       const year = brochureYear(entry);
@@ -1036,7 +1484,7 @@ async function buildBrandPages() {
             <span>${esc(brand.name)}</span>
           </nav>
           <h1>${esc(brand.name)} PDF Brochures</h1>
-          <p>${esc(brandIntro(brand, documents.length))}</p>
+          <p>${esc(brandIntro(brand, documents.length))}</p>${historyLink}
           <dl class="brand-stats" aria-label="${esc(brand.name)} brochure index summary">
             <div>
               <dt>PDF records</dt>
@@ -1274,7 +1722,7 @@ async function buildModelPages(library) {
           body,
           schema,
           keywords: modelKeywords(brand, model, years),
-          robots: entries.length > 1 ? "index,follow,max-image-preview:large" : "noindex,follow"
+          robots: "index,follow,max-image-preview:large"
         })
       );
       modelPageCount += 1;
@@ -1293,7 +1741,7 @@ function modelUrls(library) {
       return map;
     }, new Map());
     return [...counts.entries()]
-      .filter(([, count]) => count > 1)
+      .filter(([, count]) => count > 0)
       .map(([model]) => model)
       .map((model) => modelUrl(brand, model));
   });
@@ -1302,6 +1750,8 @@ function modelUrls(library) {
 async function buildSitemap(library) {
   const urls = [
     { url: "", priority: "1.0", changefreq: "weekly" },
+    { url: "history/", priority: "0.8", changefreq: "monthly" },
+    ...brandHistoryArticles.map((article) => ({ url: historyUrl(article), priority: "0.8", changefreq: "monthly" })),
     ...editorialPages.map((page) => ({ url: page.path, priority: "0.7", changefreq: "monthly" })),
     { url: "about.html", priority: "0.6", changefreq: "monthly" },
     { url: "contact.html", priority: "0.5", changefreq: "monthly" },
@@ -1327,6 +1777,9 @@ ${urls
 async function buildRedirects() {
   const redirectLines = [
     "/index.html / 301",
+    "/acura-brand-history.html /history/acura/ 301",
+    "/history/index.html /history/ 301",
+    ...brandHistoryArticles.map((article) => `/${historyUrl(article)}index.html /${historyUrl(article)} 301`),
     ...brands.map((brand) => `/${brandUrl(brand)}index.html /${brandUrl(brand)} 301`)
   ];
   await write("_redirects", `${redirectLines.join("\n")}\n`);
@@ -1348,11 +1801,14 @@ async function buildAdsTxt() {
 async function main() {
   await rm(path.join(root, "brands"), { recursive: true, force: true });
   await rm(path.join(root, "models"), { recursive: true, force: true });
+  await rm(path.join(root, "history"), { recursive: true, force: true });
   await buildSiteAssets();
   await buildLogos();
   await buildPolicyPages();
   await buildHome();
   await buildNotFoundPage();
+  await buildHistoryIndexPage();
+  await buildBrandHistoryPages();
   await buildBrandPages();
   const library = await loadBrochureLibrary();
   const modelPageCount = await buildModelPages(library);

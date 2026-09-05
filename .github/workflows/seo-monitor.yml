@@ -1,0 +1,28 @@
+name: SEO monitor
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Generate site
+        run: node scripts/generate-site.mjs
+      - name: Audit local SEO signals
+        run: node scripts/seo-audit.mjs
+      - name: Check live sitemap
+        run: |
+          curl -fsSL https://carbrochurearchive.com/robots.txt | grep -F "Sitemap: https://carbrochurearchive.com/sitemap.xml"
+          curl -fsSL https://carbrochurearchive.com/sitemap.xml | grep -F "<loc>https://carbrochurearchive.com/</loc>"
