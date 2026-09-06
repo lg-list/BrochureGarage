@@ -512,6 +512,7 @@ function header(prefix = "") {
         <a href="${homeHref}#brands">Brands</a>
         <a href="${prefix}history/">History</a>
         <a href="${prefix}research-guide.html">Guides</a>
+        <a href="${prefix}archive-report.html">Archive Data</a>
         <a href="${prefix}about.html">About</a>
       </nav>
     </header>`;
@@ -527,6 +528,7 @@ function footer(prefix = "") {
         <a href="${prefix}research-guide.html">Research Guide</a>
         <a href="${prefix}model-year-guide.html">Model-Year Guide</a>
         <a href="${prefix}brochure-glossary.html">Glossary</a>
+        <a href="${prefix}archive-report.html">Archive Data</a>
         <a href="${prefix}about.html">About</a>
         <a href="${prefix}contact.html">Contact</a>
         <a href="${prefix}privacy.html">Privacy</a>
@@ -1350,8 +1352,52 @@ function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keyw
 }
 
 async function buildPolicyPages() {
+  const library = await loadBrochureLibrary();
+  const allDocuments = Object.values(library).flat();
+  const totalArchiveModels = brands.reduce((sum, brand) => {
+    const documents = library[slug(brand.name)] || [];
+    return sum + new Set(documents.map((entry) => brochureModel(entry, brand)).filter(Boolean)).size;
+  }, 0);
+  const totalSizeMb = allDocuments.reduce((sum, entry) => {
+    const match = String(entry.size || "").match(/[\d.]+/);
+    return sum + (match ? Number(match[0]) : 0);
+  }, 0);
+  const reportRows = brands.map((brand) => {
+    const documents = library[slug(brand.name)] || [];
+    const models = [...new Set(documents.map((entry) => brochureModel(entry, brand)).filter(Boolean))];
+    const years = [...new Set(documents.map(brochureYear).filter((year) => /^\d{4}$/.test(String(year))))]
+      .map(Number)
+      .sort((a, b) => a - b);
+    return `<tr><th scope="row"><a href="${brandUrl(brand)}">${esc(brand.name)}</a></th><td>${documents.length}</td><td>${models.length}</td><td>${years.length ? `${years[0]}-${years.at(-1)}` : "Not listed"}</td></tr>`;
+  }).join("\n");
   const pages = [
     ...editorialPages,
+    {
+      path: "archive-report.html",
+      id: "archive-report",
+      title: "Car Brochure Archive Data Report",
+      description: "A transparent snapshot of the Car Brochure Archive dataset, including PDF records, model families, year coverage, file-size totals, and editorial methods.",
+      keywords: ["car brochure archive data", "automotive brochure PDF statistics", "vehicle brochure dataset", "model year brochure coverage"],
+      bodyHtml: `<p class="eyebrow">Archive Data</p>
+        <h1 id="archive-report-title">Car Brochure Archive data report</h1>
+        <p>This page explains what is currently in the archive and how the directory is organized. It is a published snapshot of the site dataset, not a claim that every brochure ever printed by a manufacturer is included.</p>
+        <div class="report-stat-grid">
+          <div><strong>${brands.length}</strong><span>brands indexed</span></div>
+          <div><strong>${totalArchiveModels}</strong><span>model families listed</span></div>
+          <div><strong>${allDocuments.length}</strong><span>PDF records listed</span></div>
+          <div><strong>${totalSizeMb.toFixed(1)} MB</strong><span>listed file sizes</span></div>
+        </div>
+        <h2>How to read this report</h2>
+        <p>A PDF record represents one brochure entry in the archive metadata. A model family is a normalized group used to keep related titles together. The year range uses four-digit years found in brochure titles or source metadata; records without a clear year are not forced into a false date.</p>
+        <h2>Coverage by brand</h2>
+        <p>The table below lets readers compare the breadth of the current collection. Select a brand to view its brochure index, then select a model to see the available records by year.</p>
+        <div class="report-table-wrap"><table class="report-table"><caption>Current brochure archive coverage</caption><thead><tr><th scope="col">Brand</th><th scope="col">PDF records</th><th scope="col">Model families</th><th scope="col">Year range</th></tr></thead><tbody>${reportRows}</tbody></table></div>
+        <h2>Editorial and data method</h2>
+        <p>The site preserves the supplied brochure title, displayed file size, model grouping, and local or R2 PDF path. The generator creates a separate HTML page for each brand and model grouping, adds breadcrumb and collection metadata, and keeps the PDF list visible as the main user task.</p>
+        <p>Counts can change when a brochure is corrected, removed at a rights holder's request, or added to the collection. File-size totals are calculated from the displayed metadata and should be treated as approximate. For current vehicle specifications, use the official manufacturer source linked from each brand page.</p>
+        <h2>What this archive does not claim</h2>
+        <p>This is an independent reference archive. It does not claim manufacturer ownership, official completeness, current pricing, current safety ratings, or universal market coverage. Brochures can differ by country, trim, print date, and model year, so readers should compare the document title and context before relying on a detail.</p>`
+    },
     {
       path: "about.html",
       id: "about",
@@ -1779,6 +1825,7 @@ async function buildSitemap(library) {
     { url: "history/", priority: "0.8", changefreq: "monthly" },
     ...brandHistoryArticles.map((article) => ({ url: historyUrl(article), priority: "0.8", changefreq: "monthly" })),
     ...editorialPages.map((page) => ({ url: page.path, priority: "0.7", changefreq: "monthly" })),
+    { url: "archive-report.html", priority: "0.8", changefreq: "weekly" },
     { url: "about.html", priority: "0.6", changefreq: "monthly" },
     { url: "contact.html", priority: "0.5", changefreq: "monthly" },
     { url: "privacy.html", priority: "0.4", changefreq: "yearly" },

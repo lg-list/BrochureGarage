@@ -493,6 +493,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://carbrochurearchive.com/archive-report.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://carbrochurearchive.com/about.html</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
