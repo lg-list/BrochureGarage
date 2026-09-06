@@ -519,6 +519,20 @@ input:focus-visible {
   line-height: 1.7;
 }
 
+.source-note {
+  margin: 18px 0 26px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.source-note a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .history-section h2,
 .brochure-box h2,
 .related h2 {
@@ -530,6 +544,37 @@ input:focus-visible {
   color: var(--muted);
   font-size: 17px;
   line-height: 1.75;
+}
+
+.archive-facts .brand-stats {
+  margin: 18px 0 22px;
+}
+
+.archive-sample-list {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.archive-sample-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(24, 32, 31, 0.1);
+}
+
+.archive-sample-list a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.archive-sample-list span {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .article-image {

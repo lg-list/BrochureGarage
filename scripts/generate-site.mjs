@@ -1152,9 +1152,33 @@ function historyBreadcrumbSchema(article) {
 }
 
 async function buildBrandHistoryPages() {
+  const library = await loadBrochureLibrary();
   for (const article of brandHistoryArticles) {
     const brand = brands.find((item) => slug(item.name) === slug(article.brand));
     if (!brand) continue;
+    const documents = library[slug(brand.name)] || [];
+    const archiveModels = [...new Set(documents.map((entry) => brochureModel(entry, brand)).filter(Boolean))];
+    const archiveYears = [...new Set(documents.map((entry) => brochureYear(entry)).filter((year) => /^\d{4}$/.test(String(year))))]
+      .map(Number)
+      .sort((a, b) => a - b);
+    const sampleDocuments = documents.slice(0, 5);
+    const archiveFacts = documents.length
+      ? `<section class="history-section archive-facts" aria-labelledby="${esc(article.slug)}-archive-facts">
+            <h2 id="${esc(article.slug)}-archive-facts">${esc(article.brand)} archive snapshot</h2>
+            <dl class="brand-stats" aria-label="${esc(article.brand)} archive facts">
+              <div><dt>PDF records</dt><dd>${documents.length}</dd></div>
+              <div><dt>Model families</dt><dd>${archiveModels.length}</dd></div>
+              <div><dt>Year range</dt><dd>${archiveYears.length ? `${archiveYears[0]}-${archiveYears.at(-1)}` : "Not listed"}</dd></div>
+            </dl>
+            <p>This page is connected to the live archive records for ${esc(article.brand)}. The current collection covers ${esc(archiveModels.slice(0, 8).join(", ") || "the listed model families")}${archiveModels.length > 8 ? ", and more" : ""}.</p>
+            <ul class="archive-sample-list">
+              ${sampleDocuments.map((entry) => `<li><a href="../../${brandUrl(brand)}">${esc(entry.title)}</a><span>${esc(entry.size || "PDF")}</span></li>`).join("\n")}
+            </ul>
+          </section>`
+      : `<section class="history-section archive-facts" aria-labelledby="${esc(article.slug)}-archive-facts">
+            <h2 id="${esc(article.slug)}-archive-facts">${esc(article.brand)} archive snapshot</h2>
+            <p>The archive is prepared for ${esc(article.brand)} model research, but no local PDF records are currently listed for this brand. Check the brand page for the latest collection status.</p>
+          </section>`;
     const sectionLinks = article.sections
       .map((section) => `<a href="#${esc(section.id)}">${esc(section.title)}</a>`)
       .join("\n");
@@ -1202,11 +1226,13 @@ async function buildBrandHistoryPages() {
         <div class="history-layout">
           <article class="history-article">
             <p class="article-intro">${esc(article.summary)} Its brochure records make that development easier to study because they preserve model-year language, specifications, equipment details, and the way the brand presented itself to buyers.</p>
+            <p class="source-note">For current specifications and active model information, consult the <a href="${esc(brand.official)}" target="_blank" rel="noopener noreferrer">official ${esc(article.brand)} website</a>. This page is an independent historical reference.</p>
             <figure class="article-image">
               <img src="${esc(article.heroImage)}" alt="${esc(article.imageAlt)}" loading="lazy" />
               <figcaption>${esc(article.brand)} developed a distinct identity around engineering, technology and performance.</figcaption>
             </figure>
             ${sectionHtml}
+            ${archiveFacts}
             <section class="history-section" aria-labelledby="${esc(article.slug)}-timeline">
               <h2 id="${esc(article.slug)}-timeline">${esc(article.brand)} timeline</h2>
               <div class="timeline">${timelineHtml}</div>
