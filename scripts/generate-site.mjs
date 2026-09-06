@@ -1347,7 +1347,8 @@ function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keyw
     cssPath: "styles.css",
     body,
     schema,
-    keywords
+    keywords,
+    ads: false
   });
 }
 
