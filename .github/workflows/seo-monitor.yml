@@ -26,3 +26,5 @@ jobs:
         run: |
           curl -fsSL https://carbrochurearchive.com/robots.txt | grep -F "Sitemap: https://carbrochurearchive.com/sitemap.xml"
           curl -fsSL https://carbrochurearchive.com/sitemap.xml | grep -F "<loc>https://carbrochurearchive.com/</loc>"
+          curl -fsSL https://carbrochurearchive.com/llms.txt | grep -F "Car Brochure Archive"
+          curl -fsSL https://carbrochurearchive.com/ai-index.json | grep -F "archive-report.html"

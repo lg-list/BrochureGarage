@@ -6,6 +6,7 @@ const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const sitemapPath = path.join(root, "sitemap.xml");
 const redirectsPath = path.join(root, "_redirects");
+const robotsPath = path.join(root, "robots.txt");
 
 function fail(message) {
   console.error(`SEO audit failed: ${message}`);
@@ -31,6 +32,7 @@ async function readText(file) {
 
 const sitemap = await readText(sitemapPath);
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const robots = await readText(robotsPath);
 
 if (!urls.length) fail("sitemap.xml has no URLs.");
 
@@ -67,6 +69,26 @@ for (const url of urls) {
 for (const redirectSource of redirectTargets) {
   const absolute = `${siteUrl}${redirectSource}`;
   if (urls.includes(absolute)) fail(`sitemap lists a redirect source: ${absolute}`);
+}
+
+for (const file of ["llms.txt", "llms-full.txt", "ai-index.json"]) {
+  const filePath = path.join(root, file);
+  if (!existsSync(filePath)) {
+    fail(`missing GEO machine-readable file: ${file}`);
+    continue;
+  }
+  const content = await readText(filePath);
+  if (!content.includes("Car Brochure Archive")) fail(`${file} does not identify the site.`);
+  if (!content.includes(`${siteUrl}/archive-report.html`)) fail(`${file} does not link to the archive data report.`);
+}
+
+for (const bot of ["ChatGPT-User", "GPTBot", "PerplexityBot", "ClaudeBot", "anthropic-ai", "Google-Extended", "Bingbot"]) {
+  const pattern = new RegExp(`User-agent:\\s*${bot}[\\s\\S]{0,100}Allow:\\s*/`, "i");
+  if (!pattern.test(robots)) fail(`robots.txt does not explicitly allow ${bot}.`);
+}
+
+if (!/LLMS:\s*https:\/\/carbrochurearchive\.com\/llms\.txt/i.test(robots)) {
+  fail("robots.txt does not advertise llms.txt.");
 }
 
 if (!process.exitCode) {

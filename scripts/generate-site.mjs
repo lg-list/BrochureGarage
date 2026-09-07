@@ -1860,10 +1860,33 @@ async function buildRedirects() {
 }
 
 async function buildRobots() {
-  await write("robots.txt", `User-agent: *
+  await write("robots.txt", `User-agent: ChatGPT-User
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
+
 Sitemap: ${siteUrl}/sitemap.xml
+LLMS: ${siteUrl}/llms.txt
 `);
 }
 
@@ -1915,6 +1938,59 @@ Use the linked brand or model page as the citation URL. Treat the PDF as a prima
 ${modelRows.sort((a, b) => `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`)).map((row) => `- **${row.brand} ${row.model}**: ${row.count} brochure record(s), ${row.years}. [Model page](${row.url})`).join("\n")}
 `;
   await write("llms-full.txt", full);
+
+  const byBrand = brands.map((brand) => {
+    const documents = library[slug(brand.name)] || [];
+    const models = modelRows
+      .filter((row) => row.brand === brand.name)
+      .sort((a, b) => b.count - a.count || a.model.localeCompare(b.model))
+      .map((row) => ({
+        name: row.model,
+        url: row.url,
+        pdfRecords: row.count,
+        yearCoverage: row.years
+      }));
+    return {
+      name: brand.name,
+      url: `${siteUrl}/${brandUrl(brand)}`,
+      historyUrl: `${siteUrl}/${historyUrl(brandHistoryFor(brand))}`,
+      officialUrl: brand.official,
+      pdfRecords: documents.length,
+      modelPages: models.length,
+      models
+    };
+  });
+
+  await write("ai-index.json", `${JSON.stringify({
+    name: "Car Brochure Archive",
+    url: `${siteUrl}/`,
+    description: "Independent automotive brochure PDF archive for vehicle brochure research by brand, model, and model year.",
+    lastUpdated: now,
+    inLanguage: "en",
+    counts: {
+      brands: brands.length,
+      modelPages: modelRows.length,
+      brandHistoryPages: brandHistoryArticles.length,
+      pdfRecords: totalBrochures
+    },
+    importantPages: [
+      { title: "Home", url: `${siteUrl}/`, purpose: "Brand directory and archive overview" },
+      { title: "Archive data report", url: `${siteUrl}/archive-report.html`, purpose: "Counts, year ranges, methodology, and limitations" },
+      { title: "Research guide", url: `${siteUrl}/research-guide.html`, purpose: "How to compare brochure evidence" },
+      { title: "Model-year guide", url: `${siteUrl}/model-year-guide.html`, purpose: "How to compare changes across years" },
+      { title: "Brochure glossary", url: `${siteUrl}/brochure-glossary.html`, purpose: "Definitions for automotive brochure terms" },
+      { title: "Brand history index", url: `${siteUrl}/history/`, purpose: "Manufacturer history pages connected to brochure records" },
+      { title: "LLMS text", url: `${siteUrl}/llms.txt`, purpose: "Short AI-readable site context" },
+      { title: "LLMS full text", url: `${siteUrl}/llms-full.txt`, purpose: "Full AI-readable model index" }
+    ],
+    recommendedCitation: "Car Brochure Archive, page title, canonical URL, accessed date. For a specific PDF, also include the brochure title and model year shown on the model page.",
+    limitations: [
+      "Independent archive, not affiliated with vehicle manufacturers.",
+      "Brochure PDFs are historical and may vary by market, trim, print date, and model year.",
+      "Use official manufacturer sources for current specifications, pricing, safety ratings, and purchase decisions."
+    ],
+    brands: byBrand
+  }, null, 2)}\n`);
 }
 
 async function buildAdsTxt() {

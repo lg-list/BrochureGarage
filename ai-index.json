@@ -1,0 +1,4617 @@
+{
+  "name": "Car Brochure Archive",
+  "url": "https://carbrochurearchive.com/",
+  "description": "Independent automotive brochure PDF archive for vehicle brochure research by brand, model, and model year.",
+  "lastUpdated": "2026-09-07",
+  "inLanguage": "en",
+  "counts": {
+    "brands": 77,
+    "modelPages": 631,
+    "brandHistoryPages": 77,
+    "pdfRecords": 3344
+  },
+  "importantPages": [
+    {
+      "title": "Home",
+      "url": "https://carbrochurearchive.com/",
+      "purpose": "Brand directory and archive overview"
+    },
+    {
+      "title": "Archive data report",
+      "url": "https://carbrochurearchive.com/archive-report.html",
+      "purpose": "Counts, year ranges, methodology, and limitations"
+    },
+    {
+      "title": "Research guide",
+      "url": "https://carbrochurearchive.com/research-guide.html",
+      "purpose": "How to compare brochure evidence"
+    },
+    {
+      "title": "Model-year guide",
+      "url": "https://carbrochurearchive.com/model-year-guide.html",
+      "purpose": "How to compare changes across years"
+    },
+    {
+      "title": "Brochure glossary",
+      "url": "https://carbrochurearchive.com/brochure-glossary.html",
+      "purpose": "Definitions for automotive brochure terms"
+    },
+    {
+      "title": "Brand history index",
+      "url": "https://carbrochurearchive.com/history/",
+      "purpose": "Manufacturer history pages connected to brochure records"
+    },
+    {
+      "title": "LLMS text",
+      "url": "https://carbrochurearchive.com/llms.txt",
+      "purpose": "Short AI-readable site context"
+    },
+    {
+      "title": "LLMS full text",
+      "url": "https://carbrochurearchive.com/llms-full.txt",
+      "purpose": "Full AI-readable model index"
+    }
+  ],
+  "recommendedCitation": "Car Brochure Archive, page title, canonical URL, accessed date. For a specific PDF, also include the brochure title and model year shown on the model page.",
+  "limitations": [
+    "Independent archive, not affiliated with vehicle manufacturers.",
+    "Brochure PDFs are historical and may vary by market, trim, print date, and model year.",
+    "Use official manufacturer sources for current specifications, pricing, safety ratings, and purchase decisions."
+  ],
+  "brands": [
+    {
+      "name": "Acura",
+      "url": "https://carbrochurearchive.com/brands/acura/",
+      "historyUrl": "https://carbrochurearchive.com/history/acura/",
+      "officialUrl": "https://www.acura.com/",
+      "pdfRecords": 54,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Acura RDX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-rdx/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Acura ILX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-ilx/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Acura MDX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-mdx/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Acura TLX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-tlx/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Acura RLX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-rlx/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Acura NSX",
+          "url": "https://carbrochurearchive.com/models/acura/acura-nsx/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2019"
+        },
+        {
+          "name": "Acura Integra",
+          "url": "https://carbrochurearchive.com/models/acura/acura-integra/",
+          "pdfRecords": 1,
+          "yearCoverage": "2023-2023"
+        }
+      ]
+    },
+    {
+      "name": "Alfa Romeo",
+      "url": "https://carbrochurearchive.com/brands/alfa-romeo/",
+      "historyUrl": "https://carbrochurearchive.com/history/alfa-romeo/",
+      "officialUrl": "https://www.alfaromeousa.com/",
+      "pdfRecords": 26,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Giulia",
+          "url": "https://carbrochurearchive.com/models/alfa-romeo/giulia/",
+          "pdfRecords": 9,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Stelvio",
+          "url": "https://carbrochurearchive.com/models/alfa-romeo/stelvio/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "4C",
+          "url": "https://carbrochurearchive.com/models/alfa-romeo/4c/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2019"
+        }
+      ]
+    },
+    {
+      "name": "Alpine",
+      "url": "https://carbrochurearchive.com/brands/alpine/",
+      "historyUrl": "https://carbrochurearchive.com/history/alpine/",
+      "officialUrl": "https://www.alpinecars.com/",
+      "pdfRecords": 17,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Alpine A110 (new)",
+          "url": "https://carbrochurearchive.com/models/alpine/alpine-a110-new/",
+          "pdfRecords": 17,
+          "yearCoverage": "2018-2023"
+        }
+      ]
+    },
+    {
+      "name": "AMC",
+      "url": "https://carbrochurearchive.com/brands/amc/",
+      "historyUrl": "https://carbrochurearchive.com/history/amc/",
+      "officialUrl": "https://www.stellantis.com/en/heritage",
+      "pdfRecords": 17,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "AMC Eagle",
+          "url": "https://carbrochurearchive.com/models/amc/amc-eagle/",
+          "pdfRecords": 7,
+          "yearCoverage": "1980-1987"
+        },
+        {
+          "name": "AMC Eagle Premier",
+          "url": "https://carbrochurearchive.com/models/amc/amc-eagle-premier/",
+          "pdfRecords": 1,
+          "yearCoverage": "1989-1989"
+        },
+        {
+          "name": "AMC Eagle Talon",
+          "url": "https://carbrochurearchive.com/models/amc/amc-eagle-talon/",
+          "pdfRecords": 1,
+          "yearCoverage": "1989-1989"
+        },
+        {
+          "name": "AMC Eagle Vision",
+          "url": "https://carbrochurearchive.com/models/amc/amc-eagle-vision/",
+          "pdfRecords": 1,
+          "yearCoverage": "1995-1995"
+        }
+      ]
+    },
+    {
+      "name": "Aston Martin",
+      "url": "https://carbrochurearchive.com/brands/aston-martin/",
+      "historyUrl": "https://carbrochurearchive.com/history/aston-martin/",
+      "officialUrl": "https://www.astonmartin.com/en/models",
+      "pdfRecords": 13,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Aston Martin DB11",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db11/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Aston Martin Vantage",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-vantage/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Aston Martin DBS",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbs/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "Aston Martin DB4.",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db4/",
+          "pdfRecords": 1,
+          "yearCoverage": "2017-2017"
+        },
+        {
+          "name": "Aston Martin DB9",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db9/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Aston Martin DBX",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "Aston Martin Rapide",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-rapide/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Audi",
+      "url": "https://carbrochurearchive.com/brands/audi/",
+      "historyUrl": "https://carbrochurearchive.com/history/audi/",
+      "officialUrl": "https://www.audiusa.com/us/web/en/models.html",
+      "pdfRecords": 43,
+      "modelPages": 13,
+      "models": [
+        {
+          "name": "Audi A3 & S3",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a3-and-s3/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi A5 & S5",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a5-and-s5/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi A6 & S6",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a6-and-s6/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi A7, RS7 & S7",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a7-rs7-and-s7/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi Q5 & SQ5",
+          "url": "https://carbrochurearchive.com/models/audi/audi-q5-and-sq5/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi A4, A4 Avant & S4",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a4-a4-avant-and-s4/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi A8, A8 L & S8",
+          "url": "https://carbrochurearchive.com/models/audi/audi-a8-a8-l-and-s8/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi Allroad",
+          "url": "https://carbrochurearchive.com/models/audi/audi-allroad/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi Q3",
+          "url": "https://carbrochurearchive.com/models/audi/audi-q3/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi TT & TTS",
+          "url": "https://carbrochurearchive.com/models/audi/audi-tt-and-tts/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Audi Q7",
+          "url": "https://carbrochurearchive.com/models/audi/audi-q7/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2019"
+        },
+        {
+          "name": "Audi R8 & R8 V10 plus",
+          "url": "https://carbrochurearchive.com/models/audi/audi-r8-and-r8-v10-plus/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2017"
+        },
+        {
+          "name": "Audi Q8",
+          "url": "https://carbrochurearchive.com/models/audi/audi-q8/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        }
+      ]
+    },
+    {
+      "name": "Austin",
+      "url": "https://carbrochurearchive.com/brands/austin/",
+      "historyUrl": "https://carbrochurearchive.com/history/austin/",
+      "officialUrl": "https://www.britishmotormuseum.co.uk/archive",
+      "pdfRecords": 3,
+      "modelPages": 2,
+      "models": [
+        {
+          "name": "Austin 850/Morris 850",
+          "url": "https://carbrochurearchive.com/models/austin/austin-850-morris-850/",
+          "pdfRecords": 2,
+          "yearCoverage": "1960-1962"
+        },
+        {
+          "name": "Austin Marina",
+          "url": "https://carbrochurearchive.com/models/austin/austin-marina/",
+          "pdfRecords": 1,
+          "yearCoverage": "1974-1974"
+        }
+      ]
+    },
+    {
+      "name": "Austin-Healey",
+      "url": "https://carbrochurearchive.com/brands/austin-healey/",
+      "historyUrl": "https://carbrochurearchive.com/history/austin-healey/",
+      "officialUrl": "https://www.britishmotormuseum.co.uk/archive",
+      "pdfRecords": 6,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Austin-Healey Sprite",
+          "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-sprite/",
+          "pdfRecords": 3,
+          "yearCoverage": "1959-1967"
+        },
+        {
+          "name": "Austin-Healey 100",
+          "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-100/",
+          "pdfRecords": 2,
+          "yearCoverage": "1953-1955"
+        },
+        {
+          "name": "Austin-Healey 3000",
+          "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-3000/",
+          "pdfRecords": 1,
+          "yearCoverage": "1963-1963"
+        }
+      ]
+    },
+    {
+      "name": "Bentley",
+      "url": "https://carbrochurearchive.com/brands/bentley/",
+      "historyUrl": "https://carbrochurearchive.com/history/bentley/",
+      "officialUrl": "https://www.bentleymotors.com/en/models.html",
+      "pdfRecords": 23,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Bentley Bentayga",
+          "url": "https://carbrochurearchive.com/models/bentley/bentley-bentayga/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Bentley Continental",
+          "url": "https://carbrochurearchive.com/models/bentley/bentley-continental/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Bentley Flying Spur",
+          "url": "https://carbrochurearchive.com/models/bentley/bentley-flying-spur/",
+          "pdfRecords": 5,
+          "yearCoverage": "2018-2022"
+        },
+        {
+          "name": "Bentley Mulsanne",
+          "url": "https://carbrochurearchive.com/models/bentley/bentley-mulsanne/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2018"
+        }
+      ]
+    },
+    {
+      "name": "BMW",
+      "url": "https://carbrochurearchive.com/brands/bmw/",
+      "historyUrl": "https://carbrochurearchive.com/history/bmw/",
+      "officialUrl": "https://www.bmwusa.com/vehicles.html",
+      "pdfRecords": 34,
+      "modelPages": 21,
+      "models": [
+        {
+          "name": "BMW 5 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2019"
+        },
+        {
+          "name": "BMW 7 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-7-series/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "BMW 2 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-2-series/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "BMW 3 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "BMW 4 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-4-series/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "BMW 6 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-6-series/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2019"
+        },
+        {
+          "name": "BMW M2",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-m2/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "BMW M3/M4",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-m3-m4/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW X1",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x1/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "BMW X5",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x5/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW X6",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x6/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW 1 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-1-series/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW 3 Series Sedan",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sedan/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "BMW 5 Series Sedan",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series-sedan/",
+          "pdfRecords": 1,
+          "yearCoverage": "2017-2017"
+        },
+        {
+          "name": "BMW 8 Series",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-8-series/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "BMW Alpina",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-alpina/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW M6",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-m6/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW X Series - X1, X3, X4, X5 & X6",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x-series-x1-x3-x4-x5-and-x6/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "BMW X2",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x2/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "BMW X3",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x3/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "BMW X4",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-x4/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        }
+      ]
+    },
+    {
+      "name": "Bugatti",
+      "url": "https://carbrochurearchive.com/brands/bugatti/",
+      "historyUrl": "https://carbrochurearchive.com/history/bugatti/",
+      "officialUrl": "https://www.bugatti.com/models/",
+      "pdfRecords": 3,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Bugatti Veyron 16.4",
+          "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4/",
+          "pdfRecords": 1,
+          "yearCoverage": "2008-2008"
+        },
+        {
+          "name": "Bugatti Veyron 16.4 Pur Sang",
+          "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-pur-sang/",
+          "pdfRecords": 1,
+          "yearCoverage": "2007-2007"
+        },
+        {
+          "name": "Bugatti Veyron 16.4 Sang Noir",
+          "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-sang-noir/",
+          "pdfRecords": 1,
+          "yearCoverage": "2008-2008"
+        }
+      ]
+    },
+    {
+      "name": "Buick",
+      "url": "https://carbrochurearchive.com/brands/buick/",
+      "historyUrl": "https://carbrochurearchive.com/history/buick/",
+      "officialUrl": "https://www.buick.com/",
+      "pdfRecords": 45,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Buick Encore",
+          "url": "https://carbrochurearchive.com/models/buick/buick-encore/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Buick Enclave",
+          "url": "https://carbrochurearchive.com/models/buick/buick-enclave/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Buick Envision",
+          "url": "https://carbrochurearchive.com/models/buick/buick-envision/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Buick Regal",
+          "url": "https://carbrochurearchive.com/models/buick/buick-regal/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Buick Cascada",
+          "url": "https://carbrochurearchive.com/models/buick/buick-cascada/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Buick LaCrosse",
+          "url": "https://carbrochurearchive.com/models/buick/buick-lacrosse/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Buick Verano",
+          "url": "https://carbrochurearchive.com/models/buick/buick-verano/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        }
+      ]
+    },
+    {
+      "name": "Cadillac",
+      "url": "https://carbrochurearchive.com/brands/cadillac/",
+      "historyUrl": "https://carbrochurearchive.com/history/cadillac/",
+      "officialUrl": "https://www.cadillac.com/",
+      "pdfRecords": 39,
+      "modelPages": 15,
+      "models": [
+        {
+          "name": "Cadillac CT6",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct6/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Cadillac Escalade",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-escalade/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Cadillac ATS",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ats/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Cadillac CTS",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-cts/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Cadillac XT5",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt5/",
+          "pdfRecords": 4,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Cadillac XTS",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xts/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Cadillac V-Series",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-v-series/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "Cadillac XT4",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt4/",
+          "pdfRecords": 2,
+          "yearCoverage": "2019-2020"
+        },
+        {
+          "name": "Cadillac Celestiq",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-celestiq/",
+          "pdfRecords": 1,
+          "yearCoverage": "2024-2024"
+        },
+        {
+          "name": "Cadillac CT4",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct4/",
+          "pdfRecords": 1,
+          "yearCoverage": "2020-2020"
+        },
+        {
+          "name": "Cadillac CT5",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct5/",
+          "pdfRecords": 1,
+          "yearCoverage": "2020-2020"
+        },
+        {
+          "name": "Cadillac ELR",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-elr/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Cadillac Lyriq",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-lyriq/",
+          "pdfRecords": 1,
+          "yearCoverage": "2023-2023"
+        },
+        {
+          "name": "Cadillac SRX",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-srx/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Cadillac XT6",
+          "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt6/",
+          "pdfRecords": 1,
+          "yearCoverage": "2020-2020"
+        }
+      ]
+    },
+    {
+      "name": "Chevrolet",
+      "url": "https://carbrochurearchive.com/brands/chevrolet/",
+      "historyUrl": "https://carbrochurearchive.com/history/chevrolet/",
+      "officialUrl": "https://www.chevrolet.com/",
+      "pdfRecords": 157,
+      "modelPages": 22,
+      "models": [
+        {
+          "name": "Chevrolet Silverado/C1500/K1500/Truck",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-silverado-c1500-k1500-truck/",
+          "pdfRecords": 19,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Corvette",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-corvette/",
+          "pdfRecords": 15,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chevrolet Equinox",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-equinox/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Malibu",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-malibu/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chevrolet Spark",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-spark/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chevrolet Tahoe",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-tahoe/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Bolt",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt/",
+          "pdfRecords": 8,
+          "yearCoverage": "2017-2023"
+        },
+        {
+          "name": "Chevrolet Camaro",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-camaro/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Colorado",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-colorado/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chevrolet Suburban",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-suburban/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Traverse",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-traverse/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Chevrolet Trax",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-trax/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chevrolet Cruze",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-cruze/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Chevrolet Blazer",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-blazer/",
+          "pdfRecords": 5,
+          "yearCoverage": "2019-2023"
+        },
+        {
+          "name": "Chevrolet Sonic",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-sonic/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Chevrolet Impala",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-impala/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Chevrolet Volt",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-volt/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Chevrolet Trailblazer",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-trailblazer/",
+          "pdfRecords": 3,
+          "yearCoverage": "2021-2023"
+        },
+        {
+          "name": "Chevrolet Bolt EUV",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt-euv/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2023"
+        },
+        {
+          "name": "Chevrolet Express/Commercial/G20/Sportvan",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-express-commercial-g20-sportvan/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2022"
+        },
+        {
+          "name": "Chevrolet SS",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-ss/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Chevrolet City Express",
+          "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-city-express/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Chrysler",
+      "url": "https://carbrochurearchive.com/brands/chrysler/",
+      "historyUrl": "https://carbrochurearchive.com/history/chrysler/",
+      "officialUrl": "https://www.chrysler.com/",
+      "pdfRecords": 19,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Chrysler Pacifica",
+          "url": "https://carbrochurearchive.com/models/chrysler/chrysler-pacifica/",
+          "pdfRecords": 10,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Chrysler 300",
+          "url": "https://carbrochurearchive.com/models/chrysler/chrysler-300/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Chrysler 200",
+          "url": "https://carbrochurearchive.com/models/chrysler/chrysler-200/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Chrysler Town & Country/Voyager",
+          "url": "https://carbrochurearchive.com/models/chrysler/chrysler-town-and-country-voyager/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Citroen",
+      "url": "https://carbrochurearchive.com/brands/citroen/",
+      "historyUrl": "https://carbrochurearchive.com/history/citroen/",
+      "officialUrl": "https://www.citroen.com/",
+      "pdfRecords": 6,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Citroën DS 19/ID 19",
+          "url": "https://carbrochurearchive.com/models/citroen/citro-n-ds-19-id-19/",
+          "pdfRecords": 3,
+          "yearCoverage": "1956-1969"
+        },
+        {
+          "name": "Citroën DS 21",
+          "url": "https://carbrochurearchive.com/models/citroen/citro-n-ds-21/",
+          "pdfRecords": 2,
+          "yearCoverage": "1971-1971"
+        },
+        {
+          "name": "Citroën Maserati SM",
+          "url": "https://carbrochurearchive.com/models/citroen/citro-n-maserati-sm/",
+          "pdfRecords": 1,
+          "yearCoverage": "1971-1971"
+        }
+      ]
+    },
+    {
+      "name": "Datsun",
+      "url": "https://carbrochurearchive.com/brands/datsun/",
+      "historyUrl": "https://carbrochurearchive.com/history/datsun/",
+      "officialUrl": "https://www.nissan-global.com/EN/HERITAGE/",
+      "pdfRecords": 19,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Datsun 240-Z/260-Z/280-Z/280-ZX",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-240-z-260-z-280-z-280-zx/",
+          "pdfRecords": 6,
+          "yearCoverage": "1970-1979"
+        },
+        {
+          "name": "Datsun 510",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-510/",
+          "pdfRecords": 2,
+          "yearCoverage": "1968-1981"
+        },
+        {
+          "name": "Datsun Fairlady",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-fairlady/",
+          "pdfRecords": 2,
+          "yearCoverage": "1963-1970"
+        },
+        {
+          "name": "Datsun Trucks/King Cab/Li'l Hustler",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-trucks-king-cab-li-l-hustler/",
+          "pdfRecords": 2,
+          "yearCoverage": "1973-1982"
+        },
+        {
+          "name": "Datsun 1000 Sedan",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-1000-sedan/",
+          "pdfRecords": 1,
+          "yearCoverage": "1957-1957"
+        },
+        {
+          "name": "Datsun 1300",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-1300/",
+          "pdfRecords": 1,
+          "yearCoverage": "1967-1967"
+        },
+        {
+          "name": "Datsun F-10/Cherry",
+          "url": "https://carbrochurearchive.com/models/datsun/datsun-f-10-cherry/",
+          "pdfRecords": 1,
+          "yearCoverage": "1976-1976"
+        }
+      ]
+    },
+    {
+      "name": "DeLorean",
+      "url": "https://carbrochurearchive.com/brands/delorean/",
+      "historyUrl": "https://carbrochurearchive.com/history/delorean/",
+      "officialUrl": "https://delorean.com/",
+      "pdfRecords": 3,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "DeLorean DMC-12",
+          "url": "https://carbrochurearchive.com/models/delorean/delorean-dmc-12/",
+          "pdfRecords": 3,
+          "yearCoverage": "1981-1981"
+        }
+      ]
+    },
+    {
+      "name": "Dodge",
+      "url": "https://carbrochurearchive.com/brands/dodge/",
+      "historyUrl": "https://carbrochurearchive.com/history/dodge/",
+      "officialUrl": "https://www.dodge.com/",
+      "pdfRecords": 225,
+      "modelPages": 29,
+      "models": [
+        {
+          "name": "Dodge Caravan & Grand Caravan",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-caravan-and-grand-caravan/",
+          "pdfRecords": 25,
+          "yearCoverage": "1984-2019"
+        },
+        {
+          "name": "Dodge Charger",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-charger/",
+          "pdfRecords": 23,
+          "yearCoverage": "1966-2025"
+        },
+        {
+          "name": "Dodge Durango",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-durango/",
+          "pdfRecords": 22,
+          "yearCoverage": "1999-2025"
+        },
+        {
+          "name": "Dodge Challenger",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-challenger/",
+          "pdfRecords": 18,
+          "yearCoverage": "1978-2023"
+        },
+        {
+          "name": "Dodge Journey",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-journey/",
+          "pdfRecords": 12,
+          "yearCoverage": "2009-2019"
+        },
+        {
+          "name": "Dodge Ram Pickup/Dodge Ram 1500",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-ram-pickup-dodge-ram-1500/",
+          "pdfRecords": 11,
+          "yearCoverage": "1980-2009"
+        },
+        {
+          "name": "Dodge Dakota",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-dakota/",
+          "pdfRecords": 10,
+          "yearCoverage": "1990-2011"
+        },
+        {
+          "name": "Dodge Avenger",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-avenger/",
+          "pdfRecords": 9,
+          "yearCoverage": "1995-2014"
+        },
+        {
+          "name": "Dodge Dart",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-dart/",
+          "pdfRecords": 8,
+          "yearCoverage": "1969-2016"
+        },
+        {
+          "name": "Dodge Stratus",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-stratus/",
+          "pdfRecords": 8,
+          "yearCoverage": "1995-2006"
+        },
+        {
+          "name": "Dodge Caliber",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-caliber/",
+          "pdfRecords": 6,
+          "yearCoverage": "2007-2012"
+        },
+        {
+          "name": "Dodge Neon",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-neon/",
+          "pdfRecords": 5,
+          "yearCoverage": "1995-2005"
+        },
+        {
+          "name": "Dodge Viper",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-viper/",
+          "pdfRecords": 5,
+          "yearCoverage": "2002-2010"
+        },
+        {
+          "name": "Dodge Intrepid",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-intrepid/",
+          "pdfRecords": 4,
+          "yearCoverage": "1993-1998"
+        },
+        {
+          "name": "Dodge Magnum",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-magnum/",
+          "pdfRecords": 4,
+          "yearCoverage": "2005-2008"
+        },
+        {
+          "name": "Dodge Nitro",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-nitro/",
+          "pdfRecords": 4,
+          "yearCoverage": "2007-2011"
+        },
+        {
+          "name": "Dodge Sprinter",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-sprinter/",
+          "pdfRecords": 4,
+          "yearCoverage": "2005-2009"
+        },
+        {
+          "name": "Dodge Diplomat",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-diplomat/",
+          "pdfRecords": 3,
+          "yearCoverage": "1977-1987"
+        },
+        {
+          "name": "Dodge Hornet",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-hornet/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2025"
+        },
+        {
+          "name": "Dodge Omni",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-omni/",
+          "pdfRecords": 2,
+          "yearCoverage": "1978-1990"
+        },
+        {
+          "name": "Dodge Stealth",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-stealth/",
+          "pdfRecords": 2,
+          "yearCoverage": "1992-1994"
+        },
+        {
+          "name": "Dodge 600",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-600/",
+          "pdfRecords": 1,
+          "yearCoverage": "1987-1987"
+        },
+        {
+          "name": "Dodge Aries",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-aries/",
+          "pdfRecords": 1,
+          "yearCoverage": "1987-1987"
+        },
+        {
+          "name": "Dodge Coronet",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-coronet/",
+          "pdfRecords": 1,
+          "yearCoverage": "1972-1972"
+        },
+        {
+          "name": "Dodge Daytona",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-daytona/",
+          "pdfRecords": 1,
+          "yearCoverage": "1990-1990"
+        },
+        {
+          "name": "Dodge Ram Van",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-ram-van/",
+          "pdfRecords": 1,
+          "yearCoverage": "1999-1999"
+        },
+        {
+          "name": "Dodge Ramcharger",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-ramcharger/",
+          "pdfRecords": 1,
+          "yearCoverage": "1990-1990"
+        },
+        {
+          "name": "Dodge Shadow",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-shadow/",
+          "pdfRecords": 1,
+          "yearCoverage": "1990-1990"
+        },
+        {
+          "name": "Dodge Spirit",
+          "url": "https://carbrochurearchive.com/models/dodge/dodge-spirit/",
+          "pdfRecords": 1,
+          "yearCoverage": "1990-1990"
+        }
+      ]
+    },
+    {
+      "name": "Ferrari",
+      "url": "https://carbrochurearchive.com/brands/ferrari/",
+      "historyUrl": "https://carbrochurearchive.com/history/ferrari/",
+      "officialUrl": "https://www.ferrari.com/en-EN/auto/car-range",
+      "pdfRecords": 19,
+      "modelPages": 13,
+      "models": [
+        {
+          "name": "Ferrari 458",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-458/",
+          "pdfRecords": 3,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Ferrari California",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-california/",
+          "pdfRecords": 3,
+          "yearCoverage": "2010-2014"
+        },
+        {
+          "name": "Ferrari 250 europa/375 america",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-250-europa-375-america/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Ferrari 365 GTB 4",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-365-gtb-4/",
+          "pdfRecords": 1,
+          "yearCoverage": "1973-1973"
+        },
+        {
+          "name": "Ferrari 599",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-599/",
+          "pdfRecords": 1,
+          "yearCoverage": "2006-2006"
+        },
+        {
+          "name": "Ferrari 612 Scaglietti",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-612-scaglietti/",
+          "pdfRecords": 1,
+          "yearCoverage": "2008-2008"
+        },
+        {
+          "name": "Ferrari Dino",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-dino/",
+          "pdfRecords": 1,
+          "yearCoverage": "1970-1970"
+        },
+        {
+          "name": "Ferrari Enzo",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-enzo/",
+          "pdfRecords": 1,
+          "yearCoverage": "2002-2002"
+        },
+        {
+          "name": "Ferrari F12 Berlinetta",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f12-berlinetta/",
+          "pdfRecords": 1,
+          "yearCoverage": "2012-2012"
+        },
+        {
+          "name": "Ferrari F40",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f40/",
+          "pdfRecords": 1,
+          "yearCoverage": "1987-1987"
+        },
+        {
+          "name": "Ferrari F430",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f430/",
+          "pdfRecords": 1,
+          "yearCoverage": "2006-2006"
+        },
+        {
+          "name": "Ferrari FF",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-ff/",
+          "pdfRecords": 1,
+          "yearCoverage": "2011-2011"
+        },
+        {
+          "name": "Ferrari Testarossa",
+          "url": "https://carbrochurearchive.com/models/ferrari/ferrari-testarossa/",
+          "pdfRecords": 1,
+          "yearCoverage": "1984-1984"
+        }
+      ]
+    },
+    {
+      "name": "Fiat",
+      "url": "https://carbrochurearchive.com/brands/fiat/",
+      "historyUrl": "https://carbrochurearchive.com/history/fiat/",
+      "officialUrl": "https://www.fiat.com/",
+      "pdfRecords": 29,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Fiat 500X",
+          "url": "https://carbrochurearchive.com/models/fiat/fiat-500x/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Fiat 124",
+          "url": "https://carbrochurearchive.com/models/fiat/fiat-124/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Fiat 500",
+          "url": "https://carbrochurearchive.com/models/fiat/fiat-500/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Fiat 500L",
+          "url": "https://carbrochurearchive.com/models/fiat/fiat-500l/",
+          "pdfRecords": 4,
+          "yearCoverage": "2017-2020"
+        }
+      ]
+    },
+    {
+      "name": "Fisker",
+      "url": "https://carbrochurearchive.com/brands/fisker/",
+      "historyUrl": "https://carbrochurearchive.com/history/fisker/",
+      "officialUrl": "https://www.fiskerinc.com/",
+      "pdfRecords": 3,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Fisker Karma",
+          "url": "https://carbrochurearchive.com/models/fisker/fisker-karma/",
+          "pdfRecords": 3,
+          "yearCoverage": "2011-2013"
+        }
+      ]
+    },
+    {
+      "name": "Ford",
+      "url": "https://carbrochurearchive.com/brands/ford/",
+      "historyUrl": "https://carbrochurearchive.com/history/ford/",
+      "officialUrl": "https://www.ford.com.au/vehicles/download-brochure/",
+      "pdfRecords": 116,
+      "modelPages": 22,
+      "models": [
+        {
+          "name": "Ford F-250/F-350/F-450 Super Duty/Chassis Cab",
+          "url": "https://carbrochurearchive.com/models/ford/ford-f-250-f-350-f-450-super-duty-chassis-cab/",
+          "pdfRecords": 13,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Ford F-150",
+          "url": "https://carbrochurearchive.com/models/ford/ford-f-150/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Ford Escape",
+          "url": "https://carbrochurearchive.com/models/ford/ford-escape/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Ford Expedition",
+          "url": "https://carbrochurearchive.com/models/ford/ford-expedition/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Ford Focus",
+          "url": "https://carbrochurearchive.com/models/ford/ford-focus/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Ford Transit Connect",
+          "url": "https://carbrochurearchive.com/models/ford/ford-transit-connect/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Ford Edge",
+          "url": "https://carbrochurearchive.com/models/ford/ford-edge/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Ford Explorer",
+          "url": "https://carbrochurearchive.com/models/ford/ford-explorer/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Ford Fusion",
+          "url": "https://carbrochurearchive.com/models/ford/ford-fusion/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Ford Mustang",
+          "url": "https://carbrochurearchive.com/models/ford/ford-mustang/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Ford Transit",
+          "url": "https://carbrochurearchive.com/models/ford/ford-transit/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Ford Bronco Sport",
+          "url": "https://carbrochurearchive.com/models/ford/ford-bronco-sport/",
+          "pdfRecords": 4,
+          "yearCoverage": "2021-2022"
+        },
+        {
+          "name": "Ford EcoSport",
+          "url": "https://carbrochurearchive.com/models/ford/ford-ecosport/",
+          "pdfRecords": 4,
+          "yearCoverage": "2018-2021"
+        },
+        {
+          "name": "Ford Fiesta",
+          "url": "https://carbrochurearchive.com/models/ford/ford-fiesta/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Ford Flex",
+          "url": "https://carbrochurearchive.com/models/ford/ford-flex/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Ford Ranger",
+          "url": "https://carbrochurearchive.com/models/ford/ford-ranger/",
+          "pdfRecords": 4,
+          "yearCoverage": "2019-2021"
+        },
+        {
+          "name": "Ford Taurus",
+          "url": "https://carbrochurearchive.com/models/ford/ford-taurus/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Ford Bronco/Bronco II",
+          "url": "https://carbrochurearchive.com/models/ford/ford-bronco-bronco-ii/",
+          "pdfRecords": 3,
+          "yearCoverage": "2021-2021"
+        },
+        {
+          "name": "Ford C-Max",
+          "url": "https://carbrochurearchive.com/models/ford/ford-c-max/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Ford Mustang Mach-E",
+          "url": "https://carbrochurearchive.com/models/ford/ford-mustang-mach-e/",
+          "pdfRecords": 3,
+          "yearCoverage": "2021-2022"
+        },
+        {
+          "name": "Ford Maverick",
+          "url": "https://carbrochurearchive.com/models/ford/ford-maverick/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2022"
+        },
+        {
+          "name": "Ford Transit & Transit Connect",
+          "url": "https://carbrochurearchive.com/models/ford/ford-transit-and-transit-connect/",
+          "pdfRecords": 1,
+          "yearCoverage": "2017-2017"
+        }
+      ]
+    },
+    {
+      "name": "Genesis",
+      "url": "https://carbrochurearchive.com/brands/genesis/",
+      "historyUrl": "https://carbrochurearchive.com/history/genesis/",
+      "officialUrl": "https://www.genesis.com/us/en/models.html",
+      "pdfRecords": 27,
+      "modelPages": 6,
+      "models": [
+        {
+          "name": "Genesis G80 (Hyundai Genesis)",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-g80-hyundai-genesis/",
+          "pdfRecords": 8,
+          "yearCoverage": "2017-2023"
+        },
+        {
+          "name": "Genesis G90 (Hyundai Equus)",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-g90-hyundai-equus/",
+          "pdfRecords": 7,
+          "yearCoverage": "2017-2023"
+        },
+        {
+          "name": "Genesis G70",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-g70/",
+          "pdfRecords": 5,
+          "yearCoverage": "2019-2023"
+        },
+        {
+          "name": "Genesis GV80",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-gv80/",
+          "pdfRecords": 4,
+          "yearCoverage": "2021-2023"
+        },
+        {
+          "name": "Genesis GV70",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-gv70/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2023"
+        },
+        {
+          "name": "Genesis GV60",
+          "url": "https://carbrochurearchive.com/models/genesis/genesis-gv60/",
+          "pdfRecords": 1,
+          "yearCoverage": "2023-2023"
+        }
+      ]
+    },
+    {
+      "name": "GMC",
+      "url": "https://carbrochurearchive.com/brands/gmc/",
+      "historyUrl": "https://carbrochurearchive.com/history/gmc/",
+      "officialUrl": "https://www.gmc.com/",
+      "pdfRecords": 175,
+      "modelPages": 14,
+      "models": [
+        {
+          "name": "GMC Pickup/Sierra",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-pickup-sierra/",
+          "pdfRecords": 43,
+          "yearCoverage": "1973-2024"
+        },
+        {
+          "name": "GMC Acadia",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-acadia/",
+          "pdfRecords": 18,
+          "yearCoverage": "2008-2023"
+        },
+        {
+          "name": "GMC Yukon/Yukon XL/Suburban",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-yukon-yukon-xl-suburban/",
+          "pdfRecords": 18,
+          "yearCoverage": "1994-2024"
+        },
+        {
+          "name": "GMC Canyon",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-canyon/",
+          "pdfRecords": 17,
+          "yearCoverage": "2009-2024"
+        },
+        {
+          "name": "GMC Terrain",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-terrain/",
+          "pdfRecords": 17,
+          "yearCoverage": "2009-2024"
+        },
+        {
+          "name": "GMC Jimmy",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-jimmy/",
+          "pdfRecords": 16,
+          "yearCoverage": "1970-1992"
+        },
+        {
+          "name": "GMC Caballero/Sprint",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-caballero-sprint/",
+          "pdfRecords": 13,
+          "yearCoverage": "1971-1986"
+        },
+        {
+          "name": "GMC Savana",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-savana/",
+          "pdfRecords": 8,
+          "yearCoverage": "2009-2016"
+        },
+        {
+          "name": "GMC S-15 Jimmy",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-s-15-jimmy/",
+          "pdfRecords": 5,
+          "yearCoverage": "1985-1992"
+        },
+        {
+          "name": "GMC Suburban",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-suburban/",
+          "pdfRecords": 5,
+          "yearCoverage": "1973-1992"
+        },
+        {
+          "name": "GMC Sonoma",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-sonoma/",
+          "pdfRecords": 3,
+          "yearCoverage": "1991-1994"
+        },
+        {
+          "name": "GMC Hummer",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-hummer/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2022"
+        },
+        {
+          "name": "GMC Envoy",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-envoy/",
+          "pdfRecords": 1,
+          "yearCoverage": "2009-2009"
+        },
+        {
+          "name": "GMC Safari",
+          "url": "https://carbrochurearchive.com/models/gmc/gmc-safari/",
+          "pdfRecords": 1,
+          "yearCoverage": "1990-1990"
+        }
+      ]
+    },
+    {
+      "name": "Gumpert",
+      "url": "https://carbrochurearchive.com/brands/gumpert/",
+      "historyUrl": "https://carbrochurearchive.com/history/gumpert/",
+      "officialUrl": "https://www.rolandgumpert.com/",
+      "pdfRecords": 2,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Gumpert Apollo",
+          "url": "https://carbrochurearchive.com/models/gumpert/gumpert-apollo/",
+          "pdfRecords": 2,
+          "yearCoverage": "year not stated"
+        }
+      ]
+    },
+    {
+      "name": "Honda",
+      "url": "https://carbrochurearchive.com/brands/honda/",
+      "historyUrl": "https://carbrochurearchive.com/history/honda/",
+      "officialUrl": "https://automobiles.honda.com/",
+      "pdfRecords": 97,
+      "modelPages": 12,
+      "models": [
+        {
+          "name": "Honda Fit",
+          "url": "https://carbrochurearchive.com/models/honda/honda-fit/",
+          "pdfRecords": 9,
+          "yearCoverage": "2013-2019"
+        },
+        {
+          "name": "Honda Accord",
+          "url": "https://carbrochurearchive.com/models/honda/honda-accord/",
+          "pdfRecords": 8,
+          "yearCoverage": "2013-2018"
+        },
+        {
+          "name": "Honda CR-V",
+          "url": "https://carbrochurearchive.com/models/honda/honda-cr-v/",
+          "pdfRecords": 7,
+          "yearCoverage": "2013-2018"
+        },
+        {
+          "name": "Honda Odyssey",
+          "url": "https://carbrochurearchive.com/models/honda/honda-odyssey/",
+          "pdfRecords": 7,
+          "yearCoverage": "2013-2019"
+        },
+        {
+          "name": "Honda Civic",
+          "url": "https://carbrochurearchive.com/models/honda/honda-civic/",
+          "pdfRecords": 6,
+          "yearCoverage": "2013-2018"
+        },
+        {
+          "name": "Honda Pilot",
+          "url": "https://carbrochurearchive.com/models/honda/honda-pilot/",
+          "pdfRecords": 6,
+          "yearCoverage": "2013-2018"
+        },
+        {
+          "name": "Honda Ridgeline",
+          "url": "https://carbrochurearchive.com/models/honda/honda-ridgeline/",
+          "pdfRecords": 5,
+          "yearCoverage": "2013-2019"
+        },
+        {
+          "name": "Honda CR-Z",
+          "url": "https://carbrochurearchive.com/models/honda/honda-cr-z/",
+          "pdfRecords": 4,
+          "yearCoverage": "2013-2016"
+        },
+        {
+          "name": "Honda Clarity",
+          "url": "https://carbrochurearchive.com/models/honda/honda-clarity/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "Honda Crosstour",
+          "url": "https://carbrochurearchive.com/models/honda/honda-crosstour/",
+          "pdfRecords": 3,
+          "yearCoverage": "2013-2015"
+        },
+        {
+          "name": "Honda HR-V",
+          "url": "https://carbrochurearchive.com/models/honda/honda-hr-v/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Honda Insight",
+          "url": "https://carbrochurearchive.com/models/honda/honda-insight/",
+          "pdfRecords": 3,
+          "yearCoverage": "2013-2019"
+        }
+      ]
+    },
+    {
+      "name": "Hummer",
+      "url": "https://carbrochurearchive.com/brands/hummer/",
+      "historyUrl": "https://carbrochurearchive.com/history/hummer/",
+      "officialUrl": "https://www.gmc.com/electric/hummer-ev",
+      "pdfRecords": 17,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Hummer H1 Alpha",
+          "url": "https://carbrochurearchive.com/models/hummer/hummer-h1-alpha/",
+          "pdfRecords": 10,
+          "yearCoverage": "1992-2006"
+        },
+        {
+          "name": "Hummer H2",
+          "url": "https://carbrochurearchive.com/models/hummer/hummer-h2/",
+          "pdfRecords": 3,
+          "yearCoverage": "2003-2009"
+        },
+        {
+          "name": "Hummer H3",
+          "url": "https://carbrochurearchive.com/models/hummer/hummer-h3/",
+          "pdfRecords": 3,
+          "yearCoverage": "2008-2009"
+        },
+        {
+          "name": "Hummer M998A2 Series",
+          "url": "https://carbrochurearchive.com/models/hummer/hummer-m998a2-series/",
+          "pdfRecords": 1,
+          "yearCoverage": "2004-2004"
+        }
+      ]
+    },
+    {
+      "name": "Hyundai",
+      "url": "https://carbrochurearchive.com/brands/hyundai/",
+      "historyUrl": "https://carbrochurearchive.com/history/hyundai/",
+      "officialUrl": "https://www.hyundaiusa.com/us/en/brochures",
+      "pdfRecords": 126,
+      "modelPages": 18,
+      "models": [
+        {
+          "name": "Hyundai Elantra",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-elantra/",
+          "pdfRecords": 15,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Hyundai Sonata",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-sonata/",
+          "pdfRecords": 15,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Hyundai Santa Fe",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-santa-fe/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Hyundai Tucson",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-tucson/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Hyundai Kona",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-kona/",
+          "pdfRecords": 9,
+          "yearCoverage": "2018-2025"
+        },
+        {
+          "name": "Hyundai Veloster",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-veloster/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Hyundai Accent",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-accent/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Hyundai Ioniq",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq/",
+          "pdfRecords": 7,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Hyundai Palisade",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-palisade/",
+          "pdfRecords": 6,
+          "yearCoverage": "2020-2025"
+        },
+        {
+          "name": "Hyundai Venue",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-venue/",
+          "pdfRecords": 6,
+          "yearCoverage": "2020-2025"
+        },
+        {
+          "name": "Hyundai Nexo (Fuel Cell)",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-nexo-fuel-cell/",
+          "pdfRecords": 5,
+          "yearCoverage": "2019-2022"
+        },
+        {
+          "name": "Hyundai IONIQ 5 (Electric)",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq-5-electric/",
+          "pdfRecords": 4,
+          "yearCoverage": "2022-2025"
+        },
+        {
+          "name": "Hyundai Santa Cruz",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-santa-cruz/",
+          "pdfRecords": 4,
+          "yearCoverage": "2022-2025"
+        },
+        {
+          "name": "Hyundai IONIQ 6 (Electric)",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq-6-electric/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2025"
+        },
+        {
+          "name": "Hyundai Azera",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-azera/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Hyundai Equus",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-equus/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Hyundai Genesis",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-genesis/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Hyundai Genesis Coupe",
+          "url": "https://carbrochurearchive.com/models/hyundai/hyundai-genesis-coupe/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Infiniti",
+      "url": "https://carbrochurearchive.com/brands/infiniti/",
+      "historyUrl": "https://carbrochurearchive.com/history/infiniti/",
+      "officialUrl": "https://www.infinitiusa.com/",
+      "pdfRecords": 55,
+      "modelPages": 9,
+      "models": [
+        {
+          "name": "Infiniti QX56/QX80",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx56-qx80/",
+          "pdfRecords": 10,
+          "yearCoverage": "2017-2025"
+        },
+        {
+          "name": "Infiniti QX50",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx50/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Infiniti Q50",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q50/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Infiniti QX60",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx60/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Infiniti Q60",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q60/",
+          "pdfRecords": 6,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Infiniti Q70/Q70L",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q70-q70l/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Infiniti QX55",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx55/",
+          "pdfRecords": 4,
+          "yearCoverage": "2022-2025"
+        },
+        {
+          "name": "Infiniti QX30",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx30/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2019"
+        },
+        {
+          "name": "Infiniti QX70",
+          "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx70/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        }
+      ]
+    },
+    {
+      "name": "International",
+      "url": "https://carbrochurearchive.com/brands/international/",
+      "historyUrl": "https://carbrochurearchive.com/history/international/",
+      "officialUrl": "https://www.internationaltrucks.com/",
+      "pdfRecords": 13,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "International C-Line/C-Series",
+          "url": "https://carbrochurearchive.com/models/international/international-c-line-c-series/",
+          "pdfRecords": 5,
+          "yearCoverage": "1961-1968"
+        },
+        {
+          "name": "International Scout II",
+          "url": "https://carbrochurearchive.com/models/international/international-scout-ii/",
+          "pdfRecords": 2,
+          "yearCoverage": "1972-1978"
+        },
+        {
+          "name": "International D-Line/D-Series",
+          "url": "https://carbrochurearchive.com/models/international/international-d-line-d-series/",
+          "pdfRecords": 1,
+          "yearCoverage": "1969-1969"
+        },
+        {
+          "name": "International Pickup (150, 200)",
+          "url": "https://carbrochurearchive.com/models/international/international-pickup-150-200/",
+          "pdfRecords": 1,
+          "yearCoverage": "1975-1975"
+        },
+        {
+          "name": "International Scout Terra",
+          "url": "https://carbrochurearchive.com/models/international/international-scout-terra/",
+          "pdfRecords": 1,
+          "yearCoverage": "1976-1976"
+        }
+      ]
+    },
+    {
+      "name": "Isuzu",
+      "url": "https://carbrochurearchive.com/brands/isuzu/",
+      "historyUrl": "https://carbrochurearchive.com/history/isuzu/",
+      "officialUrl": "https://www.isuzu.com/",
+      "pdfRecords": 14,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Isuzu Trooper II",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-trooper-ii/",
+          "pdfRecords": 2,
+          "yearCoverage": "1985-1987"
+        },
+        {
+          "name": "Isuzu Amigo",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-amigo/",
+          "pdfRecords": 1,
+          "yearCoverage": "1999-1999"
+        },
+        {
+          "name": "Isuzu Axiom",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-axiom/",
+          "pdfRecords": 1,
+          "yearCoverage": "2002-2002"
+        },
+        {
+          "name": "Isuzu Hombre",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-hombre/",
+          "pdfRecords": 1,
+          "yearCoverage": "1999-1999"
+        },
+        {
+          "name": "Isuzu Impulse",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-impulse/",
+          "pdfRecords": 1,
+          "yearCoverage": "1986-1986"
+        },
+        {
+          "name": "Isuzu P'UP",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-p-up/",
+          "pdfRecords": 1,
+          "yearCoverage": "1982-1982"
+        },
+        {
+          "name": "Isuzu Rodeo",
+          "url": "https://carbrochurearchive.com/models/isuzu/isuzu-rodeo/",
+          "pdfRecords": 1,
+          "yearCoverage": "1999-1999"
+        }
+      ]
+    },
+    {
+      "name": "Jaguar",
+      "url": "https://carbrochurearchive.com/brands/jaguar/",
+      "historyUrl": "https://carbrochurearchive.com/history/jaguar/",
+      "officialUrl": "https://www.jaguarusa.com/all-models/index.html",
+      "pdfRecords": 39,
+      "modelPages": 7,
+      "models": [
+        {
+          "name": "Jaguar XF",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xf/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Jaguar F-Type (C-X16)",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-f-type-c-x16/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Jaguar F-Pace",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-f-pace/",
+          "pdfRecords": 6,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Jaguar XE",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xe/",
+          "pdfRecords": 5,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Jaguar E-Pace",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-e-pace/",
+          "pdfRecords": 4,
+          "yearCoverage": "2018-2021"
+        },
+        {
+          "name": "Jaguar I-Pace",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-i-pace/",
+          "pdfRecords": 4,
+          "yearCoverage": "2019-2020"
+        },
+        {
+          "name": "Jaguar XJ",
+          "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xj/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        }
+      ]
+    },
+    {
+      "name": "Jeep",
+      "url": "https://carbrochurearchive.com/brands/jeep/",
+      "historyUrl": "https://carbrochurearchive.com/history/jeep/",
+      "officialUrl": "https://www.jeep.com/",
+      "pdfRecords": 71,
+      "modelPages": 8,
+      "models": [
+        {
+          "name": "Jeep CJ/TJ/JK/JL/Wrangler",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-cj-tj-jk-jl-wrangler/",
+          "pdfRecords": 14,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Jeep Grand Cherokee",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-grand-cherokee/",
+          "pdfRecords": 14,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Jeep Cherokee",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-cherokee/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Jeep Compass",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-compass/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Jeep Renegade",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-renegade/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Jeep Gladiator",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-gladiator/",
+          "pdfRecords": 7,
+          "yearCoverage": "2020-2024"
+        },
+        {
+          "name": "Jeep Patriot",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-patriot/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Jeep Wagoner/Grand Wagoneer",
+          "url": "https://carbrochurearchive.com/models/jeep/jeep-wagoner-grand-wagoneer/",
+          "pdfRecords": 1,
+          "yearCoverage": "2022-2022"
+        }
+      ]
+    },
+    {
+      "name": "Jensen",
+      "url": "https://carbrochurearchive.com/brands/jensen/",
+      "historyUrl": "https://carbrochurearchive.com/history/jensen/",
+      "officialUrl": "https://www.jensenmuseum.org/",
+      "pdfRecords": 9,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Jensen Healey",
+          "url": "https://carbrochurearchive.com/models/jensen/jensen-healey/",
+          "pdfRecords": 4,
+          "yearCoverage": "1972-1974"
+        },
+        {
+          "name": "Jensen FF",
+          "url": "https://carbrochurearchive.com/models/jensen/jensen-ff/",
+          "pdfRecords": 2,
+          "yearCoverage": "1965-1966"
+        },
+        {
+          "name": "Jensen Interceptor",
+          "url": "https://carbrochurearchive.com/models/jensen/jensen-interceptor/",
+          "pdfRecords": 2,
+          "yearCoverage": "1970-1974"
+        },
+        {
+          "name": "Jensen GT",
+          "url": "https://carbrochurearchive.com/models/jensen/jensen-gt/",
+          "pdfRecords": 1,
+          "yearCoverage": "1975-1975"
+        }
+      ]
+    },
+    {
+      "name": "Kia",
+      "url": "https://carbrochurearchive.com/brands/kia/",
+      "historyUrl": "https://carbrochurearchive.com/history/kia/",
+      "officialUrl": "https://www.kia.com/us/en/brochure-request?vehicle=Sportage&year=2026",
+      "pdfRecords": 85,
+      "modelPages": 15,
+      "models": [
+        {
+          "name": "Kia Niro",
+          "url": "https://carbrochurearchive.com/models/kia/kia-niro/",
+          "pdfRecords": 9,
+          "yearCoverage": "2017-2023"
+        },
+        {
+          "name": "Kia Optima",
+          "url": "https://carbrochurearchive.com/models/kia/kia-optima/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Kia Soul",
+          "url": "https://carbrochurearchive.com/models/kia/kia-soul/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Kia Sorento",
+          "url": "https://carbrochurearchive.com/models/kia/kia-sorento/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Kia Sportage",
+          "url": "https://carbrochurearchive.com/models/kia/kia-sportage/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Kia Forte",
+          "url": "https://carbrochurearchive.com/models/kia/kia-forte/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Kia Rio",
+          "url": "https://carbrochurearchive.com/models/kia/kia-rio/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Kia Sedona",
+          "url": "https://carbrochurearchive.com/models/kia/kia-sedona/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Kia Stinger",
+          "url": "https://carbrochurearchive.com/models/kia/kia-stinger/",
+          "pdfRecords": 5,
+          "yearCoverage": "2018-2023"
+        },
+        {
+          "name": "Kia Cadenza",
+          "url": "https://carbrochurearchive.com/models/kia/kia-cadenza/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Kia EV6 (Electric)",
+          "url": "https://carbrochurearchive.com/models/kia/kia-ev6-electric/",
+          "pdfRecords": 3,
+          "yearCoverage": "2022-2023"
+        },
+        {
+          "name": "Kia Seltos",
+          "url": "https://carbrochurearchive.com/models/kia/kia-seltos/",
+          "pdfRecords": 3,
+          "yearCoverage": "2021-2023"
+        },
+        {
+          "name": "Kia Telluride",
+          "url": "https://carbrochurearchive.com/models/kia/kia-telluride/",
+          "pdfRecords": 3,
+          "yearCoverage": "2020-2022"
+        },
+        {
+          "name": "Kia 900",
+          "url": "https://carbrochurearchive.com/models/kia/kia-900/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Kia Carnival",
+          "url": "https://carbrochurearchive.com/models/kia/kia-carnival/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2023"
+        }
+      ]
+    },
+    {
+      "name": "Koenigsegg",
+      "url": "https://carbrochurearchive.com/brands/koenigsegg/",
+      "historyUrl": "https://carbrochurearchive.com/history/koenigsegg/",
+      "officialUrl": "https://www.koenigsegg.com/model",
+      "pdfRecords": 6,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "Koenigsegg Agera, Agera R & Agera S",
+          "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-agera-agera-r-and-agera-s/",
+          "pdfRecords": 2,
+          "yearCoverage": "2012-2013"
+        },
+        {
+          "name": "Koenigsegg CC8S & CCR",
+          "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-cc8s-and-ccr/",
+          "pdfRecords": 1,
+          "yearCoverage": "2004-2004"
+        },
+        {
+          "name": "Koenigsegg CCX & CCXR",
+          "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-ccx-and-ccxr/",
+          "pdfRecords": 1,
+          "yearCoverage": "2009-2009"
+        },
+        {
+          "name": "Koenigsegg One:1",
+          "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-one-1/",
+          "pdfRecords": 1,
+          "yearCoverage": "2014-2014"
+        },
+        {
+          "name": "Koenigsegg Trevita",
+          "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-trevita/",
+          "pdfRecords": 1,
+          "yearCoverage": "2010-2010"
+        }
+      ]
+    },
+    {
+      "name": "Lamborghini",
+      "url": "https://carbrochurearchive.com/brands/lamborghini/",
+      "historyUrl": "https://carbrochurearchive.com/history/lamborghini/",
+      "officialUrl": "https://www.lamborghini.com/en-en/models",
+      "pdfRecords": 5,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Lamborghini Huracán",
+          "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-hurac-n/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Lamborghini Aventador",
+          "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-aventador/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "Lamborghini Revuelto",
+          "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-revuelto/",
+          "pdfRecords": 1,
+          "yearCoverage": "2024-2024"
+        }
+      ]
+    },
+    {
+      "name": "Land Rover",
+      "url": "https://carbrochurearchive.com/brands/land-rover/",
+      "historyUrl": "https://carbrochurearchive.com/history/land-rover/",
+      "officialUrl": "https://www.landroverusa.com/vehicles/index.html",
+      "pdfRecords": 59,
+      "modelPages": 8,
+      "models": [
+        {
+          "name": "Range Rover",
+          "url": "https://carbrochurearchive.com/models/land-rover/range-rover/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Range Rover Evoque",
+          "url": "https://carbrochurearchive.com/models/land-rover/range-rover-evoque/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Range Rover Sport",
+          "url": "https://carbrochurearchive.com/models/land-rover/range-rover-sport/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Land Rover Discovery",
+          "url": "https://carbrochurearchive.com/models/land-rover/land-rover-discovery/",
+          "pdfRecords": 7,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Land Rover Discovery Sport",
+          "url": "https://carbrochurearchive.com/models/land-rover/land-rover-discovery-sport/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Range Rover Velar",
+          "url": "https://carbrochurearchive.com/models/land-rover/range-rover-velar/",
+          "pdfRecords": 7,
+          "yearCoverage": "2018-2021"
+        },
+        {
+          "name": "Land Rover Defender",
+          "url": "https://carbrochurearchive.com/models/land-rover/land-rover-defender/",
+          "pdfRecords": 6,
+          "yearCoverage": "2018-2022"
+        },
+        {
+          "name": "Land Rover LR4/Discovery 4",
+          "url": "https://carbrochurearchive.com/models/land-rover/land-rover-lr4-discovery-4/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Lexus",
+      "url": "https://carbrochurearchive.com/brands/lexus/",
+      "historyUrl": "https://carbrochurearchive.com/history/lexus/",
+      "officialUrl": "https://www.lexus.com/models",
+      "pdfRecords": 121,
+      "modelPages": 14,
+      "models": [
+        {
+          "name": "Lexus RC",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-rc/",
+          "pdfRecords": 16,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus LX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-lx/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus NX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-nx/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Lexus RX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-rx/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus GX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-gx/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus IS",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-is/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus LS",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-ls/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus ES (XV60)",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-es-xv60/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Lexus GS",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-gs/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Lexus LC",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-lc/",
+          "pdfRecords": 8,
+          "yearCoverage": "2018-2024"
+        },
+        {
+          "name": "Lexus UX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-ux/",
+          "pdfRecords": 7,
+          "yearCoverage": "2019-2025"
+        },
+        {
+          "name": "Lexus TX",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-tx/",
+          "pdfRecords": 4,
+          "yearCoverage": "2024-2025"
+        },
+        {
+          "name": "Lexus RZ (Electric)",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-rz-electric/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2025"
+        },
+        {
+          "name": "Lexus CT (A10)",
+          "url": "https://carbrochurearchive.com/models/lexus/lexus-ct-a10/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        }
+      ]
+    },
+    {
+      "name": "Lincoln",
+      "url": "https://carbrochurearchive.com/brands/lincoln/",
+      "historyUrl": "https://carbrochurearchive.com/history/lincoln/",
+      "officialUrl": "https://www.lincoln.com/",
+      "pdfRecords": 43,
+      "modelPages": 11,
+      "models": [
+        {
+          "name": "Lincoln Navigator",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-navigator/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Lincoln Black Label",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-black-label/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Lincoln Continental",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-continental/",
+          "pdfRecords": 5,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Lincoln MKZ",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkz/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Lincoln MKC",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkc/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Lincoln Nautilus",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-nautilus/",
+          "pdfRecords": 4,
+          "yearCoverage": "2019-2022"
+        },
+        {
+          "name": "Lincoln Aviator",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-aviator/",
+          "pdfRecords": 3,
+          "yearCoverage": "2020-2022"
+        },
+        {
+          "name": "Lincoln Corsair",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-corsair/",
+          "pdfRecords": 3,
+          "yearCoverage": "2020-2022"
+        },
+        {
+          "name": "Lincoln MKT",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkt/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2019"
+        },
+        {
+          "name": "Lincoln MKX",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkx/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Lincoln MKS",
+          "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mks/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Lotus",
+      "url": "https://carbrochurearchive.com/brands/lotus/",
+      "historyUrl": "https://carbrochurearchive.com/history/lotus/",
+      "officialUrl": "https://www.lotuscars.com/en-US/models",
+      "pdfRecords": 19,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Lotus Evora",
+          "url": "https://carbrochurearchive.com/models/lotus/lotus-evora/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Lotus Elise",
+          "url": "https://carbrochurearchive.com/models/lotus/lotus-elise/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Lotus Exige",
+          "url": "https://carbrochurearchive.com/models/lotus/lotus-exige/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Lotus Emira",
+          "url": "https://carbrochurearchive.com/models/lotus/lotus-emira/",
+          "pdfRecords": 1,
+          "yearCoverage": "2022-2022"
+        }
+      ]
+    },
+    {
+      "name": "Maserati",
+      "url": "https://carbrochurearchive.com/brands/maserati/",
+      "historyUrl": "https://carbrochurearchive.com/history/maserati/",
+      "officialUrl": "https://www.maserati.com/global/en/models",
+      "pdfRecords": 27,
+      "modelPages": 6,
+      "models": [
+        {
+          "name": "Maserati Levante",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-levante/",
+          "pdfRecords": 9,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Maserati Ghibli",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-ghibli/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Maserati Quattroporte",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-quattroporte/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Maserati Granturismo",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-granturismo/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Maserati Grancabrio",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-grancabrio/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        },
+        {
+          "name": "Maserati Personalization",
+          "url": "https://carbrochurearchive.com/models/maserati/maserati-personalization/",
+          "pdfRecords": 1,
+          "yearCoverage": "2021-2021"
+        }
+      ]
+    },
+    {
+      "name": "Maybach",
+      "url": "https://carbrochurearchive.com/brands/maybach/",
+      "historyUrl": "https://carbrochurearchive.com/history/maybach/",
+      "officialUrl": "https://www.mbusa.com/en/mercedes-maybach",
+      "pdfRecords": 6,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "Maybach 62 & 62S",
+          "url": "https://carbrochurearchive.com/models/maybach/maybach-62-and-62s/",
+          "pdfRecords": 3,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Maybach 57S",
+          "url": "https://carbrochurearchive.com/models/maybach/maybach-57s/",
+          "pdfRecords": 2,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Maybach 57 & 62",
+          "url": "https://carbrochurearchive.com/models/maybach/maybach-57-and-62/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        }
+      ]
+    },
+    {
+      "name": "Mazda",
+      "url": "https://carbrochurearchive.com/brands/mazda/",
+      "historyUrl": "https://carbrochurearchive.com/history/mazda/",
+      "officialUrl": "https://www.mazdausa.com/brochures-and-guides/request-a-brochure",
+      "pdfRecords": 48,
+      "modelPages": 9,
+      "models": [
+        {
+          "name": "Mazda CX-5",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-5/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Mazda CX-9",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-9/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Mazda MX-5 Miata",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-5-miata/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Mazda 3",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-3/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Mazda 6",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-6/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mazda CX-3",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-3/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Mazda CX-30",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-30/",
+          "pdfRecords": 3,
+          "yearCoverage": "2020-2022"
+        },
+        {
+          "name": "Mazda CX-50",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-50/",
+          "pdfRecords": 1,
+          "yearCoverage": "2023-2023"
+        },
+        {
+          "name": "Mazda MX-30 EV",
+          "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-30-ev/",
+          "pdfRecords": 1,
+          "yearCoverage": "2022-2022"
+        }
+      ]
+    },
+    {
+      "name": "McLaren",
+      "url": "https://carbrochurearchive.com/brands/mclaren/",
+      "historyUrl": "https://carbrochurearchive.com/history/mclaren/",
+      "officialUrl": "https://cars.mclaren.com/us-en",
+      "pdfRecords": 12,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "McLaren 570S",
+          "url": "https://carbrochurearchive.com/models/mclaren/mclaren-570s/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "McLaren 720S",
+          "url": "https://carbrochurearchive.com/models/mclaren/mclaren-720s/",
+          "pdfRecords": 3,
+          "yearCoverage": "2019-2020"
+        },
+        {
+          "name": "McLaren 600LT",
+          "url": "https://carbrochurearchive.com/models/mclaren/mclaren-600lt/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "McLaren 765LT",
+          "url": "https://carbrochurearchive.com/models/mclaren/mclaren-765lt/",
+          "pdfRecords": 1,
+          "yearCoverage": "2020-2020"
+        },
+        {
+          "name": "McLaren GT",
+          "url": "https://carbrochurearchive.com/models/mclaren/mclaren-gt/",
+          "pdfRecords": 1,
+          "yearCoverage": "2020-2020"
+        }
+      ]
+    },
+    {
+      "name": "Mercedes-Benz",
+      "url": "https://carbrochurearchive.com/brands/mercedes-benz/",
+      "historyUrl": "https://carbrochurearchive.com/history/mercedes-benz/",
+      "officialUrl": "https://www.mbusa.com/en/vehicle-brochures",
+      "pdfRecords": 110,
+      "modelPages": 24,
+      "models": [
+        {
+          "name": "Mercedes-Benz S-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-s-class/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Mercedes-Benz E-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-e-class/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz C-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-c-class/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz GLE-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gle-class/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz Metris & Sprinter",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-metris-and-sprinter/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Mercedes-Benz AMG & AMG GT",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-amg-and-amg-gt/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz G-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-g-class/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz GLC-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-glc-class/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz CLA-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-cla-class/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz GLA-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gla-class/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz CLS-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-cls-class/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Mercedes-Benz GLS-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gls-class/",
+          "pdfRecords": 5,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Mercedes-Benz AMG GT 4-Door",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-amg-gt-4-door/",
+          "pdfRecords": 4,
+          "yearCoverage": "2019-2021"
+        },
+        {
+          "name": "Mercedes-Benz SL-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-sl-class/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Mercedes-Benz A-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-a-class/",
+          "pdfRecords": 3,
+          "yearCoverage": "2019-2021"
+        },
+        {
+          "name": "Mercedes-Benz SLC-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-slc-class/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2019"
+        },
+        {
+          "name": "Mercedes-Benz GLB-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-glb-class/",
+          "pdfRecords": 2,
+          "yearCoverage": "2020-2021"
+        },
+        {
+          "name": "Mercedes-Benz B-Class (Electric)",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-b-class-electric/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Mercedes-Benz Electric & Hybrid",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-electric-and-hybrid/",
+          "pdfRecords": 1,
+          "yearCoverage": "2017-2017"
+        },
+        {
+          "name": "Mercedes-Benz EQ",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-eq/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Mercedes-Benz GL-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gl-class/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Mercedes-Benz Mercedes-Maybach S600",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-mercedes-maybach-s600/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Mercedes-Benz SLK-Class",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-slk-class/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Mercedes-Benz X-Class Pickup",
+          "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-x-class-pickup/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        }
+      ]
+    },
+    {
+      "name": "Mercury",
+      "url": "https://carbrochurearchive.com/brands/mercury/",
+      "historyUrl": "https://carbrochurearchive.com/history/mercury/",
+      "officialUrl": "https://www.ford.com/about-ford/heritage/",
+      "pdfRecords": 67,
+      "modelPages": 12,
+      "models": [
+        {
+          "name": "Mercury Grand Marquis",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-grand-marquis/",
+          "pdfRecords": 12,
+          "yearCoverage": "1984-2010"
+        },
+        {
+          "name": "Mercury Sable",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-sable/",
+          "pdfRecords": 12,
+          "yearCoverage": "1986-2009"
+        },
+        {
+          "name": "Mercury Cougar",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-cougar/",
+          "pdfRecords": 6,
+          "yearCoverage": "1985-1999"
+        },
+        {
+          "name": "Mercury Capri",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-capri/",
+          "pdfRecords": 5,
+          "yearCoverage": "1986-1994"
+        },
+        {
+          "name": "Mercury Mountaineer",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-mountaineer/",
+          "pdfRecords": 5,
+          "yearCoverage": "1997-2010"
+        },
+        {
+          "name": "Mercury Tracer",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-tracer/",
+          "pdfRecords": 5,
+          "yearCoverage": "1989-1999"
+        },
+        {
+          "name": "Mercury Mariner",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-mariner/",
+          "pdfRecords": 4,
+          "yearCoverage": "2008-2011"
+        },
+        {
+          "name": "Mercury Milan",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-milan/",
+          "pdfRecords": 4,
+          "yearCoverage": "2006-2011"
+        },
+        {
+          "name": "Mercury Marauder",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-marauder/",
+          "pdfRecords": 2,
+          "yearCoverage": "2003-2004"
+        },
+        {
+          "name": "Mercury Mystique",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-mystique/",
+          "pdfRecords": 2,
+          "yearCoverage": "1997-1999"
+        },
+        {
+          "name": "Mercury Topaz",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-topaz/",
+          "pdfRecords": 2,
+          "yearCoverage": "1989-1991"
+        },
+        {
+          "name": "Mercury Villager",
+          "url": "https://carbrochurearchive.com/models/mercury/mercury-villager/",
+          "pdfRecords": 2,
+          "yearCoverage": "1993-1999"
+        }
+      ]
+    },
+    {
+      "name": "MG",
+      "url": "https://carbrochurearchive.com/brands/mg/",
+      "historyUrl": "https://carbrochurearchive.com/history/mg/",
+      "officialUrl": "https://www.mgmotor.eu/",
+      "pdfRecords": 7,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "MGB",
+          "url": "https://carbrochurearchive.com/models/mg/mgb/",
+          "pdfRecords": 3,
+          "yearCoverage": "1963-1980"
+        },
+        {
+          "name": "Midget",
+          "url": "https://carbrochurearchive.com/models/mg/midget/",
+          "pdfRecords": 2,
+          "yearCoverage": "1973-1979"
+        },
+        {
+          "name": "TF",
+          "url": "https://carbrochurearchive.com/models/mg/tf/",
+          "pdfRecords": 1,
+          "yearCoverage": "1953-1953"
+        }
+      ]
+    },
+    {
+      "name": "MINI",
+      "url": "https://carbrochurearchive.com/brands/mini/",
+      "historyUrl": "https://carbrochurearchive.com/history/mini/",
+      "officialUrl": "https://www.miniusa.com/model.html",
+      "pdfRecords": 8,
+      "modelPages": 0,
+      "models": []
+    },
+    {
+      "name": "Mitsubishi",
+      "url": "https://carbrochurearchive.com/brands/mitsubishi/",
+      "historyUrl": "https://carbrochurearchive.com/history/mitsubishi/",
+      "officialUrl": "https://www.mitsubishicars.com/",
+      "pdfRecords": 46,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "Mitsubishi Outlander",
+          "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-outlander/",
+          "pdfRecords": 15,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Mitsubishi Mirage",
+          "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-mirage/",
+          "pdfRecords": 9,
+          "yearCoverage": "2017-2024"
+        },
+        {
+          "name": "Mitsubishi Outlander Sport",
+          "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-outlander-sport/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Mitsubishi Eclipse Cross",
+          "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-eclipse-cross/",
+          "pdfRecords": 6,
+          "yearCoverage": "2018-2024"
+        },
+        {
+          "name": "Mitsubishi Lancer",
+          "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-lancer/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        }
+      ]
+    },
+    {
+      "name": "Morgan",
+      "url": "https://carbrochurearchive.com/brands/morgan/",
+      "historyUrl": "https://carbrochurearchive.com/history/morgan/",
+      "officialUrl": "https://morgan-motor.com/models/",
+      "pdfRecords": 23,
+      "modelPages": 6,
+      "models": [
+        {
+          "name": "Morgan 4/4, Plus 4, Plus 8 & Roadster",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-4-4-plus-4-plus-8-and-roadster/",
+          "pdfRecords": 11,
+          "yearCoverage": "2008-2015"
+        },
+        {
+          "name": "Morgan Aero Coupe/Aeromax/SuperSport",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-aero-coupe-aeromax-supersport/",
+          "pdfRecords": 6,
+          "yearCoverage": "2006-2012"
+        },
+        {
+          "name": "Morgan 3 Wheeler",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-3-wheeler/",
+          "pdfRecords": 3,
+          "yearCoverage": "2011-2014"
+        },
+        {
+          "name": "Morgan Brooklands Edition Roadster & 3 Wheeler",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-brooklands-edition-roadster-and-3-wheeler/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Morgan Eva GT",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-eva-gt/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        },
+        {
+          "name": "Morgan Lifecar",
+          "url": "https://carbrochurearchive.com/models/morgan/morgan-lifecar/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        }
+      ]
+    },
+    {
+      "name": "Nissan",
+      "url": "https://carbrochurearchive.com/brands/nissan/",
+      "historyUrl": "https://carbrochurearchive.com/history/nissan/",
+      "officialUrl": "https://www.nissanusa.com/brochures.html",
+      "pdfRecords": 175,
+      "modelPages": 22,
+      "models": [
+        {
+          "name": "Nissan Versa",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-versa/",
+          "pdfRecords": 13,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Nissan Rogue",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Nissan Altima",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-altima/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Nissan Leaf",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-leaf/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Nissan Murano",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-murano/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Nissan Sentra",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-sentra/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Nissan Armada",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-armada/",
+          "pdfRecords": 10,
+          "yearCoverage": "2017-2026"
+        },
+        {
+          "name": "Nissan Frontier",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-frontier/",
+          "pdfRecords": 10,
+          "yearCoverage": "2017-2026"
+        },
+        {
+          "name": "Nissan Kicks",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-kicks/",
+          "pdfRecords": 10,
+          "yearCoverage": "2018-2026"
+        },
+        {
+          "name": "Nissan Titan",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-titan/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Nissan Pathfinder",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-pathfinder/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Nissan GT-R",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-gt-r/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Nissan Maxima",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-maxima/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Nissan NV Cargo",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-nv-cargo/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Nissan Rogue Sport",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue-sport/",
+          "pdfRecords": 7,
+          "yearCoverage": "2017-2022"
+        },
+        {
+          "name": "Nissan NV200/Compact Cargo",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-nv200-compact-cargo/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Nissan 350Z/370Z",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-350z-370z/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Nissan NV Passenger",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-nv-passenger/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Nissan Z",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-z/",
+          "pdfRecords": 5,
+          "yearCoverage": "2023-2026"
+        },
+        {
+          "name": "Nissan Aryia (electric)",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-aryia-electric/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2025"
+        },
+        {
+          "name": "Nissan Juke",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-juke/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Nissan Quest",
+          "url": "https://carbrochurearchive.com/models/nissan/nissan-quest/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Oldsmobile",
+      "url": "https://carbrochurearchive.com/brands/oldsmobile/",
+      "historyUrl": "https://carbrochurearchive.com/history/oldsmobile/",
+      "officialUrl": "https://www.gm.com/heritage",
+      "pdfRecords": 74,
+      "modelPages": 14,
+      "models": [
+        {
+          "name": "Oldsmobile Aurora",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aurora/",
+          "pdfRecords": 7,
+          "yearCoverage": "1995-2002"
+        },
+        {
+          "name": "Oldsmobile Cutlass/Cutlass Supreme",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-cutlass-supreme/",
+          "pdfRecords": 7,
+          "yearCoverage": "1989-1997"
+        },
+        {
+          "name": "Oldsmobile Eighty Eight/LSS",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-eighty-eight-lss/",
+          "pdfRecords": 7,
+          "yearCoverage": "1994-1997"
+        },
+        {
+          "name": "Oldsmobile Silhouette",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-silhouette/",
+          "pdfRecords": 6,
+          "yearCoverage": "1994-2004"
+        },
+        {
+          "name": "Oldsmobile Achieva",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-achieva/",
+          "pdfRecords": 4,
+          "yearCoverage": "1994-1997"
+        },
+        {
+          "name": "Oldsmobile Bravada",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-bravada/",
+          "pdfRecords": 4,
+          "yearCoverage": "1994-2004"
+        },
+        {
+          "name": "Oldsmobile Ninety-Eight",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ninety-eight/",
+          "pdfRecords": 4,
+          "yearCoverage": "1985-1996"
+        },
+        {
+          "name": "Oldsmobile Alero",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
+          "pdfRecords": 3,
+          "yearCoverage": "2002-2004"
+        },
+        {
+          "name": "Oldsmobile Ciera/Cutlass Ciera",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ciera-cutlass-ciera/",
+          "pdfRecords": 3,
+          "yearCoverage": "1994-1996"
+        },
+        {
+          "name": "Oldsmobile Intrigue",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-intrigue/",
+          "pdfRecords": 3,
+          "yearCoverage": "2001-2002"
+        },
+        {
+          "name": "Oldsmobile Cutlass Ciera & Firenza",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-ciera-and-firenza/",
+          "pdfRecords": 2,
+          "yearCoverage": "1985-1985"
+        },
+        {
+          "name": "Oldsmobile Aerotech Concept",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aerotech-concept/",
+          "pdfRecords": 1,
+          "yearCoverage": "1987-1987"
+        },
+        {
+          "name": "Oldsmobile Calais",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-calais/",
+          "pdfRecords": 1,
+          "yearCoverage": "1985-1985"
+        },
+        {
+          "name": "Oldsmobile Six",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-six/",
+          "pdfRecords": 1,
+          "yearCoverage": "1929-1929"
+        }
+      ]
+    },
+    {
+      "name": "Opel",
+      "url": "https://carbrochurearchive.com/brands/opel/",
+      "historyUrl": "https://carbrochurearchive.com/history/opel/",
+      "officialUrl": "https://www.opel.com/",
+      "pdfRecords": 5,
+      "modelPages": 2,
+      "models": [
+        {
+          "name": "Opel GT",
+          "url": "https://carbrochurearchive.com/models/opel/opel-gt/",
+          "pdfRecords": 1,
+          "yearCoverage": "1970-1970"
+        },
+        {
+          "name": "Opel Rekord",
+          "url": "https://carbrochurearchive.com/models/opel/opel-rekord/",
+          "pdfRecords": 1,
+          "yearCoverage": "1960-1960"
+        }
+      ]
+    },
+    {
+      "name": "Pagani",
+      "url": "https://carbrochurearchive.com/brands/pagani/",
+      "historyUrl": "https://carbrochurearchive.com/history/pagani/",
+      "officialUrl": "https://www.pagani.com/",
+      "pdfRecords": 1,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Pagani Zonda F",
+          "url": "https://carbrochurearchive.com/models/pagani/pagani-zonda-f/",
+          "pdfRecords": 1,
+          "yearCoverage": "2009-2009"
+        }
+      ]
+    },
+    {
+      "name": "Peugeot",
+      "url": "https://carbrochurearchive.com/brands/peugeot/",
+      "historyUrl": "https://carbrochurearchive.com/history/peugeot/",
+      "officialUrl": "https://www.peugeot.com/en/models/",
+      "pdfRecords": 5,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "Peugeot 304",
+          "url": "https://carbrochurearchive.com/models/peugeot/peugeot-304/",
+          "pdfRecords": 1,
+          "yearCoverage": "1978-1978"
+        },
+        {
+          "name": "Peugeot 403",
+          "url": "https://carbrochurearchive.com/models/peugeot/peugeot-403/",
+          "pdfRecords": 1,
+          "yearCoverage": "1966-1966"
+        },
+        {
+          "name": "Peugeot 504",
+          "url": "https://carbrochurearchive.com/models/peugeot/peugeot-504/",
+          "pdfRecords": 1,
+          "yearCoverage": "1972-1972"
+        },
+        {
+          "name": "Peugeot 505",
+          "url": "https://carbrochurearchive.com/models/peugeot/peugeot-505/",
+          "pdfRecords": 1,
+          "yearCoverage": "1980-1980"
+        },
+        {
+          "name": "Peugeot 604",
+          "url": "https://carbrochurearchive.com/models/peugeot/peugeot-604/",
+          "pdfRecords": 1,
+          "yearCoverage": "1979-1979"
+        }
+      ]
+    },
+    {
+      "name": "Plymouth",
+      "url": "https://carbrochurearchive.com/brands/plymouth/",
+      "historyUrl": "https://carbrochurearchive.com/history/plymouth/",
+      "officialUrl": "https://www.stellantis.com/en/heritage",
+      "pdfRecords": 45,
+      "modelPages": 15,
+      "models": [
+        {
+          "name": "Plymouth Acclaim",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-acclaim/",
+          "pdfRecords": 4,
+          "yearCoverage": "1989-1993"
+        },
+        {
+          "name": "Plymouth Horizon",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-horizon/",
+          "pdfRecords": 4,
+          "yearCoverage": "1978-1998"
+        },
+        {
+          "name": "Plymouth Laser",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-laser/",
+          "pdfRecords": 4,
+          "yearCoverage": "1991-1994"
+        },
+        {
+          "name": "Plymouth Voyager",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-voyager/",
+          "pdfRecords": 4,
+          "yearCoverage": "1984-1991"
+        },
+        {
+          "name": "Plymouth Colt",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-colt/",
+          "pdfRecords": 3,
+          "yearCoverage": "1991-1993"
+        },
+        {
+          "name": "Plymouth Prowler",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-prowler/",
+          "pdfRecords": 3,
+          "yearCoverage": "1997-2000"
+        },
+        {
+          "name": "Plymouth Reliant",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-reliant/",
+          "pdfRecords": 3,
+          "yearCoverage": "1985-1989"
+        },
+        {
+          "name": "Plymouth Sundance",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-sundance/",
+          "pdfRecords": 3,
+          "yearCoverage": "1991-1993"
+        },
+        {
+          "name": "Plymouth Breeze",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-breeze/",
+          "pdfRecords": 2,
+          "yearCoverage": "1997-2000"
+        },
+        {
+          "name": "Plymouth Neon",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-neon/",
+          "pdfRecords": 2,
+          "yearCoverage": "1997-2000"
+        },
+        {
+          "name": "Plymouth Barracuda",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-barracuda/",
+          "pdfRecords": 1,
+          "yearCoverage": "1971-1971"
+        },
+        {
+          "name": "Plymouth Belvedere",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-belvedere/",
+          "pdfRecords": 1,
+          "yearCoverage": "1966-1966"
+        },
+        {
+          "name": "Plymouth Champ",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-champ/",
+          "pdfRecords": 1,
+          "yearCoverage": "1979-1979"
+        },
+        {
+          "name": "Plymouth Fury",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-fury/",
+          "pdfRecords": 1,
+          "yearCoverage": "1976-1976"
+        },
+        {
+          "name": "Plymouth Satellite",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
+          "pdfRecords": 1,
+          "yearCoverage": "1973-1973"
+        }
+      ]
+    },
+    {
+      "name": "Pontiac",
+      "url": "https://carbrochurearchive.com/brands/pontiac/",
+      "historyUrl": "https://carbrochurearchive.com/history/pontiac/",
+      "officialUrl": "https://www.gm.com/heritage",
+      "pdfRecords": 42,
+      "modelPages": 17,
+      "models": [
+        {
+          "name": "Pontiac Firebird",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-firebird/",
+          "pdfRecords": 7,
+          "yearCoverage": "1970-1999"
+        },
+        {
+          "name": "Pontiac GTO",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-gto/",
+          "pdfRecords": 4,
+          "yearCoverage": "2004-2006"
+        },
+        {
+          "name": "Pontiac Vibe",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-vibe/",
+          "pdfRecords": 4,
+          "yearCoverage": "2006-2010"
+        },
+        {
+          "name": "Pontiac G5",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g5/",
+          "pdfRecords": 2,
+          "yearCoverage": "2008-2009"
+        },
+        {
+          "name": "Pontiac G6",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g6/",
+          "pdfRecords": 2,
+          "yearCoverage": "2006-2009"
+        },
+        {
+          "name": "Pontiac G8",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g8/",
+          "pdfRecords": 2,
+          "yearCoverage": "2009-2009"
+        },
+        {
+          "name": "Pontiac Grand Am",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-grand-am/",
+          "pdfRecords": 2,
+          "yearCoverage": "1997-1999"
+        },
+        {
+          "name": "Pontiac Grand Prix",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-grand-prix/",
+          "pdfRecords": 2,
+          "yearCoverage": "1990-1997"
+        },
+        {
+          "name": "Pontiac Torrent",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-torrent/",
+          "pdfRecords": 2,
+          "yearCoverage": "2006-2009"
+        },
+        {
+          "name": "Pontiac Bonneville",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-bonneville/",
+          "pdfRecords": 1,
+          "yearCoverage": "1997-1997"
+        },
+        {
+          "name": "Pontiac Fiero",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-fiero/",
+          "pdfRecords": 1,
+          "yearCoverage": "1984-1984"
+        },
+        {
+          "name": "Pontiac G3",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g3/",
+          "pdfRecords": 1,
+          "yearCoverage": "2009-2009"
+        },
+        {
+          "name": "Pontiac Safari",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-safari/",
+          "pdfRecords": 1,
+          "yearCoverage": "1974-1974"
+        },
+        {
+          "name": "Pontiac Solstice",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-solstice/",
+          "pdfRecords": 1,
+          "yearCoverage": "2006-2006"
+        },
+        {
+          "name": "Pontiac Sunfire",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sunfire/",
+          "pdfRecords": 1,
+          "yearCoverage": "1997-1997"
+        },
+        {
+          "name": "Pontiac SV6",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sv6/",
+          "pdfRecords": 1,
+          "yearCoverage": "2006-2006"
+        },
+        {
+          "name": "Pontiac Trans Sport",
+          "url": "https://carbrochurearchive.com/models/pontiac/pontiac-trans-sport/",
+          "pdfRecords": 1,
+          "yearCoverage": "1998-1998"
+        }
+      ]
+    },
+    {
+      "name": "Porsche",
+      "url": "https://carbrochurearchive.com/brands/porsche/",
+      "historyUrl": "https://carbrochurearchive.com/history/porsche/",
+      "officialUrl": "https://www.porsche.com/usa/models/",
+      "pdfRecords": 56,
+      "modelPages": 9,
+      "models": [
+        {
+          "name": "Porsche 911 (991 Series)",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-911-991-series/",
+          "pdfRecords": 17,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Porsche 718 (Boxter/Cayman)",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-718-boxter-cayman/",
+          "pdfRecords": 9,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Porsche Macan",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-macan/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Porsche Cayenne",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-cayenne/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Porsche 911 (992 Series)",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-911-992-series/",
+          "pdfRecords": 5,
+          "yearCoverage": "2020-2021"
+        },
+        {
+          "name": "Porsche Panamera",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-panamera/",
+          "pdfRecords": 5,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Porsche Taycan",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-taycan/",
+          "pdfRecords": 4,
+          "yearCoverage": "2020-2021"
+        },
+        {
+          "name": "Porsche 935",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-935/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "Porsche Mission E",
+          "url": "https://carbrochurearchive.com/models/porsche/porsche-mission-e/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        }
+      ]
+    },
+    {
+      "name": "Ram",
+      "url": "https://carbrochurearchive.com/brands/ram/",
+      "historyUrl": "https://carbrochurearchive.com/history/ram/",
+      "officialUrl": "https://www.ramtrucks.com/",
+      "pdfRecords": 63,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Ram 1500",
+          "url": "https://carbrochurearchive.com/models/ram/ram-1500/",
+          "pdfRecords": 20,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Ram 2500/3500 Heavy Duty",
+          "url": "https://carbrochurearchive.com/models/ram/ram-2500-3500-heavy-duty/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Ram Promaster",
+          "url": "https://carbrochurearchive.com/models/ram/ram-promaster/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2023"
+        },
+        {
+          "name": "Ram Promaster City",
+          "url": "https://carbrochurearchive.com/models/ram/ram-promaster-city/",
+          "pdfRecords": 7,
+          "yearCoverage": "2016-2022"
+        }
+      ]
+    },
+    {
+      "name": "Rolls-Royce",
+      "url": "https://carbrochurearchive.com/brands/rolls-royce/",
+      "historyUrl": "https://carbrochurearchive.com/history/rolls-royce/",
+      "officialUrl": "https://www.rolls-roycemotorcars.com/en_GB/showroom.html",
+      "pdfRecords": 16,
+      "modelPages": 5,
+      "models": [
+        {
+          "name": "Rolls-Royce Dawn",
+          "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-dawn/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Rolls-Royce Cullinan",
+          "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-cullinan/",
+          "pdfRecords": 2,
+          "yearCoverage": "2019-2019"
+        },
+        {
+          "name": "Rolls-Royce Ghost",
+          "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-ghost/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Rolls-Royce Wraith",
+          "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-wraith/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Rolls-Royce Phantom",
+          "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-phantom/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        }
+      ]
+    },
+    {
+      "name": "Saab",
+      "url": "https://carbrochurearchive.com/brands/saab/",
+      "historyUrl": "https://carbrochurearchive.com/history/saab/",
+      "officialUrl": "https://saabcars.com/",
+      "pdfRecords": 74,
+      "modelPages": 14,
+      "models": [
+        {
+          "name": "Saab 99",
+          "url": "https://carbrochurearchive.com/models/saab/saab-99/",
+          "pdfRecords": 16,
+          "yearCoverage": "1969-1980"
+        },
+        {
+          "name": "Saab 900",
+          "url": "https://carbrochurearchive.com/models/saab/saab-900/",
+          "pdfRecords": 13,
+          "yearCoverage": "1979-1994"
+        },
+        {
+          "name": "Saab 96",
+          "url": "https://carbrochurearchive.com/models/saab/saab-96/",
+          "pdfRecords": 8,
+          "yearCoverage": "1960-1969"
+        },
+        {
+          "name": "Saab 9-3 (93)",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9-3-93/",
+          "pdfRecords": 7,
+          "yearCoverage": "1999-2012"
+        },
+        {
+          "name": "Saab 9-5 (95)",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9-5-95/",
+          "pdfRecords": 6,
+          "yearCoverage": "2005-2012"
+        },
+        {
+          "name": "Saab Sonett",
+          "url": "https://carbrochurearchive.com/models/saab/saab-sonett/",
+          "pdfRecords": 6,
+          "yearCoverage": "1967-1974"
+        },
+        {
+          "name": "Saab 95 Estate/Station Wagon",
+          "url": "https://carbrochurearchive.com/models/saab/saab-95-estate-station-wagon/",
+          "pdfRecords": 3,
+          "yearCoverage": "1969-1969"
+        },
+        {
+          "name": "Saab 9-4X (94X)",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9-4x-94x/",
+          "pdfRecords": 2,
+          "yearCoverage": "2011-2011"
+        },
+        {
+          "name": "Saab 93",
+          "url": "https://carbrochurearchive.com/models/saab/saab-93/",
+          "pdfRecords": 2,
+          "yearCoverage": "1957-1961"
+        },
+        {
+          "name": "Saab 9-2X (92X)",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9-2x-92x/",
+          "pdfRecords": 1,
+          "yearCoverage": "2005-2005"
+        },
+        {
+          "name": "Saab 90",
+          "url": "https://carbrochurearchive.com/models/saab/saab-90/",
+          "pdfRecords": 1,
+          "yearCoverage": "1984-1984"
+        },
+        {
+          "name": "Saab 9000",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9000/",
+          "pdfRecords": 1,
+          "yearCoverage": "1994-1994"
+        },
+        {
+          "name": "Saab 97X",
+          "url": "https://carbrochurearchive.com/models/saab/saab-97x/",
+          "pdfRecords": 1,
+          "yearCoverage": "2005-2005"
+        },
+        {
+          "name": "Saab 9X Concept",
+          "url": "https://carbrochurearchive.com/models/saab/saab-9x-concept/",
+          "pdfRecords": 1,
+          "yearCoverage": "2001-2001"
+        }
+      ]
+    },
+    {
+      "name": "Saturn",
+      "url": "https://carbrochurearchive.com/brands/saturn/",
+      "historyUrl": "https://carbrochurearchive.com/history/saturn/",
+      "officialUrl": "https://www.gm.com/heritage",
+      "pdfRecords": 40,
+      "modelPages": 9,
+      "models": [
+        {
+          "name": "Saturn S-Series",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-s-series/",
+          "pdfRecords": 5,
+          "yearCoverage": "2000-2002"
+        },
+        {
+          "name": "Saturn Sky",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-sky/",
+          "pdfRecords": 4,
+          "yearCoverage": "2007-2009"
+        },
+        {
+          "name": "Saturn Vue",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-vue/",
+          "pdfRecords": 4,
+          "yearCoverage": "2003-2009"
+        },
+        {
+          "name": "Saturn Aura",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-aura/",
+          "pdfRecords": 3,
+          "yearCoverage": "2007-2009"
+        },
+        {
+          "name": "Saturn L-Series",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-l-series/",
+          "pdfRecords": 3,
+          "yearCoverage": "2001-2003"
+        },
+        {
+          "name": "Saturn Outlook",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-outlook/",
+          "pdfRecords": 3,
+          "yearCoverage": "2007-2009"
+        },
+        {
+          "name": "Saturn Astra",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-astra/",
+          "pdfRecords": 2,
+          "yearCoverage": "2008-2009"
+        },
+        {
+          "name": "Saturn Ion",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-ion/",
+          "pdfRecords": 2,
+          "yearCoverage": "2003-2007"
+        },
+        {
+          "name": "Saturn Relay",
+          "url": "https://carbrochurearchive.com/models/saturn/saturn-relay/",
+          "pdfRecords": 2,
+          "yearCoverage": "2006-2007"
+        }
+      ]
+    },
+    {
+      "name": "Scion",
+      "url": "https://carbrochurearchive.com/brands/scion/",
+      "historyUrl": "https://carbrochurearchive.com/history/scion/",
+      "officialUrl": "https://www.toyota.com/",
+      "pdfRecords": 4,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Scion FR-S",
+          "url": "https://carbrochurearchive.com/models/scion/scion-fr-s/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Scion iA",
+          "url": "https://carbrochurearchive.com/models/scion/scion-ia/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Scion iM",
+          "url": "https://carbrochurearchive.com/models/scion/scion-im/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Scion tC",
+          "url": "https://carbrochurearchive.com/models/scion/scion-tc/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Smart",
+      "url": "https://carbrochurearchive.com/brands/smart/",
+      "historyUrl": "https://carbrochurearchive.com/history/smart/",
+      "officialUrl": "https://www.smart.com/",
+      "pdfRecords": 1,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Smart fortwo",
+          "url": "https://carbrochurearchive.com/models/smart/smart-fortwo/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    },
+    {
+      "name": "Spyker",
+      "url": "https://carbrochurearchive.com/brands/spyker/",
+      "historyUrl": "https://carbrochurearchive.com/history/spyker/",
+      "officialUrl": "https://spykercars.com/",
+      "pdfRecords": 2,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Spyker LM85",
+          "url": "https://carbrochurearchive.com/models/spyker/spyker-lm85/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        }
+      ]
+    },
+    {
+      "name": "SRT",
+      "url": "https://carbrochurearchive.com/brands/srt/",
+      "historyUrl": "https://carbrochurearchive.com/history/srt/",
+      "officialUrl": "https://www.dodge.com/srt.html",
+      "pdfRecords": 5,
+      "modelPages": 3,
+      "models": [
+        {
+          "name": "SRT Viper",
+          "url": "https://carbrochurearchive.com/models/srt/srt-viper/",
+          "pdfRecords": 3,
+          "yearCoverage": "2013-2014"
+        },
+        {
+          "name": "300 SRT, Challenger SRT, Charger SRT & Grand Cherokee SRT",
+          "url": "https://carbrochurearchive.com/models/srt/300-srt-challenger-srt-charger-srt-and-grand-cherokee-srt/",
+          "pdfRecords": 1,
+          "yearCoverage": "2013-2013"
+        },
+        {
+          "name": "SRT Grand Cherokee",
+          "url": "https://carbrochurearchive.com/models/srt/srt-grand-cherokee/",
+          "pdfRecords": 1,
+          "yearCoverage": "2014-2014"
+        }
+      ]
+    },
+    {
+      "name": "SSC",
+      "url": "https://carbrochurearchive.com/brands/ssc/",
+      "historyUrl": "https://carbrochurearchive.com/history/ssc/",
+      "officialUrl": "https://www.sscnorthamerica.com/",
+      "pdfRecords": 1,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "SSC Aero Ultimate TT",
+          "url": "https://carbrochurearchive.com/models/ssc/ssc-aero-ultimate-tt/",
+          "pdfRecords": 1,
+          "yearCoverage": "year not stated"
+        }
+      ]
+    },
+    {
+      "name": "Studebaker",
+      "url": "https://carbrochurearchive.com/brands/studebaker/",
+      "historyUrl": "https://carbrochurearchive.com/history/studebaker/",
+      "officialUrl": "https://www.studebakermuseum.org/",
+      "pdfRecords": 12,
+      "modelPages": 4,
+      "models": [
+        {
+          "name": "Studebaker Commander",
+          "url": "https://carbrochurearchive.com/models/studebaker/studebaker-commander/",
+          "pdfRecords": 1,
+          "yearCoverage": "1929-1929"
+        },
+        {
+          "name": "Studebaker Hawk",
+          "url": "https://carbrochurearchive.com/models/studebaker/studebaker-hawk/",
+          "pdfRecords": 1,
+          "yearCoverage": "1957-1957"
+        },
+        {
+          "name": "Studebaker Speedster",
+          "url": "https://carbrochurearchive.com/models/studebaker/studebaker-speedster/",
+          "pdfRecords": 1,
+          "yearCoverage": "1955-1955"
+        },
+        {
+          "name": "Studebaker Truck",
+          "url": "https://carbrochurearchive.com/models/studebaker/studebaker-truck/",
+          "pdfRecords": 1,
+          "yearCoverage": "1929-1929"
+        }
+      ]
+    },
+    {
+      "name": "Subaru",
+      "url": "https://carbrochurearchive.com/brands/subaru/",
+      "historyUrl": "https://carbrochurearchive.com/history/subaru/",
+      "officialUrl": "https://www.subaru.com/",
+      "pdfRecords": 91,
+      "modelPages": 8,
+      "models": [
+        {
+          "name": "Subaru XV/Crosstrek",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-xv-crosstrek/",
+          "pdfRecords": 17,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Subaru Forester",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-forester/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Subaru Outback",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-outback/",
+          "pdfRecords": 12,
+          "yearCoverage": "2016-2025"
+        },
+        {
+          "name": "Subaru Legacy",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-legacy/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Subaru Ascent",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-ascent/",
+          "pdfRecords": 9,
+          "yearCoverage": "2019-2025"
+        },
+        {
+          "name": "Subaru Impreza",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Subaru BRZ",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-brz/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Subaru Impreza WRX STI",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza-wrx-sti/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        }
+      ]
+    },
+    {
+      "name": "Suzuki",
+      "url": "https://carbrochurearchive.com/brands/suzuki/",
+      "historyUrl": "https://carbrochurearchive.com/history/suzuki/",
+      "officialUrl": "https://www.globalsuzuki.com/automobile/",
+      "pdfRecords": 38,
+      "modelPages": 11,
+      "models": [
+        {
+          "name": "Suzuki Grand Vitara",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-grand-vitara/",
+          "pdfRecords": 7,
+          "yearCoverage": "1999-2013"
+        },
+        {
+          "name": "Suzuki SX4",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-sx4/",
+          "pdfRecords": 5,
+          "yearCoverage": "2007-2013"
+        },
+        {
+          "name": "Suzuki Equator",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-equator/",
+          "pdfRecords": 4,
+          "yearCoverage": "2010-2013"
+        },
+        {
+          "name": "Suzuki Kizashi",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-kizashi/",
+          "pdfRecords": 4,
+          "yearCoverage": "2010-2013"
+        },
+        {
+          "name": "Suzuki Aerio",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-aerio/",
+          "pdfRecords": 3,
+          "yearCoverage": "2003-2007"
+        },
+        {
+          "name": "Suzuki Forenza",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-forenza/",
+          "pdfRecords": 3,
+          "yearCoverage": "2006-2007"
+        },
+        {
+          "name": "Suzuki XL-7",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-xl-7/",
+          "pdfRecords": 3,
+          "yearCoverage": "2003-2007"
+        },
+        {
+          "name": "Suzuki Reno",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-reno/",
+          "pdfRecords": 2,
+          "yearCoverage": "2006-2007"
+        },
+        {
+          "name": "Suzuki Samurai",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-samurai/",
+          "pdfRecords": 2,
+          "yearCoverage": "1986-1988"
+        },
+        {
+          "name": "Suzuki Swift",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-swift/",
+          "pdfRecords": 1,
+          "yearCoverage": "1989-1989"
+        },
+        {
+          "name": "Suzuki Verona",
+          "url": "https://carbrochurearchive.com/models/suzuki/suzuki-verona/",
+          "pdfRecords": 1,
+          "yearCoverage": "2006-2006"
+        }
+      ]
+    },
+    {
+      "name": "Tesla",
+      "url": "https://carbrochurearchive.com/brands/tesla/",
+      "historyUrl": "https://carbrochurearchive.com/history/tesla/",
+      "officialUrl": "https://www.tesla.com/",
+      "pdfRecords": 1,
+      "modelPages": 0,
+      "models": []
+    },
+    {
+      "name": "Toyota",
+      "url": "https://carbrochurearchive.com/brands/toyota/",
+      "historyUrl": "https://carbrochurearchive.com/history/toyota/",
+      "officialUrl": "https://www.toyota.com/brochures/",
+      "pdfRecords": 205,
+      "modelPages": 28,
+      "models": [
+        {
+          "name": "Toyota Camry",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-camry/",
+          "pdfRecords": 13,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Toyota Corolla",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla/",
+          "pdfRecords": 13,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Toyota Prius",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-prius/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Toyota RAV4",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-rav4/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota Sequoia",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-sequoia/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Toyota Tundra",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-tundra/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2026"
+        },
+        {
+          "name": "Toyota Corolla Hatchback",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-hatchback/",
+          "pdfRecords": 10,
+          "yearCoverage": "2019-2026"
+        },
+        {
+          "name": "Toyota Highlander",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-highlander/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota Mirai",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-mirai/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota 4Runner",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-4runner/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota Sienna",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-sienna/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota Tacoma",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-tacoma/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2024"
+        },
+        {
+          "name": "Toyota 86/GR86",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-86-gr86/",
+          "pdfRecords": 8,
+          "yearCoverage": "2017-2025"
+        },
+        {
+          "name": "Toyota Avalon",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-avalon/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Toyota Prius Plug-In/Prime",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-plug-in-prime/",
+          "pdfRecords": 8,
+          "yearCoverage": "2017-2026"
+        },
+        {
+          "name": "Toyota Supra",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-supra/",
+          "pdfRecords": 8,
+          "yearCoverage": "2020-2025"
+        },
+        {
+          "name": "Toyota Crown/Crown Signia",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-crown-crown-signia/",
+          "pdfRecords": 6,
+          "yearCoverage": "2023-2026"
+        },
+        {
+          "name": "Toyota Land Cruiser",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-land-cruiser/",
+          "pdfRecords": 5,
+          "yearCoverage": "2018-2026"
+        },
+        {
+          "name": "Toyota Yaris",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Toyota CH-R",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-ch-r/",
+          "pdfRecords": 4,
+          "yearCoverage": "2018-2021"
+        },
+        {
+          "name": "Toyota Corolla Cross",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-cross/",
+          "pdfRecords": 4,
+          "yearCoverage": "2022-2024"
+        },
+        {
+          "name": "Toyota Venza",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-venza/",
+          "pdfRecords": 4,
+          "yearCoverage": "2021-2024"
+        },
+        {
+          "name": "Toyota Yaris iA/Hatchback",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-ia-hatchback/",
+          "pdfRecords": 3,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Toyota bz/bZ4X (electric)",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-bz-bz4x-electric/",
+          "pdfRecords": 2,
+          "yearCoverage": "2023-2024"
+        },
+        {
+          "name": "Toyota Corolla GR",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-gr/",
+          "pdfRecords": 2,
+          "yearCoverage": "2023-2023"
+        },
+        {
+          "name": "Toyota Corolla iM",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-im/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "Toyota Grand Highlander",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-grand-highlander/",
+          "pdfRecords": 1,
+          "yearCoverage": "2024-2024"
+        },
+        {
+          "name": "Toyota Yaris Liftback",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback/",
+          "pdfRecords": 1,
+          "yearCoverage": "2018-2018"
+        }
+      ]
+    },
+    {
+      "name": "Vencer",
+      "url": "https://carbrochurearchive.com/brands/vencer/",
+      "historyUrl": "https://carbrochurearchive.com/history/vencer/",
+      "officialUrl": "https://www.vencer.nl/",
+      "pdfRecords": 2,
+      "modelPages": 1,
+      "models": [
+        {
+          "name": "Vencer Sarthe",
+          "url": "https://carbrochurearchive.com/models/vencer/vencer-sarthe/",
+          "pdfRecords": 2,
+          "yearCoverage": "2013-2014"
+        }
+      ]
+    },
+    {
+      "name": "Volkswagen",
+      "url": "https://carbrochurearchive.com/brands/volkswagen/",
+      "historyUrl": "https://carbrochurearchive.com/history/volkswagen/",
+      "officialUrl": "https://www.vw.com/en/models.html",
+      "pdfRecords": 86,
+      "modelPages": 17,
+      "models": [
+        {
+          "name": "Volkswagen (VW) Tiguan",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-tiguan/",
+          "pdfRecords": 13,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Volkswagen (VW) Atlas",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas/",
+          "pdfRecords": 11,
+          "yearCoverage": "2018-2022"
+        },
+        {
+          "name": "Volkswagen (VW) Jetta",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-jetta/",
+          "pdfRecords": 11,
+          "yearCoverage": "2016-2021"
+        },
+        {
+          "name": "Volkswagen (VW) Passat",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-passat/",
+          "pdfRecords": 10,
+          "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Volkswagen (VW) Beetle",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-beetle/",
+          "pdfRecords": 6,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Volkswagen (VW) Arteon",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-arteon/",
+          "pdfRecords": 5,
+          "yearCoverage": "2018-2021"
+        },
+        {
+          "name": "Volkswagen (VW) Golf",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volkswagen (VW) Atlas Cross Sport",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas-cross-sport/",
+          "pdfRecords": 4,
+          "yearCoverage": "2020-2022"
+        },
+        {
+          "name": "Volkswagen (VW) Golf Alltrack/SportWagen",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-alltrack-sportwagen/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
+          "name": "Volkswagen (VW) e-Golf",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-e-golf/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2018"
+        },
+        {
+          "name": "Volkswagen (VW) Golf GTI",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-gti/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volkswagen (VW) CC",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-cc/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Volkswagen (VW) ID",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-id/",
+          "pdfRecords": 2,
+          "yearCoverage": "2017-2021"
+        },
+        {
+          "name": "Volkswagen (VW) Taos",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-taos/",
+          "pdfRecords": 2,
+          "yearCoverage": "2022-2023"
+        },
+        {
+          "name": "Volkswagen (VW) Touareg",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-touareg/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Volkswagen (VW) Bus/Station Wagon/Camper/Campmobile",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-bus-station-wagon-camper-campmobile/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Volkswagen (VW) Golf R",
+          "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-r/",
+          "pdfRecords": 1,
+          "yearCoverage": "2019-2019"
+        }
+      ]
+    },
+    {
+      "name": "Volvo",
+      "url": "https://carbrochurearchive.com/brands/volvo/",
+      "historyUrl": "https://carbrochurearchive.com/history/volvo/",
+      "officialUrl": "https://www.volvocars.com/us/cars/",
+      "pdfRecords": 44,
+      "modelPages": 11,
+      "models": [
+        {
+          "name": "Volvo XC90",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-xc90/",
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volvo S60",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-s60/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volvo V60",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-v60/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volvo XC60",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-xc60/",
+          "pdfRecords": 5,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volvo S90",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-s90/",
+          "pdfRecords": 4,
+          "yearCoverage": "2017-2020"
+        },
+        {
+          "name": "Volvo S60 & V60 Cross Country",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-s60-and-v60-cross-country/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2020"
+        },
+        {
+          "name": "Volvo S60 & V60 Polestar",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-s60-and-v60-polestar/",
+          "pdfRecords": 3,
+          "yearCoverage": "2016-2017"
+        },
+        {
+          "name": "Volvo V90 Cross Country",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-v90-cross-country/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2019"
+        },
+        {
+          "name": "Volvo XC40",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-xc40/",
+          "pdfRecords": 2,
+          "yearCoverage": "2019-2020"
+        },
+        {
+          "name": "Volvo S80",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-s80/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "Volvo XC70",
+          "url": "https://carbrochurearchive.com/models/volvo/volvo-xc70/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        }
+      ]
+    }
+  ]
+}
