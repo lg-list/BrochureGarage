@@ -22,9 +22,16 @@ jobs:
         run: node scripts/generate-site.mjs
       - name: Audit local SEO signals
         run: node scripts/seo-audit.mjs
+      - name: Generate full SEO reports
+        run: node scripts/full-seo-audit.mjs
+      - name: Generate segmented sitemaps
+        run: node scripts/generate-sitemaps.mjs
+      - name: Check link opportunity template
+        run: python scripts/find-link-opportunities.py
       - name: Check live sitemap
         run: |
           curl -fsSL https://carbrochurearchive.com/robots.txt | grep -F "Sitemap: https://carbrochurearchive.com/sitemap.xml"
+          curl -fsSL https://carbrochurearchive.com/robots.txt | grep -F "Sitemap: https://carbrochurearchive.com/sitemap-index.xml"
           curl -fsSL https://carbrochurearchive.com/sitemap.xml | grep -F "<loc>https://carbrochurearchive.com/</loc>"
           curl -fsSL https://carbrochurearchive.com/llms.txt | grep -F "Car Brochure Archive"
           curl -fsSL https://carbrochurearchive.com/ai-index.json | grep -F "archive-report.html"

@@ -1,0 +1,18 @@
+{
+  "changes": [
+    {
+      "date": "2026-09-07",
+      "type": "technical",
+      "summary": "Removed invalid history-to-model links by checking that target model pages exist before rendering.",
+      "risk": "low",
+      "urls_changed": false
+    },
+    {
+      "date": "2026-09-07",
+      "type": "content-quality",
+      "summary": "Added machine-readable archive discovery files and kept utility/legal pages ad-free.",
+      "risk": "low",
+      "urls_changed": false
+    }
+  ]
+}

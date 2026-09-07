@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-09-07",
+  "source": "repository audit",
+  "opportunities": [
+    {
+      "type": "internal-linking",
+      "priority": "high",
+      "status": "completed",
+      "description": "Remove history-page links to model URLs that do not exist and report orphan pages.",
+      "evidence": "0 broken local links and 0 orphan indexable pages after the fix."
+    },
+    {
+      "type": "gsc-data",
+      "priority": "high",
+      "status": "ready",
+      "description": "Import Search Console Queries/Pages CSV and prioritize positions 4-15, 8-30, and low CTR.",
+      "evidence": "Requires actual Search Console export; no keyword metrics are guessed."
+    },
+    {
+      "type": "content",
+      "priority": "medium",
+      "status": "planned",
+      "description": "Expand only existing high-demand model pages with verified brochure metadata and year-to-year comparisons.",
+      "evidence": "Existing model pages already expose real PDF titles, years, and file sizes."
+    }
+  ]
+}

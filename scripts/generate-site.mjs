@@ -1184,7 +1184,8 @@ async function buildBrandHistoryPages() {
     const sectionLinks = article.sections
       .map((section) => `<a href="#${esc(section.id)}">${esc(section.title)}</a>`)
       .join("\n");
-    const relatedLinks = article.relatedModels
+    const relatedModels = archiveModels.filter((model) => isSpecificModel(model, brand)).slice(0, 3);
+    const relatedLinks = relatedModels
       .map((model) => `<a class="related-card" href="../../${modelUrl(brand, model)}">
             <h3>${esc(model)}</h3>
             <p>Explore brochure records and model-year details connected to ${esc(article.brand)} history.</p>
@@ -1251,7 +1252,7 @@ async function buildBrandHistoryPages() {
                   <h3>${esc(article.brand)} brochure archive</h3>
                   <p>Browse ${esc(article.brand)} brochures by model and year.</p>
                 </a>
-                ${relatedLinks}
+${relatedLinks}
               </div>
             </section>
           </article>
@@ -1886,6 +1887,7 @@ Allow: /
 Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
 
 Sitemap: ${siteUrl}/sitemap.xml
+Sitemap: ${siteUrl}/sitemap-index.xml
 LLMS: ${siteUrl}/llms.txt
 `);
 }

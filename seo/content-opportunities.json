@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-07",
+  "policy": "Suggestions only. Publish after verifying the source data and Search Console demand.",
+  "opportunities": [
+    {
+      "suggested_page": "Existing model pages with 3+ brochure records",
+      "intent": "Compare a model across brochure years",
+      "why": "The page can answer a real research task using existing PDFs, year labels, and file metadata.",
+      "data_needed": ["verified PDF title", "model year", "market/language when known", "file size", "PDF URL"],
+      "source_requirement": "Existing brochure record plus manufacturer or archive reference where factual context is added",
+      "status": "existing pages; improve selectively"
+    },
+    {
+      "suggested_page": "Archive data report",
+      "intent": "Understand archive coverage and data limitations",
+      "why": "A transparent methodology page provides unique context beyond a download directory.",
+      "data_needed": ["current record counts", "model counts", "year ranges", "methodology"],
+      "source_requirement": "Generated from data/brochures.json and repository records",
+      "status": "implemented"
+    }
+  ]
+}

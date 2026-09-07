@@ -24,4 +24,5 @@ Allow: /
 Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
 
 Sitemap: https://carbrochurearchive.com/sitemap.xml
+Sitemap: https://carbrochurearchive.com/sitemap-index.xml
 LLMS: https://carbrochurearchive.com/llms.txt

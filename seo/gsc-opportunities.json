@@ -1,0 +1,6 @@
+{
+  "generated_at": "2026-09-07",
+  "source_file": null,
+  "opportunities": [],
+  "note": "No Search Console CSV was supplied. Run scripts/analyze_gsc.py with a real Queries or Pages export; do not infer keyword opportunities from page titles."
+}
