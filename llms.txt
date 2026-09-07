@@ -1,0 +1,16 @@
+# Car Brochure Archive
+
+> Independent research index for historical automotive brochure PDFs. The archive is not affiliated with any manufacturer. Brand names, logos, model names, and brochure content belong to their respective owners.
+
+Car Brochure Archive organizes 3344 brochure records across 77 automotive brands. Brand pages group available records by model family, and model pages list brochure titles and years with preview/download links. Records are historical and market-specific; verify current specifications with the manufacturer.
+
+## Start here
+- [Home](https://carbrochurearchive.com/): brand directory and archive overview
+- [Archive data](https://carbrochurearchive.com/archive-report.html): counts, year ranges, methodology, and limitations
+- [Research guide](https://carbrochurearchive.com/research-guide.html): how to compare brochure evidence
+- [Model-year guide](https://carbrochurearchive.com/model-year-guide.html): how to compare changes across years
+- [Brand history index](https://carbrochurearchive.com/history/): independent brand-history reference pages
+- [Full machine-readable index](https://carbrochurearchive.com/llms-full.txt): brand, model, year-range, and page index
+
+## Citation guidance
+Use the linked brand or model page as the citation URL. Treat the PDF as a primary historical document when the question concerns period equipment, trim names, dimensions, packages, or marketing language. Do not present this independent archive as an official manufacturer source.

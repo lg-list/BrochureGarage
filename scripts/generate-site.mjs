@@ -1867,6 +1867,56 @@ Sitemap: ${siteUrl}/sitemap.xml
 `);
 }
 
+async function buildAiDiscoveryFiles(library) {
+  const modelRows = [];
+  for (const brand of brands) {
+    const documents = library[slug(brand.name)] || [];
+    const models = new Map();
+    for (const entry of documents) {
+      const model = brochureModel(entry, brand);
+      if (!isSpecificModel(model, brand)) continue;
+      if (!models.has(model)) models.set(model, []);
+      models.get(model).push(entry);
+    }
+    for (const [model, entries] of models) {
+      const years = entries.map(brochureYear).filter((year) => year !== "Other").sort();
+      modelRows.push({
+        brand: brand.name,
+        model,
+        count: entries.length,
+        years: years.length ? `${years[0]}-${years.at(-1)}` : "year not stated",
+        url: `${siteUrl}/${modelUrl(brand, model)}`
+      });
+    }
+  }
+
+  const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
+  const overview = `# Car Brochure Archive
+
+> Independent research index for historical automotive brochure PDFs. The archive is not affiliated with any manufacturer. Brand names, logos, model names, and brochure content belong to their respective owners.
+
+Car Brochure Archive organizes ${totalBrochures} brochure records across ${brands.length} automotive brands. Brand pages group available records by model family, and model pages list brochure titles and years with preview/download links. Records are historical and market-specific; verify current specifications with the manufacturer.
+
+## Start here
+- [Home](${siteUrl}/): brand directory and archive overview
+- [Archive data](${siteUrl}/archive-report.html): counts, year ranges, methodology, and limitations
+- [Research guide](${siteUrl}/research-guide.html): how to compare brochure evidence
+- [Model-year guide](${siteUrl}/model-year-guide.html): how to compare changes across years
+- [Brand history index](${siteUrl}/history/): independent brand-history reference pages
+- [Full machine-readable index](${siteUrl}/llms-full.txt): brand, model, year-range, and page index
+
+## Citation guidance
+Use the linked brand or model page as the citation URL. Treat the PDF as a primary historical document when the question concerns period equipment, trim names, dimensions, packages, or marketing language. Do not present this independent archive as an official manufacturer source.
+`;
+  await write("llms.txt", overview);
+
+  const full = `${overview}
+## Model index
+${modelRows.sort((a, b) => `${a.brand} ${a.model}`.localeCompare(`${b.brand} ${b.model}`)).map((row) => `- **${row.brand} ${row.model}**: ${row.count} brochure record(s), ${row.years}. [Model page](${row.url})`).join("\n")}
+`;
+  await write("llms-full.txt", full);
+}
+
 async function buildAdsTxt() {
   await write("ads.txt", `google.com, ${adsensePublisherId}, DIRECT, f08c47fec0942fa0
 `);
@@ -1888,6 +1938,7 @@ async function main() {
   const modelPageCount = await buildModelPages(library);
   await buildSitemap(library);
   await buildRobots();
+  await buildAiDiscoveryFiles(library);
   await buildAdsTxt();
   await buildRedirects();
   const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
