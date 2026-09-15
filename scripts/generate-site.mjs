@@ -1764,14 +1764,6 @@ async function buildModelPages(library) {
             name: "Car Brochure Archive",
             url: `${siteUrl}/`
           },
-          about: {
-            "@type": "Vehicle",
-            name: model,
-            brand: {
-              "@type": "Brand",
-              name: brand.name
-            }
-          },
           mainEntity: {
             "@type": "ItemList",
             numberOfItems: entries.length,
