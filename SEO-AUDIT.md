@@ -1,6 +1,6 @@
 # SEO Audit
 
-Generated: 2026-09-07T07:47:15.373Z
+Generated: 2026-09-11T03:04:26.187Z
 
 ## Scope and baseline
 - HTML pages: 797

@@ -1765,7 +1765,7 @@ async function buildModelPages(library) {
             url: `${siteUrl}/`
           },
           about: {
-            "@type": "Product",
+            "@type": "Vehicle",
             name: model,
             brand: {
               "@type": "Brand",
