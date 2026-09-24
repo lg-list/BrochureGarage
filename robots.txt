@@ -21,6 +21,7 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
 Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
 
 Sitemap: https://carbrochurearchive.com/sitemap.xml

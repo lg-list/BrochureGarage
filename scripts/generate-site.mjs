@@ -1836,13 +1836,15 @@ ${urls
   await write("sitemap.xml", body);
 }
 
-async function buildRedirects() {
+async function buildRedirects(library) {
   const redirectLines = [
     "/index.html / 301",
     "/acura-brand-history.html /history/acura/ 301",
+    "/history/history/ /history/ 301",
     "/history/index.html /history/ 301",
     ...brandHistoryArticles.map((article) => `/${historyUrl(article)}index.html /${historyUrl(article)} 301`),
-    ...brands.map((brand) => `/${brandUrl(brand)}index.html /${brandUrl(brand)} 301`)
+    ...brands.map((brand) => `/${brandUrl(brand)}index.html /${brandUrl(brand)} 301`),
+    ...modelUrls(library).map((url) => `/${url}index.html /${url} 301`)
   ];
   await write("_redirects", `${redirectLines.join("\n")}\n`);
 }
@@ -1871,6 +1873,7 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
 Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
 
 Sitemap: ${siteUrl}/sitemap.xml
@@ -2005,7 +2008,7 @@ async function main() {
   await buildRobots();
   await buildAiDiscoveryFiles(library);
   await buildAdsTxt();
-  await buildRedirects();
+  await buildRedirects(library);
   const totalBrochures = Object.values(library).reduce((sum, entries) => sum + entries.length, 0);
   console.log(`Generated ${brands.length} brand pages and ${modelPageCount} model pages with ${totalBrochures} local PDF records.`);
 }
