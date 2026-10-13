@@ -6,6 +6,8 @@ Review date: October 13, 2026. Site: https://carbrochurearchive.com/
 
 Technical improvements are implemented. This is not Google approval, and it does not establish that every policy issue has been resolved. Do not select the "all issues resolved" checkbox solely because local SEO checks pass.
 
+The content release `249ff68c` was pushed to GitHub and deployed successfully on October 13, 2026. [Deployment run](https://github.com/lg-list/BrochureGarage/actions/runs/38371823260). Nine public-page checks passed; the finder and comparison return HTTP 200, the sample model/history pages are ad-free, and their canonical URLs match. Results are saved in `seo/live-readiness.json`.
+
 ## Evidence Behind the Repeated Rejection
 
 1. **The previous local changes were not live.** Before this release, the public BMW M6 page still loaded AdSense and lacked the new record metadata. Its response reported a September 24 modification date. The methodology page returned HTTP 404. GitHub main was still commit `1bc035c6`.

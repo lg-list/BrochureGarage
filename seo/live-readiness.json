@@ -1,0 +1,88 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "Representative public HTML and infrastructure pages",
+  "passed": true,
+  "checks": [
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/brands/honda/",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/models/bmw/bmw-m6/",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/history/bmw/",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/archive-methodology.html",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/brochure-finder.html",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/",
+      "status": 200,
+      "ads": true,
+      "expectedAds": true,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/ads.txt",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    },
+    {
+      "type": "page",
+      "url": "https://carbrochurearchive.com/sitemap.xml",
+      "status": 200,
+      "ads": false,
+      "expectedAds": false,
+      "newContent": true,
+      "passed": true
+    }
+  ]
+}
