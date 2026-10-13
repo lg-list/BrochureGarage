@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:40:47.219Z",
+  "generated_at": "2026-10-13T09:57:23.718Z",
   "pages": [
     {
       "url": "https://carbrochurearchive.com/404.html",
@@ -11,21 +11,21 @@
     {
       "url": "https://carbrochurearchive.com/about.html",
       "file": "about.html",
-      "incoming_internal_links": 1599,
+      "incoming_internal_links": 1607,
       "outgoing_internal_links": 16,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/archive-methodology.html",
       "file": "archive-methodology.html",
-      "incoming_internal_links": 1510,
+      "incoming_internal_links": 1518,
       "outgoing_internal_links": 16,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/archive-report.html",
       "file": "archive-report.html",
-      "incoming_internal_links": 1599,
+      "incoming_internal_links": 1607,
       "outgoing_internal_links": 92,
       "orphan_status": "connected"
     },
@@ -95,8 +95,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/bmw/",
       "file": "brands/bmw/index.html",
-      "incoming_internal_links": 51,
-      "outgoing_internal_links": 38,
+      "incoming_internal_links": 54,
+      "outgoing_internal_links": 39,
       "orphan_status": "connected"
     },
     {
@@ -522,8 +522,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/subaru/",
       "file": "brands/subaru/index.html",
-      "incoming_internal_links": 24,
-      "outgoing_internal_links": 25,
+      "incoming_internal_links": 26,
+      "outgoing_internal_links": 26,
       "orphan_status": "connected"
     },
     {
@@ -543,8 +543,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/toyota/",
       "file": "brands/toyota/index.html",
-      "incoming_internal_links": 66,
-      "outgoing_internal_links": 45,
+      "incoming_internal_links": 70,
+      "outgoing_internal_links": 47,
       "orphan_status": "connected"
     },
     {
@@ -571,21 +571,21 @@
     {
       "url": "https://carbrochurearchive.com/brochure-finder.html",
       "file": "brochure-finder.html",
-      "incoming_internal_links": 2309,
+      "incoming_internal_links": 2321,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/brochure-glossary.html",
       "file": "brochure-glossary.html",
-      "incoming_internal_links": 1509,
+      "incoming_internal_links": 1517,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/contact.html",
       "file": "contact.html",
-      "incoming_internal_links": 877,
+      "incoming_internal_links": 881,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     },
@@ -656,7 +656,7 @@
       "url": "https://carbrochurearchive.com/history/bmw/",
       "file": "history/bmw/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 38,
+      "outgoing_internal_links": 39,
       "orphan_status": "connected"
     },
     {
@@ -795,7 +795,7 @@
     {
       "url": "https://carbrochurearchive.com/history/",
       "file": "history/index.html",
-      "incoming_internal_links": 1677,
+      "incoming_internal_links": 1685,
       "outgoing_internal_links": 92,
       "orphan_status": "connected"
     },
@@ -1090,7 +1090,7 @@
       "url": "https://carbrochurearchive.com/history/subaru/",
       "file": "history/subaru/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 25,
+      "outgoing_internal_links": 26,
       "orphan_status": "connected"
     },
     {
@@ -1111,7 +1111,7 @@
       "url": "https://carbrochurearchive.com/history/toyota/",
       "file": "history/toyota/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 45,
+      "outgoing_internal_links": 47,
       "orphan_status": "connected"
     },
     {
@@ -1138,14 +1138,14 @@
     {
       "url": "https://carbrochurearchive.com/",
       "file": "index.html",
-      "incoming_internal_links": 3189,
+      "incoming_internal_links": 3205,
       "outgoing_internal_links": 99,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/model-year-guide.html",
       "file": "model-year-guide.html",
-      "incoming_internal_links": 1509,
+      "incoming_internal_links": 1517,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     },
@@ -1467,20 +1467,27 @@
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-2-series/",
       "file": "models/bmw/bmw-2-series/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series/",
       "file": "models/bmw/bmw-3-series/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sedan/",
       "file": "models/bmw/bmw-3-series-sedan/index.html",
+      "incoming_internal_links": 3,
+      "outgoing_internal_links": 23,
+      "orphan_status": "connected"
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/",
+      "file": "models/bmw/bmw-3-series-sports-wagon-touring/index.html",
       "incoming_internal_links": 3,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
@@ -1495,7 +1502,7 @@
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series/",
       "file": "models/bmw/bmw-5-series/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -1516,7 +1523,7 @@
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-7-series/",
       "file": "models/bmw/bmw-7-series/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -1537,14 +1544,14 @@
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m2/",
       "file": "models/bmw/bmw-m2/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m3-m4/",
       "file": "models/bmw/bmw-m3-m4/index.html",
-      "incoming_internal_links": 23,
+      "incoming_internal_links": 24,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -4288,7 +4295,7 @@
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
       "file": "models/oldsmobile/oldsmobile-alero/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 16,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -4302,7 +4309,7 @@
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-bravada/",
       "file": "models/oldsmobile/oldsmobile-bravada/index.html",
-      "incoming_internal_links": 16,
+      "incoming_internal_links": 9,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -4351,7 +4358,7 @@
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ninety-eight/",
       "file": "models/oldsmobile/oldsmobile-ninety-eight/index.html",
-      "incoming_internal_links": 9,
+      "incoming_internal_links": 3,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5037,7 +5044,7 @@
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-ascent/",
       "file": "models/subaru/subaru-ascent/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5051,14 +5058,14 @@
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-forester/",
       "file": "models/subaru/subaru-forester/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza/",
       "file": "models/subaru/subaru-impreza/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5072,21 +5079,28 @@
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-legacy/",
       "file": "models/subaru/subaru-legacy/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-outback/",
       "file": "models/subaru/subaru-outback/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
+      "outgoing_internal_links": 23,
+      "orphan_status": "connected"
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/",
+      "file": "models/subaru/subaru-solterra-electric/index.html",
+      "incoming_internal_links": 3,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-xv-crosstrek/",
       "file": "models/subaru/subaru-xv-crosstrek/index.html",
-      "incoming_internal_links": 10,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5198,7 +5212,7 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-camry/",
       "file": "models/toyota/toyota-camry/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5212,7 +5226,7 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla/",
       "file": "models/toyota/toyota-corolla/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5282,7 +5296,14 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-prius/",
       "file": "models/toyota/toyota-prius/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
+      "outgoing_internal_links": 23,
+      "orphan_status": "connected"
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-c/",
+      "file": "models/toyota/toyota-prius-c/index.html",
+      "incoming_internal_links": 3,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5294,16 +5315,23 @@
       "orphan_status": "connected"
     },
     {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-v/",
+      "file": "models/toyota/toyota-prius-v/index.html",
+      "incoming_internal_links": 3,
+      "outgoing_internal_links": 23,
+      "orphan_status": "connected"
+    },
+    {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-rav4/",
       "file": "models/toyota/toyota-rav4/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-sequoia/",
       "file": "models/toyota/toyota-sequoia/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5331,7 +5359,7 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-tundra/",
       "file": "models/toyota/toyota-tundra/index.html",
-      "incoming_internal_links": 30,
+      "incoming_internal_links": 32,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -5569,7 +5597,7 @@
     {
       "url": "https://carbrochurearchive.com/privacy.html",
       "file": "privacy.html",
-      "incoming_internal_links": 800,
+      "incoming_internal_links": 804,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     },
@@ -5583,14 +5611,14 @@
     {
       "url": "https://carbrochurearchive.com/research-guide.html",
       "file": "research-guide.html",
-      "incoming_internal_links": 2309,
+      "incoming_internal_links": 2321,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/terms.html",
       "file": "terms.html",
-      "incoming_internal_links": 800,
+      "incoming_internal_links": 804,
       "outgoing_internal_links": 15,
       "orphan_status": "connected"
     }

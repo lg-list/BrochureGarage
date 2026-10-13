@@ -10,7 +10,6 @@ const library = JSON.parse(await readFile("data/brochures.json", "utf8"));
 const verified = JSON.parse(await readFile("data/verified-brochures.json", "utf8"));
 const sitemap = await readFile("sitemap.xml", "utf8");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
-const originalData = JSON.stringify(library);
 const failures = [];
 const pages = [];
 const slug = text => text.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
@@ -46,16 +45,33 @@ for (const [brand,entries] of Object.entries(library)) {
     else preservedRecords++;
   }
 }
-const sizesMatch = Object.values(library).flat().length === baseline.pdfRecords;
-if (!sizesMatch || originalData !== JSON.stringify(baseline.catalog)) failures.push("Original catalog data changed");
+let originalPreservedRecords = 0;
+for (const [brand, originals] of Object.entries(baseline.catalog)) {
+  const available = new Map();
+  for (const entry of library[brand] || []) {
+    const key = JSON.stringify(entry);
+    available.set(key, (available.get(key) || 0) + 1);
+  }
+  // Authorized additions are allowed; original records remain immutable, including duplicates.
+  for (const original of originals) {
+    const key = JSON.stringify(original);
+    const remaining = available.get(key) || 0;
+    if (remaining) {
+      originalPreservedRecords++;
+      available.set(key, remaining - 1);
+    } else failures.push(`Original catalog record changed or lost: ${brand}/${original.file}`);
+  }
+}
+const currentRecords = Object.values(library).flat().length;
 if (adPages.length !== allowed.length) failures.push("Advertising allowlist does not match generated pages");
 const rights = Object.entries(library).flatMap(([brand,entries])=>entries.map(entry=>({brand,file:entry.file,title:entry.title,rightsEvidence:"not_documented_in_repository"})));
 await mkdir("seo", {recursive:true});
 await writeFile("seo/rights-inventory.json", JSON.stringify({description:"Evidence inventory, not a determination of copyright infringement or legal permission.",records:rights},null,2)+"\n");
 const report = {checkedOn:"2026-10-13",technicalPassed:failures.length === 0,readyToResubmit:false,
-  originalUrls:baseline.urls.length,currentUrls:urls.length,missingOriginalUrls,preservedPdfRecords:preservedRecords,
+  originalUrls:baseline.urls.length,currentUrls:urls.length,missingOriginalUrls,preservedPdfRecords:originalPreservedRecords,
+  currentPdfRecords:currentRecords,newPdfRecords:currentRecords-baseline.pdfRecords,validatedPdfLinks:preservedRecords,
   advertisingPages:adPages,reviewedPdfs:verified.length,failures,
   unresolved:["Redistribution rights for imported PDFs are not documented in this repository.","Operator identity and the contact mailbox have not been confirmed by the owner.","Technical checks and word counts do not determine Google's unique-content or audience assessment."],pages};
 await writeFile("seo/adsense-audit.json", JSON.stringify(report,null,2)+"\n");
-console.log(JSON.stringify({technicalPassed:report.technicalPassed,originalUrls:report.originalUrls,currentUrls:report.currentUrls,preservedPdfRecords:preservedRecords,advertisingPages:adPages,reviewedPdfs:verified.length,failures},null,2));
+console.log(JSON.stringify({technicalPassed:report.technicalPassed,originalUrls:report.originalUrls,currentUrls:report.currentUrls,preservedPdfRecords:originalPreservedRecords,currentPdfRecords:currentRecords,newPdfRecords:report.newPdfRecords,advertisingPages:adPages,reviewedPdfs:verified.length,failures},null,2));
 if (failures.length) process.exitCode=1;

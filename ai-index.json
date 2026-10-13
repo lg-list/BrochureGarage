@@ -6,9 +6,9 @@
   "inLanguage": "en",
   "counts": {
     "brands": 77,
-    "modelPages": 631,
+    "modelPages": 635,
     "brandHistoryPages": 77,
-    "pdfRecords": 3344
+    "pdfRecords": 3363
   },
   "importantPages": [
     {
@@ -194,7 +194,7 @@
       "url": "https://carbrochurearchive.com/brands/aston-martin/",
       "historyUrl": "https://carbrochurearchive.com/history/aston-martin/",
       "officialUrl": "https://www.astonmartin.com/en/models",
-      "pdfRecords": 13,
+      "pdfRecords": 14,
       "modelPages": 7,
       "models": [
         {
@@ -216,6 +216,12 @@
           "yearCoverage": "2018-2018"
         },
         {
+          "name": "Aston Martin DBX",
+          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
+          "pdfRecords": 2,
+          "yearCoverage": "2018-2019"
+        },
+        {
           "name": "Aston Martin DB4.",
           "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db4/",
           "pdfRecords": 1,
@@ -226,12 +232,6 @@
           "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db9/",
           "pdfRecords": 1,
           "yearCoverage": "2016-2016"
-        },
-        {
-          "name": "Aston Martin DBX",
-          "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
-          "pdfRecords": 1,
-          "yearCoverage": "2018-2018"
         },
         {
           "name": "Aston Martin Rapide",
@@ -418,8 +418,8 @@
       "url": "https://carbrochurearchive.com/brands/bmw/",
       "historyUrl": "https://carbrochurearchive.com/history/bmw/",
       "officialUrl": "https://www.bmwusa.com/vehicles.html",
-      "pdfRecords": 34,
-      "modelPages": 21,
+      "pdfRecords": 36,
+      "modelPages": 22,
       "models": [
         {
           "name": "BMW 5 Series",
@@ -496,6 +496,12 @@
         {
           "name": "BMW 3 Series Sedan",
           "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sedan/",
+          "pdfRecords": 1,
+          "yearCoverage": "2016-2016"
+        },
+        {
+          "name": "BMW 3 Series Sports Wagon/Touring",
+          "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/",
           "pdfRecords": 1,
           "yearCoverage": "2016-2016"
         },
@@ -2590,7 +2596,7 @@
       "url": "https://carbrochurearchive.com/brands/maserati/",
       "historyUrl": "https://carbrochurearchive.com/history/maserati/",
       "officialUrl": "https://www.maserati.com/global/en/models",
-      "pdfRecords": 27,
+      "pdfRecords": 28,
       "modelPages": 6,
       "models": [
         {
@@ -2602,7 +2608,7 @@
         {
           "name": "Maserati Ghibli",
           "url": "https://carbrochurearchive.com/models/maserati/maserati-ghibli/",
-          "pdfRecords": 7,
+          "pdfRecords": 8,
           "yearCoverage": "2016-2021"
         },
         {
@@ -3081,7 +3087,7 @@
       "url": "https://carbrochurearchive.com/brands/morgan/",
       "historyUrl": "https://carbrochurearchive.com/history/morgan/",
       "officialUrl": "https://morgan-motor.com/models/",
-      "pdfRecords": 23,
+      "pdfRecords": 24,
       "modelPages": 6,
       "models": [
         {
@@ -3093,8 +3099,8 @@
         {
           "name": "Morgan Aero Coupe/Aeromax/SuperSport",
           "url": "https://carbrochurearchive.com/models/morgan/morgan-aero-coupe-aeromax-supersport/",
-          "pdfRecords": 6,
-          "yearCoverage": "2006-2012"
+          "pdfRecords": 7,
+          "yearCoverage": "2006-2015"
         },
         {
           "name": "Morgan 3 Wheeler",
@@ -3269,7 +3275,7 @@
       "url": "https://carbrochurearchive.com/brands/oldsmobile/",
       "historyUrl": "https://carbrochurearchive.com/history/oldsmobile/",
       "officialUrl": "https://www.gm.com/heritage",
-      "pdfRecords": 74,
+      "pdfRecords": 75,
       "modelPages": 14,
       "models": [
         {
@@ -3303,6 +3309,12 @@
           "yearCoverage": "1994-1997"
         },
         {
+          "name": "Oldsmobile Alero",
+          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
+          "pdfRecords": 4,
+          "yearCoverage": "2001-2004"
+        },
+        {
           "name": "Oldsmobile Bravada",
           "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-bravada/",
           "pdfRecords": 4,
@@ -3313,12 +3325,6 @@
           "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ninety-eight/",
           "pdfRecords": 4,
           "yearCoverage": "1985-1996"
-        },
-        {
-          "name": "Oldsmobile Alero",
-          "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
-          "pdfRecords": 3,
-          "yearCoverage": "2002-2004"
         },
         {
           "name": "Oldsmobile Ciera/Cutlass Ciera",
@@ -3441,7 +3447,7 @@
       "url": "https://carbrochurearchive.com/brands/plymouth/",
       "historyUrl": "https://carbrochurearchive.com/history/plymouth/",
       "officialUrl": "https://www.stellantis.com/en/heritage",
-      "pdfRecords": 45,
+      "pdfRecords": 46,
       "modelPages": 15,
       "models": [
         {
@@ -3505,6 +3511,12 @@
           "yearCoverage": "1997-2000"
         },
         {
+          "name": "Plymouth Satellite",
+          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
+          "pdfRecords": 2,
+          "yearCoverage": "1972-1973"
+        },
+        {
           "name": "Plymouth Barracuda",
           "url": "https://carbrochurearchive.com/models/plymouth/plymouth-barracuda/",
           "pdfRecords": 1,
@@ -3527,12 +3539,6 @@
           "url": "https://carbrochurearchive.com/models/plymouth/plymouth-fury/",
           "pdfRecords": 1,
           "yearCoverage": "1976-1976"
-        },
-        {
-          "name": "Plymouth Satellite",
-          "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
-          "pdfRecords": 1,
-          "yearCoverage": "1973-1973"
         }
       ]
     },
@@ -3653,7 +3659,7 @@
       "url": "https://carbrochurearchive.com/brands/porsche/",
       "historyUrl": "https://carbrochurearchive.com/history/porsche/",
       "officialUrl": "https://www.porsche.com/usa/models/",
-      "pdfRecords": 56,
+      "pdfRecords": 57,
       "modelPages": 9,
       "models": [
         {
@@ -3671,8 +3677,8 @@
         {
           "name": "Porsche Macan",
           "url": "https://carbrochurearchive.com/models/porsche/porsche-macan/",
-          "pdfRecords": 7,
-          "yearCoverage": "2016-2019"
+          "pdfRecords": 8,
+          "yearCoverage": "2016-2021"
         },
         {
           "name": "Porsche Cayenne",
@@ -4093,8 +4099,8 @@
       "url": "https://carbrochurearchive.com/brands/subaru/",
       "historyUrl": "https://carbrochurearchive.com/history/subaru/",
       "officialUrl": "https://www.subaru.com/",
-      "pdfRecords": 91,
-      "modelPages": 8,
+      "pdfRecords": 94,
+      "modelPages": 9,
       "models": [
         {
           "name": "Subaru XV/Crosstrek",
@@ -4143,6 +4149,12 @@
           "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza-wrx-sti/",
           "pdfRecords": 8,
           "yearCoverage": "2016-2022"
+        },
+        {
+          "name": "Subaru Solterra (electric)",
+          "url": "https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2025"
         }
       ]
     },
@@ -4236,8 +4248,8 @@
       "url": "https://carbrochurearchive.com/brands/toyota/",
       "historyUrl": "https://carbrochurearchive.com/history/toyota/",
       "officialUrl": "https://www.toyota.com/brochures/",
-      "pdfRecords": 205,
-      "modelPages": 28,
+      "pdfRecords": 213,
+      "modelPages": 30,
       "models": [
         {
           "name": "Toyota Camry",
@@ -4300,6 +4312,12 @@
           "yearCoverage": "2016-2024"
         },
         {
+          "name": "Toyota Avalon",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-avalon/",
+          "pdfRecords": 9,
+          "yearCoverage": "2016-2022"
+        },
+        {
           "name": "Toyota Sienna",
           "url": "https://carbrochurearchive.com/models/toyota/toyota-sienna/",
           "pdfRecords": 9,
@@ -4316,12 +4334,6 @@
           "url": "https://carbrochurearchive.com/models/toyota/toyota-86-gr86/",
           "pdfRecords": 8,
           "yearCoverage": "2017-2025"
-        },
-        {
-          "name": "Toyota Avalon",
-          "url": "https://carbrochurearchive.com/models/toyota/toyota-avalon/",
-          "pdfRecords": 8,
-          "yearCoverage": "2016-2022"
         },
         {
           "name": "Toyota Prius Plug-In/Prime",
@@ -4366,10 +4378,22 @@
           "yearCoverage": "2022-2024"
         },
         {
+          "name": "Toyota Prius c",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-c/",
+          "pdfRecords": 4,
+          "yearCoverage": "2016-2019"
+        },
+        {
           "name": "Toyota Venza",
           "url": "https://carbrochurearchive.com/models/toyota/toyota-venza/",
           "pdfRecords": 4,
           "yearCoverage": "2021-2024"
+        },
+        {
+          "name": "Toyota Corolla GR",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-gr/",
+          "pdfRecords": 3,
+          "yearCoverage": "2023-2024"
         },
         {
           "name": "Toyota Yaris iA/Hatchback",
@@ -4384,16 +4408,16 @@
           "yearCoverage": "2023-2024"
         },
         {
-          "name": "Toyota Corolla GR",
-          "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-gr/",
-          "pdfRecords": 2,
-          "yearCoverage": "2023-2023"
-        },
-        {
           "name": "Toyota Corolla iM",
           "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-im/",
           "pdfRecords": 2,
           "yearCoverage": "2017-2018"
+        },
+        {
+          "name": "Toyota Prius v",
+          "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-v/",
+          "pdfRecords": 2,
+          "yearCoverage": "2016-2017"
         },
         {
           "name": "Toyota Grand Highlander",

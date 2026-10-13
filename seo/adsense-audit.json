@@ -3,9 +3,12 @@
   "technicalPassed": true,
   "readyToResubmit": false,
   "originalUrls": 795,
-  "currentUrls": 798,
+  "currentUrls": 802,
   "missingOriginalUrls": [],
   "preservedPdfRecords": 3344,
+  "currentPdfRecords": 3363,
+  "newPdfRecords": 19,
+  "validatedPdfLinks": 3363,
   "advertisingPages": [
     "https://carbrochurearchive.com/research-guide.html",
     "https://carbrochurearchive.com/model-year-guide.html",
@@ -24,7 +27,7 @@
       "url": "https://carbrochurearchive.com/",
       "advertising": false,
       "mainTextWords": 453,
-      "htmlBytes": 48867
+      "htmlBytes": 48979
     },
     {
       "url": "https://carbrochurearchive.com/history/",
@@ -59,8 +62,8 @@
     {
       "url": "https://carbrochurearchive.com/history/aston-martin/",
       "advertising": false,
-      "mainTextWords": 328,
-      "htmlBytes": 8549
+      "mainTextWords": 329,
+      "htmlBytes": 8555
     },
     {
       "url": "https://carbrochurearchive.com/history/audi/",
@@ -89,8 +92,8 @@
     {
       "url": "https://carbrochurearchive.com/history/bmw/",
       "advertising": false,
-      "mainTextWords": 417,
-      "htmlBytes": 9734
+      "mainTextWords": 429,
+      "htmlBytes": 9986
     },
     {
       "url": "https://carbrochurearchive.com/history/bugatti/",
@@ -287,8 +290,8 @@
     {
       "url": "https://carbrochurearchive.com/history/maserati/",
       "advertising": false,
-      "mainTextWords": 375,
-      "htmlBytes": 8812
+      "mainTextWords": 376,
+      "htmlBytes": 8818
     },
     {
       "url": "https://carbrochurearchive.com/history/maybach/",
@@ -341,8 +344,8 @@
     {
       "url": "https://carbrochurearchive.com/history/morgan/",
       "advertising": false,
-      "mainTextWords": 379,
-      "htmlBytes": 8645
+      "mainTextWords": 380,
+      "htmlBytes": 8651
     },
     {
       "url": "https://carbrochurearchive.com/history/nissan/",
@@ -353,8 +356,8 @@
     {
       "url": "https://carbrochurearchive.com/history/oldsmobile/",
       "advertising": false,
-      "mainTextWords": 534,
-      "htmlBytes": 10876
+      "mainTextWords": 535,
+      "htmlBytes": 10882
     },
     {
       "url": "https://carbrochurearchive.com/history/opel/",
@@ -377,8 +380,8 @@
     {
       "url": "https://carbrochurearchive.com/history/plymouth/",
       "advertising": false,
-      "mainTextWords": 387,
-      "htmlBytes": 9662
+      "mainTextWords": 388,
+      "htmlBytes": 9668
     },
     {
       "url": "https://carbrochurearchive.com/history/pontiac/",
@@ -389,8 +392,8 @@
     {
       "url": "https://carbrochurearchive.com/history/porsche/",
       "advertising": false,
-      "mainTextWords": 546,
-      "htmlBytes": 9991
+      "mainTextWords": 547,
+      "htmlBytes": 9997
     },
     {
       "url": "https://carbrochurearchive.com/history/ram/",
@@ -455,8 +458,8 @@
     {
       "url": "https://carbrochurearchive.com/history/subaru/",
       "advertising": false,
-      "mainTextWords": 511,
-      "htmlBytes": 9681
+      "mainTextWords": 518,
+      "htmlBytes": 9833
     },
     {
       "url": "https://carbrochurearchive.com/history/suzuki/",
@@ -473,8 +476,8 @@
     {
       "url": "https://carbrochurearchive.com/history/toyota/",
       "advertising": false,
-      "mainTextWords": 694,
-      "htmlBytes": 12723
+      "mainTextWords": 714,
+      "htmlBytes": 13020
     },
     {
       "url": "https://carbrochurearchive.com/history/vencer/",
@@ -522,7 +525,7 @@
       "url": "https://carbrochurearchive.com/brochure-finder.html",
       "advertising": false,
       "mainTextWords": 768,
-      "htmlBytes": 1139264
+      "htmlBytes": 1145717
     },
     {
       "url": "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/",
@@ -534,7 +537,7 @@
       "url": "https://carbrochurearchive.com/archive-report.html",
       "advertising": false,
       "mainTextWords": 626,
-      "htmlBytes": 15083
+      "htmlBytes": 15084
     },
     {
       "url": "https://carbrochurearchive.com/about.html",
@@ -587,8 +590,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/aston-martin/",
       "advertising": false,
-      "mainTextWords": 834,
-      "htmlBytes": 29234
+      "mainTextWords": 844,
+      "htmlBytes": 30142
     },
     {
       "url": "https://carbrochurearchive.com/brands/audi/",
@@ -617,8 +620,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/bmw/",
       "advertising": false,
-      "mainTextWords": 1035,
-      "htmlBytes": 47695
+      "mainTextWords": 1064,
+      "htmlBytes": 49974
     },
     {
       "url": "https://carbrochurearchive.com/brands/bugatti/",
@@ -815,8 +818,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/maserati/",
       "advertising": false,
-      "mainTextWords": 890,
-      "htmlBytes": 41161
+      "mainTextWords": 899,
+      "htmlBytes": 42053
     },
     {
       "url": "https://carbrochurearchive.com/brands/maybach/",
@@ -869,8 +872,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/morgan/",
       "advertising": false,
-      "mainTextWords": 928,
-      "htmlBytes": 36239
+      "mainTextWords": 937,
+      "htmlBytes": 37086
     },
     {
       "url": "https://carbrochurearchive.com/brands/nissan/",
@@ -881,8 +884,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/oldsmobile/",
       "advertising": false,
-      "mainTextWords": 1407,
-      "htmlBytes": 87917
+      "mainTextWords": 1416,
+      "htmlBytes": 88816
     },
     {
       "url": "https://carbrochurearchive.com/brands/opel/",
@@ -905,8 +908,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/plymouth/",
       "advertising": false,
-      "mainTextWords": 1082,
-      "htmlBytes": 58838
+      "mainTextWords": 1091,
+      "htmlBytes": 59748
     },
     {
       "url": "https://carbrochurearchive.com/brands/pontiac/",
@@ -917,8 +920,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/porsche/",
       "advertising": false,
-      "mainTextWords": 1243,
-      "htmlBytes": 67190
+      "mainTextWords": 1252,
+      "htmlBytes": 68066
     },
     {
       "url": "https://carbrochurearchive.com/brands/ram/",
@@ -983,8 +986,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/subaru/",
       "advertising": false,
-      "mainTextWords": 1513,
-      "htmlBytes": 97749
+      "mainTextWords": 1543,
+      "htmlBytes": 100724
     },
     {
       "url": "https://carbrochurearchive.com/brands/suzuki/",
@@ -1001,8 +1004,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/toyota/",
       "advertising": false,
-      "mainTextWords": 2621,
-      "htmlBytes": 203144
+      "mainTextWords": 2706,
+      "htmlBytes": 210701
     },
     {
       "url": "https://carbrochurearchive.com/brands/vencer/",
@@ -1139,8 +1142,8 @@
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
       "advertising": false,
-      "mainTextWords": 247,
-      "htmlBytes": 10262
+      "mainTextWords": 285,
+      "htmlBytes": 11483
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-rapide/",
@@ -1411,6 +1414,12 @@
       "advertising": false,
       "mainTextWords": 251,
       "htmlBytes": 10377
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/",
+      "advertising": false,
+      "mainTextWords": 237,
+      "htmlBytes": 10395
     },
     {
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4/",
@@ -3137,8 +3146,8 @@
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-ghibli/",
       "advertising": false,
-      "mainTextWords": 347,
-      "htmlBytes": 16598
+      "mainTextWords": 368,
+      "htmlBytes": 17705
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-grancabrio/",
@@ -3539,8 +3548,8 @@
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-aero-coupe-aeromax-supersport/",
       "advertising": false,
-      "mainTextWords": 343,
-      "htmlBytes": 16204
+      "mainTextWords": 365,
+      "htmlBytes": 17315
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-brooklands-edition-roadster-and-3-wheeler/",
@@ -3702,85 +3711,85 @@
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-ciera-and-firenza/",
       "advertising": false,
       "mainTextWords": 295,
-      "htmlBytes": 12292
+      "htmlBytes": 12288
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-achieva/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 13633
+      "htmlBytes": 13619
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aerotech-concept/",
       "advertising": false,
       "mainTextWords": 216,
-      "htmlBytes": 10522
+      "htmlBytes": 10518
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
       "advertising": false,
-      "mainTextWords": 269,
-      "htmlBytes": 12433
+      "mainTextWords": 290,
+      "htmlBytes": 13551
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aurora/",
       "advertising": false,
       "mainTextWords": 353,
-      "htmlBytes": 16935
+      "htmlBytes": 16921
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-bravada/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 13633
+      "htmlBytes": 13619
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-calais/",
       "advertising": false,
       "mainTextWords": 211,
-      "htmlBytes": 10156
+      "htmlBytes": 10152
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ciera-cutlass-ciera/",
       "advertising": false,
       "mainTextWords": 257,
-      "htmlBytes": 12931
+      "htmlBytes": 12927
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-cutlass-supreme/",
       "advertising": false,
       "mainTextWords": 370,
-      "htmlBytes": 18068
+      "htmlBytes": 18054
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-eighty-eight-lss/",
       "advertising": false,
       "mainTextWords": 390,
-      "htmlBytes": 17965
+      "htmlBytes": 17951
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-intrigue/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 12647
+      "htmlBytes": 12643
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ninety-eight/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 14073
+      "htmlBytes": 14069
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-silhouette/",
       "advertising": false,
       "mainTextWords": 311,
-      "htmlBytes": 16273
+      "htmlBytes": 16259
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-six/",
       "advertising": false,
       "mainTextWords": 209,
-      "htmlBytes": 9984
+      "htmlBytes": 9980
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-gt/",
@@ -3905,8 +3914,8 @@
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
       "advertising": false,
-      "mainTextWords": 206,
-      "htmlBytes": 10033
+      "mainTextWords": 223,
+      "htmlBytes": 11185
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-sundance/",
@@ -4055,8 +4064,8 @@
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-macan/",
       "advertising": false,
-      "mainTextWords": 363,
-      "htmlBytes": 16390
+      "mainTextWords": 384,
+      "htmlBytes": 17470
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-mission-e/",
@@ -4401,6 +4410,12 @@
       "htmlBytes": 28202
     },
     {
+      "url": "https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/",
+      "advertising": false,
+      "mainTextWords": 255,
+      "htmlBytes": 12523
+    },
+    {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-aerio/",
       "advertising": false,
       "mainTextWords": 247,
@@ -4481,8 +4496,8 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-avalon/",
       "advertising": false,
-      "mainTextWords": 372,
-      "htmlBytes": 17354
+      "mainTextWords": 391,
+      "htmlBytes": 18369
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-bz-bz4x-electric/",
@@ -4517,8 +4532,8 @@
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-gr/",
       "advertising": false,
-      "mainTextWords": 263,
-      "htmlBytes": 11169
+      "mainTextWords": 285,
+      "htmlBytes": 12315
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-hatchback/",
@@ -4633,6 +4648,18 @@
       "advertising": false,
       "mainTextWords": 220,
       "htmlBytes": 10136
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-c/",
+      "advertising": false,
+      "mainTextWords": 297,
+      "htmlBytes": 13097
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-v/",
+      "advertising": false,
+      "mainTextWords": 243,
+      "htmlBytes": 10894
     },
     {
       "url": "https://carbrochurearchive.com/models/vencer/vencer-sarthe/",

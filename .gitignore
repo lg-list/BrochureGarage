@@ -9,6 +9,8 @@ compress-pdfs-*.csv
 compression-report-*.json
 
 node_modules/
+__pycache__/
+*.pyc
 .site-build/
 .DS_Store
 Thumbs.db

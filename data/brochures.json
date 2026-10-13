@@ -1353,6 +1353,12 @@
       "size": "178 MB",
       "file": "vantage/Aston Martin_int Vantage_N430.pdf",
       "section": "Aston Martin Vantage"
+    },
+    {
+      "title": "2019 Aston Martin DBX PDF Brochure",
+      "size": "2.5 MB",
+      "file": "dbx/Aston Martin_int DBX_2019.pdf",
+      "section": "Aston Martin DBX 2019 Aston Martin DBX PDF Brochure (2.5 MB) page 11 - 2019 Aston Martin DBX catalogue"
     }
   ],
   "audi": [
@@ -2017,6 +2023,18 @@
       "size": "12.5 MB",
       "file": "X6/BMW_US X6M_2018.pdf",
       "section": "BMW X6"
+    },
+    {
+      "title": "2016 BMW 3 Series Wagon PDF Brochure",
+      "size": "28.2 MB",
+      "file": "3 Series/BMW_US 3SeriesWagon_2016.pdf",
+      "section": "BMW 3 Series Sports Wagon/Touring"
+    },
+    {
+      "title": "2019 BMW Model Range PDF Brochure",
+      "size": "484.5 MB",
+      "file": "BMW_US Full_Line_2019.pdf",
+      "section": "BMW Model Range"
     }
   ],
   "bugatti": [
@@ -9092,6 +9110,12 @@
       "size": "13.9 MB",
       "file": "quattroporte/Maserati_int Quattroporte_2016.pdf",
       "section": "Maserati Quattroporte"
+    },
+    {
+      "title": "2020 Maserati Ghibli PDF Brochure",
+      "size": "17.9 MB",
+      "file": "ghibli/Maserati_US Ghibli_2020.pdf",
+      "section": "Maserati Ghibli"
     }
   ],
   "maybach": [
@@ -11072,6 +11096,12 @@
       "size": "0.4 MB",
       "file": "morgan_int-lifecar_2008.pdf",
       "section": "Morgan Lifecar"
+    },
+    {
+      "title": "2015 Morgan Aero PDF Brochure",
+      "size": "0.8 MB",
+      "file": "morgan_int aero_2015.pdf",
+      "section": "Morgan Aero Coupe/Aeromax/SuperSport"
     }
   ],
   "nissan": [
@@ -12570,6 +12600,12 @@
       "size": "0.7 MB",
       "file": "six/Oldsmobile_US Six_1929.pdf",
       "section": "Oldsmobile Six"
+    },
+    {
+      "title": "2001 Oldsmobile Alero PDF Brochure",
+      "size": "1.1 MB",
+      "file": "alero/Oldsmobile_US Alero_2001.pdf",
+      "section": "Oldsmobile Alero"
     }
   ],
   "opel": [
@@ -12914,6 +12950,12 @@
       "size": "9.4 MB",
       "file": "voyager/Plymouth_US-Voyager_1984.pdf",
       "section": "Plymouth Voyager"
+    },
+    {
+      "title": "1972 Plymouth Satellite PDF Brochure",
+      "size": "66.3 MB",
+      "file": "satellite/Plymouth_US-Satellite_1972.pdf",
+      "section": "Plymouth Satellite"
     }
   ],
   "porsche": [
@@ -13252,6 +13294,12 @@
       "size": "20.8 MB",
       "file": "Taycan/Porsche_int Taycan_2020.pdf",
       "section": "Porsche Taycan"
+    },
+    {
+      "title": "2021 Porsche Macan PDF Brochure",
+      "size": "14.5 MB",
+      "file": "Macan/Porsche_US Macan_2021.pdf",
+      "section": "Porsche Macan"
     }
   ],
   "ram": [
@@ -14682,6 +14730,24 @@
       "size": "26.6 MB",
       "file": "XV Crosstrek/Subaru_US Crosstrek_2016.pdf",
       "section": "Subaru XV/Crosstrek"
+    },
+    {
+      "title": "2025 Subaru Solterra PDF Brochure",
+      "size": "9.6 MB",
+      "file": "Solterra/Subaru_US Solterra_2025.pdf",
+      "section": "Subaru Solterra (electric)"
+    },
+    {
+      "title": "2024 Subaru Solterra PDF Brochure",
+      "size": "8.7 MB",
+      "file": "Solterra/Subaru_US Solterra_2024.pdf",
+      "section": "Subaru Solterra (electric)"
+    },
+    {
+      "title": "2023 Subaru Solterra PDF Brochure",
+      "size": "10.3 MB",
+      "file": "Solterra/Subaru_US Solterra_2023.pdf",
+      "section": "Subaru Solterra (electric)"
     }
   ],
   "suzuki": [
@@ -16152,6 +16218,54 @@
       "size": "1.4 MB",
       "file": "Yaris Liftback/Toyota_US Yaris-Liftback_2018.pdf",
       "section": "Toyota Yaris Liftback PDF Sales Brochures"
+    },
+    {
+      "title": "2019 Toyota Prius c PDF Brochure",
+      "size": "2.0 MB",
+      "file": "Prius/Toyota_US PriusC_2019.pdf",
+      "section": "Toyota Prius c PDF Sales Brochures"
+    },
+    {
+      "title": "2018 Toyota Prius c PDF Brochure",
+      "size": "2.2 MB",
+      "file": "Prius/Toyota_US PriusC_2018.pdf",
+      "section": "Toyota Prius c PDF Sales Brochures"
+    },
+    {
+      "title": "2017 Toyota Prius c PDF Brochure",
+      "size": "1.5 MB",
+      "file": "Prius/Toyota_US PriusC_2017.pdf",
+      "section": "Toyota Prius c PDF Sales Brochures"
+    },
+    {
+      "title": "2017 Toyota Prius v PDF Brochure",
+      "size": "14.8 MB",
+      "file": "Prius/Toyota_US PriusV_2017.pdf",
+      "section": "Toyota Prius v PDF Sales Brochures"
+    },
+    {
+      "title": "2016 Toyota Prius v PDF Brochure",
+      "size": "2.1 MB",
+      "file": "Prius/Toyota_US PriusV_2016.pdf",
+      "section": "Toyota Prius v PDF Sales Brochures"
+    },
+    {
+      "title": "2016 Toyota Prius c PDF Brochure",
+      "size": "2.2 MB",
+      "file": "Prius/Toyota_US PriusC_2016.pdf",
+      "section": "Toyota Prius c PDF Sales Brochures"
+    },
+    {
+      "title": "2024 Toyota GR Corolla PDF Brochure",
+      "size": "3.9 MB",
+      "file": "Corolla GR/Toyota_US Corolla_2024-gr.pdf",
+      "section": "Toyota Corolla GR"
+    },
+    {
+      "title": "2019 Toyota Avalon PDF Brochure",
+      "size": "1.6 MB",
+      "file": "Avalon/Toyota_US Avalon_2019.pdf",
+      "section": "Toyota Avalon"
     }
   ],
   "vencer": [

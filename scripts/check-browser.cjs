@@ -58,11 +58,12 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.locator('#finder-more').click();
     assert.equal(await page.locator('#finder-results tr').count(),80);
     checks.push('Pagination and deep-link filtering');
-    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/']];
+    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/'],['solterra','/models/subaru/subaru-solterra-electric/'],['gr-corolla','/models/toyota/toyota-corolla-gr/'],['bmw-range','/brands/bmw/']];
     for (const width of [1440,390]) {
       await page.setViewportSize({width,height:950});
       for (const [name,url] of views) {
-        await page.goto(base+url);
+        const response=await page.goto(base+url);
+        assert.equal(response.status(),200,`${name} did not load`);
         await page.waitForTimeout(150);
         const metrics=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,badImages:[...document.images].filter(i=>i.complete && i.naturalWidth===0).map(i=>i.src)}));
         assert(metrics.scroll <= width+1,`${name} overflow at ${width}: ${metrics.scroll}`);
@@ -71,7 +72,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       }
     }
     assert.equal(errors.length,0,errors.join('\n'));
-    checks.push('Five views at desktop and mobile: no horizontal page overflow, broken images or JS errors');
+    checks.push(`${views.length} views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors`);
     console.log(JSON.stringify({passed:true,checks},null,2));
     await fs.writeFile(path.join(root,'seo/browser-verification.json'),JSON.stringify({checkedOn:'2026-10-13',passed:true,checks},null,2));
   } finally {

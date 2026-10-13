@@ -1,0 +1,146 @@
+{
+  "checkedAt": "2026-10-13T10:00:58.081266+00:00",
+  "passed": true,
+  "newFilesChecked": 19,
+  "originalDistinctObjectsRetained": 3328,
+  "missingOriginalObjects": [],
+  "temporaryObjectsRemaining": 0,
+  "multipartUploadsRemaining": 0,
+  "r2Objects": 3347,
+  "r2Bytes": 14454299343,
+  "checks": [
+    {
+      "key": "pdfs/aston-martin/dbx/Aston Martin_int DBX_2019.pdf",
+      "bytes": 2585298,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/aston-martin/dbx/Aston%20Martin_int%20DBX_2019.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/bmw/3 Series/BMW_US 3SeriesWagon_2016.pdf",
+      "bytes": 29548229,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bmw/3%20Series/BMW_US%203SeriesWagon_2016.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/bmw/BMW_US Full_Line_2019.pdf",
+      "bytes": 508055029,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bmw/BMW_US%20Full_Line_2019.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/maserati/ghibli/Maserati_US Ghibli_2020.pdf",
+      "bytes": 18758478,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/maserati/ghibli/Maserati_US%20Ghibli_2020.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/morgan/morgan_int aero_2015.pdf",
+      "bytes": 806709,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/morgan/morgan_int%20aero_2015.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/oldsmobile/alero/Oldsmobile_US Alero_2001.pdf",
+      "bytes": 1156432,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/oldsmobile/alero/Oldsmobile_US%20Alero_2001.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/plymouth/satellite/Plymouth_US-Satellite_1972.pdf",
+      "bytes": 69469224,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/plymouth/satellite/Plymouth_US-Satellite_1972.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/porsche/Macan/Porsche_US Macan_2021.pdf",
+      "bytes": 15212178,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/porsche/Macan/Porsche_US%20Macan_2021.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/subaru/Solterra/Subaru_US Solterra_2023.pdf",
+      "bytes": 10814606,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/subaru/Solterra/Subaru_US%20Solterra_2023.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/subaru/Solterra/Subaru_US Solterra_2024.pdf",
+      "bytes": 9135730,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/subaru/Solterra/Subaru_US%20Solterra_2024.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/subaru/Solterra/Subaru_US Solterra_2025.pdf",
+      "bytes": 10079711,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/subaru/Solterra/Subaru_US%20Solterra_2025.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Avalon/Toyota_US Avalon_2019.pdf",
+      "bytes": 1661984,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Avalon/Toyota_US%20Avalon_2019.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Corolla GR/Toyota_US Corolla_2024-gr.pdf",
+      "bytes": 4124789,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Corolla%20GR/Toyota_US%20Corolla_2024-gr.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusC_2016.pdf",
+      "bytes": 2279208,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusC_2016.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusC_2017.pdf",
+      "bytes": 1561514,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusC_2017.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusC_2018.pdf",
+      "bytes": 2288770,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusC_2018.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusC_2019.pdf",
+      "bytes": 2049524,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusC_2019.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusV_2016.pdf",
+      "bytes": 2197126,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusV_2016.pdf",
+      "passed": true
+    },
+    {
+      "key": "pdfs/toyota/Prius/Toyota_US PriusV_2017.pdf",
+      "bytes": 15546819,
+      "sha256MetadataMatches": true,
+      "publicUrl": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Prius/Toyota_US%20PriusV_2017.pdf",
+      "passed": true
+    }
+  ]
+}

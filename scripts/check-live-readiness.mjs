@@ -31,7 +31,7 @@ const work=process.argv.includes("--pdf-samples")
   : publicPages.map(p=>()=>pageCheck(p));
 let next=0;
 await Promise.all(Array.from({length:4},async()=>{while(next<work.length){const index=next++;checks[index]=await work[index]();}}));
-const report={checkedOn:"2026-10-13",scope:process.argv.includes("--pdf-samples")?"One PDF per populated brand; not a full audit of all 3344 files":"Representative public HTML and infrastructure pages",passed:checks.every(c=>c.passed),checks};
+const report={checkedOn:"2026-10-13",scope:process.argv.includes("--pdf-samples")?`One PDF per populated brand; not a full audit of all ${Object.values(records).flat().length} records`:"Representative public HTML and infrastructure pages",passed:checks.every(c=>c.passed),checks};
 await writeFile(process.argv.includes("--pdf-samples")?"seo/pdf-sample-check.json":"seo/live-readiness.json",JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify({scope:report.scope,passed:report.passed,checked:checks.length,failures:checks.filter(c=>!c.passed)},null,2));
 if (!report.passed) process.exitCode=1;

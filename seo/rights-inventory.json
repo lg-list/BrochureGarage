@@ -1346,6 +1346,12 @@
       "rightsEvidence": "not_documented_in_repository"
     },
     {
+      "brand": "aston-martin",
+      "file": "dbx/Aston Martin_int DBX_2019.pdf",
+      "title": "2019 Aston Martin DBX PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
       "brand": "audi",
       "file": "Audi_US Full Line_2017.pdf",
       "title": "2017 Audi Full Line PDF Brochure",
@@ -1997,6 +2003,18 @@
       "brand": "bmw",
       "file": "X6/BMW_US X6M_2018.pdf",
       "title": "2018 BMW X6 M PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "bmw",
+      "file": "3 Series/BMW_US 3SeriesWagon_2016.pdf",
+      "title": "2016 BMW 3 Series Wagon PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "bmw",
+      "file": "BMW_US Full_Line_2019.pdf",
+      "title": "2019 BMW Model Range PDF Brochure",
       "rightsEvidence": "not_documented_in_repository"
     },
     {
@@ -9020,6 +9038,12 @@
       "rightsEvidence": "not_documented_in_repository"
     },
     {
+      "brand": "maserati",
+      "file": "ghibli/Maserati_US Ghibli_2020.pdf",
+      "title": "2020 Maserati Ghibli PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
       "brand": "maybach",
       "file": "maybach_int-57_62.pdf",
       "title": "Maybach 57 & 62 PDF Brochure",
@@ -10982,6 +11006,12 @@
       "rightsEvidence": "not_documented_in_repository"
     },
     {
+      "brand": "morgan",
+      "file": "morgan_int aero_2015.pdf",
+      "title": "2015 Morgan Aero PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
       "brand": "nissan",
       "file": "370Z/Nissan_US 370Z_2020.pdf",
       "title": "2020 Nissan 370Z PDF Brochure",
@@ -12476,6 +12506,12 @@
       "rightsEvidence": "not_documented_in_repository"
     },
     {
+      "brand": "oldsmobile",
+      "file": "alero/Oldsmobile_US Alero_2001.pdf",
+      "title": "2001 Oldsmobile Alero PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
       "brand": "opel",
       "file": "Opel_US Full Line_1979.pdf",
       "title": "1979 Opel Full Line PDF Brochure",
@@ -12812,6 +12848,12 @@
       "rightsEvidence": "not_documented_in_repository"
     },
     {
+      "brand": "plymouth",
+      "file": "satellite/Plymouth_US-Satellite_1972.pdf",
+      "title": "1972 Plymouth Satellite PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
       "brand": "porsche",
       "file": "Porsche_US E-Performance_2017.pdf",
       "title": "2017 Porsche E-Performance PDF Brochure",
@@ -13145,6 +13187,12 @@
       "brand": "porsche",
       "file": "Taycan/Porsche_int Taycan_2020.pdf",
       "title": "2020 Porsche Taycan v1 PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "porsche",
+      "file": "Macan/Porsche_US Macan_2021.pdf",
+      "title": "2021 Porsche Macan PDF Brochure",
       "rightsEvidence": "not_documented_in_repository"
     },
     {
@@ -14555,6 +14603,24 @@
       "brand": "subaru",
       "file": "XV Crosstrek/Subaru_US Crosstrek_2016.pdf",
       "title": "2016 Subaru Crosstrek PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "subaru",
+      "file": "Solterra/Subaru_US Solterra_2025.pdf",
+      "title": "2025 Subaru Solterra PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "subaru",
+      "file": "Solterra/Subaru_US Solterra_2024.pdf",
+      "title": "2024 Subaru Solterra PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "subaru",
+      "file": "Solterra/Subaru_US Solterra_2023.pdf",
+      "title": "2023 Subaru Solterra PDF Brochure",
       "rightsEvidence": "not_documented_in_repository"
     },
     {
@@ -16019,6 +16085,54 @@
       "brand": "toyota",
       "file": "Yaris Liftback/Toyota_US Yaris-Liftback_2018.pdf",
       "title": "2018 Toyota Yaris Liftback PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusC_2019.pdf",
+      "title": "2019 Toyota Prius c PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusC_2018.pdf",
+      "title": "2018 Toyota Prius c PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusC_2017.pdf",
+      "title": "2017 Toyota Prius c PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusV_2017.pdf",
+      "title": "2017 Toyota Prius v PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusV_2016.pdf",
+      "title": "2016 Toyota Prius v PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Prius/Toyota_US PriusC_2016.pdf",
+      "title": "2016 Toyota Prius c PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Corolla GR/Toyota_US Corolla_2024-gr.pdf",
+      "title": "2024 Toyota GR Corolla PDF Brochure",
+      "rightsEvidence": "not_documented_in_repository"
+    },
+    {
+      "brand": "toyota",
+      "file": "Avalon/Toyota_US Avalon_2019.pdf",
+      "title": "2019 Toyota Avalon PDF Brochure",
       "rightsEvidence": "not_documented_in_repository"
     },
     {

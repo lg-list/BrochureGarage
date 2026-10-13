@@ -1,17 +1,17 @@
 # SEO Audit
 
-Generated: 2026-10-13T08:40:47.230Z
+Generated: 2026-10-13T09:57:23.729Z
 
 ## Scope and baseline
-- HTML pages: 800
-- Indexable pages with canonicals: 798
-- PDF files on disk: 0
-- PDF links in HTML: 12911
+- HTML pages: 804
+- Indexable pages with canonicals: 802
+- PDF files on disk: 19
+- PDF links in HTML: 12985
 - PDF-linked landing pages: 0
 - Image assets: 94
 - CSS files: 2
 - JavaScript files: 2
-- Total HTML bytes: 15091092
+- Total HTML bytes: 15172285
 - Current URL architecture: Home -> Brand -> Model -> brochure records. Existing URLs are preserved.
 
 ## Critical

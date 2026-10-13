@@ -1,0 +1,652 @@
+{
+  "checkedAt": "2026-10-13T09:59:23.208985+00:00",
+  "scope": "existing",
+  "source": "https://www.auto-brochures.com/",
+  "sourceBrands": 77,
+  "sourceRecords": 7298,
+  "currentRecords": 3363,
+  "r2Objects": 3347,
+  "r2Bytes": 14454299343,
+  "newCatalogRecords": 19,
+  "missingR2Files": 19,
+  "estimatedDownloadBytes": 256062250,
+  "excludedOlderRecords": 3932,
+  "parserErrors": [],
+  "unresolvedCatalogFiles": [],
+  "brands": [
+    {
+      "brand": "acura",
+      "sourceRecords": 155,
+      "parserErrors": 0
+    },
+    {
+      "brand": "alfa-romeo",
+      "sourceRecords": 37,
+      "parserErrors": 0
+    },
+    {
+      "brand": "alpine",
+      "sourceRecords": 19,
+      "parserErrors": 0
+    },
+    {
+      "brand": "amc",
+      "sourceRecords": 17,
+      "parserErrors": 0
+    },
+    {
+      "brand": "aston-martin",
+      "sourceRecords": 66,
+      "parserErrors": 0
+    },
+    {
+      "brand": "audi",
+      "sourceRecords": 161,
+      "parserErrors": 0
+    },
+    {
+      "brand": "austin",
+      "sourceRecords": 3,
+      "parserErrors": 0
+    },
+    {
+      "brand": "austin-healey",
+      "sourceRecords": 6,
+      "parserErrors": 0
+    },
+    {
+      "brand": "bentley",
+      "sourceRecords": 62,
+      "parserErrors": 0
+    },
+    {
+      "brand": "bmw",
+      "sourceRecords": 210,
+      "parserErrors": 0
+    },
+    {
+      "brand": "bugatti",
+      "sourceRecords": 3,
+      "parserErrors": 0
+    },
+    {
+      "brand": "buick",
+      "sourceRecords": 115,
+      "parserErrors": 0
+    },
+    {
+      "brand": "cadillac",
+      "sourceRecords": 95,
+      "parserErrors": 0
+    },
+    {
+      "brand": "chevrolet",
+      "sourceRecords": 437,
+      "parserErrors": 0
+    },
+    {
+      "brand": "chrysler",
+      "sourceRecords": 135,
+      "parserErrors": 0
+    },
+    {
+      "brand": "citroen",
+      "sourceRecords": 6,
+      "parserErrors": 0
+    },
+    {
+      "brand": "datsun",
+      "sourceRecords": 19,
+      "parserErrors": 0
+    },
+    {
+      "brand": "delorean",
+      "sourceRecords": 3,
+      "parserErrors": 0
+    },
+    {
+      "brand": "dodge",
+      "sourceRecords": 225,
+      "parserErrors": 0
+    },
+    {
+      "brand": "ferrari",
+      "sourceRecords": 19,
+      "parserErrors": 0
+    },
+    {
+      "brand": "fiat",
+      "sourceRecords": 82,
+      "parserErrors": 0
+    },
+    {
+      "brand": "fisker",
+      "sourceRecords": 4,
+      "parserErrors": 0
+    },
+    {
+      "brand": "ford",
+      "sourceRecords": 488,
+      "parserErrors": 0
+    },
+    {
+      "brand": "genesis",
+      "sourceRecords": 27,
+      "parserErrors": 0
+    },
+    {
+      "brand": "gmc",
+      "sourceRecords": 176,
+      "parserErrors": 0
+    },
+    {
+      "brand": "gumpert",
+      "sourceRecords": 3,
+      "parserErrors": 0
+    },
+    {
+      "brand": "honda",
+      "sourceRecords": 285,
+      "parserErrors": 0
+    },
+    {
+      "brand": "hummer",
+      "sourceRecords": 17,
+      "parserErrors": 0
+    },
+    {
+      "brand": "hyundai",
+      "sourceRecords": 241,
+      "parserErrors": 0
+    },
+    {
+      "brand": "infiniti",
+      "sourceRecords": 114,
+      "parserErrors": 0
+    },
+    {
+      "brand": "international",
+      "sourceRecords": 13,
+      "parserErrors": 0
+    },
+    {
+      "brand": "isuzu",
+      "sourceRecords": 14,
+      "parserErrors": 0
+    },
+    {
+      "brand": "jaguar",
+      "sourceRecords": 102,
+      "parserErrors": 0
+    },
+    {
+      "brand": "jeep",
+      "sourceRecords": 194,
+      "parserErrors": 0
+    },
+    {
+      "brand": "jensen",
+      "sourceRecords": 10,
+      "parserErrors": 0
+    },
+    {
+      "brand": "kia",
+      "sourceRecords": 134,
+      "parserErrors": 0
+    },
+    {
+      "brand": "koenigsegg",
+      "sourceRecords": 6,
+      "parserErrors": 0
+    },
+    {
+      "brand": "lamborghini",
+      "sourceRecords": 23,
+      "parserErrors": 0
+    },
+    {
+      "brand": "land-rover",
+      "sourceRecords": 163,
+      "parserErrors": 0
+    },
+    {
+      "brand": "lexus",
+      "sourceRecords": 246,
+      "parserErrors": 0
+    },
+    {
+      "brand": "lincoln",
+      "sourceRecords": 122,
+      "parserErrors": 0
+    },
+    {
+      "brand": "lotus",
+      "sourceRecords": 67,
+      "parserErrors": 0
+    },
+    {
+      "brand": "maserati",
+      "sourceRecords": 81,
+      "parserErrors": 0
+    },
+    {
+      "brand": "maybach",
+      "sourceRecords": 5,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mazda",
+      "sourceRecords": 204,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mclaren",
+      "sourceRecords": 15,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mercedes-benz",
+      "sourceRecords": 254,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mercury",
+      "sourceRecords": 67,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mg",
+      "sourceRecords": 7,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mini",
+      "sourceRecords": 21,
+      "parserErrors": 0
+    },
+    {
+      "brand": "mitsubishi",
+      "sourceRecords": 106,
+      "parserErrors": 0
+    },
+    {
+      "brand": "morgan",
+      "sourceRecords": 24,
+      "parserErrors": 0
+    },
+    {
+      "brand": "nissan",
+      "sourceRecords": 308,
+      "parserErrors": 0
+    },
+    {
+      "brand": "oldsmobile",
+      "sourceRecords": 75,
+      "parserErrors": 0
+    },
+    {
+      "brand": "opel",
+      "sourceRecords": 5,
+      "parserErrors": 0
+    },
+    {
+      "brand": "pagani",
+      "sourceRecords": 1,
+      "parserErrors": 0
+    },
+    {
+      "brand": "peugeot",
+      "sourceRecords": 5,
+      "parserErrors": 0
+    },
+    {
+      "brand": "plymouth",
+      "sourceRecords": 47,
+      "parserErrors": 0
+    },
+    {
+      "brand": "pontiac",
+      "sourceRecords": 41,
+      "parserErrors": 0
+    },
+    {
+      "brand": "porsche",
+      "sourceRecords": 164,
+      "parserErrors": 0
+    },
+    {
+      "brand": "ram",
+      "sourceRecords": 97,
+      "parserErrors": 0
+    },
+    {
+      "brand": "rolls-royce",
+      "sourceRecords": 36,
+      "parserErrors": 0
+    },
+    {
+      "brand": "saab",
+      "sourceRecords": 73,
+      "parserErrors": 0
+    },
+    {
+      "brand": "saturn",
+      "sourceRecords": 40,
+      "parserErrors": 0
+    },
+    {
+      "brand": "scion",
+      "sourceRecords": 32,
+      "parserErrors": 0
+    },
+    {
+      "brand": "smart",
+      "sourceRecords": 11,
+      "parserErrors": 0
+    },
+    {
+      "brand": "spyker",
+      "sourceRecords": 2,
+      "parserErrors": 0
+    },
+    {
+      "brand": "srt",
+      "sourceRecords": 5,
+      "parserErrors": 0
+    },
+    {
+      "brand": "ssc",
+      "sourceRecords": 1,
+      "parserErrors": 0
+    },
+    {
+      "brand": "studebaker",
+      "sourceRecords": 12,
+      "parserErrors": 0
+    },
+    {
+      "brand": "subaru",
+      "sourceRecords": 211,
+      "parserErrors": 0
+    },
+    {
+      "brand": "suzuki",
+      "sourceRecords": 38,
+      "parserErrors": 0
+    },
+    {
+      "brand": "tesla",
+      "sourceRecords": 6,
+      "parserErrors": 0
+    },
+    {
+      "brand": "toyota",
+      "sourceRecords": 524,
+      "parserErrors": 0
+    },
+    {
+      "brand": "vencer",
+      "sourceRecords": 2,
+      "parserErrors": 0
+    },
+    {
+      "brand": "volkswagen",
+      "sourceRecords": 208,
+      "parserErrors": 0
+    },
+    {
+      "brand": "volvo",
+      "sourceRecords": 246,
+      "parserErrors": 0
+    }
+  ],
+  "candidates": [
+    {
+      "brand": "bmw",
+      "title": "2017 BMW 2 Series PDF Brochure",
+      "size": "23.8 MB",
+      "file": "2 Series/BMW_US 2Series_2017.pdf",
+      "section": "BMW 2 Series",
+      "sourceUrl": "https://www.auto-brochures.com/makes/BMW/2%20Series/BMW_US%202Series_2017.pdf",
+      "sourcePage": "https://www.auto-brochures.com/bmw.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/BMW/2 Series/BMW_US 2Series_2017.pdf",
+      "key": "pdfs/bmw/2 Series/BMW_US 2Series_2017.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "bmw",
+      "title": "2017 BMW 6 Series PDF Brochure",
+      "size": "20.9 MB",
+      "file": "6 Series/BMW_US 6Series_2017.pdf",
+      "section": "BMW 6 Series",
+      "sourceUrl": "https://www.auto-brochures.com/makes/BMW/6%20Series/BMW_US%206Series_2017.pdf",
+      "sourcePage": "https://www.auto-brochures.com/bmw.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/BMW/6 Series/BMW_US 6Series_2017.pdf",
+      "key": "pdfs/bmw/6 Series/BMW_US 6Series_2017.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "chevrolet",
+      "title": "2022 Chevrolet Camaro PDF Brochure",
+      "size": "3.8 MB",
+      "file": "Camaro/Chevrolet_US Camaro_2022.pdf",
+      "section": "Chevrolet Camaro",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US%20Camaro_2022.pdf",
+      "sourcePage": "https://www.auto-brochures.com/chevrolet.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Chevrolet/Camaro/Chevrolet_US Camaro_2022.pdf",
+      "key": "pdfs/chevrolet/Camaro/Chevrolet_US Camaro_2022.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "chevrolet",
+      "title": "2022 Chevrolet Silverado HD PDF Brochure",
+      "size": "11.3 MB",
+      "file": "Silverado/Chevrolet_US SilveradoHD_2022.pdf",
+      "section": "Chevrolet Silverado/C1500/K1500/Truck",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Chevrolet/Silverado/Chevrolet_US%20SilveradoHD_2022.pdf",
+      "sourcePage": "https://www.auto-brochures.com/chevrolet.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Chevrolet/Silverado/Chevrolet_US SilveradoHD_2022.pdf",
+      "key": "pdfs/chevrolet/Silverado/Chevrolet_US SilveradoHD_2022.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "fisker",
+      "title": "2006 Fisker Latigo CS PDF Brochure",
+      "size": "7.0 MB",
+      "file": "Fisker_US Latigo_2006.pdf",
+      "section": "Fisker Latigo CS",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Fisker/Fisker_US%20Latigo_2006.pdf",
+      "sourcePage": "https://www.auto-brochures.com/fisker.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Fisker/Fisker_US Latigo_2006.pdf",
+      "key": "pdfs/fisker/Fisker_US Latigo_2006.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "gumpert",
+      "title": "Gumpert Nathalie PDF Flyer",
+      "size": "0.3 MB",
+      "file": "Gumpert_int Nathalie.pdf",
+      "section": "Gumpert Apollo",
+      "sourceUrl": "https://www.auto-brochures.com/makes/gumpert/Gumpert_int%20Nathalie.pdf",
+      "sourcePage": "https://www.auto-brochures.com/gumpert.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/gumpert/Gumpert_int Nathalie.pdf",
+      "key": "pdfs/gumpert/Gumpert_int Nathalie.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "hyundai",
+      "title": "2025 Hyundai Ioniq PDF Brochure",
+      "size": "13.6 MB",
+      "file": "Ioniq/Hyundai_US Ioniq_2025.pdf",
+      "section": "Hyundai Ioniq",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US%20Ioniq_2025.pdf",
+      "sourcePage": "https://www.auto-brochures.com/hyundai.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US Ioniq_2025.pdf",
+      "key": "pdfs/hyundai/Ioniq/Hyundai_US Ioniq_2025.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "hyundai",
+      "title": "2024 Hyundai Ioniq PDF Brochure",
+      "size": "38.4 MB",
+      "file": "Ioniq/Hyundai_US Ioniq_2024.pdf",
+      "section": "Hyundai Ioniq",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US%20Ioniq_2024.pdf",
+      "sourcePage": "https://www.auto-brochures.com/hyundai.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US Ioniq_2024.pdf",
+      "key": "pdfs/hyundai/Ioniq/Hyundai_US Ioniq_2024.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "hyundai",
+      "title": "2023 Hyundai Ioniq PDF Brochure",
+      "size": "17.8 MB",
+      "file": "Ioniq/Hyundai_US Ioniq_2023.pdf",
+      "section": "Hyundai Ioniq",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US%20Ioniq_2023.pdf",
+      "sourcePage": "https://www.auto-brochures.com/hyundai.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Hyundai/Ioniq/Hyundai_US Ioniq_2023.pdf",
+      "key": "pdfs/hyundai/Ioniq/Hyundai_US Ioniq_2023.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "jensen",
+      "title": "1975 Jensen GT v1 PDF Brochure",
+      "size": "1.2 MB",
+      "file": "Jensen_US Healey_1975.pdf",
+      "section": "Jensen GT",
+      "sourceUrl": "https://www.auto-brochures.com/makes/jensen/Jensen_US%20Healey_1975.pdf",
+      "sourcePage": "https://www.auto-brochures.com/jensen.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/jensen/Jensen_US Healey_1975.pdf",
+      "key": "pdfs/jensen/Jensen_US Healey_1975.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "kia",
+      "title": "2023 Kia Niro v2 PDF Brochure",
+      "size": "18.7 MB",
+      "file": "Niro/Kia_US Niro_2023-2.pdf",
+      "section": "Kia Niro",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Kia/Niro/Kia_US%20Niro_2023-2.pdf",
+      "sourcePage": "https://www.auto-brochures.com/kia.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Kia/Niro/Kia_US Niro_2023-2.pdf",
+      "key": "pdfs/kia/Niro/Kia_US Niro_2023-2.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "kia",
+      "title": "2023 Kia Soul PDF Brochure",
+      "size": "22.3 MB",
+      "file": "Soul/Kia_US Soul_2023.pdf",
+      "section": "Kia Soul",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Kia/Soul/Kia_US%20Soul_2023.pdf",
+      "sourcePage": "https://www.auto-brochures.com/kia.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Kia/Soul/Kia_US Soul_2023.pdf",
+      "key": "pdfs/kia/Soul/Kia_US Soul_2023.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "lexus",
+      "title": "2025 Lexus UX v2 PDF Brochure",
+      "size": "10.9 MB",
+      "file": "UX/Lexus_US UX_2025-2.pdf",
+      "section": "Lexus UX PDF Sales Brochure",
+      "sourceUrl": "https://www.auto-brochures.com/makes/lexus/UX/Lexus_US%20UX_2025-2.pdf",
+      "sourcePage": "https://www.auto-brochures.com/lexus.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/lexus/UX/Lexus_US UX_2025-2.pdf",
+      "key": "pdfs/lexus/UX/Lexus_US UX_2025-2.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "lexus",
+      "title": "2023 Lexus ES PDF Brochure",
+      "size": "11.1 MB",
+      "file": "ES/Lexus_US ES_2023.pdf",
+      "section": "Lexus ES (XV60) PDF Sales Brochures",
+      "sourceUrl": "https://www.auto-brochures.com/makes/lexus/ES/Lexus_US%20ES_2023.pdf",
+      "sourcePage": "https://www.auto-brochures.com/lexus.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/lexus/ES/Lexus_US ES_2023.pdf",
+      "key": "pdfs/lexus/ES/Lexus_US ES_2023.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "nissan",
+      "title": "2022 Nissan Versa Sedan PDF Brochure",
+      "size": "11.2 MB",
+      "file": "Versa/Nissan_US Versa_Sedan_2022.pdf",
+      "section": "Nissan Versa",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Nissan/Versa/Nissan_US%20Versa_Sedan_2022.pdf",
+      "sourcePage": "https://www.auto-brochures.com/nissan.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Nissan/Versa/Nissan_US Versa_Sedan_2022.pdf",
+      "key": "pdfs/nissan/Versa/Nissan_US Versa_Sedan_2022.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "plymouth",
+      "title": "1997 Plymouth Voyager PDF Brochure",
+      "size": "9.2 MB",
+      "file": "voyager/Plymouth_US-Voyager_1997.pdf",
+      "section": "Plymouth Voyager",
+      "sourceUrl": "https://www.auto-brochures.com/makes/plymouth/voyager/Plymouth_US-Voyager_1997.pdf",
+      "sourcePage": "https://www.auto-brochures.com/plymouth.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/plymouth/voyager/Plymouth_US-Voyager_1997.pdf",
+      "key": "pdfs/plymouth/voyager/Plymouth_US-Voyager_1997.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "toyota",
+      "title": "2026 Toyota bZ4X PDF Brochure",
+      "size": "21.5 MB",
+      "file": "bZ4X/Toyota_US bZ4X_2026.pdf",
+      "section": "Toyota bz/bZ4X (electric)",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Toyota/bZ4X/Toyota_US%20bZ4X_2026.pdf",
+      "sourcePage": "https://www.auto-brochures.com/toyota.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Toyota/bZ4X/Toyota_US bZ4X_2026.pdf",
+      "key": "pdfs/toyota/bZ4X/Toyota_US bZ4X_2026.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "volkswagen",
+      "title": "2019 Volkswagen Golf GTI Order Guide PDF Brochure",
+      "size": "0.4 MB",
+      "file": "Golf/VW_US Golf_GTI_2019-og.pdf",
+      "section": "Volkswagen (VW) Golf GTI",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Volkswagen/Golf/VW_US%20Golf_GTI_2019-og.pdf",
+      "sourcePage": "https://www.auto-brochures.com/volkswagen.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Volkswagen/Golf/VW_US Golf_GTI_2019-og.pdf",
+      "key": "pdfs/volkswagen/Golf/VW_US Golf_GTI_2019-og.pdf",
+      "inCatalog": false,
+      "inR2": false
+    },
+    {
+      "brand": "volkswagen",
+      "title": "2018 Volkswagen Golf GTI Order Guide PDF Brochure",
+      "size": "0.8 MB",
+      "file": "Golf/VW_US Golf_GTI_2018-og.pdf",
+      "section": "Volkswagen (VW) Golf GTI",
+      "sourceUrl": "https://www.auto-brochures.com/makes/Volkswagen/Golf/VW_US%20Golf_GTI_2018-og.pdf",
+      "sourcePage": "https://www.auto-brochures.com/volkswagen.html",
+      "sourceHref": "http://www.auto-brochures.com/makes/Volkswagen/Golf/VW_US Golf_GTI_2018-og.pdf",
+      "key": "pdfs/volkswagen/Golf/VW_US Golf_GTI_2018-og.pdf",
+      "inCatalog": false,
+      "inR2": false
+    }
+  ]
+}

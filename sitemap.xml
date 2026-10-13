@@ -1393,6 +1393,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -4381,6 +4387,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://carbrochurearchive.com/models/suzuki/suzuki-aerio/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
@@ -4610,6 +4622,18 @@
   </url>
   <url>
     <loc>https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius-c/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://carbrochurearchive.com/models/toyota/toyota-prius-v/</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

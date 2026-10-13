@@ -6,6 +6,6 @@
     "Selection limit, remove/clear and citation download",
     "Combined year filter and safe empty search",
     "Pagination and deep-link filtering",
-    "Five views at desktop and mobile: no horizontal page overflow, broken images or JS errors"
+    "8 views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors"
   ]
 }

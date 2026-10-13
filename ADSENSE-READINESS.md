@@ -12,7 +12,7 @@ The content release `249ff68c` was pushed to GitHub and deployed successfully on
 
 1. **The previous local changes were not live.** Before this release, the public BMW M6 page still loaded AdSense and lacked the new record metadata. Its response reported a September 24 modification date. The methodology page returned HTTP 404. GitHub main was still commit `1bc035c6`.
 2. **76 history pages used almost the same prose.** They replaced brand and model names but did not provide dated history or source-supported events. Previous word-count claims included navigation and repeated content. Word counts do not establish unique value; Google publishes no universal passing word-count threshold.
-3. **The imported collection has no documented document licenses.** The repository has 3,344 brochure records but no per-document authorizations. Download availability, attribution and a removal disclaimer do not establish redistribution permission.
+3. **The imported collection has no documented document licenses.** The repository now has 3,363 brochure records but no per-document authorizations. Download availability, attribution and a removal disclaimer do not establish redistribution permission.
 4. **Catalog labels were presented as vehicle coverage.** Hard-coded current model names included models without matching documents. Listed sizes differ from compressed downloads. The two reviewed CR-V PDFs contain no searchable text; visual page review was necessary.
 
 ## Changes Implemented

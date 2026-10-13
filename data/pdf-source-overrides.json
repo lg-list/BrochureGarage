@@ -1,0 +1,15 @@
+{
+  "description": "Source href corrections checked against real PDF responses. Existing catalog filenames are never changed.",
+  "files": {
+    "bmw/BMW_US Full Line_2019.pdf": {"url": "https://www.auto-brochures.com/makes/BMW/BMW_US%20Full_Line_2019.pdf", "reason": "Server's Multiple Choices response identifies an underscore typo, with the same model range and year."},
+    "morgan/morgan_int-aero_2015.pdf": {"url": "https://www.auto-brochures.com/makes/morgan/morgan_int%20aero_2015.pdf", "reason": "Server's Multiple Choices response identifies a space/hyphen typo, with the same model and year."},
+    "oldsmobile/alero/Oldsmobile_US Alero_2002.pdf": {"url": "https://www.auto-brochures.com/makes/oldsmobile/alero/Oldsmobile_US%20Alero_2001.pdf", "reason": "The source title says 2001; its href incorrectly says 2002. Server lists the actual 2001 file."},
+    "maserati/ghibli/Maserati_int Ghibli_2020.pdf": {"url": "https://www.auto-brochures.com/makes/maserati/ghibli/Maserati_US%20Ghibli_2020.pdf", "reason": "Source market suffix is incorrect; the US PDF exists with matching listed size, model and year."},
+    "porsche/Macan/Porsche_int Macan_2021.pdf": {"url": "https://www.auto-brochures.com/makes/Porsche/Macan/Porsche_US%20Macan_2021.pdf", "reason": "Source market suffix is incorrect; the US PDF exists with matching listed size, model and year."},
+    "subaru/Solterra/Subaru_US SVX_2025.pdf": {"url": "https://www.auto-brochures.com/makes/Subaru/Solterra/Subaru_US%20Solterra_2025.pdf", "reason": "Source filename incorrectly names the SVX instead of the Solterra model shown in the source title."},
+    "subaru/Solterra/Subaru_US SVX_2024.pdf": {"url": "https://www.auto-brochures.com/makes/Subaru/Solterra/Subaru_US%20Solterra_2024.pdf", "reason": "Source filename incorrectly names the SVX instead of the Solterra model shown in the source title."},
+    "subaru/Solterra/Subaru_US SVX_2023.pdf": {"url": "https://www.auto-brochures.com/makes/Subaru/Solterra/Subaru_US%20Solterra_2023.pdf", "reason": "Source filename incorrectly names the SVX instead of the Solterra model shown in the source title."},
+    "toyota/Corolla GR/Toyota_US Corolla_2024.pdf": {"url": "https://www.auto-brochures.com/makes/Toyota/Corolla%20GR/Toyota_US%20Corolla_2024-gr.pdf", "title": "2024 Toyota GR Corolla PDF Brochure", "reason": "Source href omits the GR suffix. Model-year matches; the source edition label is not independently verified."},
+    "toyota/Avalon/Toyota_US Avalon_2019-1.pdf": {"url": "https://www.auto-brochures.com/makes/Toyota/Avalon/Toyota_US%20Avalon_2019.pdf", "title": "2019 Toyota Avalon PDF Brochure", "reason": "Source adds a nonexistent -1 suffix. Matching model-year PDF exists without the suffix; no unverified edition label is retained."}
+  }
+}
