@@ -26,6 +26,9 @@ function filterDirectory() {
 }
 
 if (searchInput) {
+  searchInput.closest("form")?.addEventListener("submit", (event) => {
+    if (document.querySelector("#brand-list")) event.preventDefault();
+  });
   searchInput.addEventListener("input", filterDirectory);
 
   const initialQuery = new URLSearchParams(window.location.search).get("q");

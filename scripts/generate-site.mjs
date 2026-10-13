@@ -1,6 +1,7 @@
 import { existsSync } from "node:fs";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { buildResearchPages, renderHistoricalSources, researchPaths } from "./archive-research.mjs";
 
 const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
@@ -8,6 +9,10 @@ const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79
 const adsensePublisherId = "pub-1607011220192909";
 const now = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
 const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
+const catalogLibrary = JSON.parse(await readFile(path.join(root, "data/brochures.json"), "utf8"));
+const verifiedBrochures = JSON.parse(await readFile(path.join(root, "data/verified-brochures.json"), "utf8"));
+const adsPolicy = JSON.parse(await readFile(path.join(root, "data/adsense-policy.json"), "utf8"));
+const adsAllowedUrls = new Set(adsPolicy.allowedPages.map(url => `${siteUrl}/${url}`));
 
 function add(name, official, models, options = {}) {
   return {
@@ -161,7 +166,35 @@ const editorialPages = [
         <h2>Wheelbase, length, cargo volume, and towing</h2>
         <p>Dimension and capacity figures are useful for comparison, but they may be measured differently between markets or body styles. Cargo volume can vary with seat position, roofline, spare tire layout, and measurement standard. Towing ratings can depend on engine, drivetrain, cooling package, hitch equipment, and local regulations.</p>
         <h2>Concept, preview, and launch brochures</h2>
-        <p>Some brochures are early launch pieces rather than final catalog documents. They may show design intent, concept images, or limited specifications. Treat them as context, then look for a later full brochure or specification sheet before relying on exact equipment claims.</p>`
+        <p>Some brochures are early launch pieces rather than final catalog documents. They may show design intent, concept images, or limited specifications. Treat them as context, then look for a later full brochure or specification sheet before relying on exact equipment claims.</p>`,
+  },
+  {
+    path: "archive-methodology.html",
+    id: "archive-methodology",
+    title: "Archive Methodology and Sources | Car Brochure Archive",
+    navTitle: "Archive Methodology",
+    description: "Learn how Car Brochure Archive catalogs brochure records, groups model names, checks metadata, and handles corrections and removal requests.",
+    keywords: ["car brochure archive methodology", "automotive PDF archive sources", "brochure cataloging method", "vehicle brochure research sources"],
+    bodyHtml: `<p class="eyebrow">Archive Methodology</p>
+        <h1 id="archive-methodology-title">How the brochure archive is built</h1>
+        <p>Car Brochure Archive is an independent catalog of imported brochure records and reviewed research. The catalog comes from the <a href="https://www.auto-brochures.com/" target="_blank" rel="noopener">Auto-Brochures collection</a>. Most entries have not been individually reviewed inside the PDF; their titles, sizes and sections are supplied catalog labels.</p>
+        <h2>What a brochure record contains</h2>
+        <p>Each record preserves the supplied brochure title and file name, displayed file size, source section when available, and the PDF path used by the archive. Those fields create the brand indexes, model pages, year summaries, archive report, and sitemap. An unclear year is left unspecified rather than guessed.</p>
+        <h2>How models are grouped</h2>
+        <p>Model names are normalized for navigation so related records can be found together. This grouping is an editorial convenience, not a claim that every market uses the same name. A brochure may cover a range, body style, trim family, or multiple models; the original title remains visible so readers can judge its scope.</p>
+        <h2>How to use the collection</h2>
+        <p>Use the archive to locate and compare historical sales literature. Check the exact year, market, print wording, and footnotes before treating a detail as evidence. Current pricing, safety ratings, availability, recalls, legal requirements, and purchase decisions require a current manufacturer or government source.</p>
+        <h2>Quality and correction process</h2>
+        <p>Build checks verify local page links, canonical URLs, robots directives and sitemap entries. They do not prove that every remotely hosted PDF opens. Remote downloads are sampled separately. For reviewed files, we record a hash, PDF page count, current byte size and review date in the <a href="data/verified-brochures.json">verification record</a>. Readers can report a title error or broken file through the <a href="contact.html">contact page</a>.</p>
+        <h2>Document rights</h2>
+        <p>Image credits: the historical Oldsmobile logo is from <a href="https://commons.wikimedia.org/wiki/File:Oldsmobile_logo_used_from_1981_until_1997.svg" target="_blank" rel="noopener">Wikimedia Commons</a>; its source page documents the copyright label. Other brand marks identify catalog categories and do not imply affiliation.</p>
+        <p>The repository does not currently contain individual redistribution licenses for the imported documents. Public availability and attribution do not establish permission. Manufacturer literature and photographs remain third-party material. The site's comparisons, catalog organization and research tools are separate editorial work. Rights holders can use the contact page to identify a document and request review or removal.</p>
+        <h2>How to cite a record</h2>
+        <p>For a research note, cite the brand and model page together with the exact brochure title and year shown in the record. When a claim depends on a specific page of a PDF, include the PDF title and page number in your own notes. This makes it possible to distinguish a period brochure statement from a current specification or a later owner report.</p>
+        <h2>Updates and collection limits</h2>
+        <p>The collection changes when a file is corrected, a record is added, a link stops working, or a rights request requires a page or document to be changed. The counts shown on the archive report are snapshots of the current metadata, not a claim that the archive contains every brochure published by a manufacturer.</p>
+        <h2>Independence and limitations</h2>
+        <p>Car Brochure Archive is independent and does not imply manufacturer endorsement. Brand names, model names, logos, and document titles are used for identification and research reference. Brochures may differ by country, trim, print date, and model year, so the document itself remains the primary historical source.</p>`
   }
 ];
 
@@ -294,10 +327,10 @@ function buildBrandHistoryArticle(brand) {
   return {
     brand: brand.name,
     slug: articleSlug,
-    title: `${brand.name}: Brand History`,
+    title: `${brand.name}: Historical Brochure Sources`,
     headline: `${brand.name} Brand History`,
-    description: `A concise brand history page for ${brand.name}, linked to brochure archive records and model-year PDF pages.`,
-    summary: `${brand.name} brochure pages in this archive focus on ${modelLead}. The history page provides a simple reference layer so readers can understand the brand before opening model brochures.`,
+    description: `${brand.name} historical brochure records with actual collection coverage, recorded years, model groups and alternate editions.`,
+    summary: `Explore ${catalogLibrary[articleSlug]?.length || 0} ${brand.name} brochure records, year coverage and historical research sources.`,
     region: brand.region,
     published: now,
     heroImage: brandHistoryImage(brand),
@@ -456,10 +489,10 @@ function faviconIco() {
   return Buffer.concat([header, dir, image]);
 }
 
-function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [], robots = "index,follow,max-image-preview:large", ads = true }) {
+function pageShell({ title, description, canonical, cssPath, body, schema = "", keywords = [], robots = "index,follow,max-image-preview:large", ads = false }) {
   const assetPrefix = cssPath.replace(/styles\.css$/, "");
   const keywordText = Array.isArray(keywords) ? [...new Set(keywords.filter(Boolean))].join(", ") : keywords;
-  const adsScript = ads
+  const adsScript = ads && adsAllowedUrls.has(canonical)
     ? `    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-${adsensePublisherId}" crossorigin="anonymous"></script>\n`
     : "";
   return `<!doctype html>
@@ -467,6 +500,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-adsense-account" content="ca-${adsensePublisherId}" />
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     ${keywordText ? `<meta name="keywords" content="${esc(keywordText)}" />` : ""}
@@ -487,7 +521,7 @@ function pageShell({ title, description, canonical, cssPath, body, schema = "", 
 ${adsScript}
     ${schema}
     <script>
-      if (location.pathname.endsWith("/index.html")) {
+      if (location.protocol !== "file:" && location.pathname.endsWith("/index.html")) {
         location.replace(location.pathname.replace(/index\\.html$/, "") + location.search + location.hash);
       }
     </script>
@@ -512,6 +546,7 @@ function header(prefix = "") {
         <a href="${homeHref}#brands">Brands</a>
         <a href="${prefix}history/">History</a>
         <a href="${prefix}research-guide.html">Guides</a>
+        <a href="${prefix}brochure-finder.html">Finder</a>
         <a href="${prefix}archive-report.html">Archive Data</a>
         <a href="${prefix}about.html">About</a>
       </nav>
@@ -528,6 +563,8 @@ function footer(prefix = "") {
         <a href="${prefix}research-guide.html">Research Guide</a>
         <a href="${prefix}model-year-guide.html">Model-Year Guide</a>
         <a href="${prefix}brochure-glossary.html">Glossary</a>
+        <a href="${prefix}brochure-finder.html">Brochure Finder</a>
+        <a href="${prefix}archive-methodology.html">Archive Methodology</a>
         <a href="${prefix}archive-report.html">Archive Data</a>
         <a href="${prefix}about.html">About</a>
         <a href="${prefix}contact.html">Contact</a>
@@ -603,7 +640,7 @@ function hasPublicPdf(brand, entry) {
 }
 
 function topModels(brand, limit = 6) {
-  return brand.models.slice(0, limit).join(", ");
+  return [...new Set((catalogLibrary[slug(brand.name)] || []).map(entry => brochureModel(entry, brand)))].slice(0, limit).join(", ");
 }
 
 function homeKeywords() {
@@ -667,7 +704,7 @@ function modelKeywords(brand, model, years) {
 function modelDescription(brand, model, entries) {
   const years = [...new Set(entries.map(brochureYear).filter((year) => year !== "Other"))].sort((a, b) => b.localeCompare(a));
   const range = years.length > 1 ? `${years.at(-1)}-${years[0]}` : years[0] || "available years";
-  return `Research ${entries.length} ${model} PDF brochure${entries.length === 1 ? "" : "s"} from ${range}. Compare ${brand.name} sales catalogs, specifications, trim information, and model-year guide details.`;
+  return `Browse ${entries.length} ${model} PDF brochure${entries.length === 1 ? "" : "s"} from ${range}, with document titles, catalog labels and direct PDF links in the ${brand.name} collection.`;
 }
 
 function brandIntro(brand, count) {
@@ -743,17 +780,16 @@ function guideCrossLinks(prefix = "") {
   return `<p class="guide-crosslinks">Need a research method? Read the <a href="${prefix}research-guide.html">car brochure research guide</a>, compare years with the <a href="${prefix}model-year-guide.html">model-year guide</a>, or check terms in the <a href="${prefix}brochure-glossary.html">brochure glossary</a>.</p>`;
 }
 
-function historyCards(prefix = "") {
-  return brandHistoryArticles
-    .map((article) => `<article class="history-card">
+async function historyCards(prefix = "", limit = brandHistoryArticles.length) {
+  return (await Promise.all(brandHistoryArticles.slice(0, limit)
+    .map(async (article) => `<article class="history-card">
           <a href="${prefix}${historyUrl(article)}">
-            <img src="${esc(article.heroImage)}" alt="${esc(article.imageAlt)}" loading="lazy" />
+            <img src="${await logoSrc(brands.find(brand => slug(brand.name) === article.slug), prefix)}" alt="${esc(article.brand)} logo" loading="lazy" />
             <span>${esc(article.region)}</span>
             <h3>${esc(article.title)}</h3>
             <p>${esc(article.summary)}</p>
           </a>
-        </article>`)
-    .join("\n");
+        </article>`))).join("\n");
 }
 
 function brandFaqSchema(brand, count) {
@@ -884,8 +920,9 @@ async function logoFile(brand) {
   return { file: "", data: Buffer.from(svg), mime: "image/svg+xml" };
 }
 
-async function logoSrc(brand) {
+async function logoSrc(brand, prefix = "") {
   const logo = await logoFile(brand);
+  if (logo.file) return `${prefix}${path.relative(root, logo.file).split(path.sep).join("/")}`;
   return `data:${logo.mime};base64,${logo.data.toString("base64")}`;
 }
 
@@ -896,12 +933,12 @@ function jsonLd(data) {
 async function write(relativePath, content) {
   const file = path.join(root, relativePath);
   await mkdir(path.dirname(file), { recursive: true });
-  await writeFile(file, content, "utf8");
+  await writeFile(file, content.replace(/[ \t]+$/gm, ""), "utf8");
 }
 
 async function buildHome() {
   const brandItems = (await Promise.all(
-    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
+    brands.map(async (brand) => `<a class="brand-item" id="${slug(brand.name)}" href="${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${topModels(brand, 1000)}`)}">
           <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
           <span>${esc(brand.name)}</span>
         </a>`)
@@ -934,7 +971,8 @@ async function buildHome() {
       <section class="directory-hero" aria-labelledby="page-title">
         <div>
           <h1 id="page-title">Car Brochure Archive</h1>
-          <p class="hero-copy">Research car brochure PDFs, sales catalogs, model guides, and specification sheets across ${brands.length} manufacturers and ${totalModels} model families. Use the archive to compare trim details, model-year changes, equipment lists, and historical catalog language.</p>
+          <p class="hero-copy">Find historical sales brochures across ${brands.length} brands. Search the catalog, compare document editions, and read source-backed research.</p>
+          <p><a href="brochure-finder.html">Find a brochure by model and year</a> · <a href="research/honda-crv-2016-vs-2018/">2016 vs 2018 Honda CR-V: engines and trims</a></p>
           <form class="search-box" role="search" aria-label="Search brands">
             <label for="site-search">Search brands</label>
             <input id="site-search" type="search" placeholder="BMW / Toyota / Audi" autocomplete="off" />
@@ -974,7 +1012,7 @@ async function buildHome() {
           <a href="history/">View history archive</a>
         </div>
         <div class="history-card-grid">
-          ${historyCards("")}
+          ${await historyCards("", 6)}
         </div>
       </section>
     </main>
@@ -1001,7 +1039,7 @@ async function buildNotFoundPage() {
     brands
       .filter((brand) => popular.has(brand.name))
       .map(async (brand) => `<a class="brand-item" id="not-found-${slug(brand.name)}" href="/${brandUrl(brand)}" data-brand="${esc(`${brand.name} ${brand.models.join(" ")}`)}">
-          <img class="brand-logo-img" src="${await logoSrc(brand)}" alt="${esc(brand.name)} logo" loading="lazy" />
+          <img class="brand-logo-img" src="${await logoSrc(brand, "/")}" alt="${esc(brand.name)} logo" loading="lazy" />
           <span>${esc(brand.name)}</span>
         </a>`)
   )).join("\n");
@@ -1097,11 +1135,11 @@ async function buildHistoryIndexPage() {
           <span>Brand History</span>
         </nav>
         <h1>Brand History</h1>
-        <p>Read concise automotive brand history articles linked to the brochure archive. These pages add historical context around manufacturers, model launches, market changes, and the brochures that preserve those details.</p>
+        <p>Explore historical brochure sources by brand. Collection tables show the actual models, dated records and editions available here. The Acura article also provides a sourced introduction to the brand's development.</p>
       </section>
       <section class="directory-section history-index">
         <div class="history-card-grid">
-          ${historyCards("../")}
+          ${await historyCards("../")}
         </div>
       </section>
     </main>
@@ -1154,6 +1192,13 @@ async function buildBrandHistoryPages() {
     const brand = brands.find((item) => slug(item.name) === slug(article.brand));
     if (!brand) continue;
     const documents = library[slug(brand.name)] || [];
+    if (article.slug !== "acura") {
+      const body = renderHistoricalSources(brand, documents, await logoSrc(brand, "../../"), researchHelpers());
+      await write(historyPagePath(article), pageShell({ title: `${article.title} | Car Brochure Archive`, description: article.description,
+        canonical: `${siteUrl}/${historyUrl(article)}`, cssPath: "../../styles.css", body,
+        schema: [jsonLd({"@context":"https://schema.org","@type":"CollectionPage",name:article.title,url:`${siteUrl}/${historyUrl(article)}`}),historyBreadcrumbSchema(article)].join("\n"), ads: false }));
+      continue;
+    }
     const archiveModels = [...new Set(documents.map((entry) => brochureModel(entry, brand)).filter(Boolean))];
     const archiveYears = [...new Set(documents.map((entry) => brochureYear(entry)).filter((year) => /^\d{4}$/.test(String(year))))]
       .map(Number)
@@ -1186,7 +1231,7 @@ async function buildBrandHistoryPages() {
             <p>Explore brochure records and model-year details connected to ${esc(article.brand)} history.</p>
           </a>`)
       .join("\n");
-    const sectionHtml = article.sections
+    const sectionHtml = article.sections.filter(section => section.id !== "china")
       .map((section) => `<section id="${esc(section.id)}" class="history-section">
             <h2>${esc(section.title)}</h2>
             ${section.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n")}
@@ -1198,7 +1243,7 @@ async function buildBrandHistoryPages() {
               : ""}
           </section>`)
       .join("\n");
-    const timelineHtml = article.timeline
+    const timelineHtml = article.timeline.filter(([year]) => Number(year) <= 2000)
       .map(([year, text]) => `<div class="timeline-item">
               <span class="timeline-year">${esc(year)}</span>
               <p>${esc(text)}</p>
@@ -1227,10 +1272,11 @@ async function buildBrandHistoryPages() {
             <p class="source-note">For current specifications and active model information, consult the <a href="${esc(brand.official)}" target="_blank" rel="noopener noreferrer">official ${esc(article.brand)} website</a>. This page is an independent historical reference.</p>
             <figure class="article-image">
               <img src="${esc(article.heroImage)}" alt="${esc(article.imageAlt)}" loading="lazy" />
-              <figcaption>${esc(article.brand)} developed a distinct identity around engineering, technology and performance.</figcaption>
+              <figcaption>Illustrative vehicle photograph; not an archival image of the models or events discussed.</figcaption>
             </figure>
             ${sectionHtml}
             ${archiveFacts}
+            <section class="history-section"><h2>Historical sources</h2><ul><li><a href="https://acuranews.com/en-US/releases/release-9efa6ecd2bdd44e8a6eef88e1ee9bc25-acura-timeline" target="_blank" rel="noopener">Acura Timeline: launch of the brand and MDX</a></li><li><a href="https://global.honda/en/heritage/episodes/1990thensx.html" target="_blank" rel="noopener">Honda heritage: NS-X prototype in 1989 and the NSX in 1990</a></li><li><a href="https://global.honda/en/about/history-digest/75years-history/chapter2/section2/page3.html" target="_blank" rel="noopener">Honda's history: Acura's North American sales channel</a></li></ul><p>The 1989 NSX date refers to the public prototype unveiling, rather than its production on-sale date. Historical milestones do not establish which years are represented in this archive.</p></section>
             <section class="history-section" aria-labelledby="${esc(article.slug)}-timeline">
               <h2 id="${esc(article.slug)}-timeline">${esc(article.brand)} timeline</h2>
               <div class="timeline">${timelineHtml}</div>
@@ -1344,7 +1390,7 @@ function policyPageShell({ id, title, description, canonicalPath, bodyHtml, keyw
     body,
     schema,
     keywords,
-    ads: false
+    ads: adsAllowedUrls.has(`${siteUrl}/${canonicalPath}`)
   });
 }
 
@@ -1409,6 +1455,10 @@ async function buildPolicyPages() {
         <p>Brand pages summarize the available brochure records for one manufacturer. Model pages narrow the archive to a single model family and list brochure years, titles, file sizes, and download links. The home page is a compact brand directory designed for quick scanning.</p>
         <h2>Editorial approach</h2>
         <p>The site adds its own organization, model grouping, research notes, comparison guidance, and page metadata around brochure records. The goal is to help readers understand which brochure to open, what details to compare, and how to treat each PDF as historical reference material rather than current manufacturer advice.</p>
+        <p>The archive catalog was imported from <a href="https://www.auto-brochures.com/" target="_blank" rel="noopener">Auto-Brochures</a>. Catalog titles and sizes are supplied labels. They do not establish that a PDF has been individually inspected. Reviewed documents have a separate verification record, including a file hash, page count, current size and review date.</p>
+        <p>Our <a href="research/honda-crv-2016-vs-2018/">CR-V comparison</a> uses specific pages of two brochures to explain equipment differences. <a href="brochure-finder.html">Brochure Finder</a> searches the complete catalog and exports citations. The <a href="archive-methodology.html">methodology page</a> documents the distinction between imported metadata and reviewed facts.</p>
+        <h2>Maintenance and corrections</h2>
+        <p>The site is maintained through the <a href="https://github.com/lg-list/BrochureGarage" target="_blank" rel="noopener">BrochureGarage project</a>. Public catalog corrections can be submitted through its issue tracker. Include the document title, URL and supporting evidence. No professional automotive qualification or manufacturer relationship is implied by the project name.</p>
         <h2>Independence</h2>
         <p>Car Brochure Archive is not affiliated with, endorsed by, or sponsored by any vehicle manufacturer. Brand names, model names, logos, and brochure titles are used for identification and historical reference.</p>`
     },
@@ -1446,6 +1496,7 @@ async function buildPolicyPages() {
         <h2>Advertising and cookies</h2>
         <p>This site may use Google AdSense. Google and its partners may use cookies or similar technologies to serve, personalize, limit, and measure ads. Visitors can learn how Google uses information from sites or apps that use Google services and can manage ad personalization in their Google account settings.</p>
         <h2>Third-party services</h2>
+        <p>Google's advertising technologies may process cookies, web beacons and IP addresses. Read <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from partner sites</a> and manage personalization in <a href="https://myadcenter.google.com/" target="_blank" rel="noopener">My Ad Center</a>. The brochure selection tool runs in your browser; it does not send your selections or citation notes to the site operator.</p>
         <p>PDF files may be delivered through third-party storage or content delivery networks. Opening a PDF may cause the PDF host to receive technical request information needed to serve the file.</p>
         <h2>Contact</h2>
         <p>For privacy questions or requests related to this site, use the contact page and include the relevant URL or document title.</p>`
@@ -1463,6 +1514,7 @@ async function buildPolicyPages() {
         <p>This site is independent and is not affiliated with any manufacturer, dealer group, publisher, or brand owner. Trademarks, logos, model names, and brochure names belong to their respective owners and are used for identification and reference.</p>
         <h2>Brochure content</h2>
         <p>Brochure PDFs are listed for research, comparison, and historical reference. If you own rights to a document and believe it should be corrected, credited differently, or removed, use the contact page with the affected URL and enough information to identify the material.</p>
+        <p>Public availability of a sales brochure does not mean it is in the public domain or licensed for redistribution. Downloading or attributing a document does not transfer rights. The catalog does not supply a license to reuse manufacturers' photographs, text or trademarks.</p>
         <h2>Removal process</h2>
         <p>Removal and correction requests should identify the exact page URL, PDF title, brand, model, and the requester's relationship to the material. When a valid request is received, the site may remove the file link, update attribution or wording, replace a logo, or revise the surrounding page text.</p>
         <h2>No professional advice</h2>
@@ -1693,7 +1745,17 @@ async function buildModelPages(library) {
           </article>`;
         })
         .join("\n");
+      const metadataRows = entries
+        .map((entry) => `<tr>
+              <th scope="row">${esc(entry.title)}</th>
+              <td>${esc(brochureYear(entry) === "Other" ? "Unspecified" : brochureYear(entry))}</td>
+              <td>${esc(entry.file)}</td>
+              <td>${esc(entry.section || "Not listed")}</td>
+            </tr>`)
+        .join("\n");
       const description = modelDescription(brand, model, entries);
+      const relatedModels = [...groupedDocuments.entries()].filter(([name]) => name !== model).sort((a,b) => b[1].length-a[1].length).slice(0,6);
+      const editions = years.map(year => ({year, count: entries.filter(entry => brochureYear(entry) === year).length})).filter(row => row.count > 1);
       const body = `${header("../../../")}
         <main>
           <section class="brand-page-head">
@@ -1723,25 +1785,24 @@ async function buildModelPages(library) {
               <div class="brochure-list">${rows}</div>
             </section>
           </section>
+          <section class="directory-section archive-records" aria-labelledby="${slug(model)}-record-metadata">
+            <h2 id="${slug(model)}-record-metadata">Record metadata</h2>
+            <p class="section-intro">This table reflects the archive record supplied for each PDF. It is catalog metadata, not a replacement for reading the document or verifying current vehicle information.</p>
+            <div class="report-table-wrap"><table class="report-table"><caption>${esc(model)} brochure record metadata</caption><thead><tr><th scope="col">Brochure</th><th scope="col">Year</th><th scope="col">Catalog filename</th><th scope="col">Archive section</th></tr></thead><tbody>${metadataRows}</tbody></table></div>
+          </section>
           <section class="directory-section guide-links" aria-labelledby="${slug(model)}-guide-links">
             <h2 id="${slug(model)}-guide-links">Use ${esc(model)} brochures as research sources</h2>
             ${guideCrossLinks("../../../")}
           </section>
-          <section class="directory-section editorial-guide" aria-labelledby="${slug(model)}-research-guide">
-            <h2 id="${slug(model)}-research-guide">${esc(model)} brochure research guide</h2>
-            <div class="seo-note-grid">
-              ${modelEditorialGuide(brand, model, entries, years)
-                .map((item, index) => `<article>
-                  <span>${["Match", "Compare", "Cite"][index]}</span>
-                  <p>${esc(item)}</p>
-                </article>`)
-                .join("\n")}
-            </div>
-          </section>
           <section class="directory-section archive-note">
-            <h2>${esc(model)} research notes</h2>
-            <p>${esc(modelResearchNote(brand, model, entries, years))}</p>
-            <p>The PDF list above is arranged as a compact reference index. Open the brochure year that matches your research target, then compare adjacent years when checking feature changes, styling updates, option packages, or market-specific equipment descriptions.</p>
+            <h2>Collection coverage</h2>
+            <p>${years.length === 1 ? `Only ${years[0]} is represented by the dated records here; this page cannot establish changes across years.` : `${years.length} distinct years are recorded: ${esc(years.join(", "))}. Missing years are gaps in this collection.`}</p>
+            ${editions.length ? `<p>Multiple records are available for ${editions.map(row => `${row.year} (${row.count} records)`).join(", ")}. Check each title and filename before treating the editions as equivalent.</p>` : ""}
+            <p><a href="../../../brochure-finder.html?brand=${encodeURIComponent(brand.name)}&amp;q=${encodeURIComponent(model)}">Select documents and export citations</a>. File sizes above are supplied catalog labels and may differ from compressed downloads. See the <a href="../../../archive-methodology.html">source and verification method</a>.</p>
+            ${model === "Honda CR-V" ? `<p><a href="../../../research/honda-crv-2016-vs-2018/">Read the reviewed 2016 vs 2018 CR-V equipment comparison</a>.</p>` : ""}
+            <h2>More ${esc(brand.name)} collections</h2>
+            <ul>${relatedModels.map(([name, records]) => `<li><a href="../../../${modelUrl(brand,name)}">${esc(name)}</a> (${records.length} records)</li>`).join("")}</ul>
+            <p><a href="../../../${brandUrl(brand)}">All ${esc(brand.name)} brochure records</a></p>
           </section>
         </main>
         ${footer("../../../")}`;
@@ -1783,7 +1844,8 @@ async function buildModelPages(library) {
           body,
           schema,
           keywords: modelKeywords(brand, model, years),
-          robots: "index,follow,max-image-preview:large"
+          robots: "index,follow,max-image-preview:large",
+          ads: false
         })
       );
       modelPageCount += 1;
@@ -1814,6 +1876,7 @@ async function buildSitemap(library) {
     { url: "history/", priority: "0.8", changefreq: "monthly" },
     ...brandHistoryArticles.map((article) => ({ url: historyUrl(article), priority: "0.8", changefreq: "monthly" })),
     ...editorialPages.map((page) => ({ url: page.path, priority: "0.7", changefreq: "monthly" })),
+    ...researchPaths.map(url => ({ url, priority: "0.7", changefreq: "monthly" })),
     { url: "archive-report.html", priority: "0.8", changefreq: "weekly" },
     { url: "about.html", priority: "0.6", changefreq: "monthly" },
     { url: "contact.html", priority: "0.5", changefreq: "monthly" },
@@ -1990,6 +2053,10 @@ async function buildAdsTxt() {
 `);
 }
 
+function researchHelpers() {
+  return { brands, siteUrl, esc, header, footer, write, pageShell, brandUrl, modelUrl, brochureModel, brochureYear, isSpecificModel, publicPdfUrl, jsonLd, slug };
+}
+
 async function main() {
   await rm(path.join(root, "brands"), { recursive: true, force: true });
   await rm(path.join(root, "models"), { recursive: true, force: true });
@@ -2004,6 +2071,7 @@ async function main() {
   await buildBrandPages();
   const library = await loadBrochureLibrary();
   const modelPageCount = await buildModelPages(library);
+  await buildResearchPages(library, verifiedBrochures, researchHelpers());
   await buildSitemap(library);
   await buildRobots();
   await buildAiDiscoveryFiles(library);

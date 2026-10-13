@@ -1,0 +1,623 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "One PDF per populated brand; not a full audit of all 3344 files",
+  "passed": true,
+  "checks": [
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/honda/Honda_US%20Model%20Range_2023.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/acura/Acura_US%20Full%20Line_2022.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/alfa-romeo/AlfaRomeo_int%20Passione_2021.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/alpine/Alpine_int%20A110_2023.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/amc/AMC_US%20Full%20Line_1980.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/aston-martin/Aston%20Martin_int%20Model%20Range_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/audi/Audi_US%20Full%20Line_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/austin/mini/Austin_US%20850_1960.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/austin-healey/Austin-Healey_int%20100_1955.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bentley/bentayga/Bentley_int%20Bentayga_2022-2.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bmw/1%20Series/BMW_int%201Series_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bugatti/Bugatti_int%20Veyron16.4_2008.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/buick/Cascada/Buick_US%20Cascada_2019.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/cadillac/Cadillac_US%20V-Series_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/chevrolet/Commercial/Chevrolet_US%20Com_2021.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/chrysler/200/Chrysler_US%20200_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/datsun/Datsun_US%20Full%20Line_1983.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/ferrari/Ferrari_int%20Full%20Line_2010.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/fiat/Fiat_US-FullLine_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/fisker/Fisker_US%20Karma_2013.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/ford/Bronco/Ford_US%20Bronco_2021-3.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/genesis/G70/Genesis_US%20G70_2023.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/gumpert/Gumpert_int%20Apollo.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/hyundai/Hyundai_US%20Full_Line_2024.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/infiniti/Q50/Infiniti_US%20Q50_2023.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/international/International_US%20Full%20Line_1975.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/isuzu/Isuzu_US%20Full%20Line_2008.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/jaguar/E-Pace/Jaguar_US%20E-Pace_2021.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/jensen/Jensen_int%20FF_1966.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/jeep/Jeep_US%2075_Anniversary_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/kia/Kia_US%20Full%20Line_2022.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/koenigsegg/koenigsegg_int-range_2014.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/lamborghini/aventador/Lamborghini_int%20Aventador_2019-svj.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/land-rover/LandRover%2070_Years_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/lexus/CT/Lexus_US%20CT_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/lincoln/Lincoln_US%20BlackLabel_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/lotus/Lotus_int%20Full%20Line_2019.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/maserati/Maserati_int%20Trofeo_2021.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/maybach/maybach_int-57_62.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mazda/3/Mazda_US%203_2022.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mclaren/McLaren_int%20570S_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mercedes-benz/Mercedes%20Benz_US%20el-hyb_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mercury/Mercury_US%20Full%20Line_2003.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mg/MG_US%20Full%20Line_1975.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mini/Mini_US%202023.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/mitsubishi/Mitsubishi_US%20Full_Line_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/morgan/morgan_int-3_wheeler_2014.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/nissan/370Z/Nissan_US%20370Z_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/oldsmobile/Oldsmobile_US%20ModelRange_2004.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/opel/Opel_US%20Full%20Line_1979.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/pagani/Pagani_int%20ZondaF_2009.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/peugeot/Peugeot_US%20304_1978.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/plymouth/Plymouth_US-FullLine_1999.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/porsche/Porsche_US%20E-Performance_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/ram/Ram_US%20Full%20Line_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/rolls-royce/Rolls_Royce_US%20Range_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/saturn/Saturn_US%20Full%20Line_2009.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/scion/FR-S/Scion_US%20FR-S_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/smart/Smart_US%20Fortwo_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/spyker/Spyker_int%20Full%20Line_2009.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/srt/SRT_US%20GrandCherokee_2014.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/ssc/SSC_US%20UltimateAero.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/studebaker/Studebaker_US%201963.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/subaru/Subaru_US%20Full%20Line_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/suzuki/Suzuki_US%20Full%20Line_2013.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/tesla/Model%20S/Tesla_US%20ModelS_2016.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/toyota/Toyota_US-FullLine_2024.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/vencer/Vencer_int%20Sarthe_2014.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/volkswagen/VW_US%20FullLine_2017.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/volvo/Volvo_US%20FullLine_2020.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/citroen/Citroen_US%20ID19_1969.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/delorean/DeLorean_US%201981.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/dodge/Dodge_US%20Full%20Line_2018.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/gmc/GMC_US%20Full%20Line_2021.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/hummer/H1/Hummer_US%20H1_2006.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/pontiac/Pontiac_US%20Full%20Line_2008.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    },
+    {
+      "type": "pdf",
+      "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/saab/Saab_US%202011.pdf",
+      "status": 206,
+      "contentType": "application/pdf",
+      "pdfHeader": true,
+      "passed": true
+    }
+  ]
+}

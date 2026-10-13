@@ -9,5 +9,6 @@ compress-pdfs-*.csv
 compression-report-*.json
 
 node_modules/
+.site-build/
 .DS_Store
 Thumbs.db

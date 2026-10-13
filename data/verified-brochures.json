@@ -1,0 +1,22 @@
+[
+  {
+    "brand": "honda",
+    "file": "CR-V/Honda_US CR-V_2016.pdf",
+    "title": "2016 Honda CR-V PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/honda/CR-V/Honda_US%20CR-V_2016.pdf",
+    "pageCount": 11,
+    "bytes": 3286315,
+    "sha256": "6aaeaa0a46cb91147ca78dc28703b99e12aa35769290a32b322975c1ccf3a569",
+    "checkedOn": "2026-10-13"
+  },
+  {
+    "brand": "honda",
+    "file": "CR-V/Honda_US CR-V_2018.pdf",
+    "title": "2018 Honda CR-V PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/honda/CR-V/Honda_US%20CR-V_2018.pdf",
+    "pageCount": 10,
+    "bytes": 4386169,
+    "sha256": "74537d0d5538d8b0ad1e62859db8f38f7234523bc3d308ca3a2301fc714472a4",
+    "checkedOn": "2026-10-13"
+  }
+]

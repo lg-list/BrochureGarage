@@ -22,6 +22,8 @@ jobs:
         run: node scripts/generate-site.mjs
       - name: Audit local SEO signals
         run: node scripts/seo-audit.mjs
+      - name: Audit advertising coverage and preserved URLs
+        run: node scripts/adsense-audit.mjs
       - name: Generate full SEO reports
         run: node scripts/full-seo-audit.mjs
       - name: Generate segmented sitemaps
