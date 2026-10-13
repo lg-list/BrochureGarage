@@ -1799,8 +1799,7 @@ async function buildModelPages(library) {
               <h2 id="${slug(model)}-downloads">${esc(model)} brochure downloads</h2>
               <div class="brochure-list">${rows}</div>
             </section>
-          </section>
-          ${checkedSection}
+          </section>${checkedSection ? `\n          ${checkedSection}` : ""}
           <section class="directory-section archive-records" aria-labelledby="${slug(model)}-record-metadata">
             <h2 id="${slug(model)}-record-metadata">Record metadata</h2>
             <p class="section-intro">This table reflects the archive record supplied for each PDF. It is catalog metadata, not a replacement for reading the document or verifying current vehicle information.</p>
@@ -1818,8 +1817,7 @@ async function buildModelPages(library) {
             ${model === "Honda CR-V" ? `<p><a href="../../../research/honda-crv-2016-vs-2018/">Read the reviewed 2016 vs 2018 CR-V equipment comparison</a>.</p>` : ""}
             <h2>More ${esc(brand.name)} collections</h2>
             <ul>${relatedModels.map(([name, records]) => `<li><a href="../../../${modelUrl(brand,name)}">${esc(name)}</a> (${records.length} records)</li>`).join("")}</ul>
-            <p><a href="../../../${brandUrl(brand)}">All ${esc(brand.name)} brochure records</a></p>
-            ${historyContext}
+            <p><a href="../../../${brandUrl(brand)}">All ${esc(brand.name)} brochure records</a></p>${historyContext ? `\n            ${historyContext}` : ""}
           </section>
         </main>
         ${footer("../../../")}`;
