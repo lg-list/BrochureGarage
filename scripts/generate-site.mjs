@@ -1,5 +1,5 @@
 import { existsSync } from "node:fs";
-import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { lstat, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { buildResearchPages, renderHistoricalSources, researchPaths } from "./archive-research.mjs";
 
@@ -13,6 +13,8 @@ const catalogLibrary = JSON.parse(await readFile(path.join(root, "data/brochures
 const verifiedBrochures = JSON.parse(await readFile(path.join(root, "data/verified-brochures.json"), "utf8"));
 const adsPolicy = JSON.parse(await readFile(path.join(root, "data/adsense-policy.json"), "utf8"));
 const adsAllowedUrls = new Set(adsPolicy.allowedPages.map(url => `${siteUrl}/${url}`));
+const recoveryFile = path.join(root, "data/indexing-recovery-targets.json");
+const recoveryTargets = new Set(existsSync(recoveryFile) ? JSON.parse(await readFile(recoveryFile, "utf8")).urls : []);
 
 function add(name, official, models, options = {}) {
   return {
@@ -1756,6 +1758,19 @@ async function buildModelPages(library) {
       const description = modelDescription(brand, model, entries);
       const relatedModels = [...groupedDocuments.entries()].filter(([name]) => name !== model).sort((a,b) => b[1].length-a[1].length).slice(0,6);
       const editions = years.map(year => ({year, count: entries.filter(entry => brochureYear(entry) === year).length})).filter(row => row.count > 1);
+      const historyArticle = brandHistoryFor(brand);
+      const historyContext = historyArticle && recoveryTargets.has(`${siteUrl}/${modelUrl(brand, model)}`)
+        ? `<p><a href="../../../${historyUrl(historyArticle)}">${esc(brand.name)} ${historyArticle.slug === "acura" ? "brand history" : "historical brochure sources"}</a></p>` : "";
+      const checkedFiles = entries.flatMap(entry => verifiedBrochures.filter(record => record.brand === slug(brand.name) && record.file === entry.file && record.cover));
+      const checkedSection = checkedFiles.length ? `<section class="directory-section archive-records" aria-labelledby="${slug(model)}-checked-pdfs">
+            <h2 id="${slug(model)}-checked-pdfs">Checked PDF files</h2>
+            <p>These covers were rendered from the linked documents. Page counts include the cover; stored file sizes were measured on ${esc(checkedFiles[0].checkedOn)} and may differ from the original catalog labels.</p>
+            <div class="report-table-wrap"><table class="report-table"><caption>${esc(model)} document verification</caption><thead><tr><th scope="col">Document and cover</th><th scope="col">PDF pages</th><th scope="col">Stored size</th></tr></thead><tbody>
+              ${checkedFiles.map(record => `<tr><th scope="row"><a href="${esc(record.url)}#page=1" target="_blank" rel="noopener">${esc(record.title)}</a><figure><img src="../../../${esc(record.cover)}" alt="Cover of ${esc(record.title)}" width="180" height="${Math.round(180 * record.coverHeight / record.coverWidth)}" style="max-width:100%;height:auto" loading="lazy" /><figcaption>PDF page 1</figcaption></figure></th><td>${record.pageCount}</td><td>${(record.bytes / 1024 / 1024).toFixed(2)} MiB</td></tr>`).join("")}
+            </tbody></table></div>
+            ${model === "Buick Regal" ? "<p>The two checked 2020 documents are separate editions: the Regal file has 14 PDF pages, while the Regal TourX file has 18. Their covers identify different Regal body versions; they should not be treated as interchangeable documents.</p>" : ""}
+            <p>Checks confirm document identity and readable PDF pages, not a particular vehicle's equipment or current specifications. <a href="../../../data/verified-brochures.json">Document verification records</a>.</p>
+          </section>` : "";
       const body = `${header("../../../")}
         <main>
           <section class="brand-page-head">
@@ -1785,6 +1800,7 @@ async function buildModelPages(library) {
               <div class="brochure-list">${rows}</div>
             </section>
           </section>
+          ${checkedSection}
           <section class="directory-section archive-records" aria-labelledby="${slug(model)}-record-metadata">
             <h2 id="${slug(model)}-record-metadata">Record metadata</h2>
             <p class="section-intro">This table reflects the archive record supplied for each PDF. It is catalog metadata, not a replacement for reading the document or verifying current vehicle information.</p>
@@ -1803,6 +1819,7 @@ async function buildModelPages(library) {
             <h2>More ${esc(brand.name)} collections</h2>
             <ul>${relatedModels.map(([name, records]) => `<li><a href="../../../${modelUrl(brand,name)}">${esc(name)}</a> (${records.length} records)</li>`).join("")}</ul>
             <p><a href="../../../${brandUrl(brand)}">All ${esc(brand.name)} brochure records</a></p>
+            ${historyContext}
           </section>
         </main>
         ${footer("../../../")}`;
@@ -1910,6 +1927,15 @@ async function buildRedirects(library) {
     ...modelUrls(library).map((url) => `/${url}index.html /${url} 301`)
   ];
   await write("_redirects", `${redirectLines.join("\n")}\n`);
+  // GitHub Pages does not interpret _redirects; provide a real legacy endpoint as well.
+  await write("history/history/index.html", `<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="0; url=${siteUrl}/history/">
+<link rel="canonical" href="${siteUrl}/history/">
+<meta name="robots" content="noindex,follow">
+<meta name="description" content="The brand history archive has moved to its canonical history directory.">
+<title>Brand History Redirect | Car Brochure Archive</title>
+</head><body><main><h1>Brand History</h1><p><a href="${siteUrl}/history/">Continue to the brand history archive</a>.</p></main></body></html>\n`);
 }
 
 async function buildRobots() {
@@ -2058,9 +2084,13 @@ function researchHelpers() {
 }
 
 async function main() {
-  await rm(path.join(root, "brands"), { recursive: true, force: true });
-  await rm(path.join(root, "models"), { recursive: true, force: true });
-  await rm(path.join(root, "history"), { recursive: true, force: true });
+  for (const name of ["brands", "models", "history"]) {
+    const target = path.resolve(root, name);
+    if (path.dirname(target) !== path.resolve(root)) throw new Error("Generated directory escapes the workspace");
+    const info = await lstat(target).catch(error => { if (error.code !== "ENOENT") throw error; return null; });
+    if (info?.isSymbolicLink()) throw new Error(`Refusing to replace linked directory ${target}`);
+    await rm(target, { recursive: true, force: true });
+  }
   await buildSiteAssets();
   await buildLogos();
   await buildPolicyPages();

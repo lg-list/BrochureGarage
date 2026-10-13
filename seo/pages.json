@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:57:23.722Z",
+  "generated_at": "2026-10-13T15:40:18.366Z",
   "pages": [
     {
       "url": "https://carbrochurearchive.com/404.html",
@@ -1322,6 +1322,18 @@
       "textLength": 1879
     },
     {
+      "url": "https://carbrochurearchive.com/history/",
+      "canonical": "https://carbrochurearchive.com/history/",
+      "file": "history/history/index.html",
+      "indexable": false,
+      "title": "Brand History Redirect | Car Brochure Archive",
+      "description": "The brand history archive has moved to its canonical history directory.",
+      "h1": 1,
+      "schema": 0,
+      "og": 0,
+      "textLength": 99
+    },
+    {
       "url": "https://carbrochurearchive.com/history/honda/",
       "canonical": "https://carbrochurearchive.com/history/honda/",
       "file": "history/honda/index.html",
@@ -1991,7 +2003,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1664
+      "textLength": 1684
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-mdx/",
@@ -2123,7 +2135,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1633
+      "textLength": 1665
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-talon/",
@@ -2135,7 +2147,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1611
+      "textLength": 1643
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-vision/",
@@ -2147,7 +2159,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1623
+      "textLength": 1655
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db11/",
@@ -2171,7 +2183,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1802
+      "textLength": 1843
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db9/",
@@ -2183,7 +2195,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1770
+      "textLength": 1811
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbs/",
@@ -2207,7 +2219,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2135
+      "textLength": 2176
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-rapide/",
@@ -2219,7 +2231,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1801
+      "textLength": 1842
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-vantage/",
@@ -2411,7 +2423,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1554
+      "textLength": 1589
     },
     {
       "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-100/",
@@ -2507,7 +2519,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1636
+      "textLength": 1668
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-2-series/",
@@ -2591,7 +2603,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1696
+      "textLength": 2221
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-6-series/",
@@ -2627,7 +2639,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1636
+      "textLength": 1668
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-alpina/",
@@ -2639,7 +2651,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1613
+      "textLength": 1645
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m2/",
@@ -2711,7 +2723,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1565
+      "textLength": 1597
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x3/",
@@ -2771,7 +2783,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1666
+      "textLength": 1702
     },
     {
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-pur-sang/",
@@ -2795,7 +2807,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1762
+      "textLength": 1798
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-cascada/",
@@ -2807,7 +2819,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2114
+      "textLength": 2148
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-enclave/",
@@ -2867,7 +2879,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2829
+      "textLength": 3633
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-verano/",
@@ -2903,7 +2915,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1730
+      "textLength": 1767
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct4/",
@@ -2915,7 +2927,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1707
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct5/",
@@ -2927,7 +2939,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1707
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct6/",
@@ -2987,7 +2999,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1694
+      "textLength": 1731
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-srx/",
@@ -2999,7 +3011,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1707
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-v-series/",
@@ -3047,7 +3059,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1707
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xts/",
@@ -3083,7 +3095,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2937
+      "textLength": 2975
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt-euv/",
@@ -3119,7 +3131,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1835
+      "textLength": 1873
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-colorado/",
@@ -3335,7 +3347,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1619
+      "textLength": 1656
     },
     {
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-300/",
@@ -3371,7 +3383,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1838
+      "textLength": 1875
     },
     {
       "url": "https://carbrochurearchive.com/models/citroen/citro-n-ds-19-id-19/",
@@ -3407,7 +3419,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1632
+      "textLength": 1668
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1000-sedan/",
@@ -3419,7 +3431,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1749
+      "textLength": 1784
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1300/",
@@ -3431,7 +3443,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1695
+      "textLength": 1730
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-240-z-260-z-280-z-280-zx/",
@@ -3455,7 +3467,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1811
+      "textLength": 1846
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-f-10-cherry/",
@@ -3467,7 +3479,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1757
+      "textLength": 1792
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-fairlady/",
@@ -3515,7 +3527,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1704
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-aries/",
@@ -3527,7 +3539,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1694
+      "textLength": 1728
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-avenger/",
@@ -3635,7 +3647,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1718
+      "textLength": 1752
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-diplomat/",
@@ -3767,7 +3779,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1716
+      "textLength": 1750
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ramcharger/",
@@ -3779,7 +3791,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1754
+      "textLength": 1788
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-shadow/",
@@ -3791,7 +3803,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1706
+      "textLength": 1740
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-spirit/",
@@ -3803,7 +3815,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1706
+      "textLength": 1740
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-sprinter/",
@@ -3827,7 +3839,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1856
+      "textLength": 1890
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-stratus/",
@@ -3875,7 +3887,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1734
+      "textLength": 1770
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-458/",
@@ -3899,7 +3911,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1709
+      "textLength": 1745
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-612-scaglietti/",
@@ -3911,7 +3923,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1792
+      "textLength": 1828
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-california/",
@@ -3935,7 +3947,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1696
+      "textLength": 1732
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-enzo/",
@@ -3947,7 +3959,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1695
+      "textLength": 1731
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f12-berlinetta/",
@@ -3959,7 +3971,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1793
+      "textLength": 1829
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f40/",
@@ -3983,7 +3995,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1694
+      "textLength": 1730
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-ff/",
@@ -3995,7 +4007,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1672
+      "textLength": 1708
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-testarossa/",
@@ -4055,7 +4067,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2838
+      "textLength": 2871
     },
     {
       "url": "https://carbrochurearchive.com/models/fisker/fisker-karma/",
@@ -4379,7 +4391,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1667
+      "textLength": 1703
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-gv70/",
@@ -4511,7 +4523,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1639
+      "textLength": 1671
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-savana/",
@@ -4523,7 +4535,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2606
+      "textLength": 2638
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-sonoma/",
@@ -4775,7 +4787,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1681
+      "textLength": 1716
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-accent/",
@@ -4847,7 +4859,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1787
+      "textLength": 1823
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq/",
@@ -5015,7 +5027,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2390
+      "textLength": 2427
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q70-q70l/",
@@ -5159,7 +5171,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1841
+      "textLength": 1883
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-amigo/",
@@ -5183,7 +5195,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1642
+      "textLength": 1676
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-hombre/",
@@ -5195,7 +5207,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1653
+      "textLength": 1687
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-impulse/",
@@ -5207,7 +5219,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1664
+      "textLength": 1698
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-p-up/",
@@ -5219,7 +5231,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1625
+      "textLength": 1659
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-rodeo/",
@@ -5231,7 +5243,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1642
+      "textLength": 1676
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-trooper-ii/",
@@ -5423,7 +5435,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1801
+      "textLength": 1834
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-ff/",
@@ -5459,7 +5471,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2192
+      "textLength": 2227
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-interceptor/",
@@ -5687,7 +5699,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1804
+      "textLength": 1843
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-one-1/",
@@ -5699,7 +5711,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1725
+      "textLength": 1764
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-trevita/",
@@ -5747,7 +5759,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1690
+      "textLength": 1730
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/land-rover-defender/",
@@ -6059,7 +6071,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2026
+      "textLength": 2062
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkc/",
@@ -6083,7 +6095,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1706
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkt/",
@@ -6167,7 +6179,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1564
+      "textLength": 1598
     },
     {
       "url": "https://carbrochurearchive.com/models/lotus/lotus-evora/",
@@ -6215,7 +6227,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1762
+      "textLength": 1799
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-granturismo/",
@@ -6251,7 +6263,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1785
+      "textLength": 1822
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-quattroporte/",
@@ -6275,7 +6287,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1639
+      "textLength": 1675
     },
     {
       "url": "https://carbrochurearchive.com/models/maybach/maybach-57s/",
@@ -6395,7 +6407,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1659
+      "textLength": 1693
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-5-miata/",
@@ -6431,7 +6443,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1617
+      "textLength": 1653
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-720s/",
@@ -6467,7 +6479,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1587
+      "textLength": 1623
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-a-class/",
@@ -6575,7 +6587,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1982
+      "textLength": 2024
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-eq/",
@@ -6587,7 +6599,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1833
+      "textLength": 1875
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-g-class/",
@@ -6611,7 +6623,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1864
+      "textLength": 1906
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gla-class/",
@@ -6683,7 +6695,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1992
+      "textLength": 2034
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-metris-and-sprinter/",
@@ -6755,7 +6767,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1907
+      "textLength": 1949
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-capri/",
@@ -6767,7 +6779,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2288
+      "textLength": 2324
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-cougar/",
@@ -7019,7 +7031,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 3820
+      "textLength": 3855
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-aero-coupe-aeromax-supersport/",
@@ -7043,7 +7055,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2015
+      "textLength": 2050
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-eva-gt/",
@@ -7055,7 +7067,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1721
+      "textLength": 1756
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-lifecar/",
@@ -7067,7 +7079,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1736
+      "textLength": 1771
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-350z-370z/",
@@ -7355,7 +7367,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1882
+      "textLength": 1921
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
@@ -7403,7 +7415,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1806
+      "textLength": 1845
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ciera-cutlass-ciera/",
@@ -7487,7 +7499,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2764
+      "textLength": 2803
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-six/",
@@ -7499,7 +7511,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1758
+      "textLength": 1797
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-gt/",
@@ -7511,7 +7523,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1460
+      "textLength": 1493
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-rekord/",
@@ -7523,7 +7535,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1500
+      "textLength": 1533
     },
     {
       "url": "https://carbrochurearchive.com/models/pagani/pagani-zonda-f/",
@@ -7547,7 +7559,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1591
+      "textLength": 1627
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-403/",
@@ -7559,7 +7571,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1591
+      "textLength": 1627
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-504/",
@@ -7571,7 +7583,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1591
+      "textLength": 1627
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-505/",
@@ -7583,7 +7595,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1592
+      "textLength": 1628
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-604/",
@@ -7595,7 +7607,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1592
+      "textLength": 1628
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-acclaim/",
@@ -7619,7 +7631,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1756
+      "textLength": 1793
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-belvedere/",
@@ -7655,7 +7667,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1709
+      "textLength": 1746
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-colt/",
@@ -7679,7 +7691,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1697
+      "textLength": 1734
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-horizon/",
@@ -7691,7 +7703,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2215
+      "textLength": 2252
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-laser/",
@@ -7751,7 +7763,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1918
+      "textLength": 1955
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-sundance/",
@@ -7787,7 +7799,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1730
+      "textLength": 1766
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-fiero/",
@@ -7799,7 +7811,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1670
+      "textLength": 1706
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-firebird/",
@@ -7823,7 +7835,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1634
+      "textLength": 1670
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g5/",
@@ -7919,7 +7931,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1698
+      "textLength": 1734
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sunfire/",
@@ -7931,7 +7943,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1686
+      "textLength": 1722
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sv6/",
@@ -7943,7 +7955,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1638
+      "textLength": 1674
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-torrent/",
@@ -8063,7 +8075,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1770
+      "textLength": 1806
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-panamera/",
@@ -8183,7 +8195,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1735
+      "textLength": 1775
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-wraith/",
@@ -8207,7 +8219,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1650
+      "textLength": 1683
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-3-93/",
@@ -8231,7 +8243,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1924
+      "textLength": 1957
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-5-95/",
@@ -8243,7 +8255,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2471
+      "textLength": 2504
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-90/",
@@ -8255,7 +8267,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1579
+      "textLength": 1612
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-900/",
@@ -8279,7 +8291,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1603
+      "textLength": 1636
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-93/",
@@ -8327,7 +8339,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1590
+      "textLength": 1623
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-99/",
@@ -8351,7 +8363,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1658
+      "textLength": 1691
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-sonett/",
@@ -8483,7 +8495,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1542
+      "textLength": 1576
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-ia/",
@@ -8495,7 +8507,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1520
+      "textLength": 1554
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-im/",
@@ -8531,7 +8543,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1497
+      "textLength": 1531
     },
     {
       "url": "https://carbrochurearchive.com/models/spyker/spyker-lm85/",
@@ -8543,7 +8555,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1476
+      "textLength": 1511
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/300-srt-challenger-srt-charger-srt-and-grand-cherokee-srt/",
@@ -8555,7 +8567,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1940
+      "textLength": 1972
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/srt-grand-cherokee/",
@@ -8567,7 +8579,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1647
+      "textLength": 1679
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/srt-viper/",
@@ -8591,7 +8603,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1555
+      "textLength": 1587
     },
     {
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-commander/",
@@ -8639,7 +8651,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1659
+      "textLength": 1698
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-ascent/",
@@ -9035,7 +9047,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1808
+      "textLength": 1843
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-highlander/",
@@ -9143,7 +9155,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 3480
+      "textLength": 3515
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-sienna/",
@@ -9215,7 +9227,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2340
+      "textLength": 2375
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-ia-hatchback/",
@@ -9239,7 +9251,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1795
+      "textLength": 1830
     },
     {
       "url": "https://carbrochurearchive.com/models/vencer/vencer-sarthe/",
@@ -9275,7 +9287,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 3673
+      "textLength": 3712
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas-cross-sport/",
@@ -9311,7 +9323,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2068
+      "textLength": 2107
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-cc/",
@@ -9347,7 +9359,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 2409
+      "textLength": 2448
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-alltrack-sportwagen/",
@@ -9503,7 +9515,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1625
+      "textLength": 1659
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s90/",
@@ -9551,7 +9563,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1762
+      "textLength": 1796
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc60/",
@@ -9575,7 +9587,7 @@
       "h1": 1,
       "schema": 2,
       "og": 5,
-      "textLength": 1637
+      "textLength": 1671
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc90/",

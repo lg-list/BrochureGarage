@@ -15,7 +15,7 @@
     "https://carbrochurearchive.com/brochure-glossary.html",
     "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/"
   ],
-  "reviewedPdfs": 2,
+  "reviewedPdfs": 5,
   "failures": [],
   "unresolved": [
     "Redistribution rights for imported PDFs are not documented in this repository.",
@@ -525,7 +525,7 @@
       "url": "https://carbrochurearchive.com/brochure-finder.html",
       "advertising": false,
       "mainTextWords": 768,
-      "htmlBytes": 1145717
+      "htmlBytes": 1145876
     },
     {
       "url": "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/",
@@ -1029,3811 +1029,3811 @@
       "url": "https://carbrochurearchive.com/models/acura/acura-ilx/",
       "advertising": false,
       "mainTextWords": 447,
-      "htmlBytes": 19945
+      "htmlBytes": 19947
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-integra/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9698
+      "mainTextWords": 212,
+      "htmlBytes": 9776
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-mdx/",
       "advertising": false,
       "mainTextWords": 439,
-      "htmlBytes": 19838
+      "htmlBytes": 19840
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-nsx/",
       "advertising": false,
       "mainTextWords": 227,
-      "htmlBytes": 10535
+      "htmlBytes": 10537
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-rdx/",
       "advertising": false,
       "mainTextWords": 468,
-      "htmlBytes": 20930
+      "htmlBytes": 20932
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-rlx/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 14785
+      "htmlBytes": 14787
     },
     {
       "url": "https://carbrochurearchive.com/models/acura/acura-tlx/",
       "advertising": false,
       "mainTextWords": 375,
-      "htmlBytes": 16842
+      "htmlBytes": 16844
     },
     {
       "url": "https://carbrochurearchive.com/models/alfa-romeo/4c/",
       "advertising": false,
       "mainTextWords": 321,
-      "htmlBytes": 14397
+      "htmlBytes": 14399
     },
     {
       "url": "https://carbrochurearchive.com/models/alfa-romeo/giulia/",
       "advertising": false,
       "mainTextWords": 382,
-      "htmlBytes": 18135
+      "htmlBytes": 18137
     },
     {
       "url": "https://carbrochurearchive.com/models/alfa-romeo/stelvio/",
       "advertising": false,
       "mainTextWords": 362,
-      "htmlBytes": 17150
+      "htmlBytes": 17152
     },
     {
       "url": "https://carbrochurearchive.com/models/alpine/alpine-a110-new/",
       "advertising": false,
       "mainTextWords": 585,
-      "htmlBytes": 25955
+      "htmlBytes": 25957
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle/",
       "advertising": false,
       "mainTextWords": 321,
-      "htmlBytes": 15350
+      "htmlBytes": 15352
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-premier/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9596
+      "mainTextWords": 211,
+      "htmlBytes": 9684
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-talon/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9504
+      "mainTextWords": 211,
+      "htmlBytes": 9592
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-vision/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9551
+      "mainTextWords": 211,
+      "htmlBytes": 9639
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db4/",
       "advertising": false,
-      "mainTextWords": 231,
-      "htmlBytes": 10157
+      "mainTextWords": 236,
+      "htmlBytes": 10263
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db9/",
       "advertising": false,
-      "mainTextWords": 229,
-      "htmlBytes": 10093
+      "mainTextWords": 234,
+      "htmlBytes": 10199
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db11/",
       "advertising": false,
       "mainTextWords": 274,
-      "htmlBytes": 12419
+      "htmlBytes": 12421
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbs/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 11361
+      "htmlBytes": 11363
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
       "advertising": false,
-      "mainTextWords": 285,
-      "htmlBytes": 11483
+      "mainTextWords": 290,
+      "htmlBytes": 11589
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-rapide/",
       "advertising": false,
-      "mainTextWords": 229,
-      "htmlBytes": 10231
+      "mainTextWords": 234,
+      "htmlBytes": 10337
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-vantage/",
       "advertising": false,
       "mainTextWords": 276,
-      "htmlBytes": 12656
+      "htmlBytes": 12658
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a3-and-s3/",
       "advertising": false,
       "mainTextWords": 349,
-      "htmlBytes": 13973
+      "htmlBytes": 13975
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a4-a4-avant-and-s4/",
       "advertising": false,
       "mainTextWords": 297,
-      "htmlBytes": 12220
+      "htmlBytes": 12222
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a5-and-s5/",
       "advertising": false,
       "mainTextWords": 304,
-      "htmlBytes": 12839
+      "htmlBytes": 12841
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a6-and-s6/",
       "advertising": false,
       "mainTextWords": 325,
-      "htmlBytes": 12937
+      "htmlBytes": 12939
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a7-rs7-and-s7/",
       "advertising": false,
       "mainTextWords": 334,
-      "htmlBytes": 13150
+      "htmlBytes": 13152
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-a8-a8-l-and-s8/",
       "advertising": false,
       "mainTextWords": 297,
-      "htmlBytes": 12056
+      "htmlBytes": 12058
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-allroad/",
       "advertising": false,
       "mainTextWords": 261,
-      "htmlBytes": 11825
+      "htmlBytes": 11827
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-q3/",
       "advertising": false,
       "mainTextWords": 261,
-      "htmlBytes": 11446
+      "htmlBytes": 11448
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-q5-and-sq5/",
       "advertising": false,
       "mainTextWords": 304,
-      "htmlBytes": 12882
+      "htmlBytes": 12884
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-q7/",
       "advertising": false,
       "mainTextWords": 240,
-      "htmlBytes": 10445
+      "htmlBytes": 10447
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-q8/",
       "advertising": false,
       "mainTextWords": 222,
-      "htmlBytes": 9438
+      "htmlBytes": 9440
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-r8-and-r8-v10-plus/",
       "advertising": false,
       "mainTextWords": 296,
-      "htmlBytes": 11219
+      "htmlBytes": 11221
     },
     {
       "url": "https://carbrochurearchive.com/models/audi/audi-tt-and-tts/",
       "advertising": false,
       "mainTextWords": 279,
-      "htmlBytes": 11843
+      "htmlBytes": 11845
     },
     {
       "url": "https://carbrochurearchive.com/models/austin/austin-850-morris-850/",
       "advertising": false,
       "mainTextWords": 217,
-      "htmlBytes": 10729
+      "htmlBytes": 10731
     },
     {
       "url": "https://carbrochurearchive.com/models/austin/austin-marina/",
       "advertising": false,
-      "mainTextWords": 188,
-      "htmlBytes": 9309
+      "mainTextWords": 192,
+      "htmlBytes": 9403
     },
     {
       "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-100/",
       "advertising": false,
       "mainTextWords": 211,
-      "htmlBytes": 10861
+      "htmlBytes": 10863
     },
     {
       "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-3000/",
       "advertising": false,
       "mainTextWords": 193,
-      "htmlBytes": 9777
+      "htmlBytes": 9779
     },
     {
       "url": "https://carbrochurearchive.com/models/austin-healey/austin-healey-sprite/",
       "advertising": false,
       "mainTextWords": 232,
-      "htmlBytes": 12131
+      "htmlBytes": 12133
     },
     {
       "url": "https://carbrochurearchive.com/models/bentley/bentley-bentayga/",
       "advertising": false,
       "mainTextWords": 387,
-      "htmlBytes": 18699
+      "htmlBytes": 18701
     },
     {
       "url": "https://carbrochurearchive.com/models/bentley/bentley-continental/",
       "advertising": false,
       "mainTextWords": 354,
-      "htmlBytes": 17032
+      "htmlBytes": 17034
     },
     {
       "url": "https://carbrochurearchive.com/models/bentley/bentley-flying-spur/",
       "advertising": false,
       "mainTextWords": 318,
-      "htmlBytes": 14780
+      "htmlBytes": 14782
     },
     {
       "url": "https://carbrochurearchive.com/models/bentley/bentley-mulsanne/",
       "advertising": false,
       "mainTextWords": 214,
-      "htmlBytes": 10799
+      "htmlBytes": 10801
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-1-series/",
       "advertising": false,
-      "mainTextWords": 221,
-      "htmlBytes": 9577
+      "mainTextWords": 225,
+      "htmlBytes": 9665
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-2-series/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 10655
+      "htmlBytes": 10657
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m2/",
       "advertising": false,
       "mainTextWords": 232,
-      "htmlBytes": 10351
+      "htmlBytes": 10353
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 10655
+      "htmlBytes": 10657
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sedan/",
       "advertising": false,
       "mainTextWords": 230,
-      "htmlBytes": 9836
+      "htmlBytes": 9838
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m3-m4/",
       "advertising": false,
       "mainTextWords": 252,
-      "htmlBytes": 10547
+      "htmlBytes": 10549
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-4-series/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 10655
+      "htmlBytes": 10657
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 11726
+      "htmlBytes": 11728
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series-sedan/",
       "advertising": false,
-      "mainTextWords": 230,
-      "htmlBytes": 9819
+      "mainTextWords": 311,
+      "htmlBytes": 11342
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-6-series/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 10655
+      "htmlBytes": 10657
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-m6/",
       "advertising": false,
       "mainTextWords": 212,
-      "htmlBytes": 9311
+      "htmlBytes": 9313
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-7-series/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 11726
+      "htmlBytes": 11728
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-8-series/",
       "advertising": false,
-      "mainTextWords": 221,
-      "htmlBytes": 9574
+      "mainTextWords": 225,
+      "htmlBytes": 9662
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-alpina/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 9474
+      "mainTextWords": 215,
+      "htmlBytes": 9562
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x-series-x1-x3-x4-x5-and-x6/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 10426
+      "htmlBytes": 10428
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x1/",
       "advertising": false,
       "mainTextWords": 229,
-      "htmlBytes": 10276
+      "htmlBytes": 10278
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x2/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 9285
+      "mainTextWords": 215,
+      "htmlBytes": 9373
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x3/",
       "advertising": false,
       "mainTextWords": 211,
-      "htmlBytes": 9282
+      "htmlBytes": 9284
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x4/",
       "advertising": false,
       "mainTextWords": 211,
-      "htmlBytes": 9282
+      "htmlBytes": 9284
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x5/",
       "advertising": false,
       "mainTextWords": 251,
-      "htmlBytes": 10377
+      "htmlBytes": 10379
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x6/",
       "advertising": false,
       "mainTextWords": 251,
-      "htmlBytes": 10377
+      "htmlBytes": 10379
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/",
       "advertising": false,
       "mainTextWords": 237,
-      "htmlBytes": 10395
+      "htmlBytes": 10397
     },
     {
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4/",
       "advertising": false,
-      "mainTextWords": 206,
-      "htmlBytes": 9703
+      "mainTextWords": 210,
+      "htmlBytes": 9799
     },
     {
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-pur-sang/",
       "advertising": false,
       "mainTextWords": 222,
-      "htmlBytes": 10066
+      "htmlBytes": 10068
     },
     {
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-sang-noir/",
       "advertising": false,
-      "mainTextWords": 223,
-      "htmlBytes": 10117
+      "mainTextWords": 227,
+      "htmlBytes": 10213
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-cascada/",
       "advertising": false,
-      "mainTextWords": 267,
-      "htmlBytes": 12946
+      "mainTextWords": 271,
+      "htmlBytes": 13038
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-enclave/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 17167
+      "htmlBytes": 17169
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-encore/",
       "advertising": false,
       "mainTextWords": 439,
-      "htmlBytes": 20292
+      "htmlBytes": 20294
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-envision/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 17307
+      "htmlBytes": 17309
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-lacrosse/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 13034
+      "htmlBytes": 13036
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-regal/",
       "advertising": false,
-      "mainTextWords": 378,
-      "htmlBytes": 17097
+      "mainTextWords": 504,
+      "htmlBytes": 19324
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-verano/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10724
+      "htmlBytes": 10726
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-v-series/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 11035
+      "htmlBytes": 11037
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ats/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12936
+      "htmlBytes": 12938
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-celestiq/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9962
+      "mainTextWords": 211,
+      "htmlBytes": 10060
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct4/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9722
+      "mainTextWords": 211,
+      "htmlBytes": 9820
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct5/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9722
+      "mainTextWords": 211,
+      "htmlBytes": 9820
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct6/",
       "advertising": false,
       "mainTextWords": 328,
-      "htmlBytes": 15326
+      "htmlBytes": 15328
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-cts/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12936
+      "htmlBytes": 12938
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-elr/",
       "advertising": false,
       "mainTextWords": 207,
-      "htmlBytes": 9722
+      "htmlBytes": 9724
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-escalade/",
       "advertising": false,
       "mainTextWords": 309,
-      "htmlBytes": 15644
+      "htmlBytes": 15646
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-lyriq/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9818
+      "mainTextWords": 211,
+      "htmlBytes": 9916
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-srx/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9722
+      "mainTextWords": 211,
+      "htmlBytes": 9820
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt4/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10795
+      "htmlBytes": 10797
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt5/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12935
+      "htmlBytes": 12937
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt6/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9722
+      "mainTextWords": 211,
+      "htmlBytes": 9820
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xts/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12937
+      "htmlBytes": 12939
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-blazer/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 14510
+      "htmlBytes": 14512
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt/",
       "advertising": false,
-      "mainTextWords": 372,
-      "htmlBytes": 17626
+      "mainTextWords": 376,
+      "htmlBytes": 17726
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt-euv/",
       "advertising": false,
       "mainTextWords": 237,
-      "htmlBytes": 11245
+      "htmlBytes": 11247
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-camaro/",
       "advertising": false,
       "mainTextWords": 370,
-      "htmlBytes": 17917
+      "htmlBytes": 17919
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-city-express/",
       "advertising": false,
-      "mainTextWords": 216,
-      "htmlBytes": 10305
+      "mainTextWords": 220,
+      "htmlBytes": 10405
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-colorado/",
       "advertising": false,
       "mainTextWords": 370,
-      "htmlBytes": 18218
+      "htmlBytes": 18220
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-corvette/",
       "advertising": false,
       "mainTextWords": 517,
-      "htmlBytes": 26010
+      "htmlBytes": 26012
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-cruze/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 15595
+      "htmlBytes": 15597
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-equinox/",
       "advertising": false,
       "mainTextWords": 393,
-      "htmlBytes": 19120
+      "htmlBytes": 19122
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-express-commercial-g20-sportvan/",
       "advertising": false,
       "mainTextWords": 253,
-      "htmlBytes": 12335
+      "htmlBytes": 12337
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-impala/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 13392
+      "htmlBytes": 13394
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-malibu/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 19011
+      "htmlBytes": 19013
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-silverado-c1500-k1500-truck/",
       "advertising": false,
       "mainTextWords": 626,
-      "htmlBytes": 31804
+      "htmlBytes": 31806
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-sonic/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 14407
+      "htmlBytes": 14409
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-spark/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 18834
+      "htmlBytes": 18836
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-ss/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10903
+      "htmlBytes": 10905
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-suburban/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 18035
+      "htmlBytes": 18037
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-tahoe/",
       "advertising": false,
       "mainTextWords": 393,
-      "htmlBytes": 18814
+      "htmlBytes": 18816
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-trailblazer/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 12653
+      "htmlBytes": 12655
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-traverse/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 18035
+      "htmlBytes": 18037
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-trax/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 16430
+      "htmlBytes": 16432
     },
     {
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-volt/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 13211
+      "htmlBytes": 13213
     },
     {
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-200/",
       "advertising": false,
-      "mainTextWords": 197,
-      "htmlBytes": 9509
+      "mainTextWords": 201,
+      "htmlBytes": 9607
     },
     {
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-300/",
       "advertising": false,
       "mainTextWords": 320,
-      "htmlBytes": 15852
+      "htmlBytes": 15854
     },
     {
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-pacifica/",
       "advertising": false,
       "mainTextWords": 389,
-      "htmlBytes": 19685
+      "htmlBytes": 19687
     },
     {
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-town-and-country-voyager/",
       "advertising": false,
-      "mainTextWords": 215,
-      "htmlBytes": 10445
+      "mainTextWords": 219,
+      "htmlBytes": 10543
     },
     {
       "url": "https://carbrochurearchive.com/models/citroen/citro-n-ds-19-id-19/",
       "advertising": false,
       "mainTextWords": 256,
-      "htmlBytes": 11823
+      "htmlBytes": 11825
     },
     {
       "url": "https://carbrochurearchive.com/models/citroen/citro-n-ds-21/",
       "advertising": false,
       "mainTextWords": 244,
-      "htmlBytes": 10625
+      "htmlBytes": 10627
     },
     {
       "url": "https://carbrochurearchive.com/models/citroen/citro-n-maserati-sm/",
       "advertising": false,
-      "mainTextWords": 203,
-      "htmlBytes": 9669
+      "mainTextWords": 207,
+      "htmlBytes": 9765
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-240-z-260-z-280-z-280-zx/",
       "advertising": false,
       "mainTextWords": 333,
-      "htmlBytes": 15980
+      "htmlBytes": 15982
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-510/",
       "advertising": false,
-      "mainTextWords": 228,
-      "htmlBytes": 10724
+      "mainTextWords": 232,
+      "htmlBytes": 10818
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1000-sedan/",
       "advertising": false,
-      "mainTextWords": 218,
-      "htmlBytes": 9936
+      "mainTextWords": 222,
+      "htmlBytes": 10030
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1300/",
       "advertising": false,
-      "mainTextWords": 210,
-      "htmlBytes": 9706
+      "mainTextWords": 214,
+      "htmlBytes": 9800
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-fairlady/",
       "advertising": false,
       "mainTextWords": 232,
-      "htmlBytes": 10981
+      "htmlBytes": 10983
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-f-10-cherry/",
       "advertising": false,
-      "mainTextWords": 210,
-      "htmlBytes": 9970
+      "mainTextWords": 214,
+      "htmlBytes": 10064
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-trucks-king-cab-li-l-hustler/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11739
+      "htmlBytes": 11741
     },
     {
       "url": "https://carbrochurearchive.com/models/delorean/delorean-dmc-12/",
       "advertising": false,
       "mainTextWords": 248,
-      "htmlBytes": 11554
+      "htmlBytes": 11556
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-600/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9591
+      "mainTextWords": 217,
+      "htmlBytes": 9683
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-aries/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9687
+      "mainTextWords": 217,
+      "htmlBytes": 9779
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-avenger/",
       "advertising": false,
       "mainTextWords": 378,
-      "htmlBytes": 18281
+      "htmlBytes": 18283
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-caliber/",
       "advertising": false,
       "mainTextWords": 315,
-      "htmlBytes": 15197
+      "htmlBytes": 15199
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-challenger/",
       "advertising": false,
       "mainTextWords": 588,
-      "htmlBytes": 28502
+      "htmlBytes": 28504
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-charger/",
       "advertising": false,
       "mainTextWords": 699,
-      "htmlBytes": 32964
+      "htmlBytes": 32966
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-coronet/",
       "advertising": false,
       "mainTextWords": 213,
-      "htmlBytes": 9783
+      "htmlBytes": 9785
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-dakota/",
       "advertising": false,
       "mainTextWords": 399,
-      "htmlBytes": 19154
+      "htmlBytes": 19156
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-dart/",
       "advertising": false,
       "mainTextWords": 383,
-      "htmlBytes": 17044
+      "htmlBytes": 17046
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-daytona/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9783
+      "mainTextWords": 217,
+      "htmlBytes": 9875
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-diplomat/",
       "advertising": false,
       "mainTextWords": 252,
-      "htmlBytes": 12030
+      "htmlBytes": 12032
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-durango/",
       "advertising": false,
       "mainTextWords": 682,
-      "htmlBytes": 31969
+      "htmlBytes": 31971
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-caravan-and-grand-caravan/",
       "advertising": false,
       "mainTextWords": 890,
-      "htmlBytes": 37742
+      "htmlBytes": 37744
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-hornet/",
       "advertising": false,
       "mainTextWords": 254,
-      "htmlBytes": 11920
+      "htmlBytes": 11922
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-intrepid/",
       "advertising": false,
       "mainTextWords": 294,
-      "htmlBytes": 13238
+      "htmlBytes": 13240
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-journey/",
       "advertising": false,
       "mainTextWords": 462,
-      "htmlBytes": 21543
+      "htmlBytes": 21545
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-magnum/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 12969
+      "htmlBytes": 12971
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-neon/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 13925
+      "htmlBytes": 13927
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-nitro/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 12855
+      "htmlBytes": 12857
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-omni/",
       "advertising": false,
       "mainTextWords": 231,
-      "htmlBytes": 10688
+      "htmlBytes": 10690
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ram-pickup-dodge-ram-1500/",
       "advertising": false,
       "mainTextWords": 494,
-      "htmlBytes": 21657
+      "htmlBytes": 21659
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ram-van/",
       "advertising": false,
-      "mainTextWords": 222,
-      "htmlBytes": 9777
+      "mainTextWords": 226,
+      "htmlBytes": 9869
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ramcharger/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9927
+      "mainTextWords": 217,
+      "htmlBytes": 10019
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-shadow/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9735
+      "mainTextWords": 217,
+      "htmlBytes": 9827
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-spirit/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 9735
+      "mainTextWords": 217,
+      "htmlBytes": 9827
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-sprinter/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 13125
+      "htmlBytes": 13127
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-stealth/",
       "advertising": false,
-      "mainTextWords": 231,
-      "htmlBytes": 10873
+      "mainTextWords": 235,
+      "htmlBytes": 10965
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-stratus/",
       "advertising": false,
       "mainTextWords": 378,
-      "htmlBytes": 17472
+      "htmlBytes": 17474
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-viper/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 14044
+      "htmlBytes": 14046
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-250-europa-375-america/",
       "advertising": false,
       "mainTextWords": 222,
-      "htmlBytes": 10377
+      "htmlBytes": 10379
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-365-gtb-4/",
       "advertising": false,
-      "mainTextWords": 226,
-      "htmlBytes": 9939
+      "mainTextWords": 230,
+      "htmlBytes": 10035
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-458/",
       "advertising": false,
       "mainTextWords": 248,
-      "htmlBytes": 11766
+      "htmlBytes": 11768
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-599/",
       "advertising": false,
-      "mainTextWords": 216,
-      "htmlBytes": 9740
+      "mainTextWords": 220,
+      "htmlBytes": 9836
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-612-scaglietti/",
       "advertising": false,
-      "mainTextWords": 219,
-      "htmlBytes": 10162
+      "mainTextWords": 223,
+      "htmlBytes": 10258
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-california/",
       "advertising": false,
       "mainTextWords": 255,
-      "htmlBytes": 12395
+      "htmlBytes": 12397
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-dino/",
       "advertising": false,
-      "mainTextWords": 212,
-      "htmlBytes": 9748
+      "mainTextWords": 216,
+      "htmlBytes": 9844
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-enzo/",
       "advertising": false,
-      "mainTextWords": 212,
-      "htmlBytes": 9746
+      "mainTextWords": 216,
+      "htmlBytes": 9842
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f12-berlinetta/",
       "advertising": false,
-      "mainTextWords": 221,
-      "htmlBytes": 10143
+      "mainTextWords": 225,
+      "htmlBytes": 10239
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f40/",
       "advertising": false,
       "mainTextWords": 212,
-      "htmlBytes": 9701
+      "htmlBytes": 9703
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f430/",
       "advertising": false,
-      "mainTextWords": 212,
-      "htmlBytes": 9745
+      "mainTextWords": 216,
+      "htmlBytes": 9841
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-ff/",
       "advertising": false,
-      "mainTextWords": 212,
-      "htmlBytes": 9657
+      "mainTextWords": 216,
+      "htmlBytes": 9753
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-testarossa/",
       "advertising": false,
       "mainTextWords": 212,
-      "htmlBytes": 10009
+      "htmlBytes": 10011
     },
     {
       "url": "https://carbrochurearchive.com/models/fiat/fiat-124/",
       "advertising": false,
       "mainTextWords": 380,
-      "htmlBytes": 16748
+      "htmlBytes": 16750
     },
     {
       "url": "https://carbrochurearchive.com/models/fiat/fiat-500/",
       "advertising": false,
       "mainTextWords": 293,
-      "htmlBytes": 13343
+      "htmlBytes": 13345
     },
     {
       "url": "https://carbrochurearchive.com/models/fiat/fiat-500l/",
       "advertising": false,
       "mainTextWords": 255,
-      "htmlBytes": 12272
+      "htmlBytes": 12274
     },
     {
       "url": "https://carbrochurearchive.com/models/fiat/fiat-500x/",
       "advertising": false,
-      "mainTextWords": 402,
-      "htmlBytes": 18404
+      "mainTextWords": 406,
+      "htmlBytes": 18494
     },
     {
       "url": "https://carbrochurearchive.com/models/fisker/fisker-karma/",
       "advertising": false,
       "mainTextWords": 222,
-      "htmlBytes": 11227
+      "htmlBytes": 11229
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-bronco-bronco-ii/",
       "advertising": false,
       "mainTextWords": 283,
-      "htmlBytes": 12216
+      "htmlBytes": 12218
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-bronco-sport/",
       "advertising": false,
       "mainTextWords": 306,
-      "htmlBytes": 13334
+      "htmlBytes": 13336
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-c-max/",
       "advertising": false,
       "mainTextWords": 250,
-      "htmlBytes": 11684
+      "htmlBytes": 11686
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-ecosport/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12995
+      "htmlBytes": 12997
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-edge/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 14687
+      "htmlBytes": 14689
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-escape/",
       "advertising": false,
       "mainTextWords": 334,
-      "htmlBytes": 15924
+      "htmlBytes": 15926
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-expedition/",
       "advertising": false,
       "mainTextWords": 334,
-      "htmlBytes": 16437
+      "htmlBytes": 16439
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-explorer/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 15158
+      "htmlBytes": 15160
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-f-150/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 17989
+      "htmlBytes": 17991
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-f-250-f-350-f-450-super-duty-chassis-cab/",
       "advertising": false,
       "mainTextWords": 559,
-      "htmlBytes": 24595
+      "htmlBytes": 24597
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-fiesta/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12814
+      "htmlBytes": 12816
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-flex/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12634
+      "htmlBytes": 12636
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-focus/",
       "advertising": false,
       "mainTextWords": 363,
-      "htmlBytes": 15924
+      "htmlBytes": 15926
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-fusion/",
       "advertising": false,
       "mainTextWords": 334,
-      "htmlBytes": 15034
+      "htmlBytes": 15036
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-maverick/",
       "advertising": false,
       "mainTextWords": 253,
-      "htmlBytes": 10940
+      "htmlBytes": 10942
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-mustang/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 15041
+      "htmlBytes": 15043
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-mustang-mach-e/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 12489
+      "htmlBytes": 12491
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-ranger/",
       "advertising": false,
       "mainTextWords": 292,
-      "htmlBytes": 12926
+      "htmlBytes": 12928
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-taurus/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12814
+      "htmlBytes": 12816
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-transit-and-transit-connect/",
       "advertising": false,
       "mainTextWords": 234,
-      "htmlBytes": 10557
+      "htmlBytes": 10559
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-transit/",
       "advertising": false,
       "mainTextWords": 313,
-      "htmlBytes": 15042
+      "htmlBytes": 15044
     },
     {
       "url": "https://carbrochurearchive.com/models/ford/ford-transit-connect/",
       "advertising": false,
       "mainTextWords": 367,
-      "htmlBytes": 17122
+      "htmlBytes": 17124
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-g70/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 13832
+      "htmlBytes": 13834
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-g80-hyundai-genesis/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 17988
+      "htmlBytes": 17990
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-g90-hyundai-equus/",
       "advertising": false,
       "mainTextWords": 354,
-      "htmlBytes": 16687
+      "htmlBytes": 16689
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-gv60/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9660
+      "mainTextWords": 211,
+      "htmlBytes": 9756
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-gv70/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10735
+      "htmlBytes": 10737
     },
     {
       "url": "https://carbrochurearchive.com/models/genesis/genesis-gv80/",
       "advertising": false,
       "mainTextWords": 292,
-      "htmlBytes": 12980
+      "htmlBytes": 12982
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-acadia/",
       "advertising": false,
       "mainTextWords": 584,
-      "htmlBytes": 26978
+      "htmlBytes": 26980
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-caballero-sprint/",
       "advertising": false,
       "mainTextWords": 478,
-      "htmlBytes": 22621
+      "htmlBytes": 22623
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-canyon/",
       "advertising": false,
       "mainTextWords": 572,
-      "htmlBytes": 26087
+      "htmlBytes": 26089
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-envoy/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9473
+      "htmlBytes": 9475
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-hummer/",
       "advertising": false,
       "mainTextWords": 250,
-      "htmlBytes": 10681
+      "htmlBytes": 10683
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-jimmy/",
       "advertising": false,
       "mainTextWords": 521,
-      "htmlBytes": 24529
+      "htmlBytes": 24531
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-s-15-jimmy/",
       "advertising": false,
       "mainTextWords": 329,
-      "htmlBytes": 14008
+      "htmlBytes": 14010
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-safari/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9521
+      "mainTextWords": 212,
+      "htmlBytes": 9609
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-savana/",
       "advertising": false,
-      "mainTextWords": 352,
-      "htmlBytes": 16725
+      "mainTextWords": 356,
+      "htmlBytes": 16813
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-pickup-sierra/",
       "advertising": false,
       "mainTextWords": 1167,
-      "htmlBytes": 53293
+      "htmlBytes": 53295
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-sonoma/",
       "advertising": false,
       "mainTextWords": 266,
-      "htmlBytes": 11755
+      "htmlBytes": 11757
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-suburban/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 13904
+      "htmlBytes": 13906
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-terrain/",
       "advertising": false,
       "mainTextWords": 562,
-      "htmlBytes": 26232
+      "htmlBytes": 26234
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-yukon-yukon-xl-suburban/",
       "advertising": false,
       "mainTextWords": 611,
-      "htmlBytes": 27906
+      "htmlBytes": 27908
     },
     {
       "url": "https://carbrochurearchive.com/models/gumpert/gumpert-apollo/",
       "advertising": false,
       "mainTextWords": 198,
-      "htmlBytes": 10211
+      "htmlBytes": 10213
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-accord/",
       "advertising": false,
       "mainTextWords": 375,
-      "htmlBytes": 17235
+      "htmlBytes": 17237
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-civic/",
       "advertising": false,
       "mainTextWords": 340,
-      "htmlBytes": 15042
+      "htmlBytes": 15044
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-clarity/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 12054
+      "htmlBytes": 12056
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-crosstour/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11998
+      "htmlBytes": 12000
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-cr-v/",
       "advertising": false,
       "mainTextWords": 361,
-      "htmlBytes": 16029
+      "htmlBytes": 16031
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-cr-z/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12657
+      "htmlBytes": 12659
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-fit/",
       "advertising": false,
       "mainTextWords": 402,
-      "htmlBytes": 17798
+      "htmlBytes": 17800
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-hr-v/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11616
+      "htmlBytes": 11618
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-insight/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11845
+      "htmlBytes": 11847
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-odyssey/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 16122
+      "htmlBytes": 16124
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-pilot/",
       "advertising": false,
       "mainTextWords": 309,
-      "htmlBytes": 14862
+      "htmlBytes": 14864
     },
     {
       "url": "https://carbrochurearchive.com/models/honda/honda-ridgeline/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 14216
+      "htmlBytes": 14218
     },
     {
       "url": "https://carbrochurearchive.com/models/hummer/hummer-h1-alpha/",
       "advertising": false,
       "mainTextWords": 458,
-      "htmlBytes": 19128
+      "htmlBytes": 19130
     },
     {
       "url": "https://carbrochurearchive.com/models/hummer/hummer-h2/",
       "advertising": false,
       "mainTextWords": 245,
-      "htmlBytes": 11401
+      "htmlBytes": 11403
     },
     {
       "url": "https://carbrochurearchive.com/models/hummer/hummer-h3/",
       "advertising": false,
       "mainTextWords": 262,
-      "htmlBytes": 11492
+      "htmlBytes": 11494
     },
     {
       "url": "https://carbrochurearchive.com/models/hummer/hummer-m998a2-series/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9754
+      "mainTextWords": 212,
+      "htmlBytes": 9848
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-accent/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 16331
+      "htmlBytes": 16333
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-azera/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10857
+      "htmlBytes": 10859
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-elantra/",
       "advertising": false,
       "mainTextWords": 538,
-      "htmlBytes": 25176
+      "htmlBytes": 25178
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-equus/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9769
+      "htmlBytes": 9771
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-genesis/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9865
+      "htmlBytes": 9867
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-genesis-coupe/",
       "advertising": false,
-      "mainTextWords": 218,
-      "htmlBytes": 10157
+      "mainTextWords": 222,
+      "htmlBytes": 10253
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq/",
       "advertising": false,
       "mainTextWords": 350,
-      "htmlBytes": 16377
+      "htmlBytes": 16379
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq-5-electric/",
       "advertising": false,
       "mainTextWords": 304,
-      "htmlBytes": 13735
+      "htmlBytes": 13737
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-ioniq-6-electric/",
       "advertising": false,
       "mainTextWords": 277,
-      "htmlBytes": 12583
+      "htmlBytes": 12585
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-kona/",
       "advertising": false,
       "mainTextWords": 392,
-      "htmlBytes": 18302
+      "htmlBytes": 18304
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-nexo-fuel-cell/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 14663
+      "htmlBytes": 14665
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-palisade/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 15530
+      "htmlBytes": 15532
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-santa-cruz/",
       "advertising": false,
       "mainTextWords": 290,
-      "htmlBytes": 13477
+      "htmlBytes": 13479
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-santa-fe/",
       "advertising": false,
       "mainTextWords": 511,
-      "htmlBytes": 22147
+      "htmlBytes": 22149
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-sonata/",
       "advertising": false,
       "mainTextWords": 533,
-      "htmlBytes": 25024
+      "htmlBytes": 25026
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-tucson/",
       "advertising": false,
       "mainTextWords": 458,
-      "htmlBytes": 21760
+      "htmlBytes": 21762
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-veloster/",
       "advertising": false,
       "mainTextWords": 376,
-      "htmlBytes": 17829
+      "htmlBytes": 17831
     },
     {
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-venue/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 15174
+      "htmlBytes": 15176
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q50/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 17097
+      "htmlBytes": 17099
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q60/",
       "advertising": false,
-      "mainTextWords": 309,
-      "htmlBytes": 15070
+      "mainTextWords": 313,
+      "htmlBytes": 15168
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q70-q70l/",
       "advertising": false,
       "mainTextWords": 305,
-      "htmlBytes": 14322
+      "htmlBytes": 14324
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx30/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11953
+      "htmlBytes": 11955
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx50/",
       "advertising": false,
       "mainTextWords": 372,
-      "htmlBytes": 18263
+      "htmlBytes": 18265
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx55/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 13032
+      "htmlBytes": 13034
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx60/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 17237
+      "htmlBytes": 17239
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx70/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10874
+      "htmlBytes": 10876
     },
     {
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-qx56-qx80/",
       "advertising": false,
       "mainTextWords": 410,
-      "htmlBytes": 19863
+      "htmlBytes": 19865
     },
     {
       "url": "https://carbrochurearchive.com/models/international/international-c-line-c-series/",
       "advertising": false,
       "mainTextWords": 303,
-      "htmlBytes": 15014
+      "htmlBytes": 15016
     },
     {
       "url": "https://carbrochurearchive.com/models/international/international-d-line-d-series/",
       "advertising": false,
       "mainTextWords": 205,
-      "htmlBytes": 10475
+      "htmlBytes": 10477
     },
     {
       "url": "https://carbrochurearchive.com/models/international/international-pickup-150-200/",
       "advertising": false,
       "mainTextWords": 215,
-      "htmlBytes": 10508
+      "htmlBytes": 10510
     },
     {
       "url": "https://carbrochurearchive.com/models/international/international-scout-ii/",
       "advertising": false,
       "mainTextWords": 232,
-      "htmlBytes": 11394
+      "htmlBytes": 11396
     },
     {
       "url": "https://carbrochurearchive.com/models/international/international-scout-terra/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 10352
+      "mainTextWords": 215,
+      "htmlBytes": 10460
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-amigo/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9591
+      "htmlBytes": 9593
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-axiom/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9591
+      "mainTextWords": 212,
+      "htmlBytes": 9683
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-hombre/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9637
+      "mainTextWords": 212,
+      "htmlBytes": 9729
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-impulse/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9683
+      "mainTextWords": 212,
+      "htmlBytes": 9775
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-p-up/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9521
+      "mainTextWords": 212,
+      "htmlBytes": 9613
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-rodeo/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9591
+      "mainTextWords": 212,
+      "htmlBytes": 9683
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-trooper-ii/",
       "advertising": false,
       "mainTextWords": 237,
-      "htmlBytes": 10844
+      "htmlBytes": 10846
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-e-pace/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 12964
+      "htmlBytes": 12966
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-f-pace/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 15239
+      "htmlBytes": 15241
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-i-pace/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 13042
+      "htmlBytes": 13044
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-f-type-c-x16/",
       "advertising": false,
       "mainTextWords": 364,
-      "htmlBytes": 16704
+      "htmlBytes": 16706
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xe/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 13766
+      "htmlBytes": 13768
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xf/",
       "advertising": false,
       "mainTextWords": 402,
-      "htmlBytes": 17846
+      "htmlBytes": 17848
     },
     {
       "url": "https://carbrochurearchive.com/models/jaguar/jaguar-xj/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 12611
+      "htmlBytes": 12613
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-cherokee/",
       "advertising": false,
       "mainTextWords": 440,
-      "htmlBytes": 20549
+      "htmlBytes": 20551
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-compass/",
       "advertising": false,
       "mainTextWords": 441,
-      "htmlBytes": 20297
+      "htmlBytes": 20299
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-gladiator/",
       "advertising": false,
       "mainTextWords": 352,
-      "htmlBytes": 16429
+      "htmlBytes": 16431
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-grand-cherokee/",
       "advertising": false,
       "mainTextWords": 566,
-      "htmlBytes": 24948
+      "htmlBytes": 24950
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-patriot/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10741
+      "htmlBytes": 10743
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-renegade/",
       "advertising": false,
       "mainTextWords": 394,
-      "htmlBytes": 18388
+      "htmlBytes": 18390
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-wagoner-grand-wagoneer/",
       "advertising": false,
-      "mainTextWords": 215,
-      "htmlBytes": 10234
+      "mainTextWords": 219,
+      "htmlBytes": 10324
     },
     {
       "url": "https://carbrochurearchive.com/models/jeep/jeep-cj-tj-jk-jl-wrangler/",
       "advertising": false,
       "mainTextWords": 530,
-      "htmlBytes": 24509
+      "htmlBytes": 24511
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-ff/",
       "advertising": false,
       "mainTextWords": 213,
-      "htmlBytes": 10291
+      "htmlBytes": 10293
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-gt/",
       "advertising": false,
       "mainTextWords": 197,
-      "htmlBytes": 9295
+      "htmlBytes": 9297
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-healey/",
       "advertising": false,
-      "mainTextWords": 292,
-      "htmlBytes": 12785
+      "mainTextWords": 296,
+      "htmlBytes": 12879
     },
     {
       "url": "https://carbrochurearchive.com/models/jensen/jensen-interceptor/",
       "advertising": false,
       "mainTextWords": 217,
-      "htmlBytes": 10770
+      "htmlBytes": 10772
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-900/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10327
+      "htmlBytes": 10329
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-cadenza/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12685
+      "htmlBytes": 12687
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-carnival/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10639
+      "htmlBytes": 10641
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-ev6-electric/",
       "advertising": false,
       "mainTextWords": 276,
-      "htmlBytes": 11878
+      "htmlBytes": 11880
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-forte/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 15537
+      "htmlBytes": 15539
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-niro/",
       "advertising": false,
       "mainTextWords": 409,
-      "htmlBytes": 17863
+      "htmlBytes": 17865
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-optima/",
       "advertising": false,
       "mainTextWords": 402,
-      "htmlBytes": 18099
+      "htmlBytes": 18101
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-rio/",
       "advertising": false,
       "mainTextWords": 330,
-      "htmlBytes": 15282
+      "htmlBytes": 15284
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-sedona/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 13636
+      "htmlBytes": 13638
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-seltos/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11556
+      "htmlBytes": 11558
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-sorento/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 16801
+      "htmlBytes": 16803
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-soul/",
       "advertising": false,
       "mainTextWords": 397,
-      "htmlBytes": 17558
+      "htmlBytes": 17560
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-sportage/",
       "advertising": false,
       "mainTextWords": 368,
-      "htmlBytes": 17075
+      "htmlBytes": 17077
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-stinger/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 13740
+      "htmlBytes": 13742
     },
     {
       "url": "https://carbrochurearchive.com/models/kia/kia-telluride/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11783
+      "htmlBytes": 11785
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-one-1/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9865
+      "mainTextWords": 211,
+      "htmlBytes": 9967
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-agera-agera-r-and-agera-s/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 11885
+      "htmlBytes": 11887
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-cc8s-and-ccr/",
       "advertising": false,
       "mainTextWords": 223,
-      "htmlBytes": 10185
+      "htmlBytes": 10187
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-ccx-and-ccxr/",
       "advertising": false,
-      "mainTextWords": 223,
-      "htmlBytes": 10165
+      "mainTextWords": 227,
+      "htmlBytes": 10267
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-trevita/",
       "advertising": false,
       "mainTextWords": 207,
-      "htmlBytes": 9947
+      "htmlBytes": 9949
     },
     {
       "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-aventador/",
       "advertising": false,
       "mainTextWords": 193,
-      "htmlBytes": 9927
+      "htmlBytes": 9929
     },
     {
       "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-hurac-n/",
       "advertising": false,
       "mainTextWords": 265,
-      "htmlBytes": 12565
+      "htmlBytes": 12567
     },
     {
       "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-revuelto/",
       "advertising": false,
-      "mainTextWords": 191,
-      "htmlBytes": 9852
+      "mainTextWords": 195,
+      "htmlBytes": 9956
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/land-rover-defender/",
       "advertising": false,
       "mainTextWords": 374,
-      "htmlBytes": 16123
+      "htmlBytes": 16125
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/land-rover-discovery/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 17376
+      "htmlBytes": 17378
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/land-rover-discovery-sport/",
       "advertising": false,
       "mainTextWords": 435,
-      "htmlBytes": 18271
+      "htmlBytes": 18273
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/land-rover-lr4-discovery-4/",
       "advertising": false,
       "mainTextWords": 281,
-      "htmlBytes": 11618
+      "htmlBytes": 11620
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/range-rover/",
       "advertising": false,
       "mainTextWords": 503,
-      "htmlBytes": 22547
+      "htmlBytes": 22549
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/range-rover-evoque/",
       "advertising": false,
       "mainTextWords": 458,
-      "htmlBytes": 19344
+      "htmlBytes": 19346
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/range-rover-sport/",
       "advertising": false,
       "mainTextWords": 436,
-      "htmlBytes": 18865
+      "htmlBytes": 18867
     },
     {
       "url": "https://carbrochurearchive.com/models/land-rover/range-rover-velar/",
       "advertising": false,
       "mainTextWords": 395,
-      "htmlBytes": 16884
+      "htmlBytes": 16886
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-ct-a10/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 10685
+      "htmlBytes": 10687
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-es-xv60/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 17919
+      "htmlBytes": 17921
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-gs/",
       "advertising": false,
       "mainTextWords": 427,
-      "htmlBytes": 17715
+      "htmlBytes": 17717
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-gx/",
       "advertising": false,
       "mainTextWords": 423,
-      "htmlBytes": 18549
+      "htmlBytes": 18551
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-is/",
       "advertising": false,
       "mainTextWords": 442,
-      "htmlBytes": 18709
+      "htmlBytes": 18711
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-lc/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 16722
+      "htmlBytes": 16724
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-ls/",
       "advertising": false,
       "mainTextWords": 423,
-      "htmlBytes": 18552
+      "htmlBytes": 18554
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-lx/",
       "advertising": false,
       "mainTextWords": 468,
-      "htmlBytes": 19697
+      "htmlBytes": 19699
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-nx/",
       "advertising": false,
       "mainTextWords": 473,
-      "htmlBytes": 19729
+      "htmlBytes": 19731
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-rc/",
       "advertising": false,
       "mainTextWords": 610,
-      "htmlBytes": 24777
+      "htmlBytes": 24779
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-rx/",
       "advertising": false,
       "mainTextWords": 468,
-      "htmlBytes": 19698
+      "htmlBytes": 19700
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-rz-electric/",
       "advertising": false,
       "mainTextWords": 264,
-      "htmlBytes": 11946
+      "htmlBytes": 11948
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-tx/",
       "advertising": false,
       "mainTextWords": 300,
-      "htmlBytes": 12607
+      "htmlBytes": 12609
     },
     {
       "url": "https://carbrochurearchive.com/models/lexus/lexus-ux/",
       "advertising": false,
       "mainTextWords": 353,
-      "htmlBytes": 15578
+      "htmlBytes": 15580
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-black-label/",
       "advertising": false,
       "mainTextWords": 309,
-      "htmlBytes": 14462
+      "htmlBytes": 14464
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-aviator/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 12099
+      "htmlBytes": 12101
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-continental/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 14820
+      "htmlBytes": 14822
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-corsair/",
       "advertising": false,
-      "mainTextWords": 247,
-      "htmlBytes": 12097
+      "mainTextWords": 251,
+      "htmlBytes": 12193
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkc/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 12851
+      "htmlBytes": 12853
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mks/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9681
+      "mainTextWords": 212,
+      "htmlBytes": 9777
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkt/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11792
+      "htmlBytes": 11794
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkx/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11792
+      "htmlBytes": 11794
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mkz/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 13902
+      "htmlBytes": 13904
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-nautilus/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 13291
+      "htmlBytes": 13293
     },
     {
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-navigator/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 16725
+      "htmlBytes": 16727
     },
     {
       "url": "https://carbrochurearchive.com/models/lotus/lotus-elise/",
       "advertising": false,
       "mainTextWords": 299,
-      "htmlBytes": 13694
+      "htmlBytes": 13696
     },
     {
       "url": "https://carbrochurearchive.com/models/lotus/lotus-emira/",
       "advertising": false,
-      "mainTextWords": 195,
-      "htmlBytes": 9338
+      "mainTextWords": 199,
+      "htmlBytes": 9430
     },
     {
       "url": "https://carbrochurearchive.com/models/lotus/lotus-evora/",
       "advertising": false,
       "mainTextWords": 324,
-      "htmlBytes": 14767
+      "htmlBytes": 14769
     },
     {
       "url": "https://carbrochurearchive.com/models/lotus/lotus-exige/",
       "advertising": false,
       "mainTextWords": 306,
-      "htmlBytes": 13754
+      "htmlBytes": 13756
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-personalization/",
       "advertising": false,
-      "mainTextWords": 203,
-      "htmlBytes": 10169
+      "mainTextWords": 207,
+      "htmlBytes": 10267
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-ghibli/",
       "advertising": false,
       "mainTextWords": 368,
-      "htmlBytes": 17705
+      "htmlBytes": 17707
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-grancabrio/",
       "advertising": false,
-      "mainTextWords": 203,
-      "htmlBytes": 10039
+      "mainTextWords": 207,
+      "htmlBytes": 10137
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-granturismo/",
       "advertising": false,
       "mainTextWords": 221,
-      "htmlBytes": 11275
+      "htmlBytes": 11277
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-levante/",
       "advertising": false,
       "mainTextWords": 399,
-      "htmlBytes": 18939
+      "htmlBytes": 18941
     },
     {
       "url": "https://carbrochurearchive.com/models/maserati/maserati-quattroporte/",
       "advertising": false,
       "mainTextWords": 305,
-      "htmlBytes": 16108
+      "htmlBytes": 16110
     },
     {
       "url": "https://carbrochurearchive.com/models/maybach/maybach-57-and-62/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9550
+      "mainTextWords": 213,
+      "htmlBytes": 9646
     },
     {
       "url": "https://carbrochurearchive.com/models/maybach/maybach-57s/",
       "advertising": false,
       "mainTextWords": 216,
-      "htmlBytes": 10298
+      "htmlBytes": 10300
     },
     {
       "url": "https://carbrochurearchive.com/models/maybach/maybach-62-and-62s/",
       "advertising": false,
       "mainTextWords": 251,
-      "htmlBytes": 11543
+      "htmlBytes": 11545
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-3/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 15332
+      "htmlBytes": 15334
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-6/",
       "advertising": false,
       "mainTextWords": 331,
-      "htmlBytes": 14495
+      "htmlBytes": 14497
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-3/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 12647
+      "htmlBytes": 12649
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-5/",
       "advertising": false,
       "mainTextWords": 394,
-      "htmlBytes": 17868
+      "htmlBytes": 17870
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-9/",
       "advertising": false,
       "mainTextWords": 391,
-      "htmlBytes": 17924
+      "htmlBytes": 17926
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-30/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11680
+      "htmlBytes": 11682
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-50/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9565
+      "htmlBytes": 9567
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-5-miata/",
       "advertising": false,
       "mainTextWords": 386,
-      "htmlBytes": 17232
+      "htmlBytes": 17234
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-30-ev/",
       "advertising": false,
-      "mainTextWords": 217,
-      "htmlBytes": 9687
+      "mainTextWords": 221,
+      "htmlBytes": 9779
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-570s/",
       "advertising": false,
       "mainTextWords": 320,
-      "htmlBytes": 14886
+      "htmlBytes": 14888
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-600lt/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9543
+      "mainTextWords": 203,
+      "htmlBytes": 9639
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-720s/",
       "advertising": false,
       "mainTextWords": 257,
-      "htmlBytes": 11739
+      "htmlBytes": 11741
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-765lt/",
       "advertising": false,
       "mainTextWords": 199,
-      "htmlBytes": 9543
+      "htmlBytes": 9545
     },
     {
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-gt/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9417
+      "mainTextWords": 203,
+      "htmlBytes": 9513
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-electric-and-hybrid/",
       "advertising": false,
-      "mainTextWords": 231,
-      "htmlBytes": 10887
+      "mainTextWords": 235,
+      "htmlBytes": 10995
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-amg-and-amg-gt/",
       "advertising": false,
       "mainTextWords": 408,
-      "htmlBytes": 17448
+      "htmlBytes": 17450
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-amg-gt-4-door/",
       "advertising": false,
       "mainTextWords": 337,
-      "htmlBytes": 14335
+      "htmlBytes": 14337
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-a-class/",
       "advertising": false,
       "mainTextWords": 254,
-      "htmlBytes": 12723
+      "htmlBytes": 12725
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-b-class-electric/",
       "advertising": false,
       "mainTextWords": 220,
-      "htmlBytes": 10787
+      "htmlBytes": 10789
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-c-class/",
       "advertising": false,
       "mainTextWords": 387,
-      "htmlBytes": 18645
+      "htmlBytes": 18647
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-cla-class/",
       "advertising": false,
       "mainTextWords": 320,
-      "htmlBytes": 16435
+      "htmlBytes": 16437
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-cls-class/",
       "advertising": false,
       "mainTextWords": 298,
-      "htmlBytes": 15249
+      "htmlBytes": 15251
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-e-class/",
       "advertising": false,
       "mainTextWords": 410,
-      "htmlBytes": 19690
+      "htmlBytes": 19692
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-eq/",
       "advertising": false,
-      "mainTextWords": 217,
-      "htmlBytes": 10240
+      "mainTextWords": 221,
+      "htmlBytes": 10348
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-g-class/",
       "advertising": false,
       "mainTextWords": 365,
-      "htmlBytes": 17432
+      "htmlBytes": 17434
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gl-class/",
       "advertising": false,
-      "mainTextWords": 213,
-      "htmlBytes": 10446
+      "mainTextWords": 217,
+      "htmlBytes": 10554
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gla-class/",
       "advertising": false,
       "mainTextWords": 320,
-      "htmlBytes": 16435
+      "htmlBytes": 16437
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-glb-class/",
       "advertising": false,
       "mainTextWords": 232,
-      "htmlBytes": 11689
+      "htmlBytes": 11691
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-glc-class/",
       "advertising": false,
       "mainTextWords": 361,
-      "htmlBytes": 17729
+      "htmlBytes": 17731
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gle-class/",
       "advertising": false,
       "mainTextWords": 390,
-      "htmlBytes": 18903
+      "htmlBytes": 18905
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gls-class/",
       "advertising": false,
       "mainTextWords": 308,
-      "htmlBytes": 15309
+      "htmlBytes": 15311
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-mercedes-maybach-s600/",
       "advertising": false,
-      "mainTextWords": 222,
-      "htmlBytes": 10963
+      "mainTextWords": 226,
+      "htmlBytes": 11071
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-s-class/",
       "advertising": false,
       "mainTextWords": 462,
-      "htmlBytes": 22037
+      "htmlBytes": 22039
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-sl-class/",
       "advertising": false,
       "mainTextWords": 276,
-      "htmlBytes": 13973
+      "htmlBytes": 13975
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-slc-class/",
       "advertising": false,
       "mainTextWords": 254,
-      "htmlBytes": 12876
+      "htmlBytes": 12878
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-slk-class/",
       "advertising": false,
       "mainTextWords": 213,
-      "htmlBytes": 10493
+      "htmlBytes": 10495
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-metris-and-sprinter/",
       "advertising": false,
       "mainTextWords": 423,
-      "htmlBytes": 19368
+      "htmlBytes": 19370
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-x-class-pickup/",
       "advertising": false,
-      "mainTextWords": 220,
-      "htmlBytes": 10658
+      "mainTextWords": 224,
+      "htmlBytes": 10766
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-capri/",
       "advertising": false,
-      "mainTextWords": 289,
-      "htmlBytes": 14110
+      "mainTextWords": 293,
+      "htmlBytes": 14206
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-cougar/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 15305
+      "htmlBytes": 15307
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-grand-marquis/",
       "advertising": false,
       "mainTextWords": 498,
-      "htmlBytes": 22926
+      "htmlBytes": 22928
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-marauder/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 11055
+      "htmlBytes": 11057
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-mariner/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 13207
+      "htmlBytes": 13209
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-milan/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 13028
+      "htmlBytes": 13030
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-mountaineer/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 14722
+      "htmlBytes": 14724
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-mystique/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 11055
+      "htmlBytes": 11057
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-sable/",
       "advertising": false,
       "mainTextWords": 436,
-      "htmlBytes": 21356
+      "htmlBytes": 21358
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-topaz/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10871
+      "htmlBytes": 10873
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-tracer/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 14216
+      "htmlBytes": 14218
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-villager/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 11055
+      "htmlBytes": 11057
     },
     {
       "url": "https://carbrochurearchive.com/models/mg/mgb/",
       "advertising": false,
       "mainTextWords": 219,
-      "htmlBytes": 10772
+      "htmlBytes": 10774
     },
     {
       "url": "https://carbrochurearchive.com/models/mg/midget/",
       "advertising": false,
       "mainTextWords": 199,
-      "htmlBytes": 9981
+      "htmlBytes": 9983
     },
     {
       "url": "https://carbrochurearchive.com/models/mg/tf/",
       "advertising": false,
       "mainTextWords": 182,
-      "htmlBytes": 8769
+      "htmlBytes": 8771
     },
     {
       "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-eclipse-cross/",
       "advertising": false,
       "mainTextWords": 326,
-      "htmlBytes": 16343
+      "htmlBytes": 16345
     },
     {
       "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-lancer/",
       "advertising": false,
       "mainTextWords": 219,
-      "htmlBytes": 11046
+      "htmlBytes": 11048
     },
     {
       "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-mirage/",
       "advertising": false,
       "mainTextWords": 387,
-      "htmlBytes": 18957
+      "htmlBytes": 18959
     },
     {
       "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-outlander/",
       "advertising": false,
       "mainTextWords": 528,
-      "htmlBytes": 26288
+      "htmlBytes": 26290
     },
     {
       "url": "https://carbrochurearchive.com/models/mitsubishi/mitsubishi-outlander-sport/",
       "advertising": false,
       "mainTextWords": 398,
-      "htmlBytes": 20126
+      "htmlBytes": 20128
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-3-wheeler/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12082
+      "htmlBytes": 12084
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-aero-coupe-aeromax-supersport/",
       "advertising": false,
       "mainTextWords": 365,
-      "htmlBytes": 17315
+      "htmlBytes": 17317
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-brooklands-edition-roadster-and-3-wheeler/",
       "advertising": false,
-      "mainTextWords": 245,
-      "htmlBytes": 11026
+      "mainTextWords": 249,
+      "htmlBytes": 11120
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-4-4-plus-4-plus-8-and-roadster/",
       "advertising": false,
-      "mainTextWords": 539,
-      "htmlBytes": 21655
+      "mainTextWords": 543,
+      "htmlBytes": 21749
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-eva-gt/",
       "advertising": false,
-      "mainTextWords": 220,
-      "htmlBytes": 9743
+      "mainTextWords": 224,
+      "htmlBytes": 9837
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-lifecar/",
       "advertising": false,
-      "mainTextWords": 212,
-      "htmlBytes": 9801
+      "mainTextWords": 216,
+      "htmlBytes": 9895
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-350z-370z/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 14090
+      "htmlBytes": 14092
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-altima/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 20275
+      "htmlBytes": 20277
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-armada/",
       "advertising": false,
       "mainTextWords": 393,
-      "htmlBytes": 19246
+      "htmlBytes": 19248
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-aryia-electric/",
       "advertising": false,
       "mainTextWords": 255,
-      "htmlBytes": 12269
+      "htmlBytes": 12271
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-frontier/",
       "advertising": false,
       "mainTextWords": 393,
-      "htmlBytes": 19582
+      "htmlBytes": 19584
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-gt-r/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 16900
+      "htmlBytes": 16902
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-juke/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10685
+      "htmlBytes": 10687
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-kicks/",
       "advertising": false,
       "mainTextWords": 412,
-      "htmlBytes": 19247
+      "htmlBytes": 19249
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-leaf/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 19923
+      "htmlBytes": 19925
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-maxima/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 17183
+      "htmlBytes": 17185
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-murano/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 20274
+      "htmlBytes": 20276
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-nv200-compact-cargo/",
       "advertising": false,
       "mainTextWords": 321,
-      "htmlBytes": 15673
+      "htmlBytes": 15675
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-nv-cargo/",
       "advertising": false,
       "mainTextWords": 376,
-      "htmlBytes": 16401
+      "htmlBytes": 16403
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-nv-passenger/",
       "advertising": false,
       "mainTextWords": 309,
-      "htmlBytes": 14475
+      "htmlBytes": 14477
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-pathfinder/",
       "advertising": false,
       "mainTextWords": 372,
-      "htmlBytes": 18826
+      "htmlBytes": 18828
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-quest/",
       "advertising": false,
       "mainTextWords": 207,
-      "htmlBytes": 9672
+      "htmlBytes": 9674
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue/",
       "advertising": false,
       "mainTextWords": 456,
-      "htmlBytes": 21277
+      "htmlBytes": 21279
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue-sport/",
       "advertising": false,
       "mainTextWords": 374,
-      "htmlBytes": 16731
+      "htmlBytes": 16733
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-sentra/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 20275
+      "htmlBytes": 20277
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-titan/",
       "advertising": false,
       "mainTextWords": 414,
-      "htmlBytes": 19244
+      "htmlBytes": 19246
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-versa/",
       "advertising": false,
       "mainTextWords": 502,
-      "htmlBytes": 22799
+      "htmlBytes": 22801
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-z/",
       "advertising": false,
       "mainTextWords": 309,
-      "htmlBytes": 13645
+      "htmlBytes": 13647
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-ciera-and-firenza/",
       "advertising": false,
       "mainTextWords": 295,
-      "htmlBytes": 12288
+      "htmlBytes": 12290
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-achieva/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 13619
+      "htmlBytes": 13621
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aerotech-concept/",
       "advertising": false,
-      "mainTextWords": 216,
-      "htmlBytes": 10518
+      "mainTextWords": 220,
+      "htmlBytes": 10620
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-alero/",
       "advertising": false,
       "mainTextWords": 290,
-      "htmlBytes": 13551
+      "htmlBytes": 13553
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aurora/",
       "advertising": false,
       "mainTextWords": 353,
-      "htmlBytes": 16921
+      "htmlBytes": 16923
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-bravada/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 13619
+      "htmlBytes": 13621
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-calais/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 10152
+      "mainTextWords": 215,
+      "htmlBytes": 10254
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ciera-cutlass-ciera/",
       "advertising": false,
       "mainTextWords": 257,
-      "htmlBytes": 12927
+      "htmlBytes": 12929
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-cutlass-cutlass-supreme/",
       "advertising": false,
       "mainTextWords": 370,
-      "htmlBytes": 18054
+      "htmlBytes": 18056
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-eighty-eight-lss/",
       "advertising": false,
       "mainTextWords": 390,
-      "htmlBytes": 17951
+      "htmlBytes": 17953
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-intrigue/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 12643
+      "htmlBytes": 12645
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-ninety-eight/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 14069
+      "htmlBytes": 14071
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-silhouette/",
       "advertising": false,
-      "mainTextWords": 311,
-      "htmlBytes": 16259
+      "mainTextWords": 315,
+      "htmlBytes": 16361
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-six/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9980
+      "mainTextWords": 213,
+      "htmlBytes": 10082
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-gt/",
       "advertising": false,
-      "mainTextWords": 187,
-      "htmlBytes": 8948
+      "mainTextWords": 191,
+      "htmlBytes": 9038
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-rekord/",
       "advertising": false,
-      "mainTextWords": 187,
-      "htmlBytes": 9116
+      "mainTextWords": 191,
+      "htmlBytes": 9206
     },
     {
       "url": "https://carbrochurearchive.com/models/pagani/pagani-zonda-f/",
       "advertising": false,
       "mainTextWords": 192,
-      "htmlBytes": 9224
+      "htmlBytes": 9226
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-304/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9445
+      "mainTextWords": 203,
+      "htmlBytes": 9541
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-403/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9445
+      "mainTextWords": 203,
+      "htmlBytes": 9541
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-504/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9445
+      "mainTextWords": 203,
+      "htmlBytes": 9541
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-505/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9446
+      "mainTextWords": 203,
+      "htmlBytes": 9542
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-604/",
       "advertising": false,
-      "mainTextWords": 199,
-      "htmlBytes": 9446
+      "mainTextWords": 203,
+      "htmlBytes": 9542
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-acclaim/",
       "advertising": false,
       "mainTextWords": 263,
-      "htmlBytes": 13290
+      "htmlBytes": 13292
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-barracuda/",
       "advertising": false,
-      "mainTextWords": 206,
-      "htmlBytes": 10032
+      "mainTextWords": 210,
+      "htmlBytes": 10130
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-belvedere/",
       "advertising": false,
       "mainTextWords": 206,
-      "htmlBytes": 10032
+      "htmlBytes": 10034
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-breeze/",
       "advertising": false,
       "mainTextWords": 223,
-      "htmlBytes": 10998
+      "htmlBytes": 11000
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-champ/",
       "advertising": false,
-      "mainTextWords": 206,
-      "htmlBytes": 9841
+      "mainTextWords": 210,
+      "htmlBytes": 9939
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-colt/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 11952
+      "htmlBytes": 11954
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-fury/",
       "advertising": false,
-      "mainTextWords": 206,
-      "htmlBytes": 9793
+      "mainTextWords": 210,
+      "htmlBytes": 9891
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-horizon/",
       "advertising": false,
-      "mainTextWords": 263,
-      "htmlBytes": 13290
+      "mainTextWords": 267,
+      "htmlBytes": 13388
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-laser/",
       "advertising": false,
       "mainTextWords": 263,
-      "htmlBytes": 13114
+      "htmlBytes": 13116
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-neon/",
       "advertising": false,
       "mainTextWords": 223,
-      "htmlBytes": 10873
+      "htmlBytes": 10875
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-prowler/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 12173
+      "htmlBytes": 12175
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-reliant/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 12174
+      "htmlBytes": 12176
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
       "advertising": false,
-      "mainTextWords": 223,
-      "htmlBytes": 11185
+      "mainTextWords": 227,
+      "htmlBytes": 11283
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-sundance/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 12251
+      "htmlBytes": 12253
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-voyager/",
       "advertising": false,
       "mainTextWords": 284,
-      "htmlBytes": 13398
+      "htmlBytes": 13400
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-bonneville/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9969
+      "mainTextWords": 211,
+      "htmlBytes": 10065
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-fiero/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9729
+      "mainTextWords": 211,
+      "htmlBytes": 9825
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-firebird/",
       "advertising": false,
       "mainTextWords": 335,
-      "htmlBytes": 16589
+      "htmlBytes": 16591
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g3/",
       "advertising": false,
-      "mainTextWords": 207,
-      "htmlBytes": 9600
+      "mainTextWords": 211,
+      "htmlBytes": 9696
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g5/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10625
+      "htmlBytes": 10627
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g6/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10658
+      "htmlBytes": 10660
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g8/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 10716
+      "htmlBytes": 10718
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-grand-am/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 11009
+      "htmlBytes": 11011
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-grand-prix/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 11133
+      "htmlBytes": 11135
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-gto/",
       "advertising": false,
       "mainTextWords": 290,
-      "htmlBytes": 12914
+      "htmlBytes": 12916
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-safari/",
       "advertising": false,
       "mainTextWords": 205,
-      "htmlBytes": 9765
+      "htmlBytes": 9767
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-solstice/",
       "advertising": false,
-      "mainTextWords": 205,
-      "htmlBytes": 9861
+      "mainTextWords": 209,
+      "htmlBytes": 9957
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sunfire/",
       "advertising": false,
-      "mainTextWords": 205,
-      "htmlBytes": 9813
+      "mainTextWords": 209,
+      "htmlBytes": 9909
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sv6/",
       "advertising": false,
-      "mainTextWords": 205,
-      "htmlBytes": 9621
+      "mainTextWords": 209,
+      "htmlBytes": 9717
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-torrent/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10962
+      "htmlBytes": 10964
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-trans-sport/",
       "advertising": false,
       "mainTextWords": 215,
-      "htmlBytes": 10010
+      "htmlBytes": 10012
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-vibe/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 13003
+      "htmlBytes": 13005
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-718-boxter-cayman/",
       "advertising": false,
       "mainTextWords": 426,
-      "htmlBytes": 19193
+      "htmlBytes": 19195
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-911-992-series/",
       "advertising": false,
       "mainTextWords": 337,
-      "htmlBytes": 14639
+      "htmlBytes": 14641
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-911-991-series/",
       "advertising": false,
       "mainTextWords": 645,
-      "htmlBytes": 27448
+      "htmlBytes": 27450
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-935/",
       "advertising": false,
       "mainTextWords": 212,
-      "htmlBytes": 9732
+      "htmlBytes": 9734
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-cayenne/",
       "advertising": false,
       "mainTextWords": 341,
-      "htmlBytes": 15691
+      "htmlBytes": 15693
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-macan/",
       "advertising": false,
       "mainTextWords": 384,
-      "htmlBytes": 17470
+      "htmlBytes": 17472
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-mission-e/",
       "advertising": false,
-      "mainTextWords": 222,
-      "htmlBytes": 10025
+      "mainTextWords": 226,
+      "htmlBytes": 10121
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-panamera/",
       "advertising": false,
       "mainTextWords": 314,
-      "htmlBytes": 14521
+      "htmlBytes": 14523
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-taycan/",
       "advertising": false,
       "mainTextWords": 299,
-      "htmlBytes": 13290
+      "htmlBytes": 13292
     },
     {
       "url": "https://carbrochurearchive.com/models/ram/ram-1500/",
       "advertising": false,
       "mainTextWords": 643,
-      "htmlBytes": 28016
+      "htmlBytes": 28018
     },
     {
       "url": "https://carbrochurearchive.com/models/ram/ram-2500-3500-heavy-duty/",
       "advertising": false,
       "mainTextWords": 496,
-      "htmlBytes": 20903
+      "htmlBytes": 20905
     },
     {
       "url": "https://carbrochurearchive.com/models/ram/ram-promaster/",
       "advertising": false,
       "mainTextWords": 342,
-      "htmlBytes": 16908
+      "htmlBytes": 16910
     },
     {
       "url": "https://carbrochurearchive.com/models/ram/ram-promaster-city/",
       "advertising": false,
       "mainTextWords": 347,
-      "htmlBytes": 16350
+      "htmlBytes": 16352
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-cullinan/",
       "advertising": false,
       "mainTextWords": 241,
-      "htmlBytes": 11324
+      "htmlBytes": 11326
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-dawn/",
       "advertising": false,
       "mainTextWords": 244,
-      "htmlBytes": 12101
+      "htmlBytes": 12103
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-ghost/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 11067
+      "htmlBytes": 11069
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-phantom/",
       "advertising": false,
-      "mainTextWords": 201,
-      "htmlBytes": 9995
+      "mainTextWords": 205,
+      "htmlBytes": 10099
     },
     {
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-wraith/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 11131
+      "htmlBytes": 11133
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-90/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9348
+      "mainTextWords": 213,
+      "htmlBytes": 9438
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-93/",
       "advertising": false,
       "mainTextWords": 229,
-      "htmlBytes": 10401
+      "htmlBytes": 10403
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-95-estate-station-wagon/",
       "advertising": false,
       "mainTextWords": 269,
-      "htmlBytes": 12130
+      "htmlBytes": 12132
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-96/",
       "advertising": false,
       "mainTextWords": 376,
-      "htmlBytes": 16507
+      "htmlBytes": 16509
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-97x/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9392
+      "mainTextWords": 213,
+      "htmlBytes": 9482
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-99/",
       "advertising": false,
       "mainTextWords": 556,
-      "htmlBytes": 24313
+      "htmlBytes": 24315
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-900/",
       "advertising": false,
       "mainTextWords": 495,
-      "htmlBytes": 21619
+      "htmlBytes": 21621
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9000/",
       "advertising": false,
-      "mainTextWords": 209,
-      "htmlBytes": 9444
+      "mainTextWords": 213,
+      "htmlBytes": 9534
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9x-concept/",
       "advertising": false,
-      "mainTextWords": 218,
-      "htmlBytes": 9666
+      "mainTextWords": 222,
+      "htmlBytes": 9756
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-2x-92x/",
       "advertising": false,
-      "mainTextWords": 216,
-      "htmlBytes": 9644
+      "mainTextWords": 220,
+      "htmlBytes": 9734
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-3-93/",
       "advertising": false,
       "mainTextWords": 369,
-      "htmlBytes": 16051
+      "htmlBytes": 16053
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-4x-94x/",
       "advertising": false,
-      "mainTextWords": 255,
-      "htmlBytes": 10811
+      "mainTextWords": 259,
+      "htmlBytes": 10901
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-5-95/",
       "advertising": false,
-      "mainTextWords": 345,
-      "htmlBytes": 14944
+      "mainTextWords": 349,
+      "htmlBytes": 15034
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-sonett/",
       "advertising": false,
       "mainTextWords": 325,
-      "htmlBytes": 14919
+      "htmlBytes": 14921
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-astra/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10743
+      "htmlBytes": 10745
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-aura/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11735
+      "htmlBytes": 11737
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-ion/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10619
+      "htmlBytes": 10621
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-l-series/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11948
+      "htmlBytes": 11950
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-outlook/",
       "advertising": false,
       "mainTextWords": 246,
-      "htmlBytes": 11957
+      "htmlBytes": 11959
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-relay/",
       "advertising": false,
       "mainTextWords": 225,
-      "htmlBytes": 10743
+      "htmlBytes": 10745
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-s-series/",
       "advertising": false,
       "mainTextWords": 312,
-      "htmlBytes": 14212
+      "htmlBytes": 14214
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-sky/",
       "advertising": false,
       "mainTextWords": 288,
-      "htmlBytes": 12811
+      "htmlBytes": 12813
     },
     {
       "url": "https://carbrochurearchive.com/models/saturn/saturn-vue/",
       "advertising": false,
       "mainTextWords": 267,
-      "htmlBytes": 12699
+      "htmlBytes": 12701
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-fr-s/",
       "advertising": false,
-      "mainTextWords": 195,
-      "htmlBytes": 9268
+      "mainTextWords": 199,
+      "htmlBytes": 9360
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-ia/",
       "advertising": false,
-      "mainTextWords": 195,
-      "htmlBytes": 9176
+      "mainTextWords": 199,
+      "htmlBytes": 9268
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-im/",
       "advertising": false,
       "mainTextWords": 195,
-      "htmlBytes": 9176
+      "htmlBytes": 9178
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-tc/",
       "advertising": false,
       "mainTextWords": 195,
-      "htmlBytes": 9176
+      "htmlBytes": 9178
     },
     {
       "url": "https://carbrochurearchive.com/models/smart/smart-fortwo/",
       "advertising": false,
-      "mainTextWords": 183,
-      "htmlBytes": 9112
+      "mainTextWords": 187,
+      "htmlBytes": 9204
     },
     {
       "url": "https://carbrochurearchive.com/models/spyker/spyker-lm85/",
       "advertising": false,
-      "mainTextWords": 179,
-      "htmlBytes": 9054
+      "mainTextWords": 183,
+      "htmlBytes": 9148
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/srt-grand-cherokee/",
       "advertising": false,
-      "mainTextWords": 208,
-      "htmlBytes": 9577
+      "mainTextWords": 212,
+      "htmlBytes": 9665
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/srt-viper/",
       "advertising": false,
       "mainTextWords": 260,
-      "htmlBytes": 11330
+      "htmlBytes": 11332
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/300-srt-challenger-srt-charger-srt-and-grand-cherokee-srt/",
       "advertising": false,
-      "mainTextWords": 251,
-      "htmlBytes": 11047
+      "mainTextWords": 255,
+      "htmlBytes": 11135
     },
     {
       "url": "https://carbrochurearchive.com/models/ssc/ssc-aero-ultimate-tt/",
       "advertising": false,
-      "mainTextWords": 197,
-      "htmlBytes": 9347
+      "mainTextWords": 201,
+      "htmlBytes": 9435
     },
     {
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-commander/",
       "advertising": false,
       "mainTextWords": 195,
-      "htmlBytes": 9872
+      "htmlBytes": 9874
     },
     {
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-hawk/",
       "advertising": false,
       "mainTextWords": 195,
-      "htmlBytes": 9662
+      "htmlBytes": 9664
     },
     {
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-speedster/",
       "advertising": false,
       "mainTextWords": 195,
-      "htmlBytes": 9872
+      "htmlBytes": 9874
     },
     {
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-truck/",
       "advertising": false,
-      "mainTextWords": 195,
-      "htmlBytes": 9704
+      "mainTextWords": 199,
+      "htmlBytes": 9806
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-ascent/",
       "advertising": false,
       "mainTextWords": 398,
-      "htmlBytes": 18424
+      "htmlBytes": 18426
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-brz/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 16787
+      "htmlBytes": 16789
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-forester/",
       "advertising": false,
       "mainTextWords": 461,
-      "htmlBytes": 21894
+      "htmlBytes": 21896
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza/",
       "advertising": false,
       "mainTextWords": 372,
-      "htmlBytes": 18387
+      "htmlBytes": 18389
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-impreza-wrx-sti/",
       "advertising": false,
       "mainTextWords": 440,
-      "htmlBytes": 18448
+      "htmlBytes": 18450
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-legacy/",
       "advertising": false,
       "mainTextWords": 435,
-      "htmlBytes": 20469
+      "htmlBytes": 20471
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-outback/",
       "advertising": false,
       "mainTextWords": 456,
-      "htmlBytes": 21693
+      "htmlBytes": 21695
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-xv-crosstrek/",
       "advertising": false,
       "mainTextWords": 593,
-      "htmlBytes": 28202
+      "htmlBytes": 28204
     },
     {
       "url": "https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/",
       "advertising": false,
       "mainTextWords": 255,
-      "htmlBytes": 12523
+      "htmlBytes": 12525
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-aerio/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11823
+      "htmlBytes": 11825
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-equator/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 13066
+      "htmlBytes": 13068
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-forenza/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 12077
+      "htmlBytes": 12079
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-grand-vitara/",
       "advertising": false,
       "mainTextWords": 371,
-      "htmlBytes": 17020
+      "htmlBytes": 17022
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-kizashi/",
       "advertising": false,
       "mainTextWords": 268,
-      "htmlBytes": 13066
+      "htmlBytes": 13068
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-reno/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10698
+      "htmlBytes": 10700
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-samurai/",
       "advertising": false,
       "mainTextWords": 226,
-      "htmlBytes": 10883
+      "htmlBytes": 10885
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-swift/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9684
+      "htmlBytes": 9686
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-sx4/",
       "advertising": false,
       "mainTextWords": 289,
-      "htmlBytes": 13752
+      "htmlBytes": 13754
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-verona/",
       "advertising": false,
       "mainTextWords": 208,
-      "htmlBytes": 9732
+      "htmlBytes": 9734
     },
     {
       "url": "https://carbrochurearchive.com/models/suzuki/suzuki-xl-7/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11750
+      "htmlBytes": 11752
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-4runner/",
       "advertising": false,
       "mainTextWords": 399,
-      "htmlBytes": 18548
+      "htmlBytes": 18550
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-86-gr86/",
       "advertising": false,
       "mainTextWords": 351,
-      "htmlBytes": 16915
+      "htmlBytes": 16917
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-avalon/",
       "advertising": false,
       "mainTextWords": 391,
-      "htmlBytes": 18369
+      "htmlBytes": 18371
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-bz-bz4x-electric/",
       "advertising": false,
       "mainTextWords": 233,
-      "htmlBytes": 11233
+      "htmlBytes": 11235
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-camry/",
       "advertising": false,
       "mainTextWords": 483,
-      "htmlBytes": 22357
+      "htmlBytes": 22359
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-ch-r/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12829
+      "htmlBytes": 12831
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla/",
       "advertising": false,
       "mainTextWords": 478,
-      "htmlBytes": 22721
+      "htmlBytes": 22723
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-cross/",
       "advertising": false,
       "mainTextWords": 310,
-      "htmlBytes": 13721
+      "htmlBytes": 13723
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-gr/",
       "advertising": false,
       "mainTextWords": 285,
-      "htmlBytes": 12315
+      "htmlBytes": 12317
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-hatchback/",
       "advertising": false,
       "mainTextWords": 460,
-      "htmlBytes": 21014
+      "htmlBytes": 21016
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-corolla-im/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 11075
+      "htmlBytes": 11077
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-crown-crown-signia/",
       "advertising": false,
       "mainTextWords": 343,
-      "htmlBytes": 15772
+      "htmlBytes": 15774
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-grand-highlander/",
       "advertising": false,
-      "mainTextWords": 218,
-      "htmlBytes": 10221
+      "mainTextWords": 222,
+      "htmlBytes": 10315
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-highlander/",
       "advertising": false,
       "mainTextWords": 424,
-      "htmlBytes": 20172
+      "htmlBytes": 20174
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-land-cruiser/",
       "advertising": false,
       "mainTextWords": 329,
-      "htmlBytes": 14790
+      "htmlBytes": 14792
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-mirai/",
       "advertising": false,
       "mainTextWords": 449,
-      "htmlBytes": 19512
+      "htmlBytes": 19514
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-prius/",
       "advertising": false,
       "mainTextWords": 469,
-      "htmlBytes": 20504
+      "htmlBytes": 20506
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-plug-in-prime/",
       "advertising": false,
       "mainTextWords": 407,
-      "htmlBytes": 18297
+      "htmlBytes": 18299
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-rav4/",
       "advertising": false,
       "mainTextWords": 450,
-      "htmlBytes": 20264
+      "htmlBytes": 20266
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-sequoia/",
       "advertising": false,
-      "mainTextWords": 448,
-      "htmlBytes": 20697
+      "mainTextWords": 452,
+      "htmlBytes": 20791
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-sienna/",
       "advertising": false,
       "mainTextWords": 381,
-      "htmlBytes": 18304
+      "htmlBytes": 18306
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-supra/",
       "advertising": false,
       "mainTextWords": 396,
-      "htmlBytes": 17380
+      "htmlBytes": 17382
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-tacoma/",
       "advertising": false,
       "mainTextWords": 381,
-      "htmlBytes": 18304
+      "htmlBytes": 18306
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-tundra/",
       "advertising": false,
       "mainTextWords": 426,
-      "htmlBytes": 20411
+      "htmlBytes": 20413
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-venza/",
       "advertising": false,
       "mainTextWords": 271,
-      "htmlBytes": 12923
+      "htmlBytes": 12925
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris/",
       "advertising": false,
-      "mainTextWords": 303,
-      "htmlBytes": 14049
+      "mainTextWords": 307,
+      "htmlBytes": 14143
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-ia-hatchback/",
       "advertising": false,
       "mainTextWords": 273,
-      "htmlBytes": 12585
+      "htmlBytes": 12587
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback/",
       "advertising": false,
-      "mainTextWords": 220,
-      "htmlBytes": 10136
+      "mainTextWords": 224,
+      "htmlBytes": 10230
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-c/",
       "advertising": false,
       "mainTextWords": 297,
-      "htmlBytes": 13097
+      "htmlBytes": 13099
     },
     {
       "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-v/",
       "advertising": false,
       "mainTextWords": 243,
-      "htmlBytes": 10894
+      "htmlBytes": 10896
     },
     {
       "url": "https://carbrochurearchive.com/models/vencer/vencer-sarthe/",
       "advertising": false,
       "mainTextWords": 201,
-      "htmlBytes": 10247
+      "htmlBytes": 10249
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-arteon/",
       "advertising": false,
       "mainTextWords": 334,
-      "htmlBytes": 14916
+      "htmlBytes": 14918
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas/",
       "advertising": false,
-      "mainTextWords": 481,
-      "htmlBytes": 21228
+      "mainTextWords": 485,
+      "htmlBytes": 21330
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas-cross-sport/",
       "advertising": false,
       "mainTextWords": 356,
-      "htmlBytes": 14665
+      "htmlBytes": 14667
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-beetle/",
       "advertising": false,
       "mainTextWords": 353,
-      "htmlBytes": 15962
+      "htmlBytes": 15964
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-cc/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 11121
+      "htmlBytes": 11123
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf/",
       "advertising": false,
-      "mainTextWords": 305,
-      "htmlBytes": 14507
+      "mainTextWords": 309,
+      "htmlBytes": 14609
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-e-golf/",
       "advertising": false,
       "mainTextWords": 261,
-      "htmlBytes": 12460
+      "htmlBytes": 12462
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-gti/",
       "advertising": false,
       "mainTextWords": 276,
-      "htmlBytes": 12590
+      "htmlBytes": 12592
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-r/",
       "advertising": false,
       "mainTextWords": 229,
-      "htmlBytes": 10239
+      "htmlBytes": 10241
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf-alltrack-sportwagen/",
       "advertising": false,
       "mainTextWords": 318,
-      "htmlBytes": 14619
+      "htmlBytes": 14621
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-id/",
       "advertising": false,
       "mainTextWords": 245,
-      "htmlBytes": 11210
+      "htmlBytes": 11212
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-jetta/",
       "advertising": false,
       "mainTextWords": 482,
-      "htmlBytes": 21344
+      "htmlBytes": 21346
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-passat/",
       "advertising": false,
       "mainTextWords": 454,
-      "htmlBytes": 20394
+      "htmlBytes": 20396
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-bus-station-wagon-camper-campmobile/",
       "advertising": false,
-      "mainTextWords": 229,
-      "htmlBytes": 11324
+      "mainTextWords": 233,
+      "htmlBytes": 11426
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-taos/",
       "advertising": false,
       "mainTextWords": 247,
-      "htmlBytes": 11341
+      "htmlBytes": 11343
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-tiguan/",
       "advertising": false,
       "mainTextWords": 525,
-      "htmlBytes": 23616
+      "htmlBytes": 23618
     },
     {
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-touareg/",
       "advertising": false,
       "mainTextWords": 239,
-      "htmlBytes": 11431
+      "htmlBytes": 11433
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s60-and-v60-cross-country/",
       "advertising": false,
       "mainTextWords": 300,
-      "htmlBytes": 12970
+      "htmlBytes": 12972
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s60-and-v60-polestar/",
       "advertising": false,
       "mainTextWords": 308,
-      "htmlBytes": 12702
+      "htmlBytes": 12704
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s60/",
       "advertising": false,
       "mainTextWords": 295,
-      "htmlBytes": 13653
+      "htmlBytes": 13655
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s80/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 9507
+      "mainTextWords": 215,
+      "htmlBytes": 9599
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s90/",
       "advertising": false,
       "mainTextWords": 274,
-      "htmlBytes": 12627
+      "htmlBytes": 12629
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-v60/",
       "advertising": false,
       "mainTextWords": 297,
-      "htmlBytes": 13661
+      "htmlBytes": 13663
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-v90-cross-country/",
       "advertising": false,
       "mainTextWords": 245,
-      "htmlBytes": 11105
+      "htmlBytes": 11107
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc40/",
       "advertising": false,
-      "mainTextWords": 229,
-      "htmlBytes": 10605
+      "mainTextWords": 233,
+      "htmlBytes": 10697
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc60/",
       "advertising": false,
       "mainTextWords": 295,
-      "htmlBytes": 13754
+      "htmlBytes": 13756
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc70/",
       "advertising": false,
-      "mainTextWords": 211,
-      "htmlBytes": 9555
+      "mainTextWords": 215,
+      "htmlBytes": 9647
     },
     {
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc90/",
       "advertising": false,
       "mainTextWords": 379,
-      "htmlBytes": 16910
+      "htmlBytes": 16912
     }
   ]
 }

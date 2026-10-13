@@ -18,5 +18,44 @@
     "bytes": 4386169,
     "sha256": "74537d0d5538d8b0ad1e62859db8f38f7234523bc3d308ca3a2301fc714472a4",
     "checkedOn": "2026-10-13"
+  },
+  {
+    "brand": "buick",
+    "file": "Regal/Buick_US Regal_2020.pdf",
+    "title": "2020 Buick Regal PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/buick/Regal/Buick_US%20Regal_2020.pdf",
+    "pageCount": 14,
+    "bytes": 1809110,
+    "sha256": "0ed3120b26b204e4395e32f28dc37fce260ed31e2c7171ba7590ba87796dd91c",
+    "checkedOn": "2026-10-13",
+    "cover": "assets/brochure-covers/buick-regal-2020.png",
+    "coverWidth": 480,
+    "coverHeight": 153
+  },
+  {
+    "brand": "buick",
+    "file": "Regal/Buick_US Regal_2020-X.pdf",
+    "title": "2020 Buick Regal TourX PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/buick/Regal/Buick_US%20Regal_2020-X.pdf",
+    "pageCount": 18,
+    "bytes": 2766786,
+    "sha256": "dcb6c67513a5fdda83d1352a9c08c8f1cfc8a64c4cd8370f6c69e75db4393371",
+    "checkedOn": "2026-10-13",
+    "cover": "assets/brochure-covers/buick-regal-tourx-2020.png",
+    "coverWidth": 480,
+    "coverHeight": 180
+  },
+  {
+    "brand": "bmw",
+    "file": "5 Series/BMW_int 5Series_2017.pdf",
+    "title": "2017 BMW 5 Series Sedan PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/bmw/5%20Series/BMW_int%205Series_2017.pdf",
+    "pageCount": 42,
+    "bytes": 5886768,
+    "sha256": "1dec36cba6a38a74894e37280f29df543601455ea12d39c7e85cba3ee5de48a7",
+    "checkedOn": "2026-10-13",
+    "cover": "assets/brochure-covers/bmw-5-series-2017.png",
+    "coverWidth": 480,
+    "coverHeight": 720
   }
 ]

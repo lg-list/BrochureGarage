@@ -9,6 +9,29 @@ const groups = {
   models: entries.filter((entry) => /\/models\//.test(entry)),
   history: entries.filter((entry) => /\/history\//.test(entry))
 };
+let recovery = null;
+try {
+  recovery = JSON.parse(await readFile("data/indexing-recovery-targets.json", "utf8"));
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+if (recovery) {
+  const requested = new Set(recovery.urls);
+  const selected = [];
+  for (const entry of entries) {
+    const url = entry.match(/<loc>([^<]+)<\/loc>/)?.[1];
+    if (!requested.has(url)) continue;
+    const relative = url.slice(siteUrl.length + 1) || "index.html";
+    if (!url.startsWith(siteUrl + "/") || relative.includes("..")) throw new Error("Invalid recovery URL");
+    const file = relative.endsWith("/") ? relative + "index.html" : relative;
+    const html = await readFile(file, "utf8");
+    if (/<meta[^>]+name=["'](?:robots|googlebot)["'][^>]+content=["'][^"']*noindex/i.test(html)) throw new Error(`Recovery URL is noindex: ${url}`);
+    if (!html.includes(`rel="canonical" href="${url}"`)) throw new Error(`Recovery canonical mismatch: ${url}`);
+    selected.push(entry);
+  }
+  if (selected.length !== requested.size) throw new Error("Some recovery URLs are missing from the canonical sitemap");
+  groups.recovery = selected;
+}
 const files = [];
 for (const [name, items] of Object.entries(groups)) {
   const file = `sitemap-${name}.xml`;

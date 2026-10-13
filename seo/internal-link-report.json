@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:57:23.718Z",
+  "generated_at": "2026-10-13T15:40:18.363Z",
   "pages": [
     {
       "url": "https://carbrochurearchive.com/404.html",
@@ -592,7 +592,7 @@
     {
       "url": "https://carbrochurearchive.com/history/acura/",
       "file": "history/acura/index.html",
-      "incoming_internal_links": 4,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 25,
       "orphan_status": "connected"
     },
@@ -613,14 +613,14 @@
     {
       "url": "https://carbrochurearchive.com/history/amc/",
       "file": "history/amc/index.html",
-      "incoming_internal_links": 4,
+      "incoming_internal_links": 7,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/aston-martin/",
       "file": "history/aston-martin/index.html",
-      "incoming_internal_links": 4,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
@@ -634,7 +634,7 @@
     {
       "url": "https://carbrochurearchive.com/history/austin/",
       "file": "history/austin/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 19,
       "orphan_status": "connected"
     },
@@ -655,56 +655,56 @@
     {
       "url": "https://carbrochurearchive.com/history/bmw/",
       "file": "history/bmw/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 39,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/bugatti/",
       "file": "history/bugatti/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/buick/",
       "file": "history/buick/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/cadillac/",
       "file": "history/cadillac/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 9,
       "outgoing_internal_links": 32,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/chevrolet/",
       "file": "history/chevrolet/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 39,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/chrysler/",
       "file": "history/chrysler/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/citroen/",
       "file": "history/citroen/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/datsun/",
       "file": "history/datsun/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 7,
       "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
@@ -718,21 +718,21 @@
     {
       "url": "https://carbrochurearchive.com/history/dodge/",
       "file": "history/dodge/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 46,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/ferrari/",
       "file": "history/ferrari/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 11,
       "outgoing_internal_links": 30,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/fiat/",
       "file": "history/fiat/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
@@ -753,14 +753,14 @@
     {
       "url": "https://carbrochurearchive.com/history/genesis/",
       "file": "history/genesis/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/gmc/",
       "file": "history/gmc/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 31,
       "orphan_status": "connected"
     },
@@ -769,6 +769,13 @@
       "file": "history/gumpert/index.html",
       "incoming_internal_links": 3,
       "outgoing_internal_links": 18,
+      "orphan_status": "connected"
+    },
+    {
+      "url": "https://carbrochurearchive.com/history/",
+      "file": "history/history/index.html",
+      "incoming_internal_links": 0,
+      "outgoing_internal_links": 1,
       "orphan_status": "connected"
     },
     {
@@ -781,42 +788,42 @@
     {
       "url": "https://carbrochurearchive.com/history/hummer/",
       "file": "history/hummer/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/hyundai/",
       "file": "history/hyundai/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 35,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/",
       "file": "history/index.html",
-      "incoming_internal_links": 1685,
+      "incoming_internal_links": 1687,
       "outgoing_internal_links": 92,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/infiniti/",
       "file": "history/infiniti/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 26,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/international/",
       "file": "history/international/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/isuzu/",
       "file": "history/isuzu/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
@@ -830,14 +837,14 @@
     {
       "url": "https://carbrochurearchive.com/history/jeep/",
       "file": "history/jeep/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 25,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/jensen/",
       "file": "history/jensen/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
@@ -851,14 +858,14 @@
     {
       "url": "https://carbrochurearchive.com/history/koenigsegg/",
       "file": "history/koenigsegg/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/lamborghini/",
       "file": "history/lamborghini/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
@@ -879,56 +886,56 @@
     {
       "url": "https://carbrochurearchive.com/history/lincoln/",
       "file": "history/lincoln/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 28,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/lotus/",
       "file": "history/lotus/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/maserati/",
       "file": "history/maserati/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/maybach/",
       "file": "history/maybach/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/mazda/",
       "file": "history/mazda/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 26,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/mclaren/",
       "file": "history/mclaren/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/mercedes-benz/",
       "file": "history/mercedes-benz/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 41,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/mercury/",
       "file": "history/mercury/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 29,
       "orphan_status": "connected"
     },
@@ -956,7 +963,7 @@
     {
       "url": "https://carbrochurearchive.com/history/morgan/",
       "file": "history/morgan/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 7,
       "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
@@ -970,14 +977,14 @@
     {
       "url": "https://carbrochurearchive.com/history/oldsmobile/",
       "file": "history/oldsmobile/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 7,
       "outgoing_internal_links": 31,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/opel/",
       "file": "history/opel/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 19,
       "orphan_status": "connected"
     },
@@ -991,28 +998,28 @@
     {
       "url": "https://carbrochurearchive.com/history/peugeot/",
       "file": "history/peugeot/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/plymouth/",
       "file": "history/plymouth/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 8,
       "outgoing_internal_links": 32,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/pontiac/",
       "file": "history/pontiac/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 9,
       "outgoing_internal_links": 34,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/porsche/",
       "file": "history/porsche/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 26,
       "orphan_status": "connected"
     },
@@ -1026,14 +1033,14 @@
     {
       "url": "https://carbrochurearchive.com/history/rolls-royce/",
       "file": "history/rolls-royce/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/saab/",
       "file": "history/saab/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 10,
       "outgoing_internal_links": 31,
       "orphan_status": "connected"
     },
@@ -1047,42 +1054,42 @@
     {
       "url": "https://carbrochurearchive.com/history/scion/",
       "file": "history/scion/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/smart/",
       "file": "history/smart/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/spyker/",
       "file": "history/spyker/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/srt/",
       "file": "history/srt/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 5,
       "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/ssc/",
       "file": "history/ssc/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/studebaker/",
       "file": "history/studebaker/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 4,
       "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
@@ -1110,7 +1117,7 @@
     {
       "url": "https://carbrochurearchive.com/history/toyota/",
       "file": "history/toyota/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 7,
       "outgoing_internal_links": 47,
       "orphan_status": "connected"
     },
@@ -1124,14 +1131,14 @@
     {
       "url": "https://carbrochurearchive.com/history/volkswagen/",
       "file": "history/volkswagen/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 6,
       "outgoing_internal_links": 34,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/history/volvo/",
       "file": "history/volvo/index.html",
-      "incoming_internal_links": 3,
+      "incoming_internal_links": 6,
       "outgoing_internal_links": 28,
       "orphan_status": "connected"
     },
@@ -1160,7 +1167,7 @@
       "url": "https://carbrochurearchive.com/models/acura/acura-integra/",
       "file": "models/acura/acura-integra/index.html",
       "incoming_internal_links": 10,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1237,21 +1244,21 @@
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-premier/",
       "file": "models/amc/amc-eagle-premier/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-talon/",
       "file": "models/amc/amc-eagle-talon/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/amc/amc-eagle-vision/",
       "file": "models/amc/amc-eagle-vision/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -1265,14 +1272,14 @@
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db4/",
       "file": "models/aston-martin/aston-martin-db4/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-db9/",
       "file": "models/aston-martin/aston-martin-db9/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1286,14 +1293,14 @@
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-dbx/",
       "file": "models/aston-martin/aston-martin-dbx/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/aston-martin/aston-martin-rapide/",
       "file": "models/aston-martin/aston-martin-rapide/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1405,7 +1412,7 @@
       "url": "https://carbrochurearchive.com/models/austin/austin-marina/",
       "file": "models/austin/austin-marina/index.html",
       "incoming_internal_links": 4,
-      "outgoing_internal_links": 18,
+      "outgoing_internal_links": 19,
       "orphan_status": "connected"
     },
     {
@@ -1461,7 +1468,7 @@
       "url": "https://carbrochurearchive.com/models/bmw/bmw-1-series/",
       "file": "models/bmw/bmw-1-series/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1510,7 +1517,7 @@
       "url": "https://carbrochurearchive.com/models/bmw/bmw-5-series-sedan/",
       "file": "models/bmw/bmw-5-series-sedan/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 25,
       "orphan_status": "connected"
     },
     {
@@ -1531,14 +1538,14 @@
       "url": "https://carbrochurearchive.com/models/bmw/bmw-8-series/",
       "file": "models/bmw/bmw-8-series/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/bmw/bmw-alpina/",
       "file": "models/bmw/bmw-alpina/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1580,7 +1587,7 @@
       "url": "https://carbrochurearchive.com/models/bmw/bmw-x2/",
       "file": "models/bmw/bmw-x2/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1615,7 +1622,7 @@
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4/",
       "file": "models/bugatti/bugatti-veyron-16-4/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
@@ -1629,14 +1636,14 @@
       "url": "https://carbrochurearchive.com/models/bugatti/bugatti-veyron-16-4-sang-noir/",
       "file": "models/bugatti/bugatti-veyron-16-4-sang-noir/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/buick/buick-cascada/",
       "file": "models/buick/buick-cascada/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1671,7 +1678,7 @@
       "url": "https://carbrochurearchive.com/models/buick/buick-regal/",
       "file": "models/buick/buick-regal/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 25,
       "orphan_status": "connected"
     },
     {
@@ -1692,21 +1699,21 @@
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-celestiq/",
       "file": "models/cadillac/cadillac-celestiq/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct4/",
       "file": "models/cadillac/cadillac-ct4/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-ct5/",
       "file": "models/cadillac/cadillac-ct5/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1741,14 +1748,14 @@
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-lyriq/",
       "file": "models/cadillac/cadillac-lyriq/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-srx/",
       "file": "models/cadillac/cadillac-srx/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1776,7 +1783,7 @@
       "url": "https://carbrochurearchive.com/models/cadillac/cadillac-xt6/",
       "file": "models/cadillac/cadillac-xt6/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1797,7 +1804,7 @@
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-bolt/",
       "file": "models/chevrolet/chevrolet-bolt/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1818,7 +1825,7 @@
       "url": "https://carbrochurearchive.com/models/chevrolet/chevrolet-city-express/",
       "file": "models/chevrolet/chevrolet-city-express/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -1944,7 +1951,7 @@
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-200/",
       "file": "models/chrysler/chrysler-200/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -1965,7 +1972,7 @@
       "url": "https://carbrochurearchive.com/models/chrysler/chrysler-town-and-country-voyager/",
       "file": "models/chrysler/chrysler-town-and-country-voyager/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -1986,21 +1993,21 @@
       "url": "https://carbrochurearchive.com/models/citroen/citro-n-maserati-sm/",
       "file": "models/citroen/citro-n-maserati-sm/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1000-sedan/",
       "file": "models/datsun/datsun-1000-sedan/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-1300/",
       "file": "models/datsun/datsun-1300/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2014,14 +2021,14 @@
       "url": "https://carbrochurearchive.com/models/datsun/datsun-510/",
       "file": "models/datsun/datsun-510/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/datsun/datsun-f-10-cherry/",
       "file": "models/datsun/datsun-f-10-cherry/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2049,14 +2056,14 @@
       "url": "https://carbrochurearchive.com/models/dodge/dodge-600/",
       "file": "models/dodge/dodge-600/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-aries/",
       "file": "models/dodge/dodge-aries/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2119,7 +2126,7 @@
       "url": "https://carbrochurearchive.com/models/dodge/dodge-daytona/",
       "file": "models/dodge/dodge-daytona/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2196,28 +2203,28 @@
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ram-van/",
       "file": "models/dodge/dodge-ram-van/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-ramcharger/",
       "file": "models/dodge/dodge-ramcharger/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-shadow/",
       "file": "models/dodge/dodge-shadow/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/dodge/dodge-spirit/",
       "file": "models/dodge/dodge-spirit/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2231,7 +2238,7 @@
       "url": "https://carbrochurearchive.com/models/dodge/dodge-stealth/",
       "file": "models/dodge/dodge-stealth/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2259,7 +2266,7 @@
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-365-gtb-4/",
       "file": "models/ferrari/ferrari-365-gtb-4/index.html",
       "incoming_internal_links": 15,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2273,14 +2280,14 @@
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-599/",
       "file": "models/ferrari/ferrari-599/index.html",
       "incoming_internal_links": 15,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-612-scaglietti/",
       "file": "models/ferrari/ferrari-612-scaglietti/index.html",
       "incoming_internal_links": 15,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2294,21 +2301,21 @@
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-dino/",
       "file": "models/ferrari/ferrari-dino/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-enzo/",
       "file": "models/ferrari/ferrari-enzo/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f12-berlinetta/",
       "file": "models/ferrari/ferrari-f12-berlinetta/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2322,14 +2329,14 @@
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-f430/",
       "file": "models/ferrari/ferrari-f430/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/ferrari/ferrari-ff/",
       "file": "models/ferrari/ferrari-ff/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2364,7 +2371,7 @@
       "url": "https://carbrochurearchive.com/models/fiat/fiat-500x/",
       "file": "models/fiat/fiat-500x/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -2553,7 +2560,7 @@
       "url": "https://carbrochurearchive.com/models/genesis/genesis-gv60/",
       "file": "models/genesis/genesis-gv60/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
@@ -2630,14 +2637,14 @@
       "url": "https://carbrochurearchive.com/models/gmc/gmc-safari/",
       "file": "models/gmc/gmc-safari/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/gmc/gmc-savana/",
       "file": "models/gmc/gmc-savana/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2784,7 +2791,7 @@
       "url": "https://carbrochurearchive.com/models/hummer/hummer-m998a2-series/",
       "file": "models/hummer/hummer-m998a2-series/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -2826,7 +2833,7 @@
       "url": "https://carbrochurearchive.com/models/hyundai/hyundai-genesis-coupe/",
       "file": "models/hyundai/hyundai-genesis-coupe/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -2924,7 +2931,7 @@
       "url": "https://carbrochurearchive.com/models/infiniti/infiniti-q60/",
       "file": "models/infiniti/infiniti-q60/index.html",
       "incoming_internal_links": 11,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3008,7 +3015,7 @@
       "url": "https://carbrochurearchive.com/models/international/international-scout-terra/",
       "file": "models/international/international-scout-terra/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -3022,35 +3029,35 @@
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-axiom/",
       "file": "models/isuzu/isuzu-axiom/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-hombre/",
       "file": "models/isuzu/isuzu-hombre/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-impulse/",
       "file": "models/isuzu/isuzu-impulse/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-p-up/",
       "file": "models/isuzu/isuzu-p-up/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/isuzu/isuzu-rodeo/",
       "file": "models/isuzu/isuzu-rodeo/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3162,7 +3169,7 @@
       "url": "https://carbrochurearchive.com/models/jeep/jeep-wagoner-grand-wagoneer/",
       "file": "models/jeep/jeep-wagoner-grand-wagoneer/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3183,7 +3190,7 @@
       "url": "https://carbrochurearchive.com/models/jensen/jensen-healey/",
       "file": "models/jensen/jensen-healey/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -3316,14 +3323,14 @@
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-ccx-and-ccxr/",
       "file": "models/koenigsegg/koenigsegg-ccx-and-ccxr/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/koenigsegg/koenigsegg-one-1/",
       "file": "models/koenigsegg/koenigsegg-one-1/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -3351,7 +3358,7 @@
       "url": "https://carbrochurearchive.com/models/lamborghini/lamborghini-revuelto/",
       "file": "models/lamborghini/lamborghini-revuelto/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
@@ -3533,7 +3540,7 @@
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-corsair/",
       "file": "models/lincoln/lincoln-corsair/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3547,7 +3554,7 @@
       "url": "https://carbrochurearchive.com/models/lincoln/lincoln-mks/",
       "file": "models/lincoln/lincoln-mks/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3596,7 +3603,7 @@
       "url": "https://carbrochurearchive.com/models/lotus/lotus-emira/",
       "file": "models/lotus/lotus-emira/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -3624,7 +3631,7 @@
       "url": "https://carbrochurearchive.com/models/maserati/maserati-grancabrio/",
       "file": "models/maserati/maserati-grancabrio/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
@@ -3645,7 +3652,7 @@
       "url": "https://carbrochurearchive.com/models/maserati/maserati-personalization/",
       "file": "models/maserati/maserati-personalization/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
@@ -3659,7 +3666,7 @@
       "url": "https://carbrochurearchive.com/models/maybach/maybach-57-and-62/",
       "file": "models/maybach/maybach-57-and-62/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
@@ -3729,7 +3736,7 @@
       "url": "https://carbrochurearchive.com/models/mazda/mazda-mx-30-ev/",
       "file": "models/mazda/mazda-mx-30-ev/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3750,7 +3757,7 @@
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-600lt/",
       "file": "models/mclaren/mclaren-600lt/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -3771,7 +3778,7 @@
       "url": "https://carbrochurearchive.com/models/mclaren/mclaren-gt/",
       "file": "models/mclaren/mclaren-gt/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -3834,14 +3841,14 @@
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-electric-and-hybrid/",
       "file": "models/mercedes-benz/mercedes-benz-electric-and-hybrid/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-eq/",
       "file": "models/mercedes-benz/mercedes-benz-eq/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3855,7 +3862,7 @@
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-gl-class/",
       "file": "models/mercedes-benz/mercedes-benz-gl-class/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3897,7 +3904,7 @@
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-mercedes-maybach-s600/",
       "file": "models/mercedes-benz/mercedes-benz-mercedes-maybach-s600/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -3939,14 +3946,14 @@
       "url": "https://carbrochurearchive.com/models/mercedes-benz/mercedes-benz-x-class-pickup/",
       "file": "models/mercedes-benz/mercedes-benz-x-class-pickup/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/mercury/mercury-capri/",
       "file": "models/mercury/mercury-capri/index.html",
       "incoming_internal_links": 14,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4093,7 +4100,7 @@
       "url": "https://carbrochurearchive.com/models/morgan/morgan-4-4-plus-4-plus-8-and-roadster/",
       "file": "models/morgan/morgan-4-4-plus-4-plus-8-and-roadster/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
@@ -4107,21 +4114,21 @@
       "url": "https://carbrochurearchive.com/models/morgan/morgan-brooklands-edition-roadster-and-3-wheeler/",
       "file": "models/morgan/morgan-brooklands-edition-roadster-and-3-wheeler/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-eva-gt/",
       "file": "models/morgan/morgan-eva-gt/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/morgan/morgan-lifecar/",
       "file": "models/morgan/morgan-lifecar/index.html",
       "incoming_internal_links": 8,
-      "outgoing_internal_links": 22,
+      "outgoing_internal_links": 23,
       "orphan_status": "connected"
     },
     {
@@ -4289,7 +4296,7 @@
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-aerotech-concept/",
       "file": "models/oldsmobile/oldsmobile-aerotech-concept/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4317,7 +4324,7 @@
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-calais/",
       "file": "models/oldsmobile/oldsmobile-calais/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4366,28 +4373,28 @@
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-silhouette/",
       "file": "models/oldsmobile/oldsmobile-silhouette/index.html",
       "incoming_internal_links": 16,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/oldsmobile/oldsmobile-six/",
       "file": "models/oldsmobile/oldsmobile-six/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-gt/",
       "file": "models/opel/opel-gt/index.html",
       "incoming_internal_links": 4,
-      "outgoing_internal_links": 18,
+      "outgoing_internal_links": 19,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/opel/opel-rekord/",
       "file": "models/opel/opel-rekord/index.html",
       "incoming_internal_links": 4,
-      "outgoing_internal_links": 18,
+      "outgoing_internal_links": 19,
       "orphan_status": "connected"
     },
     {
@@ -4401,35 +4408,35 @@
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-304/",
       "file": "models/peugeot/peugeot-304/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-403/",
       "file": "models/peugeot/peugeot-403/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-504/",
       "file": "models/peugeot/peugeot-504/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-505/",
       "file": "models/peugeot/peugeot-505/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/peugeot/peugeot-604/",
       "file": "models/peugeot/peugeot-604/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -4443,7 +4450,7 @@
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-barracuda/",
       "file": "models/plymouth/plymouth-barracuda/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4464,7 +4471,7 @@
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-champ/",
       "file": "models/plymouth/plymouth-champ/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4478,14 +4485,14 @@
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-fury/",
       "file": "models/plymouth/plymouth-fury/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-horizon/",
       "file": "models/plymouth/plymouth-horizon/index.html",
       "incoming_internal_links": 17,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4520,7 +4527,7 @@
       "url": "https://carbrochurearchive.com/models/plymouth/plymouth-satellite/",
       "file": "models/plymouth/plymouth-satellite/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4541,14 +4548,14 @@
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-bonneville/",
       "file": "models/pontiac/pontiac-bonneville/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-fiero/",
       "file": "models/pontiac/pontiac-fiero/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4562,7 +4569,7 @@
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-g3/",
       "file": "models/pontiac/pontiac-g3/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4618,21 +4625,21 @@
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-solstice/",
       "file": "models/pontiac/pontiac-solstice/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sunfire/",
       "file": "models/pontiac/pontiac-sunfire/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/pontiac/pontiac-sv6/",
       "file": "models/pontiac/pontiac-sv6/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4702,7 +4709,7 @@
       "url": "https://carbrochurearchive.com/models/porsche/porsche-mission-e/",
       "file": "models/porsche/porsche-mission-e/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4772,7 +4779,7 @@
       "url": "https://carbrochurearchive.com/models/rolls-royce/rolls-royce-phantom/",
       "file": "models/rolls-royce/rolls-royce-phantom/index.html",
       "incoming_internal_links": 7,
-      "outgoing_internal_links": 21,
+      "outgoing_internal_links": 22,
       "orphan_status": "connected"
     },
     {
@@ -4786,7 +4793,7 @@
       "url": "https://carbrochurearchive.com/models/saab/saab-9-2x-92x/",
       "file": "models/saab/saab-9-2x-92x/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4800,21 +4807,21 @@
       "url": "https://carbrochurearchive.com/models/saab/saab-9-4x-94x/",
       "file": "models/saab/saab-9-4x-94x/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-9-5-95/",
       "file": "models/saab/saab-9-5-95/index.html",
       "incoming_internal_links": 16,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/saab/saab-90/",
       "file": "models/saab/saab-90/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4828,7 +4835,7 @@
       "url": "https://carbrochurearchive.com/models/saab/saab-9000/",
       "file": "models/saab/saab-9000/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4856,7 +4863,7 @@
       "url": "https://carbrochurearchive.com/models/saab/saab-97x/",
       "file": "models/saab/saab-97x/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4870,7 +4877,7 @@
       "url": "https://carbrochurearchive.com/models/saab/saab-9x-concept/",
       "file": "models/saab/saab-9x-concept/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -4947,14 +4954,14 @@
       "url": "https://carbrochurearchive.com/models/scion/scion-fr-s/",
       "file": "models/scion/scion-fr-s/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/scion/scion-ia/",
       "file": "models/scion/scion-ia/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -4975,28 +4982,28 @@
       "url": "https://carbrochurearchive.com/models/smart/smart-fortwo/",
       "file": "models/smart/smart-fortwo/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 17,
+      "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/spyker/spyker-lm85/",
       "file": "models/spyker/spyker-lm85/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 17,
+      "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/300-srt-challenger-srt-charger-srt-and-grand-cherokee-srt/",
       "file": "models/srt/300-srt-challenger-srt-charger-srt-and-grand-cherokee-srt/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
       "url": "https://carbrochurearchive.com/models/srt/srt-grand-cherokee/",
       "file": "models/srt/srt-grand-cherokee/index.html",
       "incoming_internal_links": 5,
-      "outgoing_internal_links": 19,
+      "outgoing_internal_links": 20,
       "orphan_status": "connected"
     },
     {
@@ -5010,7 +5017,7 @@
       "url": "https://carbrochurearchive.com/models/ssc/ssc-aero-ultimate-tt/",
       "file": "models/ssc/ssc-aero-ultimate-tt/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 17,
+      "outgoing_internal_links": 18,
       "orphan_status": "connected"
     },
     {
@@ -5038,7 +5045,7 @@
       "url": "https://carbrochurearchive.com/models/studebaker/studebaker-truck/",
       "file": "models/studebaker/studebaker-truck/index.html",
       "incoming_internal_links": 6,
-      "outgoing_internal_links": 20,
+      "outgoing_internal_links": 21,
       "orphan_status": "connected"
     },
     {
@@ -5269,7 +5276,7 @@
       "url": "https://carbrochurearchive.com/models/toyota/toyota-grand-highlander/",
       "file": "models/toyota/toyota-grand-highlander/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5332,7 +5339,7 @@
       "url": "https://carbrochurearchive.com/models/toyota/toyota-sequoia/",
       "file": "models/toyota/toyota-sequoia/index.html",
       "incoming_internal_links": 32,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5374,7 +5381,7 @@
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris/",
       "file": "models/toyota/toyota-yaris/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5388,7 +5395,7 @@
       "url": "https://carbrochurearchive.com/models/toyota/toyota-yaris-liftback/",
       "file": "models/toyota/toyota-yaris-liftback/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5409,7 +5416,7 @@
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-atlas/",
       "file": "models/volkswagen/volkswagen-vw-atlas/index.html",
       "incoming_internal_links": 19,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5430,7 +5437,7 @@
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-bus-station-wagon-camper-campmobile/",
       "file": "models/volkswagen/volkswagen-vw-bus-station-wagon-camper-campmobile/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5451,7 +5458,7 @@
       "url": "https://carbrochurearchive.com/models/volkswagen/volkswagen-vw-golf/",
       "file": "models/volkswagen/volkswagen-vw-golf/index.html",
       "incoming_internal_links": 9,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5542,7 +5549,7 @@
       "url": "https://carbrochurearchive.com/models/volvo/volvo-s80/",
       "file": "models/volvo/volvo-s80/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5570,7 +5577,7 @@
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc40/",
       "file": "models/volvo/volvo-xc40/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {
@@ -5584,7 +5591,7 @@
       "url": "https://carbrochurearchive.com/models/volvo/volvo-xc70/",
       "file": "models/volvo/volvo-xc70/index.html",
       "incoming_internal_links": 3,
-      "outgoing_internal_links": 23,
+      "outgoing_internal_links": 24,
       "orphan_status": "connected"
     },
     {

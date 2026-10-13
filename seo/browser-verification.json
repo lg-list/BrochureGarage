@@ -6,6 +6,7 @@
     "Selection limit, remove/clear and citation download",
     "Combined year filter and safe empty search",
     "Pagination and deep-link filtering",
-    "8 views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors"
+    "Focused canonical sitemap, legacy redirect and checked PDF page counts",
+    "10 views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors"
   ]
 }

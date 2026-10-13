@@ -58,7 +58,20 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     await page.locator('#finder-more').click();
     assert.equal(await page.locator('#finder-results tr').count(),80);
     checks.push('Pagination and deep-link filtering');
-    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/'],['solterra','/models/subaru/subaru-solterra-electric/'],['gr-corolla','/models/toyota/toyota-corolla-gr/'],['bmw-range','/brands/bmw/']];
+    const recovery = JSON.parse(await fs.readFile(path.join(root,'data/indexing-recovery-targets.json'),'utf8'));
+    const recoveryXml = await fs.readFile(path.join(root,'sitemap-recovery.xml'),'utf8');
+    assert.equal([...recoveryXml.matchAll(/<loc>/g)].length,recovery.urls.length);
+    assert.equal(recoveryXml.includes('/history/history/'),false);
+    const redirectHtml = await fs.readFile(path.join(root,'history/history/index.html'),'utf8');
+    assert(redirectHtml.includes('content="0; url=https://carbrochurearchive.com/history/"'));
+    for (const [route,expectedPages] of [['/models/buick/buick-regal/',[14,18]],['/models/bmw/bmw-5-series-sedan/',[42]]]) {
+      await page.goto(base+route);
+      const checked = page.locator('section').filter({has:page.getByRole('heading',{name:'Checked PDF files',exact:true})});
+      assert.equal(await checked.locator('img').count(),expectedPages.length);
+      for (const pages of expectedPages) assert((await checked.innerText()).includes(String(pages)));
+    }
+    checks.push('Focused canonical sitemap, legacy redirect and checked PDF page counts');
+    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/'],['solterra','/models/subaru/subaru-solterra-electric/'],['gr-corolla','/models/toyota/toyota-corolla-gr/'],['bmw-range','/brands/bmw/'],['regal','/models/buick/buick-regal/'],['bmw-5-series','/models/bmw/bmw-5-series-sedan/']];
     for (const width of [1440,390]) {
       await page.setViewportSize({width,height:950});
       for (const [name,url] of views) {
