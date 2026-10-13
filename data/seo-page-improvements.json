@@ -1,0 +1,34 @@
+{
+  "brands/volkswagen/": {
+    "title": "Volkswagen Brochure PDFs by Model | Car Brochure Archive",
+    "description": "Preview and download Volkswagen brochure PDFs. Browse the available Golf, Jetta, Passat, Tiguan and other model collections and their listed years.",
+    "modelNavigation": true
+  },
+  "brands/audi/": {
+    "title": "Audi Brochure PDFs by Model | Car Brochure Archive",
+    "description": "Find Audi brochure PDFs by model and listed year. Open A3, A4, A6, Q5 and other archived sales catalogs, with direct preview and download links.",
+    "modelNavigation": true
+  },
+  "brands/lexus/": {
+    "title": "Lexus Brochure PDFs by Model | Car Brochure Archive",
+    "description": "Browse Lexus brochure PDFs by model and listed year. Preview or download archived IS, ES, LS, RX and other Lexus sales literature.",
+    "modelNavigation": true
+  },
+  "models/nissan/nissan-rogue/": {
+    "title": "Nissan Rogue Brochure PDFs, 2016-2026 | Preview & Download",
+    "description": "Find Nissan Rogue brochures for the listed years from 2016 to 2026, including two 2023 editions. Preview or download PDFs; Rogue Sport has a separate collection.",
+    "relatedModels": ["Nissan Rogue Sport"],
+    "collectionNote": "The Rogue records include two separately labeled 2023 editions. Rogue Sport is indexed separately; do not substitute its brochure when researching a Rogue. Use each document's title and market notes to identify the appropriate edition."
+  },
+  "models/porsche/porsche-macan/": {
+    "title": "Porsche Macan Brochure PDFs: 2016, 2017, 2019 & 2021",
+    "description": "Preview or download Porsche Macan PDFs for 2016, 2017, 2019 and 2021, including GTS, Turbo and two 2017 editions. See available documents and checked PDF details.",
+    "collectionNote": "This collection covers 2016, 2017, 2019 and 2021, not every intervening year. The 2016 GTS and Turbo titles are separate documents; 2017 has two labeled editions. Choose a title and edition before comparing equipment."
+  },
+  "models/mazda/mazda-cx-5/": {
+    "title": "Mazda CX-5 Brochure PDFs, 2016-2023 | Preview & Download",
+    "description": "Browse Mazda CX-5 brochure PDFs from 2016 to 2023. Preview or download the listed documents, including two 2016 editions; CX-50 is a separate collection.",
+    "relatedModels": ["Mazda CX-50"],
+    "collectionNote": "There are two labeled 2016 CX-5 editions and one record for each year from 2017 to 2023. CX-50 documents belong to a different collection; they are not CX-5 editions."
+  }
+}

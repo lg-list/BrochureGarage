@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-13",
+  "checkedOn": "2026-10-14",
   "passed": true,
   "checks": [
     "Exact model filtering: 7 CR-V records",
@@ -7,6 +7,7 @@
     "Combined year filter and safe empty search",
     "Pagination and deep-link filtering",
     "Focused canonical sitemap, legacy redirect and checked PDF page counts",
-    "10 views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors"
+    "Traffic recovery pages: checked PDFs, indexability and model navigation targets",
+    "16 views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors"
   ]
 }

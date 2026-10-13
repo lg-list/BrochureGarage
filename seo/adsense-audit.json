@@ -15,7 +15,7 @@
     "https://carbrochurearchive.com/brochure-glossary.html",
     "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/"
   ],
-  "reviewedPdfs": 5,
+  "reviewedPdfs": 7,
   "failures": [],
   "unresolved": [
     "Redistribution rights for imported PDFs are not documented in this repository.",
@@ -525,7 +525,7 @@
       "url": "https://carbrochurearchive.com/brochure-finder.html",
       "advertising": false,
       "mainTextWords": 768,
-      "htmlBytes": 1145876
+      "htmlBytes": 1145983
     },
     {
       "url": "https://carbrochurearchive.com/research/honda-crv-2016-vs-2018/",
@@ -596,8 +596,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/audi/",
       "advertising": false,
-      "mainTextWords": 1133,
-      "htmlBytes": 53396
+      "mainTextWords": 1118,
+      "htmlBytes": 53650
     },
     {
       "url": "https://carbrochurearchive.com/brands/austin/",
@@ -800,8 +800,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/lexus/",
       "advertising": false,
-      "mainTextWords": 1780,
-      "htmlBytes": 118368
+      "mainTextWords": 1755,
+      "htmlBytes": 118574
     },
     {
       "url": "https://carbrochurearchive.com/brands/lincoln/",
@@ -1016,8 +1016,8 @@
     {
       "url": "https://carbrochurearchive.com/brands/volkswagen/",
       "advertising": false,
-      "mainTextWords": 1591,
-      "htmlBytes": 97653
+      "mainTextWords": 1564,
+      "htmlBytes": 98191
     },
     {
       "url": "https://carbrochurearchive.com/brands/volvo/",
@@ -3212,8 +3212,8 @@
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-5/",
       "advertising": false,
-      "mainTextWords": 394,
-      "htmlBytes": 17868
+      "mainTextWords": 426,
+      "htmlBytes": 18219
     },
     {
       "url": "https://carbrochurearchive.com/models/mazda/mazda-cx-9/",
@@ -3674,8 +3674,8 @@
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue/",
       "advertising": false,
-      "mainTextWords": 456,
-      "htmlBytes": 21277
+      "mainTextWords": 570,
+      "htmlBytes": 23125
     },
     {
       "url": "https://carbrochurearchive.com/models/nissan/nissan-rogue-sport/",
@@ -4064,8 +4064,8 @@
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-macan/",
       "advertising": false,
-      "mainTextWords": 384,
-      "htmlBytes": 17470
+      "mainTextWords": 497,
+      "htmlBytes": 19290
     },
     {
       "url": "https://carbrochurearchive.com/models/porsche/porsche-mission-e/",

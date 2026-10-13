@@ -71,7 +71,20 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
       for (const pages of expectedPages) assert((await checked.innerText()).includes(String(pages)));
     }
     checks.push('Focused canonical sitemap, legacy redirect and checked PDF page counts');
-    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/'],['solterra','/models/subaru/subaru-solterra-electric/'],['gr-corolla','/models/toyota/toyota-corolla-gr/'],['bmw-range','/brands/bmw/'],['regal','/models/buick/buick-regal/'],['bmw-5-series','/models/bmw/bmw-5-series-sedan/']];
+    for (const [route,pages] of [['/models/nissan/nissan-rogue/',8],['/models/porsche/porsche-macan/',152]]) {
+      await page.goto(base+route);
+      assert((await page.getByRole('main').innerText()).includes('Checked PDF files'));
+      assert((await page.getByRole('main').innerText()).includes(String(pages)));
+      assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'),'index,follow,max-image-preview:large');
+    }
+    await page.goto(base+'/brands/volkswagen/');
+    const modelNav = page.getByRole('navigation',{name:'Volkswagen model collections'});
+    assert(await modelNav.locator('a').count() > 5);
+    for (const href of await modelNav.locator('a').evaluateAll(links=>links.map(link=>link.getAttribute('href')))) {
+      assert.equal(await page.locator(href).count(),1,`Broken model anchor: ${href}`);
+    }
+    checks.push('Traffic recovery pages: checked PDFs, indexability and model navigation targets');
+    const views=[['home','/'],['finder','/brochure-finder.html?brand=Honda&q=CR-V'],['history','/history/bmw/'],['study','/research/honda-crv-2016-vs-2018/'],['model','/models/bmw/bmw-m6/'],['solterra','/models/subaru/subaru-solterra-electric/'],['gr-corolla','/models/toyota/toyota-corolla-gr/'],['bmw-range','/brands/bmw/'],['regal','/models/buick/buick-regal/'],['bmw-5-series','/models/bmw/bmw-5-series-sedan/'],['vw','/brands/volkswagen/'],['audi','/brands/audi/'],['lexus','/brands/lexus/'],['rogue','/models/nissan/nissan-rogue/'],['macan','/models/porsche/porsche-macan/'],['cx5','/models/mazda/mazda-cx-5/']];
     for (const width of [1440,390]) {
       await page.setViewportSize({width,height:950});
       for (const [name,url] of views) {
@@ -87,7 +100,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     assert.equal(errors.length,0,errors.join('\n'));
     checks.push(`${views.length} views at desktop and mobile: HTTP 200, no horizontal page overflow, broken images or JS errors`);
     console.log(JSON.stringify({passed:true,checks},null,2));
-    await fs.writeFile(path.join(root,'seo/browser-verification.json'),JSON.stringify({checkedOn:'2026-10-13',passed:true,checks},null,2));
+    await fs.writeFile(path.join(root,'seo/browser-verification.json'),JSON.stringify({checkedOn:new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date()),passed:true,checks},null,2));
   } finally {
     if(browser) await browser.close();
     await new Promise(resolve=>server.close(resolve));

@@ -7,7 +7,7 @@ const root = process.cwd();
 const siteUrl = (process.env.SITE_URL || "https://carbrochurearchive.com").replace(/\/$/, "");
 const pdfBaseUrl = process.env.PDF_BASE_URL || "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs";
 const adsensePublisherId = "pub-1607011220192909";
-const now = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
+const now = process.env.SITE_BUILD_DATE || new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
 const assetVersion = process.env.ASSET_VERSION || `${now.replace(/-/g, "")}-design`;
 const catalogLibrary = JSON.parse(await readFile(path.join(root, "data/brochures.json"), "utf8"));
 const verifiedBrochures = JSON.parse(await readFile(path.join(root, "data/verified-brochures.json"), "utf8"));
@@ -15,6 +15,7 @@ const adsPolicy = JSON.parse(await readFile(path.join(root, "data/adsense-policy
 const adsAllowedUrls = new Set(adsPolicy.allowedPages.map(url => `${siteUrl}/${url}`));
 const recoveryFile = path.join(root, "data/indexing-recovery-targets.json");
 const recoveryTargets = new Set(existsSync(recoveryFile) ? JSON.parse(await readFile(recoveryFile, "utf8")).urls : []);
+const pageImprovements = JSON.parse(await readFile(path.join(root, "data/seo-page-improvements.json"), "utf8"));
 
 function add(name, official, models, options = {}) {
   return {
@@ -1561,6 +1562,7 @@ async function buildBrandPages() {
   for (const brand of brands) {
     const documents = library[slug(brand.name)] || [];
     const historyArticle = brandHistoryFor(brand);
+    const improvement = pageImprovements[brandUrl(brand)] || {};
     const historyLink = historyArticle
       ? `\n          <p class="brand-history-link"><a href="../../${historyUrl(historyArticle)}">${esc(brand.name)} brand history</a></p>`
       : "";
@@ -1607,7 +1609,7 @@ async function buildBrandPages() {
             <span>${esc(brand.name)}</span>
           </nav>
           <h1>${esc(brand.name)} PDF Brochures</h1>
-          <p>${esc(brandIntro(brand, documents.length))}</p>${historyLink}
+          <p>${esc(improvement.description || brandIntro(brand, documents.length))}</p>${historyLink}
           <dl class="brand-stats" aria-label="${esc(brand.name)} brochure index summary">
             <div>
               <dt>PDF records</dt>
@@ -1618,7 +1620,7 @@ async function buildBrandPages() {
               <dd>${esc(topModels(brand, 4))}</dd>
             </div>
           </dl>
-        </section>
+        </section>${improvement.modelNavigation ? `\n        <nav class="directory-section tight" aria-label="${esc(brand.name)} model collections"><ul style="display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;padding:0;margin:0">${[...groupedDocuments.keys()].map(model => `<li><a href="#${slug(brand.name)}-${slug(model)}">${esc(model.replace(`${brand.name} (VW) `, "").replace(`${brand.name} `, ""))}</a></li>`).join("")}</ul></nav>` : ""}
         <section class="directory-section tight">
           ${documentList}
         </section>
@@ -1675,8 +1677,8 @@ async function buildBrandPages() {
     await write(
       brandPagePath(brand),
       pageShell({
-        title: `${brand.name} PDF Brochures | Car Catalog Archive`,
-        description: brandDescription(brand, documents.length),
+        title: improvement.title || `${brand.name} PDF Brochures | Car Catalog Archive`,
+        description: improvement.description || brandDescription(brand, documents.length),
         canonical: `${siteUrl}/${brandUrl(brand)}`,
         cssPath: "../../styles.css",
         body,
@@ -1733,6 +1735,7 @@ async function buildModelPages(library) {
     }, new Map());
 
     for (const [model, entries] of groupedDocuments) {
+      const improvement = pageImprovements[modelUrl(brand, model)] || {};
       const years = [...new Set(entries.map(brochureYear).filter((year) => year !== "Other"))].sort((a, b) => b.localeCompare(a));
       const rows = entries
         .map((entry) => {
@@ -1755,8 +1758,11 @@ async function buildModelPages(library) {
               <td>${esc(entry.section || "Not listed")}</td>
             </tr>`)
         .join("\n");
-      const description = modelDescription(brand, model, entries);
-      const relatedModels = [...groupedDocuments.entries()].filter(([name]) => name !== model).sort((a,b) => b[1].length-a[1].length).slice(0,6);
+      const description = improvement.description || modelDescription(brand, model, entries);
+      const relatedModels = [...groupedDocuments.entries()].filter(([name]) => name !== model).sort((a,b) => {
+        const preferred = improvement.relatedModels || [];
+        return Number(preferred.includes(b[0])) - Number(preferred.includes(a[0])) || b[1].length-a[1].length;
+      }).slice(0,6);
       const editions = years.map(year => ({year, count: entries.filter(entry => brochureYear(entry) === year).length})).filter(row => row.count > 1);
       const historyArticle = brandHistoryFor(brand);
       const historyContext = historyArticle && recoveryTargets.has(`${siteUrl}/${modelUrl(brand, model)}`)
@@ -1810,7 +1816,7 @@ async function buildModelPages(library) {
             ${guideCrossLinks("../../../")}
           </section>
           <section class="directory-section archive-note">
-            <h2>Collection coverage</h2>
+            <h2>Collection coverage</h2>${improvement.collectionNote ? `\n            <p>${esc(improvement.collectionNote)}</p>` : ""}
             <p>${years.length === 1 ? `Only ${years[0]} is represented by the dated records here; this page cannot establish changes across years.` : `${years.length} distinct years are recorded: ${esc(years.join(", "))}. Missing years are gaps in this collection.`}</p>
             ${editions.length ? `<p>Multiple records are available for ${editions.map(row => `${row.year} (${row.count} records)`).join(", ")}. Check each title and filename before treating the editions as equivalent.</p>` : ""}
             <p><a href="../../../brochure-finder.html?brand=${encodeURIComponent(brand.name)}&amp;q=${encodeURIComponent(model)}">Select documents and export citations</a>. File sizes above are supplied catalog labels and may differ from compressed downloads. See the <a href="../../../archive-methodology.html">source and verification method</a>.</p>
@@ -1852,7 +1858,7 @@ async function buildModelPages(library) {
       await write(
         modelPagePath(brand, model),
         pageShell({
-          title: `${model} PDF Brochures by Year | ${brand.name}`,
+          title: improvement.title || `${model} PDF Brochures by Year | ${brand.name}`,
           description,
           canonical: `${siteUrl}/${modelUrl(brand, model)}`,
           cssPath: "../../../styles.css",

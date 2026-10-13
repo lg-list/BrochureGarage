@@ -57,5 +57,31 @@
     "cover": "assets/brochure-covers/bmw-5-series-2017.png",
     "coverWidth": 480,
     "coverHeight": 720
+  },
+  {
+    "brand": "nissan",
+    "file": "Rogue/Nissan_US Rogue_2020.pdf",
+    "title": "2020 Nissan Rogue PDF Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/nissan/Rogue/Nissan_US%20Rogue_2020.pdf",
+    "pageCount": 8,
+    "bytes": 2381732,
+    "sha256": "4dfdafebe4b261584783526a724b5f5d72a9a88059a9a63434b65c018940886b",
+    "checkedOn": "2026-10-14",
+    "cover": "assets/brochure-covers/nissan-rogue-2020.png",
+    "coverWidth": 480,
+    "coverHeight": 240
+  },
+  {
+    "brand": "porsche",
+    "file": "Macan/Porsche_us Macan_2017-2.pdf",
+    "title": "2017 Porsche Macan PDF v2 Brochure",
+    "url": "https://pub-b4d0d3d7cb284abc8a79724880c09cb7.r2.dev/pdfs/porsche/Macan/Porsche_us%20Macan_2017-2.pdf",
+    "pageCount": 152,
+    "bytes": 18564195,
+    "sha256": "d86d472ba8d2e9fd155521f7f274d24c60870d2c9bf15c62cf5ab0ac112673c3",
+    "checkedOn": "2026-10-14",
+    "cover": "assets/brochure-covers/porsche-macan-2017-v2.png",
+    "coverWidth": 480,
+    "coverHeight": 340
   }
 ]
