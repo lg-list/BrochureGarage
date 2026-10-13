@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-10-13T10:05:47.437028+00:00",
+  "releaseCommit": "3ab87eebfa0054d0310a1630f346c1f24d1d46ad",
+  "deploymentUrl": "https://github.com/lg-list/BrochureGarage/actions/runs/38380612075",
+  "passed": true,
+  "newPdfLinks": 19,
+  "checks": [
+    {
+      "url": "https://carbrochurearchive.com/brands/aston-martin/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/bmw/",
+      "status": 200,
+      "expectedNewPdfLinks": 2,
+      "foundNewPdfLinks": 2,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/maserati/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/morgan/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/oldsmobile/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/plymouth/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/porsche/",
+      "status": 200,
+      "expectedNewPdfLinks": 1,
+      "foundNewPdfLinks": 1,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/subaru/",
+      "status": 200,
+      "expectedNewPdfLinks": 3,
+      "foundNewPdfLinks": 3,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/brands/toyota/",
+      "status": 200,
+      "expectedNewPdfLinks": 8,
+      "foundNewPdfLinks": 8,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/bmw/bmw-3-series-sports-wagon-touring/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/subaru/subaru-solterra-electric/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-c/",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "url": "https://carbrochurearchive.com/models/toyota/toyota-prius-v/",
+      "status": 200,
+      "passed": true
+    }
+  ]
+}
