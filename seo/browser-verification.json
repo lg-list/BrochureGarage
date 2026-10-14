@@ -2,6 +2,7 @@
   "checkedOn": "2026-10-14",
   "passed": true,
   "checks": [
+    "GA4 tag loads once and queues one config command",
     "Exact model filtering: 7 CR-V records",
     "Selection limit, remove/clear and citation download",
     "Combined year filter and safe empty search",
